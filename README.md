@@ -8,14 +8,14 @@ Short lessons, typed answers, worked solutions, interactive question types, and 
 
 ## Layout
 - `Skyvolt_repo/` the static site (the folder Cloudflare serves)
-- `backend/` optional account API (`functions/`, `worker.js`, `wrangler.jsonc`) and the D1 `schema.sql`
+- `backend/` account API (`worker.js`, `functions/`) and the D1 `schema.sql`; configured by `wrangler.jsonc`
 - `docs/` deployment, accounts, security, learning design, accessibility
 - `source/` question-bank and engine sources used to build the site
 
 ## Deploy (free)
 1. Create a GitHub repository and upload this folder.
 2. Cloudflare dashboard, Workers & Pages, Create, Pages, connect the repo.
-3. Build command: none. Output/asset directory: `Skyvolt_repo`.
+3. Build command: none. Asset directory: `Skyvolt_repo`.
 4. Optional accounts: see `docs/ACCOUNTS.md`.
 
 ## Contributing and safety
