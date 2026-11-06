@@ -1,5 +1,5 @@
-const V='tr-8f3c91e7-e80268';
-const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "circuit/", "circuit/app.ddbeba51.js", "circuit/app.8f3c91e7.css", "meteorology/", "meteorology/app.2f7d0066.js", "meteorology/app.8f3c91e7.css"];
+const V='tr-a8e0f0b8-c5536b';
+const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "circuit/", "circuit/app.2a6ac212.js", "circuit/app.a8e0f0b8.css", "meteorology/", "meteorology/app.c2080e80.js", "meteorology/app.a8e0f0b8.css"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET'||new URL(r.url).origin!==location.origin||new URL(r.url).pathname.startsWith('/api/'))return;
