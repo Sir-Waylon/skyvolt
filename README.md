@@ -4,10 +4,10 @@ Part of **Voltaxis**, a family of free study trainers (Skyvolt and Axiom). Free,
 
 Short lessons, typed answers, worked solutions, interactive question types, and practice that adapts to each student. Everything runs in the browser. Progress and personalization stay on the device unless the student signs in to sync.
 
-> **AI-generated content.** The lessons, questions and code were produced with AI assistance and checked with automated tests, but they may still contain mistakes. Please read the [AI disclosure](<Skyvolt_repo/ai-disclosure/index.html>) and report errors through Issues.
+> **AI-generated content.** The lessons, questions and code were produced with AI assistance and checked with automated tests, but they may still contain mistakes. Please read the [AI disclosure](<site/ai-disclosure/index.html>) and report errors through Issues.
 
 ## Layout
-- `Skyvolt_repo/` the static site (the folder Cloudflare serves)
+- `site/` the static site (the folder Cloudflare serves)
 - `backend/` account API (`worker.js`, `functions/`) and the D1 `schema.sql`; configured by `wrangler.jsonc`
 - `docs/` deployment, accounts, security, learning design, accessibility
 - `source/` question-bank and engine sources used to build the site
@@ -15,7 +15,7 @@ Short lessons, typed answers, worked solutions, interactive question types, and 
 ## Deploy (free)
 1. Create a GitHub repository and upload this folder.
 2. Cloudflare dashboard, Workers & Pages, Create, Pages, connect the repo.
-3. Build command: none. Asset directory: `Skyvolt_repo`.
+3. Build command: none. Asset directory: `site`.
 4. Optional accounts: see `docs/ACCOUNTS.md`.
 
 ## Contributing and safety
