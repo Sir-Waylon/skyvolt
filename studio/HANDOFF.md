@@ -26,7 +26,7 @@ Playwright Chromium: /opt/pw-browsers/chromium (tests t*.js; t96.js = practice-s
 ## Question audit workflow (agents are expensive: run 2 at a time, ~110k tokens each, wait out rate limits)
 Brief: audit/BRIEF_AUDIT.md. Inputs audit/in/*.txt (exported by src/export_audit.py). Outputs audit/out/<tag>.json {fix,del,del_family,new,report}.
 Merge: copy tag.json to src/audit_circ/ (circuit) or src/audit_met/ (met); rebuild; chkall; publish. Always rebuild circuit from the pre-audit backup if applyextra logic changes (merge is idempotent for ids).
-Status: DONE c1 c2 c3 c4 c5 c6 (all Circuit Lab topics), m1 (obs, maps). TODO: m2 (upper,setup,clouds), m3 (dh,precip,light,tstorm), m4 (winds,torn,hurr), m5 (winter,safety,cases). Then Apex Algebra 2/Trig honors audit (PAUSD Math Validation; hardest = 10th/11th grade exam, easiest = 5th grade; Geo Honors textbook and symbolic logic slides as reference only; skip Geometry Honors).
+Status: Skyvolt audit DONE (all Circuit Lab + Meteorology topics merged and published). Done since: printable cheat sheets (engine3/print.js), choice chips for short selects (ctl.js), redesigned tap-to-fill blanks, published odds tables + Frostbyte season pack (roster1/2.js), coin buff (lesson 50, mission 60, unit 80, per answer ~0.9xXP). TODO: Apex Algebra 2/Trig honors audit (PAUSD Math Validation; hardest = 10th/11th grade exam, easiest = 5th grade; Geo Honors textbook and symbolic logic slides as reference only; skip Geometry Honors).
 
 ## Open work (user priority order)
 1. Finish question audits (above), explanations far more detailed: concept first, multiple representations (words, picture, numbers, analogy), not just a formula.
