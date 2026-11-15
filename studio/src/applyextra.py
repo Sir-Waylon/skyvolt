@@ -4,6 +4,7 @@ pf=sys.argv[1];p=json.load(open(pf,encoding='utf8'));qs=p['questions'];ids={q['i
 bad=[];nf=nd=nn=0
 OKU=re.compile(r'^[nuµμmkKM]?(V|A|Ω|ohms?|W|J|C|F|H|Hz|s|Wh|N/C|V/m|%)$')
 def norm(nm):
+    if nm and not nm.get('show') and not nm.get('u') and float(nm.get('v',0)).is_integer() and abs(nm['v'])>=1000:nm['show']=str(int(nm['v']))
     if not nm or not nm.get('u') or nm.get('norm'):return
     u=str(nm['u']).strip()
     if u in('h','hr','hours'):nm['v']=nm['v']*3600;nm['norm']=1

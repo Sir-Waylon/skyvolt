@@ -36,7 +36,13 @@
   "hurr-032",
   "hurr-033",
   "hurr-039",
-  "hurr-048"
+  "hurr-048",
+  "winds-020",
+  "winds-021",
+  "winds-022",
+  "torn-026",
+  "hurr-037",
+  "hurr-044"
  ],
  "del_family": [
   "kt1"
@@ -2257,5 +2263,5 @@
    ]
   }
  ],
- "report": "m4: winds/torn/hurr. Added 110 new (winds 38, torn 35, hurr 37), ~50% level 3. Deleted kt1 family (tol 1.01 was effectively unbounded; replaced with 3 numeric conversions) and 14 duplicate/trivial items (torn-025 had no figure). Fixed winds-023 wording (NWS derecho: >240 mi, gusts >=58 mph), hurr-035 overclaim. Doubts: none major; derecho definitions vary by source."
+ "report": "m4: winds/torn/hurr. Added 110 new (winds 38, torn 35, hurr 37), ~50% level 3. Deleted kt1 family (tol 1.01 was effectively unbounded; replaced with 3 numeric conversions) and 20 duplicate/trivial items (torn-025 had no figure). Fixed winds-023 wording (NWS derecho: >240 mi, gusts >=58 mph), hurr-035 overclaim. Doubts: none major; derecho definitions vary by source."
 }

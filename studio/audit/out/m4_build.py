@@ -497,7 +497,7 @@ if __name__=="__main__":
      "hurr-035":{"w":"Surge is one of the deadliest hurricane hazards, along with flooding rain.","sol":["Surge is water pushed ashore by the wind, like a bathtub wave sloshing over the edge.","Historically it has caused a large share of hurricane deaths.","Inland rain flooding is also very deadly."]},
      "winds-005":{"l":3,"b":0.8},
     }
-    d=["winds-024","winds-025","winds-026","winds-028","torn-024","torn-025","torn-030","torn-033","torn-034","torn-038","hurr-032","hurr-033","hurr-039","hurr-048","hurr-007b"]
+    d=["winds-024","winds-025","winds-026","winds-028","torn-024","torn-025","torn-030","torn-033","torn-034","torn-038","hurr-032","hurr-033","hurr-039","hurr-048","winds-020","winds-021","winds-022","torn-026","hurr-037","hurr-044","hurr-007b"]
     d=[x for x in d if x!="hurr-007b"]
     rep=("m4: winds/torn/hurr. Added %d new (winds %d, torn %d, hurr %d), ~%d%% level 3. Deleted kt1 family (tol 1.01 was effectively unbounded; replaced with 3 numeric conversions) and %d duplicate/trivial items (torn-025 had no figure). Fixed winds-023 wording (NWS derecho: >240 mi, gusts >=58 mph), hurr-035 overclaim. Doubts: none major; derecho definitions vary by source."
       %(len(new),len(B["winds"]),len(B["torn"]),len(B["hurr"]),round(100*sum(q["l"]==3 for q in new)/len(new)),len(d)))
