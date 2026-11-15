@@ -1,0 +1,17 @@
+## LESSON circ-L1: Series · Parallel
+KEY circ-L1#0 | Series | One path only. Same current everywhere. Resistances add. If one part breaks, everything stops. | FORMULA: R = R₁ + R₂ + … | CHECK Q: Three bulbs are wired in SERIES to one battery. One filament breaks. What happens to the other two?
+KEY circ-L1#1 | Parallel | Many paths. Same voltage on every branch. Currents add. Resistance goes DOWN: the total is smaller than the smallest branch. | FORMULA: 1/R = 1/R₁ + 1/R₂ + … | CHECK Q: Which wiring always gives an equivalent resistance LESS than any single resistor in it: series or parallel?
+KEY circ-L1#2 | Two in parallel | Quick formula for exactly two resistors: product over sum. | FORMULA: R = (R₁ × R₂) / (R₁ + R₂) | CHECK Q: Two resistors, 30 Ω and 60 Ω, are connected in parallel. The equivalent resistance is:
+## LESSON circ-L2: Equal in parallel · A short in parallel
+KEY circ-L2#0 | Equal in parallel | Same-size resistors in parallel: divide by how many there are. Three 90 Ω in parallel = 30 Ω. | FORMULA: R / n | CHECK Q: Three 90 Ω resistors are connected in parallel. The equivalent resistance is:
+KEY circ-L2#1 | A short in parallel | A 0 Ω path in parallel makes the whole group 0 Ω. All the current takes the short. Dangerous. | CHECK Q: An ammeter must be connected…
+KEY circ-L2#2 | Mixed circuits | Shrink the circuit step by step. Combine each parallel group, then each series group, until one resistor is left. | CHECK Q: Equal resistors R are connected: one resistor in series with a parallel pair of two resistors R. The equivalent resistance is:
+## LESSON circ-L3: Voltage divider · Current divider
+KEY circ-L3#0 | Voltage divider | In series, each resistor gets a share of the voltage. Bigger resistor, bigger share. | FORMULA: V₂ = V × R₂ / (R₁ + R₂) | CHECK Q: A 9 V source feeds R₁ = 2 kΩ in series with R₂ = 6 kΩ. Voltage across R₂?
+KEY circ-L3#1 | Current divider | In parallel, current splits. The smaller resistor takes more. | FORMULA: I₁ = I × R₂ / (R₁ + R₂) | CHECK Q: A total current of 12 A splits between R₁ = 6 Ω and R₂ = 3 Ω in parallel. Current in R₁?
+KEY circ-L3#2 | Bulbs | Series bulbs: biggest R is brightest (P = I²R). Parallel bulbs: smallest R is brightest (P = V²/R). Unscrew one parallel bulb and the rest stay lit. | CHECK Q: Three identical bulbs are connected in parallel to a battery. One bulb burns out (open filament). The other two:
+## LESSON circ-L4: Open and short · Meters
+KEY circ-L4#0 | Open and short | OPEN: a break, no current, full voltage across the gap. SHORT: tiny resistance, huge current, heat. | CHECK Q: A lamp, a switch, and a 9 V battery are in series. The switch is open. The voltage across the open switch is:
+KEY circ-L4#1 | Meters | Voltmeter goes in PARALLEL (high resistance). Ammeter goes in SERIES (tiny resistance). Never put an ammeter across a battery. | CHECK Q: What instrument is connected in series to measure current?
+KEY circ-L4#2 | Max power transfer | A load gets the most power when its resistance equals the source resistance. Speakers are matched this way. | CHECK Q: A 12 V source feeds R₁ = 1 kΩ in series with R₂ = 3 kΩ. Voltage across R₂?
+KEY circ-L4#3 | Check your answer | Power supplied should equal the power used by all resistors. Branch currents should add up. Drops around a loop should add up. | CHECK Q: A 24 V battery drives three series resistors. Two drop 5 V and 3 V. Voltage across the third?

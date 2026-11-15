@@ -1,0 +1,7 @@
+## LESSON rc-L1: Capacitor basics · RC charging
+KEY rc-L1#0 | Capacitor basics | A capacitor stores energy in an electric field. Q = CV and the energy is ½CV². Units: farads (F), often µF or nF.
+KEY rc-L1#1 | RC charging | Through a resistor a capacitor charges gradually. The time constant is τ = RC. After one τ it reaches 63% of the final voltage; after 5τ it is essentially full. | FORMULA: τ = RC | CHECK Q: A capacitor charges through a resistor from a 20 V supply. What is its voltage after one time constant? (V, 2 decimals)
+KEY rc-L1#2 | RC discharging | Discharging, the voltage falls as V = V₀e^(−t/τ). After one τ it is 37% of the start. | FORMULA: V = V₀e^(−t/τ) | CHECK Q: A capacitor charges through a resistor from a 14 V supply. What is its voltage after one time constant? (V, 2 decimals)
+## LESSON rc-L2: Inductors · Series and parallel
+KEY rc-L2#0 | Inductors | A coil resists changes in current. V = L·ΔI/Δt and the stored energy is ½LI². In an RL circuit τ = L/R. | FORMULA: τ = L/R
+KEY rc-L2#1 | Series and parallel | Capacitors in parallel add: C = C₁ + C₂. In series: 1/C = 1/C₁ + 1/C₂. Inductors behave like resistors. | CHECK Q: Two capacitors, 2 µF and 1 µF, are connected in parallel. What is the total capacitance (µF)?

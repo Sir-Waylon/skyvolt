@@ -1,0 +1,8 @@
+## LESSON sol-L1: Prisms and cylinders · Pyramids and cones
+KEY sol-L1#0 | Prisms and cylinders | Volume = base area × height. Lateral area is the sides only; total surface area adds the bases. | FORMULA: V = Bh | CHECK Q: A gift box is 8 in by 3 in by 3 in. How much wrapping paper covers the whole outside (in²)?
+KEY sol-L1#1 | Pyramids and cones | Volume is one third of a prism or cylinder with the same base and height. | FORMULA: V = ⅓Bh | CHECK Q: A cone and a cylinder have the same base and height. The cone's volume is…
+KEY sol-L1#2 | Spheres | Surface area 4πr². Volume (4/3)πr³. | FORMULA: V = 4/3 πr³ | CHECK Q: A gift box is 4 in by 5 in by 9 in. How much wrapping paper covers the whole outside (in²)?
+## LESSON sol-L2: Lateral and total area · Similar solids
+KEY sol-L2#0 | Lateral and total area | Cylinder lateral area = 2πrh. Total area adds two circles: 2πr² + 2πrh.
+KEY sol-L2#1 | Similar solids | With scale factor k, surface areas scale by k² and volumes by k³. | FORMULA: k : k² : k³
+KEY sol-L2#2 | Slant height | Pyramids and cones use the slant height for lateral area. Find it with the Pythagorean theorem.

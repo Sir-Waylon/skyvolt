@@ -1,0 +1,11 @@
+## LESSON ti-L1: Same value, different look · The Pythagorean identity
+KEY ti-L1#0 | Same value, different look | An identity is an equation that is true for every allowed angle, like a rule of arithmetic that always works.
+KEY ti-L1#1 | The Pythagorean identity | On the unit circle x² + y² = 1, so sin²θ + cos²θ = 1. Knowing one of them gives you the other. | FORMULA: sin²θ + cos²θ = 1 | CHECK Q: If sin θ = 3/5, find cos²θ as a decimal.
+KEY ti-L1#2 | Tangent from sine and cosine | tan θ = sin θ / cos θ. That is why tangent has an asymptote wherever cosine is 0.
+## LESSON ti-L2: Double-angle identities · Sum and difference identities
+KEY ti-L2#0 | Double-angle identities | sin 2θ = 2 sin θ cos θ and cos 2θ = cos²θ − sin²θ = 1 − 2 sin²θ. | FORMULA: sin 2θ = 2 sin θ cos θ | CHECK Q: If sin θ = 8/17, find cos²θ as a decimal.
+KEY ti-L2#1 | Sum and difference identities | sin(A + B) = sin A cos B + cos A sin B and cos(A + B) = cos A cos B − sin A sin B.
+KEY ti-L2#2 | Solving a trig equation | Isolate the trig function, find the reference angle, use the quadrants to list all answers in the interval, then check.
+## LESSON ti-L3: Many solutions · Inverse trig functions
+KEY ti-L3#0 | Many solutions | Because trig functions repeat, equations have many solutions. In [0°, 360°) sin x = ½ has two: 30° and 150°. | CHECK Q: Solve sin x = 0.5 for 0° ≤ x < 360°. What is the LARGER solution? (degrees)
+KEY ti-L3#1 | Inverse trig functions | sin⁻¹ gives one answer in a restricted range (−90° to 90°). The equation sin x = k can have a second answer you must add yourself.

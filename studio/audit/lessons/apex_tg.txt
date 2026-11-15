@@ -1,0 +1,11 @@
+## LESSON tg-L1: Waves in everyday life · The sine graph
+KEY tg-L1#0 | Waves in everyday life | Sound, light, tides and alternating current all repeat in smooth waves. Sine and cosine are the mathematical models for these waves.
+KEY tg-L1#1 | The sine graph | y = sin x starts at 0, rises to 1 at 90°, returns to 0 at 180°, falls to −1 at 270°, and repeats every 360°. | CHECK Q: A sine wave repeats every 180°. In y = sin(bx), what is b?
+KEY tg-L1#2 | Amplitude | The amplitude is the distance from the midline to a peak. In y = a·sin x it is |a|. | FORMULA: y = 3 sin x: amplitude 3 | CHECK Q: A buoy’s height is y = 5·sin x + 3 metres as waves pass (x = position in the wave cycle). What is the wave amplitude (m)?
+## LESSON tg-L2: Period · Phase shift
+KEY tg-L2#0 | Period | The period is the length of one full wave. For y = sin(bx), the period is 360°/b (or 2π/b in radians). A bigger b squeezes the wave. | FORMULA: y = sin 2x: period 180° | CHECK Q: What is the period, in degrees, of y = sin(2x)?
+KEY tg-L2#1 | Phase shift | In y = sin(x − c) the wave slides right by c. A minus sign inside means right, plus means left.
+KEY tg-L2#2 | Vertical shift (midline) | In y = sin x + d the whole wave moves up by d. The midline is y = d. Maximum = d + |a| and minimum = d − |a|. | FORMULA: y = 2 sin x + 1: ranges from −1 to 3 | CHECK Q: A Ferris-wheel car’s height is y = 5·sin x − 2 metres during a ride (x = position in the turn). What is the greatest height it reaches (m)?
+## LESSON tg-L3: Cosine and tangent graphs · Modeling with sinusoids
+KEY tg-L3#0 | Cosine and tangent graphs | Cosine is sine shifted left by 90°. Tangent repeats every 180° and has vertical asymptotes where cosine is 0. | CHECK Q: A sine wave repeats every 90°. In y = sin(bx), what is b?
+KEY tg-L3#1 | Modeling with sinusoids | To model a wave: find the midline (average of max and min), the amplitude (half the difference), and the period. Then choose sine or cosine and a shift. | FORMULA: y = a sin(b(x − c)) + d | CHECK Q: A sine wave repeats every 30°. In y = sin(bx), what is b?

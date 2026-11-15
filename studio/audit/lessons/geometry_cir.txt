@@ -1,0 +1,8 @@
+## LESSON cir-L1: Circle vocabulary · Central angles and arcs
+KEY cir-L1#0 | Circle vocabulary | Radius: center to the circle. Chord: two points on the circle. Diameter: chord through the center. Tangent: touches once. Secant: cuts twice. | CHECK Q: A segment from the center to the circle is a…
+KEY cir-L1#1 | Central angles and arcs | A central angle has the same measure as its arc. A full circle is 360°. | CHECK Q: Proof: Opposite angles of an inscribed quadrilateral are supplementary. What is the reason for “m(arc BCD) + m(arc BAD) = 360°”?
+KEY cir-L1#2 | Inscribed angles | An inscribed angle is HALF its intercepted arc. An angle in a semicircle is 90°. | FORMULA: ∠ = ½ arc | CHECK Q: An angle inscribed in a semicircle measures how many degrees?
+## LESSON cir-L2: Tangents · Angles with chords and secants
+KEY cir-L2#0 | Tangents | A tangent is perpendicular to the radius at the point of touching. Two tangents from one outside point are equal. | CHECK Q: Proof: A tangent is perpendicular to the radius (indirect proof). What is the reason for “This contradicts that a tangent meets the circle i
+KEY cir-L2#1 | Angles with chords and secants | Inside the circle: half the SUM of the arcs. Outside: half the DIFFERENCE of the arcs. | CHECK Q: Congruent chords of a circle have…
+KEY cir-L2#2 | Segment lengths | Two chords: part × part = part × part. Tangent: (tangent)² = whole secant × outside part. | CHECK Q: Proof: Tangent segments from an outside point are congruent. What is the reason for “Draw OA, OB and OP”?

@@ -1,0 +1,11 @@
+## LESSON mom-L1: Momentum · Impulse
+KEY mom-L1#0 | Momentum | Momentum is mass times velocity. A heavy truck and a fast bullet can both be hard to stop. | FORMULA: p = mv
+KEY mom-L1#1 | Impulse | A force acting for a time changes momentum. A longer time means a smaller force for the same change, which is why airbags help. | FORMULA: FΔt = Δp | CHECK Q: A 4 N force acts for 8 s. What is the impulse?
+KEY mom-L1#2 | Conservation of momentum | In a collision with no outside force, the total momentum before equals the total momentum after.
+## LESSON mom-L2: Sticking together (inelastic) · Bouncing (elastic)
+KEY mom-L2#0 | Sticking together (inelastic) | If objects stick, they move off together: m₁v₁ + m₂v₂ = (m₁ + m₂)v. Kinetic energy is lost to heat and deformation.
+KEY mom-L2#1 | Bouncing (elastic) | In an elastic collision both momentum and kinetic energy are kept. Equal masses swap velocities.
+KEY mom-L2#2 | Recoil | If two objects start at rest and push apart, their momenta are equal and opposite. The lighter one moves faster. | CHECK Q: Two identical 3 kg carts collide elastically head-on. Cart A moves at 5 m/s and cart B is at rest. What is B's speed afterward?
+## LESSON mom-L3: Rockets · Impulse and area
+KEY mom-L3#0 | Rockets | A rocket pushes gas backward and gains forward momentum. It works in space because it does not push against anything outside.
+KEY mom-L3#1 | Impulse and area | On a force-time graph, the area under the curve is the impulse.

@@ -1,0 +1,8 @@
+## LESSON mxw-L1: Electromagnetic waves · Refraction
+KEY mxw-L1#0 | Electromagnetic waves | Changing E and B fields sustain each other and travel at c = 3.0 × 10⁸ m/s. Radio, light and X-rays differ only in frequency: c = fλ. | FORMULA: c = fλ
+KEY mxw-L1#1 | Refraction | Light slows in matter: n = c/v. At a boundary n₁ sin θ₁ = n₂ sin θ₂. Past the critical angle, sin θ_c = n₂/n₁, light is totally reflected. | FORMULA: n₁ sin θ₁ = n₂ sin θ₂
+KEY mxw-L1#2 | Double-slit interference | Two slits make bright fringes where the path difference is a whole number of wavelengths. Fringe spacing on a screen: Δy = λL/d. | FORMULA: Δy = λL/d | CHECK Q: Light of wavelength 650 nm passes through two slits 0.5 mm apart onto a screen 3 m away. What is the fringe spacing, in millimetres?
+## LESSON mxw-L2: Single-slit diffraction · Polarization
+KEY mxw-L2#0 | Single-slit diffraction | A slit of width a gives dark fringes where a sin θ = mλ. A narrower slit spreads the light more. | FORMULA: a sin θ = mλ
+KEY mxw-L2#1 | Polarization | Polarizers pass one direction of the electric field. Unpolarized light loses half its intensity. Polarized light follows Malus's law I = I₀ cos²θ. | FORMULA: I = I₀ cos²θ | CHECK Q: Polarized light of intensity 40 W/m² hits a polarizer whose axis is 60° from the light's polarization. What intensity passes?
+KEY mxw-L2#2 | Thin films | Reflections from the top and bottom of a thin film interfere. A reflection off a slower medium flips the wave (half a cycle). Film thickness then sets which colours cancel.

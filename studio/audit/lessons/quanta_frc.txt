@@ -1,0 +1,11 @@
+## LESSON frc-L1: Pushes and pulls · Balanced and unbalanced forces
+KEY frc-L1#0 | Pushes and pulls | A force is a push or a pull. It is measured in newtons (N). One newton is about the weight of a small apple. | CHECK Q: A book rests on a table. What force pairs with the book's weight in Newton's third law: the table's push up on the book, or the book's pull 
+KEY frc-L1#1 | Balanced and unbalanced forces | If forces balance, the motion does not change: a book on a table stays put. An unbalanced (net) force changes the motion.
+KEY frc-L1#2 | Newton's first law | An object keeps doing what it is doing, at rest or moving in a straight line at steady speed, unless a net force acts on it. This is inertia. | CHECK Q: A net force of 9 N acts on a 3 kg object. What is its acceleration?
+## LESSON frc-L2: Newton's second law · Weight and mass
+KEY frc-L2#0 | Newton's second law | The net force on an object equals its mass times its acceleration. Push twice as hard and it accelerates twice as fast. Double the mass and it accelerates half as much. | FORMULA: F = ma | CHECK Q: A net force of 35 N acts on a 7 kg object. What is its acceleration?
+KEY frc-L2#1 | Weight and mass | Mass is how much matter you have (kg). Weight is the pull of gravity on it (N). Weight = mass × g, with g ≈ 10 N/kg near Earth. | FORMULA: W = mg | CHECK Q: What is the weight of a 2 kg mass in newtons? Use g = 10 m/s².
+KEY frc-L2#2 | Friction | Friction opposes sliding. Its maximum size is f = μN, where N is the push of the surface on the object and μ depends on the two surfaces. | FORMULA: f = μN | CHECK Q: Two people push a box in the same direction with 8 N and 3 N. What is the total force?
+## LESSON frc-L3: Newton's third law · Inclined planes
+KEY frc-L3#0 | Newton's third law | When object A pushes on B, B pushes back on A with an equal and opposite force. The two forces act on different objects, so they do not cancel. | CHECK Q: Two people push a box in the same direction with 3 N and 8 N. What is the total force?
+KEY frc-L3#1 | Inclined planes | On a slope, gravity splits into a part along the slope, mg sin θ, and a part into the slope, mg cos θ. | FORMULA: a = g sin θ (no friction)

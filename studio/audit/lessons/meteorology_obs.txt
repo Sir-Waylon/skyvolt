@@ -1,0 +1,8 @@
+## LESSON obs-L1: Ground tools · Reflectivity
+KEY obs-L1#0 | Ground tools | ASOS = automated airport stations. Mesonets = dense local stations. Buoys = water. Radiosondes = balloon packs that profile the air above. | CHECK Q: Which network of automated airport weather stations is the main surface observing system in the United States?
+KEY obs-L1#1 | Reflectivity | Shows how much rain or hail and where. Stronger echoes look hotter or darker. Composite shows the strongest echo at any height. | CHECK Q: Which radar product shows how much precipitation is in a storm and where?
+KEY obs-L1#2 | Velocity | Shows motion toward or away from the radar. Toward is green (negative). Away is red (positive). | CHECK Q: Which radar product shows motion toward or away from the radar?
+## LESSON obs-L2: Correlation coefficient · Storm relative motion
+KEY obs-L2#0 | Correlation coefficient | Tells how alike the targets are. Rain is high. Debris is low. A low spot in a hook echo can mean a tornado is lofting debris. | CHECK Q: What does a low correlation coefficient value inside a storm usually mean?
+KEY obs-L2#1 | Storm relative motion | Takes out the storm's own movement. Rotation is easier to see.
+KEY obs-L2#2 | Satellite | Visible needs daylight. Infrared and water vapor work at night. Cold tops show bright on IR, so tall storms stand out. | CHECK Q: Which satellite imagery works only in daylight?

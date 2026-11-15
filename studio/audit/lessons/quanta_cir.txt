@@ -1,0 +1,11 @@
+## LESSON cir-L1: Going around · Speed on a circle
+KEY cir-L1#0 | Going around | Anything moving in a circle is always turning, so its velocity keeps changing direction. That means it is accelerating even at constant speed. | CHECK Q: A toy goes around a circle of radius 7 m once every 3 s. What is its speed? (2 decimals; π ≈ 3.1416)
+KEY cir-L1#1 | Speed on a circle | One lap is 2πr long. If it takes time T, speed v = 2πr/T. | FORMULA: v = 2πr/T | CHECK Q: A toy goes around a circle of radius 12 m once every 8 s. What is its speed? (2 decimals; π ≈ 3.1416)
+KEY cir-L1#2 | Centripetal acceleration | The acceleration points to the center and equals v²/r. The net force pointing in is the centripetal force, F = mv²/r. | FORMULA: a = v²/r | CHECK Q: Find the centripetal acceleration of an object moving at 13 m/s on a circle of radius 4 m. (3 decimals)
+## LESSON cir-L2: What provides the force? · Gravity between masses
+KEY cir-L2#0 | What provides the force? | Centripetal force is not a new force. It is tension, gravity, friction or a normal force pointing toward the center.
+KEY cir-L2#1 | Gravity between masses | Every pair of masses attracts. F = Gm₁m₂/r². Double the distance and the force becomes one quarter. | FORMULA: F = Gm₁m₂/r² | CHECK Q: By what factor does gravity between two masses change if the distance between them is multiplied by 5? (Give a decimal.)
+KEY cir-L2#2 | Orbits | A satellite is falling around Earth. Gravity supplies the centripetal force: GMm/r² = mv²/r, so v = √(GM/r).
+## LESSON cir-L3: Gravity changes with height · Loops and tops of circles
+KEY cir-L3#0 | Gravity changes with height | g = GM/r². Moving from the surface to twice the Earth's radius from the center makes g four times smaller.
+KEY cir-L3#1 | Loops and tops of circles | At the top of a vertical loop, gravity and the normal force both point down. The slowest speed that keeps contact is v = √(gr).

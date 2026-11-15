@@ -1,0 +1,8 @@
+## LESSON sho-L1: Oscillation · Restoring force
+KEY sho-L1#0 | Oscillation | An oscillation repeats. The period T is the time for one cycle. The frequency f = 1/T is cycles per second (hertz). | FORMULA: f = 1/T | CHECK Q: An oscillator completes 2 cycles every second. What is its period in milliseconds?
+KEY sho-L1#1 | Restoring force | In simple harmonic motion the force always points back toward equilibrium and grows with displacement: F = −kx. This is Hooke's law. | FORMULA: F = −kx
+KEY sho-L1#2 | Mass on a spring | The period depends on mass and stiffness only, not on the amplitude: bigger mass is slower, stiffer spring is faster. | FORMULA: T = 2π√(m/k) | CHECK Q: A mass on a spring oscillates with amplitude A. If the amplitude is doubled, what happens to the period?
+## LESSON sho-L2: Pendulum · Energy in SHM
+KEY sho-L2#0 | Pendulum | For small angles a pendulum has period T = 2π√(L/g). It does not depend on the mass. | FORMULA: T = 2π√(L/g) | CHECK Q: What is the period of a simple pendulum of length 0.5 m? Use g = 9.8 m/s² and small angles.
+KEY sho-L2#1 | Energy in SHM | Energy swaps between kinetic and potential. Total energy ½kA² is constant. Speed is greatest at equilibrium: v_max = Aω with ω = √(k/m). | FORMULA: E = ½kA² | CHECK Q: What is the total mechanical energy of a spring (k = 400 N/m) oscillating with amplitude 0.3 m?
+KEY sho-L2#2 | Graphs of SHM | Position is a cosine (or sine) of time. Velocity leads position by a quarter cycle. Acceleration is −ω² x. | FORMULA: x = A cos ωt

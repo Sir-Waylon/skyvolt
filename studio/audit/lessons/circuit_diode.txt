@@ -1,0 +1,15 @@
+## LESSON diode-L1: What is a diode? · Silicon PN junction
+KEY diode-L1#0 | What is a diode? | A one-way valve for current. It lets current through in one direction and blocks the other way. | CHECK Q: Which circuit part is the best simple choice to stop damage if a battery is connected backwards?
+KEY diode-L1#1 | Silicon PN junction | Two silicon types joined together. P-type has extra holes. N-type has extra electrons. Where they meet is the junction. | CHECK Q: A silicon diode is forward biased when:
+KEY diode-L1#2 | Doping | Adding tiny amounts of another atom. Group 13 atoms (boron) make P-type. Group 15 atoms (antimony) make N-type.
+## LESSON diode-L2: Depletion region · Forward bias
+KEY diode-L2#0 | Depletion region | A thin zone at the junction with no free charges. It acts like a wall. | CHECK Q: When a silicon PN junction is forward biased, the depletion region:
+KEY diode-L2#1 | Forward bias | Positive on the P side (anode). The wall shrinks, current flows. Silicon needs about 0.7 V. Germanium needs about 0.3 V. | CHECK Q: A reverse-biased silicon diode behaves approximately like:
+KEY diode-L2#2 | Reverse bias | Positive on the N side. The wall grows and almost no current flows. It acts like an open switch. | CHECK Q: A battery is connected backwards to a series LED and resistor. The LED:
+## LESSON diode-L3: Zener diode · LED
+KEY diode-L3#0 | Zener diode | Built to conduct backward at a set voltage. Holds a voltage steady. | CHECK Q: Which single-junction device is operated in reverse breakdown to hold a voltage steady?
+KEY diode-L3#1 | LED | A diode that gives off light. Color depends on the material. Red needs about 1.8 V. Blue needs about 3 V. Long lead = anode (+). | CHECK Q: Which LED color typically needs the highest forward voltage?
+KEY diode-L3#2 | LED resistor | Always add one. Find the volts the resistor must drop, then divide by the current. Round UP to a standard value. | FORMULA: R = (V_supply − V_LED) / I | CHECK Q: Why do we always round a calculated LED resistor UP to the next standard value?
+## LESSON diode-L4: Two LEDs · Uses
+KEY diode-L4#0 | Two LEDs | In series: same current, drops add. In parallel: give EACH one its own resistor so they match. | CHECK Q: Two LEDs (2.0 V drop each) are in series with one resistor on a 9.0 V supply, and the current should be 15 mA. The resistor is:
+KEY diode-L4#1 | Uses | Rectifier (AC to DC), reverse-polarity protection, relay protection, voltage regulator. | CHECK Q: A 12 V battery feeds a 100 Ω load through a series silicon diode (reverse-polarity protection). The load current is about:

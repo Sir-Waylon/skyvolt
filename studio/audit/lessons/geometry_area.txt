@@ -1,0 +1,9 @@
+## LESSON area-L1: Rectangle and parallelogram · Triangle
+KEY area-L1#0 | Rectangle and parallelogram | Rectangle: length × width. Parallelogram: base × height, where height is perpendicular to the base. | FORMULA: A = bh | CHECK Q: A parallelogram-shaped solar panel has a base of 5 ft and a height of 8 ft. Find its area (ft²).
+KEY area-L1#1 | Triangle | A triangle is half of a parallelogram. Use any side as the base with its matching height. | FORMULA: A = ½bh | CHECK Q: A triangular sail has a base of 9 m and a height of 5 m. Find its area (m²).
+KEY area-L1#2 | Trapezoid | Average the two bases and multiply by the height. | FORMULA: A = ½(b₁ + b₂)h | CHECK Q: A trapezoid-shaped garden has parallel sides of 10 m and 19 m, and the distance between them is 7 m. Find its area (m²).
+## LESSON area-L2: Regular polygons · Circles
+KEY area-L2#0 | Regular polygons | Area = ½ × apothem × perimeter. The apothem goes from the center to the middle of a side. | FORMULA: A = ½ap | CHECK Q: A regular hexagon has side 2. Its apothem is 2√3/2. Find the area as a multiple of √3: area = ? √3
+KEY area-L2#1 | Circles | Circumference = 2πr. Area = πr². Keep π in your answer for an exact value. | FORMULA: A = πr² | CHECK Q: A circular pond has a radius of 2 m. Find its area as a multiple of π.
+KEY area-L2#2 | Sectors and arcs | A sector is a fraction of the circle: angle/360. Multiply that fraction by the area or circumference. | FORMULA: (n/360) · πr² | CHECK Q: A circular pond has a radius of 3 m. Find its area as a multiple of π.
+KEY area-L2#3 | Similar figures | If lengths scale by k, area scales by k².

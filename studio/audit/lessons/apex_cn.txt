@@ -1,0 +1,11 @@
+## LESSON cn-L1: Distance and midpoint · Circles
+KEY cn-L1#0 | Distance and midpoint | The distance between two points is a Pythagorean theorem in disguise: √((x₂ − x₁)² + (y₂ − y₁)²). The midpoint averages the coordinates.
+KEY cn-L1#1 | Circles | A circle is every point the same distance r from a center (h, k): (x − h)² + (y − k)² = r². | FORMULA: (x − 2)² + (y + 1)² = 9 | CHECK Q: On a park map, a circular pond is drawn with the equation (x + 3)² + (y + 1)² = 25. What is the x-coordinate of the pond’s center?
+KEY cn-L1#2 | Parabolas | A parabola is every point equally far from a point (the focus) and a line (the directrix). y = ax² has its focus at (0, 1/(4a)). | CHECK Q: The parabola y = x²/4 has its focus at (0, p). Find p.
+## LESSON cn-L2: Ellipses · Hyperbolas
+KEY cn-L2#0 | Ellipses | An ellipse is a stretched circle: x²/a² + y²/b² = 1. The two foci are c units from the center where c² = a² − b² (a is the longer half-axis). | FORMULA: x²/25 + y²/9 = 1: c = 4 | CHECK Q: On a park map, a circular pond is drawn with the equation (x − 6)² + (y + 4)² = 16. What is the x-coordinate of the pond’s center?
+KEY cn-L2#1 | Hyperbolas | A hyperbola has two branches: x²/a² − y²/b² = 1. The foci satisfy c² = a² + b² and the asymptotes are y = ±(b/a)x. | CHECK Q: The hyperbola x²/4 − y²/16 = 1 has asymptotes y = ±mx. Find m.
+KEY cn-L2#2 | Eccentricity | e = c/a measures how stretched a conic is. Circle e = 0, ellipse 0 < e < 1, parabola e = 1, hyperbola e > 1. | FORMULA: e = c/a | CHECK Q: Is x²/9 + y²/36 = 1 a circle, ellipse, parabola or hyperbola?
+## LESSON cn-L3: Identifying a conic · Real-world conics
+KEY cn-L3#0 | Identifying a conic | Look at the squared terms. Same sign and same coefficient: circle. Same sign, different coefficients: ellipse. Opposite signs: hyperbola. Only one squared variable: parabola. | CHECK Q: Is x²/25 + y²/16 = 1 a circle, ellipse, parabola or hyperbola?
+KEY cn-L3#1 | Real-world conics | Planets move in ellipses, satellite dishes are parabolas, and whispering galleries use ellipses to carry sound between the foci.

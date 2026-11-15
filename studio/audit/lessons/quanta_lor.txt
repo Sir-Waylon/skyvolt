@@ -1,0 +1,8 @@
+## LESSON lor-L1: Magnetic force on a charge · Circular paths
+KEY lor-L1#0 | Magnetic force on a charge | A charge moving across a magnetic field feels a force F = qvB sin θ, at right angles to both v and B (right-hand rule). The force does no work, so speed stays constant. | FORMULA: F = qvB sin θ | CHECK Q: A 0.2 m wire carrying 1 A is at right angles to a 0.5 T field. What is the force on it?
+KEY lor-L1#1 | Circular paths | A charge moving at right angles to B goes in a circle of radius r = mv/(qB), with period T = 2πm/(qB). | FORMULA: r = mv/(qB) | CHECK Q: A 0.5 m wire carrying 7 A is at right angles to a 0.2 T field. What is the force on it?
+KEY lor-L1#2 | Force on a wire | A current-carrying wire in a field feels F = BIL sin θ. | FORMULA: F = BIL | CHECK Q: A 2 m wire carrying 9 A is at right angles to a 0.5 T field. What is the force on it?
+## LESSON lor-L2: Field of a current · Faraday's law
+KEY lor-L2#0 | Field of a current | A long straight wire makes B = μ₀I/(2πr), with μ₀ = 4π × 10⁻⁷ T·m/A. A solenoid has B = μ₀nI inside, where n is turns per metre. | FORMULA: B = μ₀I/(2πr) | CHECK Q: A long solenoid has 1000 turns per metre and carries 3 A. What is the field inside, in millitesla? (μ₀ = 4π × 10⁻⁷)
+KEY lor-L2#1 | Faraday's law | A changing magnetic flux induces an emf: ε = −N ΔΦ/Δt. Flux Φ = BA cos θ. | FORMULA: ε = −NΔΦ/Δt
+KEY lor-L2#2 | Lenz's law and motional emf | The induced current opposes the change that caused it. A rod of length L moving at v across a field B has emf ε = BLv. | FORMULA: ε = BLv | CHECK Q: A metal rod of length 1 m moves at 7 m/s at right angles to a 0.5 T field. What emf appears across it?

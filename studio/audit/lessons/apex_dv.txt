@@ -1,0 +1,11 @@
+## LESSON dv-L1: Rate of change · Slope of a curve
+KEY dv-L1#0 | Rate of change | Speed is how fast distance changes. The derivative is a rate of change at one instant, like a speedometer reading. | CHECK Q: A car's distance is d = 6t meters after t seconds. How fast is it going (m/s)?
+KEY dv-L1#1 | Slope of a curve | The derivative f′(x) is the slope of the tangent line at x. It is the limit of the slope between two points as they come together. | FORMULA: f′(x) = lim [f(x + h) − f(x)] / h | CHECK Q: Find the slope of the tangent line to y = 4x³ + 2x² − x − 1 at x = −2.
+KEY dv-L1#2 | Power rule | d/dx of xⁿ = n·xⁿ⁻¹. Constants disappear and constants multiplying stay. | FORMULA: d/dx 3x⁴ = 12x³
+## LESSON dv-L2: Sums and differences · Product rule
+KEY dv-L2#0 | Sums and differences | Take the derivative of each term separately. | FORMULA: d/dx (x³ + 5x) = 3x² + 5
+KEY dv-L2#1 | Product rule | (uv)′ = u′v + uv′. The derivative of a product is not the product of derivatives. | CHECK Q: Use the product rule to find the derivative at x = 3 of f(x) = (3x + 1)(x² + 2).
+KEY dv-L2#2 | Quotient rule | (u/v)′ = (u′v − uv′)/v².
+## LESSON dv-L3: Chain rule · Trig, exponential and log derivatives
+KEY dv-L3#0 | Chain rule | For a function inside a function, take the derivative of the outside, then multiply by the derivative of the inside. | FORMULA: d/dx (2x + 1)⁵ = 5(2x + 1)⁴ · 2 | CHECK Q: Use the chain rule to find f′(0) for f(x) = (5x + 4)³.
+KEY dv-L3#1 | Trig, exponential and log derivatives | (sin x)′ = cos x, (cos x)′ = −sin x, (eˣ)′ = eˣ, (ln x)′ = 1/x.

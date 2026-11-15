@@ -1,0 +1,11 @@
+## LESSON wav-L1: Waves carry energy · Frequency and period
+KEY wav-L1#0 | Waves carry energy | A wave moves energy without moving matter along with it. A stadium wave moves around the arena while each person only stands up and sits down. | CHECK Q: A wave has a frequency of 14 Hz. How many waves pass each second?
+KEY wav-L1#1 | Frequency and period | Frequency f is how many waves pass each second (hertz). Period T is the time for one wave. f = 1/T. | FORMULA: f = 1/T | CHECK Q: A wave has a frequency of 6 Hz. How many waves pass each second?
+KEY wav-L1#2 | Wavelength and speed | The wavelength λ is the length of one wave. Wave speed = frequency × wavelength. | FORMULA: v = fλ | CHECK Q: A wave has frequency 130 Hz and wavelength 1 m. What is its speed?
+## LESSON wav-L2: Transverse and longitudinal · Sound
+KEY wav-L2#0 | Transverse and longitudinal | In a transverse wave the particles move sideways to the motion (light, a rope). In a longitudinal wave they move back and forth along it (sound).
+KEY wav-L2#1 | Sound | Sound is a longitudinal wave in air. It travels about 340 m/s in air, faster in water and fastest in solids. | CHECK Q: You shout at a cliff and hear the echo after 2.3 s. Sound travels 340 m/s. How far away is the cliff?
+KEY wav-L2#2 | Interference | Waves add. Crest meets crest: bigger wave. Crest meets trough: they cancel. Two close frequencies make beats at |f₁ − f₂|. | FORMULA: f_beat = |f₁ − f₂| | CHECK Q: A wave has a frequency of 20 Hz. How many waves pass each second?
+## LESSON wav-L3: Standing waves · Loudness
+KEY wav-L3#0 | Standing waves | On a string fixed at both ends, only certain waves fit: fₙ = n·v/(2L), n = 1, 2, 3, … This is how guitars and organs choose notes. | FORMULA: fₙ = n v/(2L) | CHECK Q: A string 1.0 m long fixed at both ends supports waves moving at 80 m/s. What is the frequency of harmonic n = 4?
+KEY wav-L3#1 | Loudness | Intensity falls with the square of distance. Every 10 dB is ten times the intensity. A 10 dB increase sounds about twice as loud.

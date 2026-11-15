@@ -1,0 +1,11 @@
+## LESSON lg-L1: What a logarithm asks · Common logs
+KEY lg-L1#0 | What a logarithm asks | log₂ 8 asks: what power of 2 gives 8? The answer is 3 because 2³ = 8. A log is an exponent in disguise. | FORMULA: log_b(x) = y means bʸ = x | CHECK Q: Evaluate log base 3 of 27.
+KEY lg-L1#1 | Common logs | log without a base means base 10. log 1000 = 3. Each +1 means ten times bigger. | FORMULA: log 1000 = 3 | CHECK Q: How many times must you multiply 10 by itself to get 1000? (That is log 1000.)
+KEY lg-L1#2 | Special values | log_b 1 = 0 and log_b b = 1, for any base.
+## LESSON lg-L2: Product and quotient rules · Power rule
+KEY lg-L2#0 | Product and quotient rules | log(ab) = log a + log b and log(a/b) = log a − log b. Logs turn multiplying into adding. | FORMULA: log₂ 8 + log₂ 4 = log₂ 32 = 5
+KEY lg-L2#1 | Power rule | log(aⁿ) = n·log a. This is how logs pull exponents down so you can solve for them. | CHECK Q: How many times must you multiply 10 by itself to get 100? (That is log 100.)
+KEY lg-L2#2 | Change of base | log_b x = log x / log b. It lets a calculator find any log. | FORMULA: log₂ 10 ≈ 3.32 | CHECK Q: Evaluate log base 7 of 2401.
+## LESSON lg-L3: Solving log equations · Natural log
+KEY lg-L3#0 | Solving log equations | Combine logs into one, rewrite as an exponent, solve, then check that every log's input is positive.
+KEY lg-L3#1 | Natural log | ln is the log with base e ≈ 2.718. ln(eˣ) = x and e^(ln x) = x. | FORMULA: ln e = 1 | CHECK Q: Evaluate log base 5 of 125.

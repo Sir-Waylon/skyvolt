@@ -1,0 +1,7 @@
+## LESSON fac-L1: Factor out the GCF · Trinomials x² + bx + c
+KEY fac-L1#0 | Factor out the GCF | Find the biggest number and letters shared by every term and pull them out. Always do this first. | FORMULA: 6x² + 9x = 3x(2x + 3) | CHECK Q: What is the greatest common factor of 8x and 6?
+KEY fac-L1#1 | Trinomials x² + bx + c | Find two numbers that multiply to c and add to b. They go in the two parentheses. | FORMULA: x² + 5x + 6 = (x + 2)(x + 3)
+KEY fac-L1#2 | Difference of squares | a² − b² always factors into (a − b)(a + b). There must be a minus sign between two squares. | FORMULA: x² − 49 = (x − 7)(x + 7)
+## LESSON fac-L2: Leading coefficient ≠ 1 · Zero product property
+KEY fac-L2#0 | Leading coefficient ≠ 1 | For ax² + bx + c, try the product a·c and split the middle term, then group. | FORMULA: 2x² + 7x + 3 = (2x + 1)(x + 3)
+KEY fac-L2#1 | Zero product property | If a product equals 0, one factor must be 0. Set each factor equal to 0 and solve. | FORMULA: (x − 2)(x + 5) = 0

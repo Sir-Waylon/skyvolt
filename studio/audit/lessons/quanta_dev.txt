@@ -1,0 +1,7 @@
+## LESSON dev-L1: Diodes · LED resistor
+KEY dev-L1#0 | Diodes | A diode lets current go one way. Silicon needs about 0.7 V forward; an LED needs roughly 2 V. Always add a series resistor. | CHECK Q: A 28 V source feeds a silicon diode (0.7 V drop) and a 1 kΩ resistor in series. What current flows, in mA? (2 decimals)
+KEY dev-L1#1 | LED resistor | The resistor drops the leftover voltage: R = (V_supply − V_LED)/I. | FORMULA: R = (Vs − Vf)/I | CHECK Q: An LED needs 2.0 V and 20 mA from a 12 V supply. What series resistor (Ω, nearest)?
+KEY dev-L1#2 | Rectifiers | A diode on an AC source blocks the negative half (half-wave). A bridge of four diodes flips the negative half (full-wave). A capacitor then smooths it.
+## LESSON dev-L2: Transistors · Op-amps
+KEY dev-L2#0 | Transistors | A small base current controls a big collector current: I_C = β·I_B. It works as a switch or an amplifier. | FORMULA: I_C = βI_B | CHECK Q: A transistor has β = 139 and base current 83 µA. What is the collector current in mA? (2 decimals)
+KEY dev-L2#1 | Op-amps | An op-amp with negative feedback has two golden rules: no current into the inputs and equal input voltages. Inverting gain = −R_f/R_in; non-inverting gain = 1 + R_f/R_in. | CHECK Q: A non-inverting op-amp has R_f = 100 kΩ and R_in = 80 kΩ. What is its gain (2 decimals)?

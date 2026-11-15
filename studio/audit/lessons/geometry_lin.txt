@@ -1,0 +1,8 @@
+## LESSON lin-L1: Slope · Slope-intercept form
+KEY lin-L1#0 | Slope | Slope tells how steep a line is: rise over run. Up-right is positive; down-right is negative. | FORMULA: m = (y₂ − y₁)/(x₂ − x₁) | CHECK Q: A zip line passes through the grid points (−1, 5) and (−6, −3). Find its slope. Fractions are fine.
+KEY lin-L1#1 | Slope-intercept form | In y = mx + b, m is the slope and b is where the line crosses the y-axis. | FORMULA: y = 2x − 3 | CHECK Q: A line with slope 4 passes through (2, −4). What is its y-intercept?
+KEY lin-L1#2 | Make a line from a point | Use the slope and a point to find b: plug x and y into y = mx + b, then solve for b. | CHECK Q: A zip line passes through the grid points (6, −2) and (8, −2). Find its slope. Fractions are fine.
+## LESSON lin-L2: Parallel and perpendicular · Standard form
+KEY lin-L2#0 | Parallel and perpendicular | Parallel lines have the same slope. Perpendicular slopes multiply to −1 (negative reciprocals). | FORMULA: 2/3 and −3/2 | CHECK Q: A line has slope −5/3. What is the slope of a line parallel to it?
+KEY lin-L2#1 | Standard form | Ax + By = C. To graph it, find the x- and y-intercepts by setting the other variable to 0. | FORMULA: 3x + 2y = 6
+KEY lin-L2#2 | Rate of change | In a word problem, slope is the rate (per hour, per item) and b is the starting amount. | CHECK Q: A line has slope −2. As x increases by 1, y…

@@ -1,0 +1,7 @@
+## LESSON ac-L1: What AC means · RMS values
+KEY ac-L1#0 | What AC means | Alternating current swings back and forth like a sine wave. Wall power is 60 Hz in the US: 60 full cycles each second.
+KEY ac-L1#1 | RMS values | The RMS value gives the same heating as DC. For a sine wave V_rms = V_peak/√2 ≈ 0.707 V_peak. US outlets are 120 V rms. | FORMULA: V_rms = V_pk/√2 | CHECK Q: A wall outlet gives 200 V rms. What is the peak voltage? (1 decimal)
+KEY ac-L1#2 | Reactance | A capacitor resists AC by X_C = 1/(2πfC); an inductor by X_L = 2πfL. Units: ohms. Capacitors pass high frequencies, inductors pass low ones. | FORMULA: X_L = 2πfL | CHECK Q: Find the reactance of a 0.1 H inductor at 60 Hz (Ω, 1 decimal).
+## LESSON ac-L2: Impedance · Power factor
+KEY ac-L2#0 | Impedance | Resistance and reactance combine at right angles: |Z| = √(R² + X²) for a series RL or RC circuit. Ohm's law becomes V = IZ. | FORMULA: |Z| = √(R²+X²) | CHECK Q: A series circuit has R = 8 Ω and reactance X = 15 Ω. What is |Z|?
+KEY ac-L2#1 | Power factor | Only the resistive part uses real power: P = V·I·cos φ, where cos φ = R/|Z| is the power factor. | FORMULA: P = VI cos φ

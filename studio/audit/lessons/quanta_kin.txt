@@ -1,0 +1,8 @@
+## LESSON kin-L1: Speed · Velocity and direction
+KEY kin-L1#0 | Speed | Speed tells how far something goes in a certain time. Going 60 km in 2 hours is 30 kilometers every hour. | FORMULA: speed = distance ÷ time | CHECK Q: A bike goes 28 meters in 4 seconds at a steady speed. How many meters per second is that?
+KEY kin-L1#1 | Velocity and direction | Velocity is speed with a direction. Walking 3 m/s north and 3 m/s south have the same speed but opposite velocities.
+KEY kin-L1#2 | Acceleration | Acceleration is how fast velocity changes. A car going from 0 to 20 m/s in 4 s gains 5 m/s every second. | FORMULA: a = Δv ÷ Δt | CHECK Q: An apple falls from rest for 6 s (ignore air). Use g = 10 m/s². How fast is it going?
+## LESSON kin-L2: Falling objects · Constant-acceleration equations
+KEY kin-L2#0 | Falling objects | Near Earth, anything in free fall (no air drag) speeds up by about 9.8 m/s every second, no matter its mass. | FORMULA: g = 9.8 m/s²
+KEY kin-L2#1 | Constant-acceleration equations | When acceleration is steady: v = v₀ + at, and d = v₀t + ½at². Pick the one that has the quantities you know. | FORMULA: v = v₀ + at;  d = v₀t + ½at²
+KEY kin-L2#2 | Reading motion graphs | On a position-time graph, slope is velocity. On a velocity-time graph, slope is acceleration and area is displacement.

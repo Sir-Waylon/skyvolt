@@ -1,0 +1,9 @@
+## LESSON kirch-L1: KCL: junction rule · KCL example
+KEY kirch-L1#0 | KCL: junction rule | Current going into a junction equals current going out. Charge cannot pile up. | FORMULA: I_in = I_out | CHECK Q: Kirchhoff's current law rests on the conservation of which quantity?
+KEY kirch-L1#1 | KCL example | 5 A and 3 A flow in. One wire takes 2 A out. The other must carry 6 A. | CHECK Q: At a node, 5.0 A and 3.2 A flow in. One wire carries 6.5 A out. Find the current out of the other wire.
+KEY kirch-L1#2 | KVL: loop rule | Go around any closed loop. The voltage rises and drops add to zero. | FORMULA: ΣV = 0 | CHECK Q: Around any closed loop, the algebraic sum of the voltage rises and drops is:
+## LESSON kirch-L2: KVL example · Two-loop recipe
+KEY kirch-L2#0 | KVL example | A 12 V battery and three resistors. Two drop 3 V and 5 V. The third drops 4 V. | CHECK Q: A 20 V source drives three series resistors. Two drop 6 V and 5 V. The third drops:
+KEY kirch-L2#1 | Two-loop recipe | 1) Draw and label a current in each branch. 2) Write one KCL. 3) Write KVL for two loops. 4) Solve the two equations. | CHECK Q: Two batteries share a middle resistor. Left branch: 28 V with 2 Ω. Right branch: 15 V with 1 Ω. Shared resistor: 2 Ω. Find the current in th
+KEY kirch-L2#2 | Sign tip | Going through a resistor WITH the current is a drop. Going through a battery from − to + is a rise. A negative answer just means the arrow was backward. | CHECK Q: You guess a current's direction and your solution gives −2 A. This means:
+KEY kirch-L2#3 | Check with power | Total power from the sources should equal total power in the resistors. | CHECK Q: In a circuit, the source supplies 36 W. Two resistors dissipate 12 W and 15 W. The third dissipates:

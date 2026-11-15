@@ -1,0 +1,13 @@
+## LESSON ctrl-L1: Switch types · Reading the name
+KEY ctrl-L1#0 | Switch types | SPST: simple on/off. SPDT: switches between two paths. DPST: two on/off switches moved together. DPDT: two SPDT switches moved together. | CHECK Q: How many terminals does a standard DPDT switch have?
+KEY ctrl-L1#1 | Reading the name | Pole = how many circuits it controls. Throw = how many positions each pole connects to. | CHECK Q: An SPDT switch has:
+KEY ctrl-L1#2 | Fuse | A thin wire that melts when current is too high. One use. Replace it AFTER fixing the problem. It goes in series with the load. | CHECK Q: A fuse should be wired:
+## LESSON ctrl-L2: Circuit breaker · Sizing a fuse
+KEY ctrl-L2#0 | Circuit breaker | Trips when current is too high. Flip it back to reset. Slightly slower than a fuse. Fix the problem first. | CHECK Q: A fuse differs from a circuit breaker because a fuse…
+KEY ctrl-L2#1 | Sizing a fuse | Find current, then pick the next size up. | FORMULA: I = P / V | CHECK Q: A 1200 W hair dryer runs on 120 V. Which is the smallest standard fuse (5, 10, 15, 20 A) that will not blow? Answer in amps.
+KEY ctrl-L2#2 | GFCI | Trips at about 5 mA of imbalance between hot and neutral. That missing current is leaking through something, maybe a person. Protects PEOPLE. | CHECK Q: A household device detects a tiny imbalance between outgoing and returning current and trips within milliseconds to protect people. Name it 
+## LESSON ctrl-L3: Relay · Switch logic
+KEY ctrl-L3#0 | Relay | A small current in a coil closes a switch in a different circuit. Lets a tiny signal control big power. A diode across the coil absorbs the spike. | CHECK Q: Which device is described? "Uses a small coil current to switch a separate circuit"
+KEY ctrl-L3#1 | Switch logic | Switches in series = AND (both must be on). Switches in parallel = OR (either one works). | CHECK Q: A lamp should light only when a door switch AND a key switch are both closed. How should they be wired?
+KEY ctrl-L3#2 | Three-way switch | Two SPDT switches and two traveler wires. Flip either switch and the lamp changes. Commons go to power and to the lamp. | CHECK Q: In a three-way switch circuit, the two wires that run between the two switches are called:
+KEY ctrl-L3#3 | Redraw tip | For switch problems, redraw the circuit for each switch setting.

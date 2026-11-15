@@ -1,0 +1,7 @@
+## LESSON cap-L1: Capacitor · Capacitance
+KEY cap-L1#0 | Capacitor | Two metal plates with an insulator between. It stores energy in an electric field. | CHECK Q: A charged capacitor stores energy in:
+KEY cap-L1#1 | Capacitance | How much charge it holds per volt. Unit: farad (F). Most are µF. | FORMULA: C = Q / V | CHECK Q: What is the SI unit of capacitance?
+KEY cap-L1#2 | Energy | Double the voltage and the energy is 4 times bigger. | FORMULA: E = ½ C V² | CHECK Q: The voltage across a capacitor is cut to one half. The stored energy becomes:
+## LESSON cap-L2: Combining · In DC
+KEY cap-L2#0 | Combining | Parallel: capacitances add. Series: use the reciprocal rule (opposite of resistors). | CHECK Q: Two capacitors are connected in parallel. The equivalent capacitance is:
+KEY cap-L2#1 | In DC | Once fully charged, it blocks steady current like an open circuit. | CHECK Q: A fully charged capacitor in a steady DC circuit acts like:

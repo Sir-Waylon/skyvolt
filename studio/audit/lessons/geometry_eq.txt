@@ -1,0 +1,8 @@
+## LESSON eq-L1: Undo, in reverse · Variables on both sides
+KEY eq-L1#0 | Undo, in reverse | To solve an equation, undo what was done to x, in reverse order. Whatever you do to one side, do to the other. | FORMULA: x + 5 = 12 → x = 7
+KEY eq-L1#1 | Variables on both sides | Move the x terms to one side and the numbers to the other. Then divide by the coefficient. | FORMULA: 3x + 2 = x + 10 → 2x = 8 | CHECK Q: Solve for x: x/6 − 4 = −3
+KEY eq-L1#2 | Distribute first | Multiply the number outside the parentheses by EVERY term inside. Then solve like normal. | FORMULA: 2(x + 3) = 2x + 6 | CHECK Q: Solve for x: x/4 + 6 = 3
+## LESSON eq-L2: Fractions in equations · Flip the sign
+KEY eq-L2#0 | Fractions in equations | Multiply every term by the denominator to clear the fraction. That keeps the equation balanced. | FORMULA: x/4 = 3 → x = 12
+KEY eq-L2#1 | Flip the sign | In an inequality, multiplying or dividing by a NEGATIVE flips the sign. Adding and subtracting never flips it. | FORMULA: −2x < 6 → x > −3
+KEY eq-L2#2 | Solve for a letter | Treat the other letters like numbers and undo operations in reverse. Formulas work the same way. | FORMULA: A = ½bh → b = 2A/h

@@ -1,0 +1,7 @@
+## LESSON sys-L1: What is a solution? · Substitution
+KEY sys-L1#0 | What is a solution? | A solution of a system is the point that makes BOTH equations true. On a graph it is where the lines cross. | CHECK Q: A system's two equations describe the SAME line. How many solutions?
+KEY sys-L1#1 | Substitution | Solve one equation for a letter, then plug that into the other equation. Best when a letter is already alone. | FORMULA: y = 2x, x + y = 9
+KEY sys-L1#2 | Elimination | Add or subtract the equations so a letter cancels. Multiply an equation first if needed. | FORMULA: x + y = 7 and x − y = 1
+## LESSON sys-L2: No or infinite solutions · Check your answer
+KEY sys-L2#0 | No or infinite solutions | Parallel lines (same slope, different b) give NO solution. Same line gives infinitely many. | CHECK Q: A system has two parallel lines. How many solutions?
+KEY sys-L2#1 | Check your answer | Plug your (x, y) into BOTH original equations. If both work, you are done.

@@ -1,0 +1,8 @@
+## LESSON orb-L1: Newton's law of gravitation · Orbits
+KEY orb-L1#0 | Newton's law of gravitation | Every pair of masses attracts with force F = GMm/r², with G = 6.67 × 10⁻¹¹ N·m²/kg². Field strength at distance r from mass M is g = GM/r². | FORMULA: F = GMm/r²
+KEY orb-L1#1 | Orbits | For a circular orbit gravity supplies the centripetal force: GM/r² = v²/r, so v = √(GM/r). Higher orbits are slower. | FORMULA: v = √(GM/r) | CHECK Q: A satellite moves to a higher circular orbit. Which statement is correct?
+KEY orb-L1#2 | Kepler's third law | T² is proportional to r³. If you know one orbit you can find another: (T₂/T₁)² = (r₂/r₁)³. | FORMULA: T² ∝ r³
+## LESSON orb-L2: Gravitational potential energy · Orbital energy
+KEY orb-L2#0 | Gravitational potential energy | With zero at infinity U = −GMm/r. It is negative: you must add energy to escape. | FORMULA: U = −GMm/r
+KEY orb-L2#1 | Orbital energy | Total energy of a circular orbit is E = −GMm/(2r). KE = −E and U = 2E. | FORMULA: E = −GMm/2r
+KEY orb-L2#2 | Escape speed | Escape means total energy zero: ½mv² = GMm/r, so v_esc = √(2GM/r), which is √2 times the circular-orbit speed. | FORMULA: v_esc = √(2GM/r)

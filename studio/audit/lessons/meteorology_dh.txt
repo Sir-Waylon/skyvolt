@@ -1,0 +1,5 @@
+## LESSON dh-L1: Drought · Heat wave
+KEY dh-L1#0 | Drought | A long period with far too little precipitation. Water runs short. | CHECK Q: Name the type of drought when streams, lakes and reservoirs run low.
+KEY dh-L1#1 | Heat wave | A long period of unusually high temperatures. | CHECK Q: Overnight temperatures stay high during a heat wave. Why is this dangerous?
+KEY dh-L1#2 | Common cause | A blocking high-pressure ridge. It parks over a region and pushes storms away. | CHECK Q: Which pattern often causes both drought and heat waves?
+KEY dh-L1#3 | Effects | Crop loss, water limits, wildfire risk, and heat illness. | CHECK Q: What should you drink more of during a heat wave?

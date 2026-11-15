@@ -1,0 +1,11 @@
+## LESSON sq-L1: Patterns and sequences · Arithmetic sequences
+KEY sq-L1#0 | Patterns and sequences | A sequence is an ordered list that follows a rule, like 3, 6, 9, 12, … Each number is a term. | CHECK Q: On day 1 a rumor reaches 3 people, and each day the number of people it reaches is 4 times the day before. How many people does it reach on 
+KEY sq-L1#1 | Arithmetic sequences | You add the same amount (the common difference d) each time. The nth term is aₙ = a₁ + (n − 1)d. | FORMULA: aₙ = a₁ + (n − 1)d | CHECK Q: A theatre’s front row has 8 seats, and each row behind it has 3 more seats than the row before. How many seats are in row 11?
+KEY sq-L1#2 | Geometric sequences | You multiply by the same number (the common ratio r) each time. aₙ = a₁·rⁿ⁻¹. | FORMULA: aₙ = a₁·rⁿ⁻¹ | CHECK Q: On day 1 a rumor reaches 3 people, and each day the number of people it reaches is 4 times the day before. How many people does it reach on 
+## LESSON sq-L2: Arithmetic series · Geometric series
+KEY sq-L2#0 | Arithmetic series | Adding the terms: Sₙ = n(a₁ + aₙ)/2. Gauss found 1 + 2 + … + 100 = 5050 by pairing ends. | FORMULA: Sₙ = n(a₁ + aₙ)/2 | CHECK Q: A stadium section has 1 seat in the first row, 3 in the second, 5 in the third, and so on. How many seats are in the first 9 rows?
+KEY sq-L2#1 | Geometric series | Sₙ = a₁(1 − rⁿ)/(1 − r). Each term is r times the last. | FORMULA: Sₙ = a₁(1 − rⁿ)/(1 − r) | CHECK Q: On day 1 a rumor reaches 3 people, and each day the number of people it reaches is 4 times the day before. How many people does it reach on 
+KEY sq-L2#2 | Infinite geometric series | If |r| < 1 the terms shrink and the total settles on S = a₁/(1 − r). If |r| ≥ 1 it never settles. | FORMULA: 1 + ½ + ¼ + … = 2 | CHECK Q: Find the sum of the infinite geometric series 3 + 1 + 1/3 + …
+## LESSON sq-L3: Sigma notation · Recursive and explicit rules
+KEY sq-L3#0 | Sigma notation | Σ means add. Σ from k = 1 to 4 of 2k means 2 + 4 + 6 + 8 = 20.
+KEY sq-L3#1 | Recursive and explicit rules | Recursive: each term from the one before (aₙ = aₙ₋₁ + 3). Explicit: each term from its position (aₙ = 3n + 1).

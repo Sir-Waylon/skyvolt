@@ -1,0 +1,11 @@
+## LESSON ra-L1: Fractions are division · Rational expressions
+KEY ra-L1#0 | Fractions are division | A fraction a/b means a ÷ b. You can simplify by dividing the top and bottom by the same number, like 12/18 = 2/3.
+KEY ra-L1#1 | Rational expressions | A rational expression is a polynomial divided by a polynomial. Simplify by factoring and cancelling common factors, never by cancelling terms that are added. | FORMULA: (x² − 4)/(x − 2) = x + 2
+KEY ra-L1#2 | Values that are not allowed | The denominator can never be 0. Every x that makes it 0 is left out of the domain. | FORMULA: 1/(x − 3): x ≠ 3
+## LESSON ra-L2: Vertical asymptotes and holes · Horizontal asymptotes
+KEY ra-L2#0 | Vertical asymptotes and holes | If a factor cancels, the graph has a hole. If a factor in the denominator stays, the graph shoots off to infinity there: a vertical asymptote. | CHECK Q: f(x) = (x + 4)(x + 2) / ((x + 4)(x − 4)) has a hole. At what x-value is the hole?
+KEY ra-L2#1 | Horizontal asymptotes | Compare degrees. Top lower: y = 0. Same degree: y = (leading coefficient of top) ÷ (leading coefficient of bottom). Top higher: no horizontal asymptote. | FORMULA: (3x + 1)/(x − 2) → y = 3 | CHECK Q: Find the horizontal asymptote y = L of f(x) = (2x − 2)/(x).
+KEY ra-L2#2 | Solving rational equations | Multiply both sides by the common denominator to clear the fractions. Then check each answer, because a solution that makes a denominator 0 is extraneous.
+## LESSON ra-L3: Direct and inverse variation · Work and rate problems
+KEY ra-L3#0 | Direct and inverse variation | Direct: y = kx, both grow together. Inverse: y = k/x, one grows as the other shrinks. More workers means fewer days. | FORMULA: 3 workers take 12 days → 6 workers take 6 days | CHECK Q: 2 workers take 12 days to build a wall. At the same rate, how many days will 6 workers take?
+KEY ra-L3#1 | Work and rate problems | Rates add. If A does a job in a hours and B in b hours, together they finish in ab/(a + b) hours. | FORMULA: 1/a + 1/b = 1/T

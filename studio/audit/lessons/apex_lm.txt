@@ -1,0 +1,11 @@
+## LESSON lm-L1: Getting closer and closer · What a limit means
+KEY lm-L1#0 | Getting closer and closer | Look at 0.9, 0.99, 0.999, … The numbers never reach 1 but get as close as you like. We say they approach 1. | CHECK Q: The numbers 4.9, 4.99, 4.999, … get closer to what number?
+KEY lm-L1#1 | What a limit means | lim f(x) = L as x → a means f(x) gets as close to L as you want when x is close enough to a. The value at a itself does not matter. | FORMULA: lim x→2 of (x + 1) = 3
+KEY lm-L1#2 | Direct substitution | For polynomials and most everyday functions, just plug the number in.
+## LESSON lm-L2: 0/0: factor and cancel · One-sided limits
+KEY lm-L2#0 | 0/0: factor and cancel | If substitution gives 0/0, factor and cancel the common piece, then substitute. | FORMULA: (x² − 9)/(x − 3) = x + 3 → 6
+KEY lm-L2#1 | One-sided limits | The left limit looks from below, the right limit from above. The limit exists only if both agree. | CHECK Q: A function has left limit 4 and right limit 2 at x = 2. Does the limit exist? Answer yes or no.
+KEY lm-L2#2 | Limits at infinity | As x grows huge, only the highest powers matter. Compare the leading terms. | FORMULA: (3x² + 1)/(x² − 5) → 3
+## LESSON lm-L3: Continuity · Famous limits
+KEY lm-L3#0 | Continuity | A function is continuous at a if the limit equals the value: no jumps, holes or breaks. You can draw it without lifting your pencil.
+KEY lm-L3#1 | Famous limits | lim sin x / x = 1 when x is in radians. This is the key to the derivative of sine.

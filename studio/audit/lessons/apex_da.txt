@@ -1,0 +1,11 @@
+## LESSON da-L1: Position, velocity, acceleration · Increasing and decreasing
+KEY da-L1#0 | Position, velocity, acceleration | If s(t) is position, velocity is s′(t) and acceleration is s″(t).
+KEY da-L1#1 | Increasing and decreasing | If f′ > 0 the function rises. If f′ < 0 it falls. Where f′ = 0 there may be a peak or valley.
+KEY da-L1#2 | Critical points | Solve f′(x) = 0 to find candidates for maximum and minimum points.
+## LESSON da-L2: The second derivative test · Concavity
+KEY da-L2#0 | The second derivative test | At a critical point, f″ > 0 means a valley (minimum) and f″ < 0 means a peak (maximum).
+KEY da-L2#1 | Concavity | f″ > 0: the curve bends upward like a cup. f″ < 0: it bends downward like a cap.
+KEY da-L2#2 | Optimization | Write what you want to maximize or minimize as a function of one variable, take the derivative, set it to 0 and check the endpoints.
+## LESSON da-L3: Related rates · Linear approximation
+KEY da-L3#0 | Related rates | When two quantities are linked, their rates are linked too. Differentiate the relationship with respect to time.
+KEY da-L3#1 | Linear approximation | Near x = a, f(x) ≈ f(a) + f′(a)(x − a). The tangent line is a good estimate close by. | FORMULA: √4.1 ≈ 2 + 0.25(0.1)

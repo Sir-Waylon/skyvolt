@@ -1,0 +1,7 @@
+## LESSON mag-L1: Magnetic fields · Force on a wire
+KEY mag-L1#0 | Magnetic fields | Magnets and moving charges make magnetic fields, measured in tesla (T). Field lines run from north to south outside the magnet.
+KEY mag-L1#1 | Force on a wire | A wire of length L carrying current I in a field B feels force F = BIL when the wire is at right angles to the field. | FORMULA: F = BIL | CHECK Q: A 0.1 m wire carries 6 A at right angles to a 1 T field. Find the force (N, 3 decimals).
+KEY mag-L1#2 | Force on a charge | A charge q moving at speed v across field B feels F = qvB. The force is sideways, so the charge goes in a circle of radius r = mv/(qB). | FORMULA: F = qvB | CHECK Q: A 0.5 m wire carries 7 A at right angles to a 1 T field. Find the force (N, 3 decimals).
+## LESSON mag-L2: Induction · Transformers
+KEY mag-L2#0 | Induction | A changing magnetic flux induces a voltage: ε = −N ΔΦ/Δt (Faraday's law). Lenz's law says the induced current opposes the change. | FORMULA: ε = −NΔΦ/Δt | CHECK Q: A 436-turn coil sees its flux change by 0.01 Wb in 0.2 s. What voltage is induced (V, 1 decimal)?
+KEY mag-L2#1 | Transformers | Two coils on one iron core: V₂/V₁ = N₂/N₁. A step-up transformer raises voltage and lowers current. | FORMULA: V₂/V₁ = N₂/N₁ | CHECK Q: A transformer has 325 primary turns and 650 secondary turns. The primary is 120 V. What is the secondary voltage?

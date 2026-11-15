@@ -1,0 +1,9 @@
+## LESSON gas-L1: Ideal gas · Gas laws
+KEY gas-L1#0 | Ideal gas | For a gas of n moles, PV = nRT with R = 8.31 J/(mol·K) and T in kelvin. Add 273 to a Celsius temperature. | FORMULA: PV = nRT | CHECK Q: What is the pressure, in kPa, of 2 mol of ideal gas at 350 K in a container of volume 0.01 m³? Use R = 8.31 J/(mol·K).
+KEY gas-L1#1 | Gas laws | At fixed amount, P₁V₁/T₁ = P₂V₂/T₂. At fixed T, pressure and volume are inversely related (Boyle). | FORMULA: P₁V₁/T₁ = P₂V₂/T₂ | CHECK Q: What is the pressure, in kPa, of 0.5 mol of ideal gas at 400 K in a container of volume 0.03 m³? Use R = 8.31 J/(mol·K).
+KEY gas-L1#2 | Kinetic theory | Temperature measures the average kinetic energy of the molecules: for one molecule of a monatomic gas, KE = (3/2)k_BT. The internal energy of n moles is (3/2)nRT. | FORMULA: U = (3/2)nRT | CHECK Q: A gas absorbs 200 J of heat and does 100 J of work. What is the change in its internal energy?
+## LESSON gas-L2: Work by a gas · First law
+KEY gas-L2#0 | Work by a gas | A gas doing work expands. At constant pressure W = PΔV. On a P–V graph, work is the area under the curve. | FORMULA: W = PΔV | CHECK Q: A gas expands at a constant 1 × 10⁵ Pa, increasing its volume by 0.002 m³. How much work does it do?
+KEY gas-L2#1 | First law | The internal energy changes by the heat added minus the work done by the gas. | FORMULA: ΔU = Q − W | CHECK Q: A gas absorbs 900 J of heat and does 100 J of work. What is the change in its internal energy?
+KEY gas-L2#2 | Heat engines | An engine takes Q_h from a hot reservoir, does work W, and dumps Q_c. Efficiency e = W/Q_h. No engine beats the Carnot limit 1 − T_c/T_h (kelvin). | FORMULA: e_max = 1 − T_c/T_h | CHECK Q: What is the maximum possible efficiency, in percent, of a heat engine running between 600 K and 250 K?
+KEY gas-L2#3 | Second law | Heat flows by itself from hot to cold, and the entropy of an isolated system never decreases.

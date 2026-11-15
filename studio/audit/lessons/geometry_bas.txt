@@ -1,0 +1,9 @@
+## LESSON bas-L1: Point, line, plane · Segment and ray
+KEY bas-L1#0 | Point, line, plane | A point is a location. A line goes on forever in two directions. A plane is a flat surface that goes on forever. | CHECK Q: How many points does it take to determine one line?
+KEY bas-L1#1 | Segment and ray | A segment has two endpoints. A ray has one endpoint and goes on forever. Name a ray with its endpoint first. | FORMULA: AB (segment), ray AB | CHECK Q: Which is a correct way to name a ray starting at P and passing through Q?
+KEY bas-L1#2 | Naming and measuring angles | An angle has a vertex and two sides. Acute < 90°, right = 90°, obtuse between 90° and 180°, straight = 180°. | CHECK Q: An angle measuring 135° is…
+## LESSON bas-L2: Angle pairs · Vertical angles
+KEY bas-L2#0 | Angle pairs | Complementary add to 90°. Supplementary add to 180°. A linear pair is two adjacent angles that make a straight line. | CHECK Q: Proof: Vertical angles are equal. What is the reason for “m∠1 + m∠2 = 180°”?
+KEY bas-L2#1 | Vertical angles | When two lines cross, the angles directly across from each other are equal. | FORMULA: ∠1 = ∠3 | CHECK Q: Two sidewalks cross in an X. One angle between them is 62°. What is the angle directly opposite it (degrees)?
+KEY bas-L2#2 | Segments and midpoints | A midpoint splits a segment into two equal parts. A bisector splits a segment or angle in half. | FORMULA: AM = MB | CHECK Q: Two sidewalks cross in an X. One angle between them is 61°. What is the angle directly opposite it (degrees)?
+KEY bas-L2#3 | Properties of equality | Reflexive: a = a. Symmetric: if a = b then b = a. Transitive: if a = b and b = c then a = c. Substitution lets you swap equals.

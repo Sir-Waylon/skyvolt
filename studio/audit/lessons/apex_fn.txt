@@ -1,0 +1,11 @@
+## LESSON fn-L1: Input and output · Function notation
+KEY fn-L1#0 | Input and output | A function is a rule that turns every input into exactly one output, like a vending machine: press B4 and you always get the same snack. | FORMULA: f(x) = 2x + 3 | CHECK Q: Do the pairs (3, 4), (2, 1), (7, 8) (input, output) describe a function? Answer yes or no.
+KEY fn-L1#1 | Function notation | f(x) is read “f of x”. It means: use the rule f on the number x. To find f(4), put 4 into the rule. | FORMULA: f(x) = 3x − 1, so f(4) = 11 | CHECK Q: A piecewise function is f(x) = 2x + 1 if x < 0; x² − 3 if 0 ≤ x < 4; 5 if x ≥ 4. Find f(1).
+KEY fn-L1#2 | Tables, graphs and the vertical line test | A graph shows a function if no vertical line touches it twice. If one input had two outputs, the machine would be broken. | CHECK Q: Do the pairs (1, 4), (2, 8), (1, 7) (input, output) describe a function? Answer yes or no.
+## LESSON fn-L2: Domain and range · Composing functions
+KEY fn-L2#0 | Domain and range | The domain is every input that is allowed. The range is every output you can get. You cannot divide by zero, and you cannot take the square root of a negative number in the real numbers. | FORMULA: 1/(x − 3): x ≠ 3 | CHECK Q: A machine multiplies by 7 and then adds 9. The output is 65. What was the input?
+KEY fn-L2#1 | Composing functions | (f∘g)(x) means f(g(x)). Do g first, then feed its answer into f. The order matters. | FORMULA: f(x)=x+1, g(x)=2x: f(g(3)) = 7 but g(f(3)) = 8
+KEY fn-L2#2 | Inverse functions | An inverse undoes a function. If f(a) = b then f⁻¹(b) = a. To find it, swap input and output and solve. | FORMULA: f(f⁻¹(x)) = x | CHECK Q: A machine multiplies by 8 and then adds 6. The output is 78. What was the input?
+## LESSON fn-L3: Transformations · Even and odd functions
+KEY fn-L3#0 | Transformations | y = a·f(x − h) + k. h slides right, k slides up, a stretches (and flips if negative). Do stretches first, then shifts. | FORMULA: y = |x − 2| + 1: vertex (2, 1)
+KEY fn-L3#1 | Even and odd functions | Even: f(−x) = f(x), the graph is mirror-symmetric about the y-axis. Odd: f(−x) = −f(x), it looks the same after a half-turn about the origin. | FORMULA: x² is even, x³ is odd | CHECK Q: Is f(x) = x⁵ + 2 even, odd, or neither?
