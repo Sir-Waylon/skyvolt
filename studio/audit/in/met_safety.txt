@@ -1,0 +1,33 @@
+# meteorology-b / safety: Hazards and safety  (29 questions, 28 families)
+## STUDY NOTE (what students are taught)
+Storm Main hazard Tornado Violent wind, debris Hurricane Storm surge, wind, inland flooding Severe thunderstorm Hail, wind, lightning Flash flood Rapid water rise Lightning Direct strike, fires Winter storm Snow/ice load, low visibility, cold Drought/heat Water shortage, heat illness Alert Means Watch Conditions favorable. Get ready Warning Happening or about to. Act now Advisory Less serious but still disruptive Actions: tornado = lowest floor, interior room, no windows. Hurricane = follow evacuation orders. Flash flood = go high, never drive through water. Lightning = indoors or hard-topped car. Generators outside only (carbon monoxide). Reliable sources: weather.gov, spc.noaa.gov (storms), nhc.noaa.gov (tropics).
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+safety-001 | 1 | mcq | A tornado watch means… || Conditions are favorable for tornadoes || A tornado is occurring ; A tornado has passed ; No tornado danger exists || Watch = be ready.
+safety-002 | 1 | mcq | A tornado warning means… || A tornado is occurring or imminent || Conditions may later become favorable ; A tornado is impossible ; A hurricane is near || Warning = act now.
+safety-003 | 2 | mcq | Where should you shelter during a tornado warning in a house? || Lowest floor, interior room, away from windows || Upstairs by a window ; In a car outdoors ; On a covered porch || Get below and put walls between you and the outdoors.
+safety-004 | 2 | mcq | What is the best action if you are told to evacuate before a hurricane? || Follow the order for your zone || Wait to see the eye ; Drive toward the coast ; Shelter in the attic || Storm surge kills; leave when ordered.
+safety-005 | 2 | mcq | What should you do if a road is flooded? || Turn around, don't drive through || Drive slowly through ; Walk through it ; Wait in the car on it || Just 6 inches of moving water can knock you down; 12 can float a car.
+safety-006 | 2 | mcq | When thunder is heard, you should… || Go indoors or into a hard-topped vehicle || Stand under a tree ; Go to open ground ; Wait for the rain || If you can hear it, you can be struck.
+safety-007 | 2 | short | Which agency issues watches and warnings in the United States? || National Weather Service | National Weather Services || Federal Reserve ; FEMA only ; The Navy only || NWS is part of NOAA.
+safety-008 | 2 | short | Which site is the best source for severe thunderstorm and tornado outlooks? || spc.noaa.gov || nhc.noaa.gov ; weather.com forum ; Social media posts || The Storm Prediction Center.
+safety-009 | 2 | short | Which site is the best source for tropical cyclone advisories? || nhc.noaa.gov || spc.noaa.gov ; A friend's text ; A local blog || National Hurricane Center.
+safety-010 | 2 | mcq | A weather advisory means… || Less severe but still disruptive conditions || A tornado is on the ground ; A hurricane is landfalling ; Everything is clear || Advisory = be cautious.
+safety-011 | 2 | mcq | After an ice storm, why is a portable generator used outside only? || Carbon monoxide can kill indoors || It is too loud ; It uses too much fuel ; Static electricity || Exhaust is deadly.
+safety-012 | 3 | short | During a hurricane, which hazard is often the deadliest? || Storm surge | Storm surges || Lightning ; Hail ; Drought || Water kills more than wind.
+safety-013 | 3 | mcq | A person says "my phone app says no rain so the warning is wrong". What should you do? || Follow NWS information and official alerts || Ignore the warning ; Check only the app ; Wait for rain || Official warnings use radar and spotters.
+safety-014 | 1 | mcq | What does a tornado warning mean? || Severe weather is happening or imminent; take shelter now || Conditions are favorable; be ready ; The storm has ended ; Only rain is expected || Warning = happening now or about to.
+safety-015 | 1 | mcq | What does a tornado watch mean? || Conditions are favorable; be ready || Severe weather is happening or imminent; take shelter now ; The storm has ended ; Only rain is expected || Warning = happening now or about to.
+safety-016 | 1 | mcq | Where is the safest place during a severe thunderstorm? || Inside a sturdy building || Under a tree ; In a pool ; On a hill || Buildings or hard-topped vehicles.
+safety-017 | 1 | mcq | If caught outside in lightning with no shelter, you should… || Avoid being the tallest object; crouch low and keep feet together || Lie flat ; Stand under a tree ; Hold up metal || Minimize contact with the ground; get to shelter ASAP.
+safety-018 | 1 | mcq | A NOAA Weather Radio is useful because it… || Sends alerts even if the power or phone fails || Plays music ; Tells jokes ; Needs Wi-Fi || It broadcasts NWS warnings.
+safety-019 | 2 | short | Which source is best for official severe-weather alerts? || National Weather Service | National Weather Services || A random social post ; A rumor ; A poster || Use official sources.
+safety-020 | 2 | short | A flood watch means flooding is… || Possible | Possibles || Happening now ; Impossible ; Over || Watch = possible; warning = happening.
+safety-021 | 2 | short | A watch means be prepared. A warning means to… || take action now | take action | act now | take shelter ||  || Take action now.
+safety-022 | 1 | short | When the weather service says warning, should you act right away? || yes ||  || Take shelter now.
+safety-023 | 1 | short | What weather radio sounds a loud alarm to alert you of danger? || noaa weather radio | weather radio | noaa ||  || A tone alert can wake you at night.
+safety-024 | 1 | short | A kit with water, food, flashlight and batteries for emergencies is an emergency… || kit | supply kit | preparedness kit ||  || Enough for a few days.
+safety-025 | 1 | short | Should you stay away from downed power lines? || yes ||  || Stay at least 10 meters away.
+safety-026 | 2 | short | In a hurricane evacuation, you should follow orders from… || local officials | emergency officials | local emergency officials | officials ||  || Follow their evacuation zones and routes.
+safety-027 | 2 | short | A mobile home is safe in a tornado: true or false? || false ||  || Go to a sturdy shelter.
+safety-028 | 2 | short | A family needs 4 liters of water per person for 3 days. There are 5 people. How many liters total? || 60.0 (tol 0.02) ||  || 12 × 5 = 60 L.
+safety-029 | 2 | short | Why should you never run a generator indoors or in a garage? || carbon monoxide | co | carbon monoxide poisoning ||  || Carbon monoxide is odorless.

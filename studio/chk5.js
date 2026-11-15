@@ -1,0 +1,13 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+const p=await b.newPage({viewport:{width:400,height:800}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto('file://'+process.argv[2]);await p.waitForTimeout(300);
+await p.click('[data-v=study]');await p.click('[data-st=virpe]');await p.click('[data-sn="1"]');
+console.log('learned',await p.evaluate(()=>Object.keys(S.lr).length),'xp',await p.evaluate(()=>S.xp));
+await p.screenshot({path:'ck/study.png'});
+await p.evaluate(()=>{start({mode:'learn',ids:['virpe-027']})});
+await p.click('#help');await p.click('#help');await p.click('#help');
+console.log('help panel',await p.evaluate(()=>!!document.querySelector('.help')),await p.evaluate(()=>Z.items[0].help));
+await p.screenshot({path:'ck/help.png'});
+await p.evaluate(()=>{Z=null;show('play')});await p.screenshot({path:'ck/play.png',fullPage:true});
+console.log('shop',await p.evaluate(()=>document.querySelectorAll('[data-cos]').length),'errs',errs);await b.close()})();

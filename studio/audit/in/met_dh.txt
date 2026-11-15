@@ -1,0 +1,31 @@
+# meteorology-b / dh: Drought and heat waves  (37 questions, 21 families)
+## STUDY NOTE (what students are taught)
+Drought: long stretch with too little precipitation. Heat wave: long stretch of abnormal heat. Both are often caused by a blocking high-pressure ridge that sits in place and steers storms away. Effects: crop loss, water limits, wildfire, heat illness, power demand.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+dh-001 | 1 | mcq | A drought is… || A long period of below-normal precipitation || A short hot day ; A flood warning ; Hail over a county || Drought is a prolonged precipitation deficit.
+dh-002 | 2 | mcq | Which pattern often causes both drought and heat waves? || A blocking high-pressure ridge || A strong low-pressure trough ; A hurricane ; A warm front || High pressure brings sinking air and clear skies and keeps storms away.
+dh-003 | 2 | short | Which is a common effect of long drought? || Higher wildfire risk | Higher wildfire risks || More river flooding ; Heavier snowpack ; Increased lake effect snow || Dry fuels and soils burn easily.
+dh-004 | 2 | mcq | A heat wave is best defined as… || A prolonged period of abnormally high temperatures || Any day over 80 °F ; A single afternoon thunderstorm ; A rapid fall in pressure || Duration and being unusual for the region both matter.
+dh-005 | 3 | mcq | Why can heavy rain after a drought still cause flooding? || Dry, hardened ground absorbs water slowly || Dry soil adds extra water ; Clouds hold less rain ; Drought lowers the water table above ground || Baked soil sheds water, producing runoff.
+### FAMILY cf1: 9 generated variants of one template (3 shown; numbers vary)
+dh-006 | 1 | short | Convert 50°F to °C (nearest degree). || 10.0 (tol 1.01) ||  || (50 − 32) × 5/9 = 10.0.
+dh-007 | 1 | short | Convert 32°F to °C (nearest degree). || 0.0 (tol 1.01) ||  || (32 − 32) × 5/9 = 0.0.
+dh-008 | 1 | short | Convert 95°F to °C (nearest degree). || 35.0 (tol 1.01) ||  || (95 − 32) × 5/9 = 35.0.
+### FAMILY cf2: 9 generated variants of one template (3 shown; numbers vary)
+dh-015 | 1 | short | Convert −20°C to °F. || -4.0 (tol 0.6) ||  || −20 × 9/5 + 32 = −4.
+dh-016 | 1 | short | Convert 20°C to °F. || 68.0 (tol 0.6) ||  || 20 × 9/5 + 32 = 68.
+dh-017 | 1 | short | Convert −5°C to °F. || 23.0 (tol 0.6) ||  || −5 × 9/5 + 32 = 23.
+dh-024 | 1 | mcq | A heat wave is… || A long period of unusually hot weather || One hot afternoon ; A hurricane ; A type of front || Duration plus heat.
+dh-025 | 2 | short | The heat index combines temperature and… || Humidity | Humiditys || Wind ; Pressure ; Cloud cover || Humid air slows sweat evaporation.
+dh-026 | 1 | mcq | A drought is… || A long shortage of water || A flood ; A heavy storm ; A cold snap || Less precipitation than normal for a long time.
+dh-027 | 2 | mcq | Which is a heat illness sign that needs immediate help? || Hot, red, dry skin with confusion || Mild sweating ; Thirst ; Itchy skin || That's heat stroke: call 911.
+dh-028 | 1 | short | A long period with much less rain than normal is called a… || drought ||  || This is a drought.
+dh-029 | 1 | short | What should you drink more of during a heat wave? || water ||  || Drink water before you feel thirsty.
+dh-030 | 1 | short | Should you ever leave a child or pet in a parked car on a hot day? || no | never | no never ||  || Never leave a child or pet in a car.
+dh-031 | 1 | short | The condition when the body gets too hot and sweating is not enough is called heat… || stroke | heat stroke | exhaustion | heat exhaustion ||  || Heat stroke is an emergency: call 911.
+dh-032 | 2 | short | A town normally gets 40 mm of rain in a month but got only 10 mm. What percent of the normal rainfall fell? || 25.0 (tol 0.02) ||  || 0.25 = 25%.
+dh-033 | 2 | short | The heat index makes 35 °C with high humidity feel hotter. If it feels like 41 °C, how many degrees hotter than the air temperature does it feel? || 6.0 (tol 0.02) ||  || It feels 6 °C hotter.
+dh-034 | 2 | short | Why does high humidity make hot weather feel hotter? || sweat evaporates slowly | sweat does not evaporate | sweat can't evaporate | sweat evaporates less | less evaporation | sweat doesn't evaporate well ||  || Humid air holds more water, so sweat evaporates slowly and cooling is weaker.
+dh-035 | 2 | short | A heat dome is a strong area of what kind of pressure that traps hot air? || high pressure | high | a high ||  || The air acts like a lid over the region.
+dh-036 | 2 | short | Which is the main reason a drought can become a wildfire problem: dry plants or heavy clouds? || dry plants | dry vegetation | dry fuel | dry ||  || A spark can start a fire that spreads quickly.
+dh-037 | 2 | short | Overnight temperatures stay high during a heat wave. Why is this dangerous? || the body cannot cool down | no relief | body can't recover | people can't cool off | no cooling | body cannot recover ||  || Warm nights add stress, especially for older adults.

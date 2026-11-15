@@ -1,0 +1,7 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-RreH+3/X9QX6tbSZptTfwqEjApPD+aXG+RPJPxbP4w0='; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000
+  Cross-Origin-Opener-Policy: same-origin

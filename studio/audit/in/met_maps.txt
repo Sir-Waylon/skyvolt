@@ -1,0 +1,72 @@
+# meteorology-b / maps: Maps, station models, METAR  (74 questions, 62 families)
+## STUDY NOTE (what students are taught)
+A station model packs temperature, dew point, pressure, wind and sky cover into one symbol. Spot Means Upper left Temperature Lower left Dew point Upper right Pressure, last 3 digits (tenths of mb) Lower right 3-hour pressure change Center circle Sky cover (more filled = cloudier) Barb staff Points toward where wind COMES FROM Half flag / full / pennant 5 kt / 10 kt / 50 kt Pressure: 500 or more → put 9 in front. Less than 500 → put 10. 132 → 1013.2 mb 987 → 998.7 mb 047 → 1004.7 mb METAR example: KOKC 202153Z 18018G28KT 6SM TSRA BKN040CB 27/22 A2985 Part Meaning KOKC Station 202153Z Day 20, 21:53 UTC 18018G28KT From 180° at 18 kt, gusts 28 kt 6SM Visibility 6 statute miles TSRA Thunderstorm with rain BKN040CB Broken clouds at 4,000 ft, cumulonimbus 27/22 Temp 27°C, dew point 22°C A2985 Altimeter 29.85 inHg Sky: FEW 1–2/8, SCT 3–4/8, BKN 5–7/8, OVC 8/8. Height × 100 ft. Negative temps start with M (M05 = −5°C).
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+maps-001 | 1 | short | On a station model, where is the dew point plotted? || Lower left | Lower lefts || Upper left ; Upper right ; Lower right || Temperature is upper left, dew point lower left.
+maps-002 | 1 | mcq | On a station model, which part shows how cloudy it is? || The filled amount of the center circle || The number at upper right ; The length of the wind staff ; The number at lower right || A more filled circle means more sky cover.
+maps-003 | 1 | mcq | A wind barb staff points toward the… || Direction the wind comes from || Direction the wind is going ; Nearest high pressure ; Nearest storm || Wind direction is always where the wind comes FROM.
+maps-004 | 2 | short | A station model shows pressure code 998. What is the pressure? || 999.8 (tol 0.005) || 1099.8 mb ; 99.8 mb ; 998.0 mb || 500 or more: put 9 in front and use a decimal before the last digit.
+maps-005 | 2 | short | A station model shows pressure code 021. What is the pressure? || 1002.1 (tol 0.005) || 902.1 mb ; 1021 mb ; 1002 mb || Under 500: put 10 in front.
+maps-006 | 2 | mcq | A wind barb has one pennant (triangle) and one full flag. What is the wind speed? || 60 knots || 15 knots ; 55 knots ; 100 knots || Pennant 50 + full flag 10 = 60 kt.
+maps-007 | 2 | mcq | On a station model, the dew point is 2 °C below the temperature. What is likely? || Fog or low cloud is possible || Very dry and clear ; Heavy hail ; Strong wind shear || A small spread means the air is nearly saturated.
+maps-008 | 3 | mcq | The 3-hour pressure tendency at a station is falling quickly. What does this suggest? || A system with lower pressure is approaching || A high-pressure ridge is building ; Skies will clear soon ; Winds will fall to calm || Rapid falls signal an approaching low or storm.
+maps-009 | 2 | mcq | In a METAR, what does 18018G28KT mean? || Wind from 180° at 18 kt gusting 28 kt || Wind toward 180° at 28 kt ; Wind from 18° at 180 kt ; Visibility 18 miles in a 28 kt storm || Group order is direction (3 digits), speed, G gust, KT knots.
+maps-010 | 2 | mcq | In a METAR, what does BKN040 mean? || Broken clouds at 4,000 ft || Broken clouds at 40 ft ; Scattered clouds at 4,000 ft ; Overcast at 400 ft || BKN is 5–7 eighths. Height is in hundreds of feet.
+maps-011 | 2 | short | In a METAR, which code means a complete cloud layer of 8/8 coverage? || OVC || BKN ; SCT ; FEW || OVC = overcast.
+maps-012 | 2 | mcq | In a METAR, the temperature group M03/M08 means… || −3 °C air and −8 °C dew point || 3 °C air and 8 °C dew point ; −3 °C air and 8 °C dew point ; 3 °C air and −8 °C dew point || M means minus. The first value is temperature.
+maps-013 | 2 | mcq | In a METAR, A2992 is the… || Altimeter setting 29.92 inHg || Wind gust of 29.92 kt ; Temperature 29.2 °C ; Cloud height 2,992 ft || A followed by four digits gives pressure in inches of mercury.
+maps-014 | 2 | short | In a METAR, what does TSRA tell you? || Thunderstorm with rain | Thunderstorm with rains || Tornado with rain ; Tropical storm ; Trace snow, rain || TS thunderstorm, RA rain.
+maps-015 | 3 | mcq | A METAR lists wind 24025G40KT and BKN015CB. What hazard does CB point to? || Cumulonimbus with possible storms and gusts || Cirrus with fair weather ; Fog at the surface ; A weak sea breeze || CB means cumulonimbus (towering convection).
+maps-016 | 1 | mcq | What does Z mean in a METAR time like 202153Z? || UTC (Zulu) time || Zone 1 local time ; Zero wind ; Zero visibility || Z is Coordinated Universal Time.
+maps-017 | 2 | short | Isobars close together on a surface map mean… || Strong winds | Strong wind || Weak winds ; Clear skies ; A front is moving over || A tight pressure gradient drives stronger wind.
+maps-018 | 3 | mcq | A station reports temperature 15 °C and dew point 14 °C with wind calm after dark. What is most likely? || Fog formation || A thunderstorm ; Blizzard conditions ; A dust storm || A tiny spread plus calm winds at night favors fog.
+maps-019 | 1 | short | In this station model, what is the temperature (°F)? || 61.0 (tol 0.005) ||  || It reads 61.
+maps-020 | 2 | short | The station model shows temperature (upper left) and dew point (lower left). How many °F apart are they? || 3.0 (tol 0.005) ||  || 83 − 80 = 3.
+maps-021 | 3 | short | Decode the 3-digit pressure code in the station model into millibars (to one decimal). Hint: values near 1000 mb. || 1039.2 (tol 0.06) ||  || Result: 1039.2 mb.
+maps-022 | 2 | short | Read the wind barb. Speed in knots? (Full barb = 10, half barb = 5, pennant = 50.) || 60.0 (tol 0.005) ||  || Total = 60 knots.
+maps-023 | 2 | short | The staff points toward the direction the wind blows FROM. Which wind is shown? || From the west | From the wests || From the east ; From the northeast ; From the northwest || It points west, so a west wind.
+### FAMILY bb3: 8 generated variants of one template (3 shown; numbers vary)
+maps-024 | 1 | short | A north wind blows from the north. A wind from the northeast is called a… || northeast wind | northeast winds || west wind ; northwest wind ; east wind || northeast wind.
+maps-025 | 1 | short | A north wind blows from the north. A wind from the northwest is called a… || northwest wind | northwest winds || north wind ; east wind ; south wind || northwest wind.
+maps-026 | 1 | short | A north wind blows from the north. A wind from the west is called a… || west wind | west winds || north wind ; south wind ; east wind || west wind.
+### FAMILY pr1: 6 generated variants of one template (3 shown; numbers vary)
+maps-032 | 3 | short | Convert 1000 millibars to inches of mercury (nearest hundredth). (1 inHg = 33.86 mb) || 29.53 (tol 0.03) ||  || 1000 ÷ 33.86 = 29.53.
+maps-033 | 3 | short | Convert 1013 millibars to inches of mercury (nearest hundredth). (1 inHg = 33.86 mb) || 29.91 (tol 0.03) ||  || 1013 ÷ 33.86 = 29.91.
+maps-034 | 3 | short | Convert 960 millibars to inches of mercury (nearest hundredth). (1 inHg = 33.86 mb) || 28.35 (tol 0.03) ||  || 960 ÷ 33.86 = 28.35.
+maps-038 | 2 | short | Which front does this symbol show? || Stationary front | Stationary fronts || Occluded front ; Warm front ; Cold front || Triangles = cold. Half-circles = warm. Both on opposite sides = stationary. Both on the same side = occluded.
+maps-039 | 1 | short | The sky circle in this station model shows… || Scattered | Scattereds || Overcast ; Broken-ish (half covered) ; Clear || A filled circle means more cloud cover.
+maps-040 | 1 | short | Lines of equal pressure on a map are called… || Isobars | Isobar || Isotherms ; Isohyets ; Contours || Iso = equal; bar = pressure.
+maps-041 | 1 | short | Lines of equal temperature are called… || Isotherms | Isotherm || Isobars ; Isotachs ; Isodrosotherms || Therm = heat.
+maps-042 | 2 | short | Isobars close together mean… || Strong winds | Strong wind || Light winds ; Rain ; Cold air || Steep pressure change makes strong wind.
+maps-043 | 1 | short | Winds around a surface high pressure in the Northern Hemisphere blow… || Clockwise and outward | Clockwise and outwards || Counterclockwise and inward ; Clockwise and inward ; Counterclockwise and outward || High pressure: sinking, clear air; spins clockwise.
+maps-044 | 1 | short | Winds around a low pressure in the Northern Hemisphere blow… || Counterclockwise and inward | Counterclockwise and inwards || Clockwise and outward ; Clockwise and inward ; Straight in || Low = rising air, clouds, storms.
+maps-045 | 2 | short | A METAR begins with a four-letter code such as KSFO. What is it? || The airport identifier | The airport identifiers || The wind speed ; The time ; The temperature || K = United States, then the airport.
+maps-046 | 2 | mcq | In a METAR, 'BKN' means… || Broken clouds (5/8 to 7/8 covered) || Blowing snow ; Broken record ; No clouds || BKN = broken.
+maps-047 | 2 | short | In a METAR, 'OVC' means… || Overcast | Overcasts || Overshoot ; Over clear ; Observed visually clear || OVC = overcast.
+maps-048 | 2 | short | METAR 'SKC' or 'CLR' means… || Clear sky | Clear skys || Scattered cloud ; Smoke ; Squall || Clear skies.
+maps-049 | 2 | mcq | In a METAR, '18010KT' means wind from… || 180° at 10 knots || 18 knots from 010° ; 180 mph ; 10° at 18 knots || First three digits direction, next two speed.
+maps-050 | 3 | mcq | METAR '18015G25KT' means wind from 180° at 15 knots with… || Gusts to 25 knots || Gradient to 25 ; Gale of 25 ; Gauge 25 || G = gust.
+maps-051 | 2 | short | In a METAR, 'RA' stands for… || Rain || Radar ; Radiosonde ; Rime || RA = rain; SN = snow.
+maps-052 | 2 | short | METAR 'TSRA' means… || Thunderstorm with rain | Thunderstorm with rains || Tornado with rain ; Tropical storm ; Turbulence || TS = thunderstorm.
+maps-053 | 1 | short | On a weather map, what does a large letter H mean? || high pressure | high ||  || High pressure usually brings clear, calm weather.
+maps-054 | 1 | short | On a weather map, what does a large letter L mean? || low pressure | low ||  || Low pressure usually brings clouds and storms.
+maps-055 | 1 | short | Lines on a weather map that connect places with equal air pressure are called… || isobars | isobar ||  || So these lines are isobars.
+maps-056 | 1 | short | Lines on a weather map that connect places with equal temperature are called… || isotherms | isotherm ||  || So these lines are isotherms.
+maps-057 | 1 | short | A blue line with triangles on a weather map shows which kind of front? || cold front | cold ||  || Blue lines with triangles are cold fronts.
+maps-058 | 1 | short | A red line with half-circles on a weather map shows which kind of front? || warm front | warm ||  || Red lines with half-circles are warm fronts.
+maps-059 | 1 | short | On a station model, a completely filled-in circle means the sky is… || overcast | covered | cloudy | fully cloudy ||  || A filled circle means all of it: overcast.
+maps-060 | 1 | short | On a station model, an empty circle means the sky is… || clear | no clouds | sunny | cloudless ||  || The sky is clear.
+maps-061 | 1 | short | On a map, 1 cm stands for 50 km. Two cities are 4 cm apart on the map. How many kilometers apart are they? || 200.0 (tol 0.02) ||  || 4 × 50 = 200 km.
+maps-062 | 1 | short | In the Northern Hemisphere, winds around a low-pressure center spin clockwise or counterclockwise? || counterclockwise | counter-clockwise | anticlockwise | counter clockwise ||  || In the Northern Hemisphere that turn is counterclockwise.
+maps-063 | 1 | short | In the Northern Hemisphere, winds around a high-pressure center spin clockwise or counterclockwise? || clockwise ||  || In the Northern Hemisphere highs spin clockwise.
+maps-064 | 2 | short | A station model shows the pressure code 132. Add a leading 10 and put a decimal before the last digit. What is the pressure in hPa? || 1013.2 (tol 0.001) ||  || 132 becomes 1013.2 hPa.
+maps-065 | 2 | short | A station model shows the pressure code 987. For codes starting with 5 to 9, put a 9 in front and a decimal before the last digit. What is the pressure in hPa? || 998.7 (tol 0.001) ||  || Place the decimal before the last digit: 998.7 hPa.
+maps-066 | 2 | short | A wind barb has one long barb and one short barb. What is the wind speed in knots? (long = 10, short = 5) || 15.0 (tol 0.02) ||  || The wind is 15 knots.
+maps-067 | 2 | short | A wind barb has one flag (pennant, 50 knots) and two long barbs (10 knots each). What is the wind speed in knots? || 70.0 (tol 0.02) ||  || 50 + 10 + 10 = 70 knots.
+maps-068 | 2 | short | A METAR reports wind 29008KT. From what direction, in degrees, is the wind blowing? || 290.0 (tol 0.02) ||  || 290° is a wind from the west-northwest.
+maps-069 | 2 | short | In a METAR, the group 18/09 gives temperature and dew point in °C. Which number is the dew point? || 09 | 9 | 9 degrees | 09 degrees ||  || The dew point is 09 °C, so the air is 9 °C from saturation.
+maps-070 | 2 | short | On a surface map, are winds stronger where isobars are close together or far apart? || close together | closer | close | packed together | close together. ||  || A big pressure change over a short distance drives stronger wind.
+maps-071 | 2 | compass | A station model has its wind staff pointing toward the northwest. The wind is blowing FROM the northwest. Drag the pointer to that direction. ||  ||  || Northwest is 315° (N = 0°, E = 90°, S = 180°, W = 270°).
+maps-072 | 2 | compass | The wind is blowing FROM the southeast. Drag the pointer to the direction the wind comes from. ||  ||  || That is 135°.
+maps-073 | 2 | short | On a weather map, two stations are 2.5 cm apart and 1 cm equals 120 km. How far apart are the stations? || 300.0 (tol 0.02) ||  || Distance = 300 km.
+maps-074 | 2 | short | A stationary front is drawn with alternating red half-circles and blue triangles on opposite sides. What does the front do? || it does not move | stays in place | doesn't move | does not move much | stalls | stays put ||  || The boundary stays nearly in place.

@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});const p=await b.newPage({viewport:{width:400,height:820}});await p.goto('file://'+process.argv[2]);await p.waitForTimeout(400);
+for(const v of (process.argv[3]||'home').split(',')){await p.evaluate(v=>show(v),v);await p.waitForTimeout(150);await p.screenshot({path:'ck/s_'+v+'.png',fullPage:false})}
+await p.evaluate(()=>start({mode:'learn',topics:['virpe'],n:3,types:['mcq']}));await p.click('.opt');await p.waitForTimeout(200);await p.screenshot({path:'ck/s_q.png'});await b.close()})()

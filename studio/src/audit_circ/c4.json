@@ -1,0 +1,1726 @@
+{
+ "fix": {
+  "circ-009": {
+   "num": {
+    "v": 6.0,
+    "tol": 0.02,
+    "u": "kΩ"
+   }
+  },
+  "circ-040": {
+   "num": {
+    "v": 4.4,
+    "tol": 0.02,
+    "u": "kΩ"
+   },
+   "l": 2,
+   "b": 0.3
+  },
+  "circ-020": {
+   "q": "A wire is accidentally connected across the terminals of a battery that has a little internal resistance. R1 and R2 are in parallel with each other across the battery. What happens to the current through R1?"
+  },
+  "circ-229": {
+   "num": {
+    "v": 133.3,
+    "tol": 0.02,
+    "u": "Ω"
+   }
+  },
+  "circ-031": {
+   "l": 2,
+   "b": 0.3
+  },
+  "kirch-010": {
+   "l": 2,
+   "b": 0.2
+  },
+  "kirch-007": {
+   "l": 2,
+   "b": 0.4
+  },
+  "kirch-011": {
+   "num": {
+    "v": 1.7,
+    "tol": 0.02,
+    "u": "A"
+   }
+  }
+ },
+ "del": [
+  "circ-296",
+  "kirch-012"
+ ],
+ "del_family": [
+  "# X is across a # kΩ resistor. The current is:",
+  "Three resistors of # Ω, # Ω, and # Ω are in series. The equi",
+  "X # X battery drives three series resistors. Two drop # X an",
+  "At a junction, # X and # X flow in. One wire carries # X out"
+ ],
+ "new": [
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -1,
+   "fp": "c4_1",
+   "type": "short",
+   "q": "What is the SI unit of electric current?",
+   "text": [
+    "ampere",
+    "amp",
+    "amps",
+    "amperes",
+    "A"
+   ],
+   "w": "Current is measured in amperes (amps, A).",
+   "sol": [
+    "1 A means 1 coulomb of charge passes a point each second.",
+    "Volts measure push (voltage); ohms measure opposition (resistance)."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -1,
+   "fp": "c4_2",
+   "type": "short",
+   "q": "What is the unit of resistance?",
+   "text": [
+    "ohm",
+    "ohms",
+    "Ω"
+   ],
+   "w": "Resistance is measured in ohms (Ω).",
+   "sol": [
+    "Resistance tells how hard it is to push current through a part.",
+    "1 Ω lets 1 A flow when 1 V pushes."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.9,
+   "fp": "c4_3",
+   "type": "short",
+   "q": "A toy motor runs on 6 V and draws 2 A. How many watts does it use?",
+   "num": {
+    "v": 12.0,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Power is voltage times current.",
+   "sol": [
+    "Watts = volts × amps.",
+    "6 × 2 = 12 W."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.8,
+   "fp": "c4_4",
+   "type": "short",
+   "q": "A 4 Ω resistor carries 3 A. What voltage is across it?",
+   "num": {
+    "v": 12.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "Ohm's law: V = I × R.",
+   "sol": [
+    "Voltage = current × resistance.",
+    "3 × 4 = 12 V."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.8,
+   "fp": "c4_5",
+   "type": "short",
+   "q": "Which wiring always gives an equivalent resistance LESS than any single resistor in it: series or parallel?",
+   "text": [
+    "parallel",
+    "in parallel"
+   ],
+   "w": "Parallel adds extra paths, so the total resistance falls below the smallest branch.",
+   "sol": [
+    "More paths for current means less opposition overall.",
+    "Series adds resistance, so it ends up bigger than the largest."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.8,
+   "fp": "c4_6",
+   "type": "mcq",
+   "q": "Three bulbs are wired in SERIES to one battery. One filament breaks. What happens to the other two?",
+   "o": [
+    "They go dark, because the loop is broken",
+    "They stay the same",
+    "They get brighter",
+    "They get dimmer but stay lit"
+   ],
+   "w": "A series circuit has only one path, so a break anywhere stops current everywhere.",
+   "sol": [
+    "Series means one path only.",
+    "No path means zero current in every bulb.",
+    "Parallel bulbs would stay lit, because each has its own path."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.6,
+   "fp": "c4_7",
+   "type": "mcq",
+   "q": "Why must power be off before measuring a resistor with an ohmmeter?",
+   "o": [
+    "The meter sends its own small current, and outside voltage would spoil the reading",
+    "The resistor changes value when powered",
+    "An ohmmeter measures voltage",
+    "The battery would be recharged"
+   ],
+   "w": "An ohmmeter finds resistance by pushing its own small current and seeing how much flows.",
+   "sol": [
+    "Another source in the circuit adds extra current the meter cannot tell apart.",
+    "Also isolate the part so other paths do not read in parallel."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.5,
+   "fp": "c4_8",
+   "type": "mcq",
+   "q": "Two identical 9 V batteries are joined in PARALLEL (+ to +, − to −). The combined voltage is:",
+   "o": [
+    "9 V",
+    "18 V",
+    "4.5 V",
+    "0 V"
+   ],
+   "w": "Parallel cells keep the same voltage but can supply more current for longer.",
+   "sol": [
+    "Series cells add voltage.",
+    "Parallel cells share the load instead.",
+    "So voltage stays 9 V while capacity goes up."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 1,
+   "b": -0.5,
+   "fp": "c4_9",
+   "type": "short",
+   "q": "Three 12 Ω resistors are in series. What is the total resistance in ohms?",
+   "num": {
+    "v": 36.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Series resistances add.",
+   "sol": [
+    "Same single path, so the opposition stacks up.",
+    "12 + 12 + 12 = 36 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0,
+   "fp": "c4_10",
+   "type": "short",
+   "q": "A 12 V source drives a 4 kΩ and a 2 kΩ resistor in series. What is the voltage across the 2 kΩ resistor?",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "Voltage divider: the 2 kΩ gets 2/6 of the 12 V.",
+   "sol": [
+    "Total R = 6 kΩ.",
+    "Share of voltage = share of resistance = 2/6 = 1/3.",
+    "12 × 1/3 = 4 V."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0,
+   "fp": "c4_11",
+   "type": "short",
+   "q": "A 60 W bulb runs for 5 minutes. How many joules does it use?",
+   "num": {
+    "v": 18000.0,
+    "tol": 0.02,
+    "u": "J"
+   },
+   "w": "Energy = power × time, with time in seconds.",
+   "sol": [
+    "1 W = 1 joule per second.",
+    "5 min = 300 s.",
+    "60 × 300 = 18 000 J."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0,
+   "fp": "c4_12",
+   "type": "short",
+   "q": "A 3000 mAh battery pack powers a robot that draws a steady 250 mA. About how many hours does it run?",
+   "num": {
+    "v": 12.0,
+    "tol": 0.02,
+    "u": "h"
+   },
+   "w": "Hours = capacity ÷ current.",
+   "sol": [
+    "mAh means milliamp-hours: current times time.",
+    "3000 ÷ 250 = 12 h."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0,
+   "fp": "c4_13",
+   "type": "short",
+   "q": "A heater plugged into 120 V draws 10 A. What is its resistance in ohms?",
+   "num": {
+    "v": 12.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Rearrange Ohm's law: R = V/I.",
+   "sol": [
+    "Ohm's law is V = IR.",
+    "R = 120 ÷ 10 = 12 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_14",
+   "type": "short",
+   "q": "A resistor has 5 V across it and dissipates 0.5 W. What is its resistance in ohms?",
+   "num": {
+    "v": 50.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Use P = V²/R, so R = V²/P.",
+   "sol": [
+    "V² = 25.",
+    "R = 25 ÷ 0.5 = 50 Ω.",
+    "Check: I = P/V = 0.1 A, and 5 V ÷ 0.1 A = 50 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_15",
+   "type": "short",
+   "q": "What single resistor, added in PARALLEL with a 100 Ω resistor, makes the pair equal 80 Ω? Give ohms.",
+   "num": {
+    "v": 400.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Subtract conductances: 1/R = 1/80 − 1/100.",
+   "sol": [
+    "1/R = 0.0125 − 0.0100 = 0.0025.",
+    "R = 400 Ω.",
+    "Check: 100 × 400 ÷ 500 = 80 Ω. Adding a parallel part always lowers the total."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_16",
+   "type": "short",
+   "q": "A 1.2 kW heater runs 3 hours. Electricity costs $0.30 per kWh. What is the cost in dollars?",
+   "num": {
+    "v": 1.08,
+    "tol": 0.02,
+    "u": "$"
+   },
+   "w": "Energy in kWh = kW × hours; cost = energy × price.",
+   "sol": [
+    "1.2 × 3 = 3.6 kWh.",
+    "3.6 × 0.30 = $1.08."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_17",
+   "type": "short",
+   "q": "You need exactly 5 V across a 10 kΩ load from a 12 V supply, using one resistor in series with the load. What series resistance (in ohms) is needed?",
+   "num": {
+    "v": 14000.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "The series resistor must drop the extra 7 V at the load's current.",
+   "sol": [
+    "Load current = 5 V ÷ 10 kΩ = 0.5 mA.",
+    "Series resistor drops 12 − 5 = 7 V.",
+    "R = 7 ÷ 0.0005 = 14 000 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.4,
+   "fp": "c4_18",
+   "type": "short",
+   "q": "Doubling the voltage across a fixed resistor makes its power how many times larger?",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": "×"
+   },
+   "w": "P = V²/R, so power grows with the square of the voltage.",
+   "sol": [
+    "R stays the same, so current also doubles.",
+    "P = V × I becomes 2 × 2 = 4 times."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_19",
+   "type": "mcq",
+   "q": "On a graph of voltage (vertical) against current (horizontal) for a resistor, the slope equals:",
+   "o": [
+    "the resistance",
+    "the power",
+    "the conductance",
+    "the battery's internal resistance"
+   ],
+   "w": "V = IR is a straight line through the origin, and its slope is R.",
+   "sol": [
+    "Slope is rise over run, which is V/I.",
+    "V/I is the resistance.",
+    "A steeper line means a larger resistor."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_20",
+   "type": "mcq",
+   "q": "Bulbs A and B are in parallel on an ideal battery. A switch is in series with B only. Closing the switch makes A:",
+   "o": [
+    "unchanged, and the battery current rises",
+    "dimmer, and the battery current falls",
+    "brighter, and the battery current rises",
+    "unchanged, and the battery current stays the same"
+   ],
+   "w": "A still has the full battery voltage. The new branch adds current drawn from the battery.",
+   "sol": [
+    "Each parallel branch sees the battery voltage by itself.",
+    "Bulb A is not affected.",
+    "Total current = I_A + I_B goes up."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.4,
+   "fp": "c4_21",
+   "type": "mcq",
+   "q": "Four equal resistors are in series on 12 V. A voltmeter reads 0 V across R1, 0 V across R2, 12 V across R3 and 0 V across R4. The fault is:",
+   "o": [
+    "R3 is open",
+    "R3 is shorted",
+    "The battery is dead",
+    "R1 and R2 are shorted"
+   ],
+   "w": "With no current, only an open part can show the full source voltage.",
+   "sol": [
+    "An open part has the whole voltage across its gap.",
+    "Others carry no current, so they have no drop.",
+    "A shorted R3 would read 0 V and the others would share 12 V."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.4,
+   "fp": "c4_22",
+   "type": "mcq",
+   "q": "A multimeter is set to measure current. To read the current through one resistor you must:",
+   "o": [
+    "break the loop and insert the meter in series",
+    "place the leads across the resistor",
+    "touch the leads to the battery terminals",
+    "remove the resistor and leave a gap"
+   ],
+   "w": "The meter must carry the same current it measures.",
+   "sol": [
+    "An ammeter has very low resistance.",
+    "Across a part it would act like a short and may blow its fuse.",
+    "So open the loop and put it in line."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.1,
+   "fp": "c4_23",
+   "type": "match",
+   "q": "Match each meter to how it is connected and its resistance.",
+   "pairs": [
+    [
+     "Voltmeter",
+     "In parallel, very high resistance"
+    ],
+    [
+     "Ammeter",
+     "In series, very low resistance"
+    ],
+    [
+     "Ohmmeter",
+     "Across a part with the power off"
+    ]
+   ],
+   "w": "Each meter must not change the circuit it measures.",
+   "sol": [
+    "A voltmeter must draw almost no current, so its resistance is huge.",
+    "An ammeter must add almost no resistance, so it is tiny.",
+    "An ohmmeter supplies its own current, so the circuit must be off."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_24",
+   "type": "mcq",
+   "q": "Which is the correct power formula to use for two bulbs in PARALLEL when you know both resistances?",
+   "o": [
+    "P = V²/R, because both have the same voltage",
+    "P = I²R, because both have the same current",
+    "P = V/R, because power is current",
+    "P = R/V²"
+   ],
+   "w": "Parallel parts share voltage, so compare V²/R. Series parts share current, so compare I²R.",
+   "sol": [
+    "Ask what is shared.",
+    "Parallel shares voltage.",
+    "Smaller R gives larger V²/R, so the smaller R is brighter."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 0.8,
+   "fp": "c4_25",
+   "type": "short",
+   "q": "One bulb lights on a battery. Then two such identical bulbs in SERIES are used on the same ideal battery. Each series bulb has what fraction of the single bulb's power?",
+   "num": {
+    "v": 0.25,
+    "tol": 0.02,
+    "u": ""
+   },
+   "w": "Each bulb gets half the voltage and half the current, so one quarter the power.",
+   "sol": [
+    "Series: total R doubles, so the current halves.",
+    "Each bulb now has half the voltage as well.",
+    "P = V × I gives 1/2 × 1/2 = 1/4."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 0.8,
+   "fp": "c4_26",
+   "type": "mcq",
+   "q": "A wire's length and its diameter are both doubled. Its resistance becomes:",
+   "o": [
+    "half as large",
+    "twice as large",
+    "four times as large",
+    "unchanged"
+   ],
+   "w": "R grows with length but falls with cross-section area, and area goes as diameter squared.",
+   "sol": [
+    "R ∝ L/A.",
+    "Length × 2 and area × 4.",
+    "R × 2/4 = 1/2."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 0.9,
+   "fp": "c4_27",
+   "type": "short",
+   "q": "A 120 V, 60 W bulb and a 120 V, 100 W bulb are wired in series across 120 V. Find the power in the 60 W bulb in watts.",
+   "num": {
+    "v": 23.4375,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Find each resistance from R = V²/P, then the series current.",
+   "sol": [
+    "R60 = 14400/60 = 240 Ω; R100 = 14400/100 = 144 Ω.",
+    "I = 120/384 = 0.3125 A.",
+    "P = I²R = 0.3125² × 240 = 23.4 W. The 60 W bulb is brighter in series, because the larger resistance gets more power."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_28",
+   "type": "short",
+   "q": "A 120 V circuit has a 15 A breaker. A 1500 W heater and a 600 W toaster are both plugged in (parallel). What total current do they draw?",
+   "num": {
+    "v": 17.5,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Powers add; I = P/V.",
+   "sol": [
+    "Total power = 2100 W.",
+    "I = 2100/120 = 17.5 A.",
+    "That is over 15 A, so the breaker trips."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_29",
+   "type": "short",
+   "q": "Three 100 Ω, ¼ W resistors are in SERIES. What is the largest voltage across the whole string without exceeding any rating? Give volts.",
+   "num": {
+    "v": 15.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "Each resistor can carry I = √(P/R) = 0.05 A.",
+   "sol": [
+    "Safe current = √(0.25/100) = 50 mA.",
+    "String resistance = 300 Ω.",
+    "V = 0.05 × 300 = 15 V."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.6,
+   "fp": "c4_30",
+   "type": "short",
+   "q": "A 100 Ω and a 400 Ω resistor, each rated ¼ W, are in PARALLEL. What is the largest total power the pair can dissipate without exceeding a rating? Give watts.",
+   "num": {
+    "v": 0.3125,
+    "tol": 0.03,
+    "u": "W"
+   },
+   "w": "Parallel means same voltage. The 100 Ω resistor reaches its limit first at 5 V.",
+   "sol": [
+    "100 Ω: V max = √(0.25 × 100) = 5 V.",
+    "400 Ω could take 10 V, so 5 V rules.",
+    "P = 5²/100 + 5²/400 = 0.25 + 0.0625 = 0.3125 W."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.5,
+   "fp": "c4_31",
+   "type": "short",
+   "q": "A 12 V source feeds node A. From A, 100 Ω goes to P and 300 Ω goes to Q. From P, 200 Ω goes to ground; from Q, 100 Ω goes to ground. A 100 Ω resistor links P to Q. Find the current in the link, in amps (magnitude).",
+   "num": {
+    "v": 0.0206897,
+    "tol": 0.03,
+    "u": "A"
+   },
+   "w": "Write KCL at P and at Q to find the two node voltages, then use Ohm's law on the link.",
+   "sol": [
+    "KCL at P: (12 − Vp)/100 = Vp/200 + (Vp − Vq)/100.",
+    "KCL at Q: (12 − Vq)/300 + (Vp − Vq)/100 = Vq/100.",
+    "Solve: Vp = 6.62 V, Vq = 4.55 V.",
+    "Link current = (6.62 − 4.55)/100 = 0.0207 A."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_32",
+   "type": "short",
+   "q": "A balanced bridge: R1 = 120 Ω and R2 = 180 Ω form one side; R3 = 250 Ω and an unknown Rx form the other. The meter between the midpoints reads zero. Find Rx in ohms.",
+   "num": {
+    "v": 375.0,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Zero meter current means both dividers have the same ratio: R1/R2 = R3/Rx.",
+   "sol": [
+    "Same midpoint voltage means same ratio.",
+    "Rx = R3 × R2/R1 = 250 × 180/120.",
+    "Rx = 375 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.3,
+   "fp": "c4_33",
+   "type": "mcq",
+   "q": "In a balanced Wheatstone bridge, the resistor joining the two midpoints carries:",
+   "o": [
+    "no current, so removing it changes nothing",
+    "the largest current",
+    "the same current as the source",
+    "half the source current"
+   ],
+   "w": "Both midpoints sit at the same voltage, so nothing pushes current through the link.",
+   "sol": [
+    "Balanced dividers give equal midpoint voltages.",
+    "No voltage difference means no current.",
+    "So you can take the link out or short it with no change."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_34",
+   "type": "short",
+   "q": "A 12 V battery has internal resistance 0.5 Ω and powers a 5.5 Ω lamp. A second identical 5.5 Ω lamp is added in PARALLEL. What is the battery's terminal voltage afterward? Give volts.",
+   "num": {
+    "v": 10.1538,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "More current means a bigger voltage drop inside the battery.",
+   "sol": [
+    "New load = 5.5 ∥ 5.5 = 2.75 Ω.",
+    "I = 12/(2.75 + 0.5) = 3.69 A.",
+    "Terminal V = 12 − 3.69 × 0.5 = 10.15 V, down from 11 V with one lamp."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.3,
+   "fp": "c4_35",
+   "type": "short",
+   "q": "A divider has two 10 kΩ resistors across 10 V. A voltmeter with 10 kΩ input resistance is placed across the lower resistor. What does it read? Give volts.",
+   "num": {
+    "v": 3.33333,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "The meter is in parallel with the lower resistor and loads it.",
+   "sol": [
+    "10 kΩ ∥ 10 kΩ = 5 kΩ.",
+    "V = 10 × 5/(10 + 5) = 3.33 V.",
+    "Not the 5 V you would expect: a real meter changes what it measures."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.3,
+   "fp": "c4_36",
+   "type": "short",
+   "q": "An ammeter of 2 Ω resistance is inserted in series in a circuit of 10 V and 8 Ω. What current does it read? Give amps.",
+   "num": {
+    "v": 1.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "The meter adds its own resistance to the loop.",
+   "sol": [
+    "True current without the meter: 10/8 = 1.25 A.",
+    "With the meter: 10/(8 + 2) = 1.0 A.",
+    "So the meter reads 20% low."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 2.0,
+   "fp": "c4_37",
+   "type": "mcq",
+   "q": "A 12 V source has internal resistance 6 Ω. Compare the power delivered to a 3 Ω load and to a 12 Ω load.",
+   "o": [
+    "They are equal",
+    "The 3 Ω load gets more",
+    "The 12 Ω load gets more",
+    "The 12 Ω load gets twice as much"
+   ],
+   "w": "Two loads R1 and R2 give the same power when R1 × R2 = r². Here 3 × 12 = 6².",
+   "sol": [
+    "3 Ω: I = 12/9 = 1.33 A, P = 1.33² × 3 = 5.33 W.",
+    "12 Ω: I = 12/18 = 0.667 A, P = 0.667² × 12 = 5.33 W.",
+    "Maximum power would come at 6 Ω, between the two."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.5,
+   "fp": "c4_38",
+   "type": "short",
+   "q": "A source has internal resistance 3 Ω and EMF 6 V. What is the maximum power it can deliver to any load? Give watts.",
+   "num": {
+    "v": 3.0,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Maximum power transfer happens when R_load = r.",
+   "sol": [
+    "Load = 3 Ω, so total = 6 Ω.",
+    "I = 6/6 = 1 A.",
+    "P = I²R = 1 × 3 = 3 W. The other 3 W heats the source itself."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.6,
+   "fp": "c4_39",
+   "type": "mcq",
+   "q": "A 12 V battery drives a 1 kΩ and a 3 kΩ resistor in series, with the 1 kΩ next to the battery's + terminal. Ground is the node BETWEEN the resistors. What is the voltage of the battery's negative terminal?",
+   "o": [
+    "−9 V",
+    "+9 V",
+    "0 V",
+    "−3 V"
+   ],
+   "w": "Current is 3 mA. The 1 kΩ drops 3 V and the 3 kΩ drops 9 V. The negative terminal is 9 V below ground.",
+   "sol": [
+    "Current = 12 V/4 kΩ = 3 mA.",
+    "Drops: 3 V across 1 kΩ, 9 V across 3 kΩ.",
+    "Ground is the middle node, so the + side is at +3 V and the − side is at −9 V."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.1,
+   "fp": "c4_40",
+   "type": "short",
+   "q": "Two 6 Ω resistors in series form a pair. That pair is in parallel with 3 Ω, and the combination is in series with 4 Ω. Find the total resistance in ohms.",
+   "num": {
+    "v": 6.4,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "Reduce from the inside out.",
+   "sol": [
+    "6 + 6 = 12 Ω.",
+    "12 ∥ 3 = 36/15 = 2.4 Ω.",
+    "2.4 + 4 = 6.4 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_41",
+   "type": "order",
+   "q": "Rank these by power dissipated, largest first: 10 Ω across 12 V; 20 Ω across 12 V; 10 Ω and 20 Ω in series across 12 V; 10 Ω and 20 Ω in parallel across 12 V.",
+   "items": [
+    "10 Ω and 20 Ω in parallel across 12 V",
+    "10 Ω across 12 V",
+    "20 Ω across 12 V",
+    "10 Ω and 20 Ω in series across 12 V"
+   ],
+   "w": "P = V²/R_eq, so smaller equivalent resistance means more power at the same voltage.",
+   "sol": [
+    "Parallel pair: 6.67 Ω gives 21.6 W.",
+    "10 Ω gives 14.4 W; 20 Ω gives 7.2 W.",
+    "Series pair: 30 Ω gives 4.8 W."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.1,
+   "fp": "c4_42",
+   "type": "multi",
+   "q": "A lamp is shining normally on an ideal battery. Select ALL changes that would make it dimmer.",
+   "o": [
+    "Add a resistor in series with the lamp",
+    "Swap the battery for a lower-voltage one",
+    "Add a second lamp in series",
+    "Add a second lamp in parallel with the first"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "w": "Dimmer means less current through the lamp. A parallel branch leaves the first lamp's voltage unchanged.",
+   "sol": [
+    "Series resistance lowers the current.",
+    "Lower voltage lowers the current.",
+    "A second lamp in series adds resistance.",
+    "An ideal battery keeps its voltage, so a parallel lamp changes nothing for the first."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_43",
+   "type": "mcq",
+   "q": "Bulb A is in series with a parallel pair B and C (all identical, ideal battery). Bulb C burns out (open). What happens to A and B?",
+   "o": [
+    "A gets dimmer and B gets brighter",
+    "A and B both get brighter",
+    "A gets brighter and B gets dimmer",
+    "A and B stay the same"
+   ],
+   "w": "Losing C leaves one path through B, so total resistance rises and current falls. B now carries all of it.",
+   "sol": [
+    "Before: A carries I; B and C carry I/2 each.",
+    "After: total R rises (1.5 R to 2 R), so the current falls.",
+    "A has less current, so it dims. B now carries the full smaller current, which is bigger than before (I/2), so it brightens."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_44",
+   "type": "mcq",
+   "q": "Two identical bulbs are in series on a battery. A wire is connected across bulb 1 only. Bulb 2 becomes:",
+   "o": [
+    "brighter, and bulb 1 goes out",
+    "dimmer, and bulb 1 goes out",
+    "unchanged, and bulb 1 goes out",
+    "dark, and bulb 1 stays lit"
+   ],
+   "w": "The wire shorts bulb 1, so bulb 2 alone sets the current and gets the full voltage.",
+   "sol": [
+    "Bulb 1 has about 0 V across it, so it goes out.",
+    "Total resistance halves, so current doubles.",
+    "Bulb 2 has twice the voltage and twice the current, so it is brighter."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_45",
+   "type": "short",
+   "q": "A 6 V battery powers a 12 Ω, 24 Ω and 8 Ω resistor in parallel. How many watts does the battery supply in total?",
+   "num": {
+    "v": 9.0,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "In parallel each resistor has 6 V, and the powers add.",
+   "sol": [
+    "12 Ω: 36/12 = 3 W; 24 Ω: 36/24 = 1.5 W; 8 Ω: 36/8 = 4.5 W.",
+    "The source supplies the sum: 3 + 1.5 + 4.5 = 9 W.",
+    "Check with R_eq = 1/(1/12 + 1/24 + 1/8) = 4 Ω: 36/4 = 9 W."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_46",
+   "type": "short",
+   "q": "A 9 V battery feeds a 6 Ω resistor in series with a parallel pair of 6 Ω and 3 Ω. Find the power dissipated in the 3 Ω resistor in watts.",
+   "num": {
+    "v": 1.6875,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Find the pair's voltage first, then P = V²/R.",
+   "sol": [
+    "6 ∥ 3 = 2 Ω; R_total = 8 Ω.",
+    "I = 9/8 A, so the pair has 9/8 × 2 = 2.25 V.",
+    "P = 2.25²/3 = 1.69 W."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.1,
+   "fp": "c4_47",
+   "type": "short",
+   "q": "Three parallel branches carry 2 A, 3 A and an unknown current. The source supplies 8 A, and the voltage across every branch is 4 V. What is the unknown branch's resistance in ohms?",
+   "num": {
+    "v": 1.33333,
+    "tol": 0.02,
+    "u": "Ω"
+   },
+   "w": "KCL gives the missing branch current; then R = V/I.",
+   "sol": [
+    "Parallel branch currents add: 8 = 2 + 3 + I.",
+    "I = 3 A.",
+    "R = V/I = 4 V ÷ 3 A = 1.33 Ω."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_48",
+   "type": "mcq",
+   "q": "A student wants to find a resistor's value from a voltmeter reading and an ammeter reading, and places the voltmeter across the resistor and ammeter together. What error is built in?",
+   "o": [
+    "The voltmeter reads the resistor plus ammeter voltage, so R reads a little high",
+    "The ammeter reads the resistor current plus the voltmeter current, so R reads low",
+    "There is no error",
+    "The meters cancel each other"
+   ],
+   "w": "The voltmeter spans both the resistor and the ammeter's tiny resistance, so the voltage is slightly too big.",
+   "sol": [
+    "Ammeter is in series with the resistor and carries the true current.",
+    "Voltmeter reads V across resistor + ammeter.",
+    "R_measured = (V_R + V_A)/I, a bit larger than R."
+   ]
+  },
+  {
+   "t": "circ",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_49",
+   "type": "short",
+   "q": "A 24 V source feeds two identical resistors in series. One resistor is then replaced by a wire (shorted), and the current rises from 2 A to what value in amps?",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Shorting one of two equal series resistors halves the total resistance.",
+   "sol": [
+    "Before: R_total = 24/2 = 12 Ω, so each is 6 Ω.",
+    "After: only one 6 Ω remains.",
+    "I = 24/6 = 4 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -1,
+   "fp": "c4_50",
+   "type": "short",
+   "q": "Kirchhoff's current law rests on the conservation of which quantity?",
+   "text": [
+    "charge",
+    "electric charge"
+   ],
+   "w": "Charge cannot pile up at a node, so what flows in must flow out.",
+   "sol": [
+    "KCL: current in = current out.",
+    "Current is charge per second, so equal current means equal charge."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -0.8,
+   "fp": "c4_51",
+   "type": "short",
+   "q": "Wire A brings 4 A into a junction. Wire B takes 1.5 A out. Wire C is the only other wire. How many amps leave through C?",
+   "num": {
+    "v": 2.5,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "In = out: 4 = 1.5 + I.",
+   "sol": [
+    "Charge in per second = charge out per second.",
+    "I = 4 − 1.5 = 2.5 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -0.6,
+   "fp": "c4_52",
+   "type": "mcq",
+   "q": "KVL says voltage changes around a closed loop add to zero. This follows from conservation of:",
+   "o": [
+    "energy",
+    "charge",
+    "momentum",
+    "resistance"
+   ],
+   "w": "A charge that returns to its start has the same potential energy, so gains equal losses.",
+   "sol": [
+    "Batteries raise its energy.",
+    "Resistors use it up.",
+    "Net change after a full loop = 0."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -0.4,
+   "fp": "c4_53",
+   "type": "mcq",
+   "q": "You trace a KVL loop through a resistor in the SAME direction as the current. The voltage change is:",
+   "o": [
+    "a drop of IR",
+    "a rise of IR",
+    "zero",
+    "a rise of E"
+   ],
+   "w": "Conventional current runs from higher to lower potential through a resistor.",
+   "sol": [
+    "Follow the current: potential falls.",
+    "Write −IR in the loop sum.",
+    "Against the current it would be +IR."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -0.3,
+   "fp": "c4_54",
+   "type": "mcq",
+   "q": "You guess a current's direction and your solution gives −2 A. This means:",
+   "o": [
+    "the current really flows the other way, 2 A",
+    "your answer is wrong",
+    "the current is 2 A in your direction",
+    "there is no current"
+   ],
+   "w": "A negative sign only says the true direction is opposite to your arrow.",
+   "sol": [
+    "Directions are guesses.",
+    "The size, 2 A, is still right.",
+    "Just reverse the arrow to fix the picture."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 1,
+   "b": -0.5,
+   "fp": "c4_55",
+   "type": "mcq",
+   "q": "A node has three wires. 2 A flows in on one and 3 A flows in on another. The third wire carries:",
+   "o": [
+    "5 A out of the node",
+    "5 A into the node",
+    "1 A out of the node",
+    "Zero"
+   ],
+   "w": "All the charge arriving must leave: 2 + 3 = 5 A.",
+   "sol": [
+    "Nothing can build up at a node.",
+    "Currents in total 5 A.",
+    "So 5 A must leave."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0,
+   "fp": "c4_56",
+   "type": "short",
+   "q": "A 14.4 V car alternator charges a 12 V battery (opposing) through 0.6 Ω in total. What is the charging current? Give amps.",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "The net EMF drives current through the resistance.",
+   "sol": [
+    "Net EMF = 14.4 − 12 = 2.4 V.",
+    "I = 2.4/0.6 = 4 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_57",
+   "type": "short",
+   "q": "A jump-start joins a 12.6 V battery (0.02 Ω) to a dead 11 V battery (0.05 Ω) with cables of negligible resistance, + to + and − to −. What current flows in the loop? Give amps.",
+   "num": {
+    "v": 22.8571,
+    "tol": 0.03,
+    "u": "A"
+   },
+   "w": "One loop: net EMF divided by total resistance.",
+   "sol": [
+    "Net EMF = 12.6 − 11 = 1.6 V.",
+    "R = 0.02 + 0.05 = 0.07 Ω.",
+    "I = 1.6/0.07 = 22.9 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_58",
+   "type": "mcq",
+   "q": "Which is a correct KVL equation for one loop: a 10 V battery, 2 Ω and 3 Ω in series, clockwise current I?",
+   "o": [
+    "10 − 2I − 3I = 0",
+    "10 + 2I + 3I = 0",
+    "10 − 2I + 3I = 0",
+    "2I + 3I + 10 = 10I"
+   ],
+   "w": "The battery is a rise (+10). Each resistor is a drop (−IR). The sum is zero.",
+   "sol": [
+    "Rise: +10.",
+    "Drops: −2I and −3I.",
+    "Sum around the loop = 0, so I = 2 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.4,
+   "fp": "c4_59",
+   "type": "multi",
+   "q": "Select ALL valid statements about KCL and KVL.",
+   "o": [
+    "KCL applies at any node, even with batteries on the wires",
+    "KVL applies to any closed loop, even one with no battery",
+    "Counting current in as + and out as −, the sum at a node is zero",
+    "KVL says the current is the same everywhere in a loop"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "w": "KCL is about nodes and KVL is about loops. Neither says currents are equal everywhere.",
+   "sol": [
+    "KCL holds at every node.",
+    "KVL holds around every closed loop.",
+    "Equal current is only true for a series path, not a law."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_60",
+   "type": "match",
+   "q": "Match each law to what it says.",
+   "pairs": [
+    [
+     "KCL",
+     "Currents in = currents out at a node"
+    ],
+    [
+     "KVL",
+     "Voltage changes around a loop sum to zero"
+    ],
+    [
+     "Ohm's law",
+     "V = IR for a resistor"
+    ],
+    [
+     "Power balance",
+     "Supplied power = dissipated power"
+    ]
+   ],
+   "w": "Each law ties to a conservation idea or a component rule.",
+   "sol": [
+    "Charge: KCL.",
+    "Energy: KVL and power balance.",
+    "Ohm's law relates one resistor's V and I."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_61",
+   "type": "order",
+   "q": "Put the steps of the two-loop recipe in order.",
+   "items": [
+    "Label a current and direction in each branch",
+    "Write KCL at one node",
+    "Write KVL around two independent loops",
+    "Solve the equations",
+    "Check power supplied equals power dissipated"
+   ],
+   "w": "Set up unknowns, write independent equations, solve, then verify.",
+   "sol": [
+    "Arrows first (wrong guesses just give negative answers).",
+    "KCL, then two KVL loops.",
+    "Solve, then check with power balance."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.4,
+   "fp": "c4_62",
+   "type": "short",
+   "q": "Node X has four wires: 3 A in, 5 A in, 2 A out, and an unknown wire carrying current OUT. How many amps is the unknown?",
+   "num": {
+    "v": 6.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "In = out: 3 + 5 = 2 + I.",
+   "sol": [
+    "Currents in: 8 A.",
+    "Currents out: 2 + I.",
+    "I = 6 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_63",
+   "type": "short",
+   "q": "A 12 V source is across a 3 Ω resistor in series with a parallel pair of 6 Ω and 3 Ω. Find the current in the 3 Ω resistor of the pair. Give amps.",
+   "num": {
+    "v": 1.6,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Reduce, find the total current, then use the voltage across the pair.",
+   "sol": [
+    "6 ∥ 3 = 2 Ω; R_total = 3 + 2 = 5 Ω.",
+    "I = 12/5 = 2.4 A; voltage across the pair = 2.4 × 2 = 4.8 V.",
+    "I₃ = 4.8/3 = 1.6 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.1,
+   "fp": "c4_64",
+   "type": "short",
+   "q": "A 20 V battery drives two resistors in series. One drops 7.5 V. What does the other drop? Give volts.",
+   "num": {
+    "v": 12.5,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "KVL: the drops add up to the source voltage.",
+   "sol": [
+    "20 = 7.5 + V.",
+    "V = 12.5 V."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.2,
+   "fp": "c4_65",
+   "type": "mcq",
+   "q": "At a node, 4 A enters on wire 1 and 6 A enters on wire 2. Wire 3 carries 3 A out. How much must wire 4 carry?",
+   "o": [
+    "7 A out",
+    "7 A in",
+    "13 A out",
+    "1 A out"
+   ],
+   "w": "In = out. Total in is 10 A; wire 3 takes 3 A, so wire 4 takes the other 7 A out.",
+   "sol": [
+    "In: 4 + 6 = 10 A.",
+    "Out: 3 + I.",
+    "I = 7 A, leaving the node."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.3,
+   "fp": "c4_66",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 18 V with 3 Ω. Right branch: 12 V with 2 Ω. Shared resistor: 2 Ω. Find the voltage across the shared resistor.",
+   "num": {
+    "v": 9.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 18 = 3I₁ + 2I₃; 12 = 2I₂ + 2I₃.",
+    "Solving: I₁ = 3 A, I₂ = 1.5 A, I₃ = 4.5 A.",
+    "Shared-resistor voltage = 9 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 2,
+   "b": 0.5,
+   "fp": "c4_67",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 28 V with 2 Ω. Right branch: 15 V with 1 Ω. Shared resistor: 2 Ω. Find the current in the left battery.",
+   "num": {
+    "v": 6.75,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 28 = 2I₁ + 2I₃; 15 = 1I₂ + 2I₃.",
+    "Solving: I₁ = 6.75 A, I₂ = 0.5 A, I₃ = 7.25 A.",
+    "Shared-resistor voltage = 14.5 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_68",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 12 V with 1 Ω. Right branch: 12 V with 4 Ω. Shared resistor: 4 Ω. Find the current in the shared resistor.",
+   "num": {
+    "v": 2.5,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 12 = 1I₁ + 4I₃; 12 = 4I₂ + 4I₃.",
+    "Solving: I₁ = 2 A, I₂ = 0.5 A, I₃ = 2.5 A.",
+    "Shared-resistor voltage = 10 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.1,
+   "fp": "c4_69",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 21 V with 4 Ω. Right branch: 16 V with 1 Ω. Shared resistor: 6 Ω. Find the power dissipated in the shared resistor.",
+   "num": {
+    "v": 37.5,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 21 = 4I₁ + 6I₃; 16 = 1I₂ + 6I₃.",
+    "Solving: I₁ = 1.5 A, I₂ = 1 A, I₃ = 2.5 A.",
+    "Shared-resistor voltage = 15 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_70",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 23 V with 2 Ω. Right branch: 20 V with 1 Ω. Shared resistor: 4 Ω. Find the current in the right battery.",
+   "num": {
+    "v": 2.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 23 = 2I₁ + 4I₃; 20 = 1I₂ + 4I₃.",
+    "Solving: I₁ = 2.5 A, I₂ = 2 A, I₃ = 4.5 A.",
+    "Shared-resistor voltage = 18 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.3,
+   "fp": "c4_71",
+   "type": "short",
+   "q": "Two batteries share a middle resistor. Left branch: 21 V with 4 Ω. Right branch: 27 V with 2 Ω. Shared resistor: 2 Ω. Find the current in the left battery.",
+   "num": {
+    "v": 1.5,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Use KCL at the top node and KVL on two loops (or a node voltage).",
+   "sol": [
+    "I₃ = I₁ + I₂; 21 = 4I₁ + 2I₃; 27 = 2I₂ + 2I₃.",
+    "Solving: I₁ = 1.5 A, I₂ = 6 A, I₃ = 7.5 A.",
+    "Shared-resistor voltage = 15 V. Check: supplied power equals dissipated power."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_72",
+   "type": "short",
+   "q": "A 12 V battery (1 Ω) and a 6 V battery (1 Ω) are in parallel (+ to +) across a 2 Ω load. Find the current in the 6 V battery, magnitude in amps. (It may be charging.)",
+   "num": {
+    "v": 1.2,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "Find the common node voltage first, then each battery's current.",
+   "sol": [
+    "Node voltage = (12/1 + 6/1)/(1 + 1 + 1/2) = 7.2 V.",
+    "Current out of the 6 V cell = (6 − 7.2)/1 = -1.2 A.",
+    "Negative means current flows INTO the 6 V battery: the stronger battery is charging it."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.5,
+   "fp": "c4_73",
+   "type": "short",
+   "q": "Two voltage dividers sit across the same 12 V. Point P: 100 Ω above and 200 Ω below. Point Q: 300 Ω above and 100 Ω below. No wire joins P and Q. Find V_P − V_Q in volts.",
+   "num": {
+    "v": 5.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "With no link, each divider is separate, so no loading.",
+   "sol": [
+    "V_P = 12 × 200/300 = 8 V.",
+    "V_Q = 12 × 100/400 = 3 V.",
+    "V_P − V_Q = 5 V. This is how a bridge detects an imbalance."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.5,
+   "fp": "c4_74",
+   "type": "short",
+   "q": "Three branches join at a top node and return to a common bottom node. Branch 1: 10 V source with 2 Ω. Branch 2: 4 V source with 1 Ω. Branch 3: just 4 Ω. Find the voltage across the 4 Ω resistor in volts.",
+   "num": {
+    "v": 5.14286,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "KCL at the top node: the two source branches deliver current, and the 4 Ω takes it.",
+   "sol": [
+    "(10 − V)/2 + (4 − V)/1 = V/4.",
+    "5 + 4 = V(1/2 + 1 + 1/4) = 1.75 V.",
+    "V = 9/1.75 = 5.14 V."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_75",
+   "type": "short",
+   "q": "A circuit has 6 branches and 4 nodes. How many INDEPENDENT KVL loop equations are needed (using KCL at 3 of the nodes)?",
+   "num": {
+    "v": 3.0,
+    "tol": 0.02,
+    "u": ""
+   },
+   "w": "Independent loops = branches − nodes + 1.",
+   "sol": [
+    "Independent KCL equations = nodes − 1 = 3.",
+    "Unknown currents = 6, so 6 equations are needed in all.",
+    "KVL loops needed = 6 − 3 = 3."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_76",
+   "type": "mcq",
+   "q": "In a network, the sources supply 40 W but the resistors dissipate 45 W. What should you conclude?",
+   "o": [
+    "There is an error: power must balance",
+    "The wires supply the extra",
+    "The network gained energy",
+    "This is normal for parallel branches"
+   ],
+   "w": "Energy is conserved, so supplied power equals dissipated power.",
+   "sol": [
+    "Σ P(supplied) = Σ P(dissipated).",
+    "A mismatch means a mistake in signs or arithmetic.",
+    "Use the check to catch errors."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_77",
+   "type": "short",
+   "q": "Two batteries: E₁ = 10 V (1 Ω) and E₂ = 4 V (2 Ω) are in parallel with a 2 Ω load. How much power does the 10 V source supply (E₁ × I₁)? Give watts.",
+   "num": {
+    "v": 40.0,
+    "tol": 0.02,
+    "u": "W"
+   },
+   "w": "Find I₁ from the node voltage.",
+   "sol": [
+    "V = (10/1 + 4/2)/(1 + 1/2 + 1/2) = 6 V.",
+    "I₁ = (10 − 6)/1 = 4 A.",
+    "P = 10 × 4 = 40 W."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_78",
+   "type": "short",
+   "q": "Going from A to B along the top path you meet a 6 V rise then a 2 V drop. The bottom path has one element. By KVL, how many volts does the bottom element change the potential from A to B? (rise positive)",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "The potential difference between two points is the same along every path.",
+   "sol": [
+    "Top path: +6 − 2 = +4 V.",
+    "The bottom path must also give +4 V.",
+    "So the bottom element is a 4 V rise."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.3,
+   "fp": "c4_79",
+   "type": "mcq",
+   "q": "A loop has a 12 V battery and resistors R1 and R2 in series. A student writes 12 − IR1 + IR2 = 0. The error is:",
+   "o": [
+    "IR2 should be a drop (−IR2), since the same current flows through it the same way",
+    "The battery should be negative",
+    "KVL should sum to the battery voltage, not zero",
+    "There is no error"
+   ],
+   "w": "Both resistors are drops going with the current: 12 − IR1 − IR2 = 0.",
+   "sol": [
+    "Same current direction through both resistors.",
+    "Each makes a drop.",
+    "A sign flip on one resistor is the classic KVL mistake."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.0,
+   "fp": "c4_80",
+   "type": "short",
+   "q": "Four wires meet at a junction: A brings in 3 A, B takes out 8 A, C brings in 2 A. Wire D carries current INTO the junction. How many amps?",
+   "num": {
+    "v": 3.0,
+    "tol": 0.02,
+    "u": "A"
+   },
+   "w": "In = out: 3 + 2 + I_D = 8.",
+   "sol": [
+    "Currents in: 3 + 2 + D.",
+    "Currents out: 8.",
+    "D = 3 A."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.9,
+   "fp": "c4_81",
+   "type": "short",
+   "q": "A 12 V battery (2 Ω) and a 3 V battery (1 Ω) are joined with OPPOSITE polarity across a shared 3 Ω resistor: the 3 V battery acts as −3 V at the top node. Find the voltage across the 3 Ω resistor in volts.",
+   "num": {
+    "v": 1.63636,
+    "tol": 0.02,
+    "u": "V"
+   },
+   "w": "Treat the reversed battery as a −3 V source and write one node equation.",
+   "sol": [
+    "(12 − V)/2 + (−3 − V)/1 = V/3.",
+    "6 − 3 = V(1/2 + 1 + 1/3) = 1.833 V.",
+    "V = 3/1.833 = 1.64 V."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.6,
+   "fp": "c4_82",
+   "type": "short",
+   "q": "Two batteries E₁ = 12 V (R₁ = 2 Ω) and E₂ = 6 V (R₂ = 1 Ω) feed a shared 3 Ω resistor. Find the total power dissipated in all three resistors, in watts.",
+   "num": {
+    "v": 29.4545,
+    "tol": 0.03,
+    "u": "W"
+   },
+   "w": "Find the three currents, then add I²R, or use power supplied = E₁I₁ + E₂I₂.",
+   "sol": [
+    "Node voltage V = (12/2 + 6/1)/(1/2 + 1 + 1/3) = 6.55 V.",
+    "I₁ = 2.73 A, I₂ = -0.545 A, I₃ = 2.18 A.",
+    "Supplied = 12 × 2.73 + 6 × -0.545 = 29.5 W, and I²R adds to 29.5 W."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.1,
+   "fp": "c4_83",
+   "type": "short",
+   "q": "A network has 5 nodes. How many independent KCL equations can you write?",
+   "num": {
+    "v": 4.0,
+    "tol": 0.02,
+    "u": ""
+   },
+   "w": "The last node's equation is just the sum of the others, so it adds nothing.",
+   "sol": [
+    "Each node gives one KCL equation.",
+    "Add all five: every current appears once as in and once as out, giving 0 = 0.",
+    "So only 5 − 1 = 4 are independent."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.4,
+   "fp": "c4_84",
+   "type": "mcq",
+   "q": "A single loop has a 9 V source, a 3 Ω resistor and an unknown resistor R. The 3 Ω has 6 V across it. What is R?",
+   "o": [
+    "1.5 Ω",
+    "3 Ω",
+    "6 Ω",
+    "4.5 Ω"
+   ],
+   "w": "KVL gives R's drop (3 V), and the loop current comes from the known resistor.",
+   "sol": [
+    "Drop across R = 9 − 6 = 3 V.",
+    "I = 6 V/3 Ω = 2 A.",
+    "R = 3 V/2 A = 1.5 Ω."
+   ]
+  },
+  {
+   "t": "kirch",
+   "l": 3,
+   "b": 1.2,
+   "fp": "c4_85",
+   "type": "mcq",
+   "q": "Currents of 2.4 A and 0.9 A flow into a node, and 1.5 A flows out on a third wire. The fourth wire carries:",
+   "o": [
+    "1.8 A out of the node",
+    "1.8 A into the node",
+    "3.3 A out of the node",
+    "0.6 A out of the node"
+   ],
+   "w": "Count everything in and everything out, then the leftover decides the direction.",
+   "sol": [
+    "In: 2.4 + 0.9 = 3.3 A.",
+    "Out so far: 1.5 A.",
+    "Still 1.8 A must leave, so wire four carries 1.8 A out."
+   ]
+  }
+ ],
+ "report": "Circuit Lab C4 (circ, kirch). Fixed 8 (unit bugs: circ-009 and circ-040 answers were in ohms but unit kΩ; circ-020 made unambiguous by adding internal resistance; kirch-011 ugly float; relevels). Deleted circ-296 (lemon cell voltage unverifiable and electrode-dependent) and kirch-012 (duplicate of kirch-002). Deleted 4 families: the 'current across kΩ resistor' family (answers in mA were given as e.g. 0.003 with unit mA, a x1000 error), and three trivial near-duplicates of the kcl/kvl/series-sum families (circ junction, circ three-series KVL, circ three-series sum). Added the new questions listed (~half level 3), all computed in python (c4_build.py). Remaining doubts: families not fully visible (only 3 variants shown) may hide other unit errors; the two-source 'shared branch' templates in kirch are all numerically alike."
+}

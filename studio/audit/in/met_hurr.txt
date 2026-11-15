@@ -1,0 +1,45 @@
+# meteorology-b / hurr: Hurricanes  (48 questions, 35 families)
+## STUDY NOTE (what students are taught)
+Hurricane = typhoon = cyclone (same storm, different ocean). Needs warm water (about 26.5 °C or more), moisture, low shear, and distance from the equator. Life cycle: Invest → Depression (under 39 mph) → Tropical Storm (39–73) → Hurricane (74+) → Major (Cat 3+). Saffir-Simpson Sustained wind Cat 1 74–95 mph Cat 2 96–110 mph Cat 3 111–129 mph (major) Cat 4 130–156 mph (major) Cat 5 157+ mph (major) Parts: eye (calm, 20–40 mi), eyewall (worst winds and rain), spiral bands (can spawn tornadoes). Storm surge = water pushed onshore. Biggest with strong wind, large size, slow movement, and shallow, funnel-shaped coasts. Often the deadliest hazard. Land cuts off the heat source, so storms weaken. Shear and dry air weaken them. El Niño tends to raise shear in the Atlantic and quiet it. Atlantic season: June 1 – Nov 30.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+hurr-001 | 1 | mcq | A hurricane, a typhoon, and a cyclone are… || The same type of storm in different ocean basins || Three different storm types ; Only winter storms ; All tornadoes || Names differ by region.
+hurr-002 | 2 | mcq | Which is the correct order of tropical life cycle stages? || Invest, depression, tropical storm, hurricane || Invest, hurricane, depression, tropical storm ; Depression, invest, hurricane, storm ; Tropical storm, depression, invest, hurricane || Strengthening sequence.
+hurr-003 | 2 | mcq | A tropical storm has sustained winds of… || 39–73 mph || Under 39 mph ; 74–95 mph ; 96–110 mph || Tropical storm range.
+hurr-004 | 2 | mcq | Which condition helps hurricanes form? || Warm ocean water and low wind shear || Cold water and strong shear ; Mountains and dry air ; Cold fronts || They need heat, moisture and a vertical structure.
+hurr-005 | 2 | short | A hurricane has sustained winds of 125 mph. Its category is… || 3.0 (tol 0.005) || 2 ; 4 ; 5 || 111–129 mph is Cat 3.
+hurr-006 | 2 | short | Which category begins a "major hurricane"? || Category 3 || Category 1 ; Category 2 ; Category 4 || Cat 3 and higher.
+hurr-007 | 1 | short | The calm center of a hurricane is the… || Eye || Eyewall ; Spiral band ; Outflow || The eye is clear and calm.
+hurr-008 | 2 | short | The strongest winds and heaviest rain in a hurricane are usually in the… || Eyewall | Eyewalls || Eye ; Outer anvil ; Cloud-free region || The eyewall is the intense ring.
+hurr-009 | 2 | short | Spiral bands in a hurricane can sometimes produce… || Tornadoes | Tornadoe || Blizzards ; Dust storms ; Ice storms || Rain bands often contain rotating cells.
+hurr-010 | 2 | mcq | Storm surge is… || Ocean water pushed onshore by the storm || Rain falling inland ; Wave spray ; Tidal bore || Often the deadliest hurricane hazard.
+hurr-011 | 3 | mcq | Which hurricane would likely produce the highest storm surge? || Large, strong, slow-moving, hitting a shallow funnel-shaped coast || Small, weak, fast-moving, hitting a steep coast ; Weak storm moving away ; Any storm over deep water || Size, strength, speed and coast shape all matter.
+hurr-012 | 2 | mcq | Why do hurricanes weaken quickly over land? || They lose the warm ocean heat and moisture source || Land has more water ; Land cools the upper air ; Wind shear disappears || They depend on ocean heat.
+hurr-013 | 2 | mcq | What is the main effect of strong vertical wind shear on a hurricane? || It disrupts the storm and weakens it || It strengthens the eye ; It adds ocean heat ; It helps it form || Shear tilts and ventilates the core.
+hurr-014 | 3 | mcq | El Niño typically makes Atlantic hurricane activity… || Lower, because of stronger wind shear || Higher, because of cooler water ; The same ; More like tornadoes || Shear increases across the tropical Atlantic.
+hurr-015 | 2 | mcq | Hurricane tracks are mainly steered by… || Large-scale flow such as subtropical ridges || Ocean tides ; The Moon ; The eyewall || Steering winds guide movement.
+hurr-016 | 2 | mcq | On satellite imagery, a clear, round, symmetric eye with a ring of cold cloud tops suggests… || A strong, organized hurricane || A dying storm ; A frontal system ; A derecho || Symmetry shows a well-developed core.
+### FAMILY ss1: 10 generated variants of one template (3 shown; numbers vary)
+hurr-017 | 2 | short | A hurricane has sustained winds of 105 mph. Which Saffir–Simpson category? (1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+) || Category 2 || Category 1 ; Category 3 ; Category 4 || Category 2.
+hurr-018 | 2 | short | A hurricane has sustained winds of 115 mph. Which Saffir–Simpson category? (1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+) || Category 3 || Category 1 ; Category 2 ; Category 4 || Category 3.
+hurr-019 | 2 | short | A hurricane has sustained winds of 170 mph. Which Saffir–Simpson category? (1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+) || Category 5 || Category 1 ; Category 2 ; Category 3 || Category 5.
+### FAMILY ss2: 5 generated variants of one template (3 shown; numbers vary)
+hurr-027 | 1 | mcq | Which sustained wind range matches a Category 3 hurricane? || 111–129 mph || 74–95 mph ; 96–110 mph ; 130–156 mph || Saffir–Simpson scale: 1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+.
+hurr-028 | 1 | mcq | Which sustained wind range matches a Category 2 hurricane? || 96–110 mph || 74–95 mph ; 111–129 mph ; 130–156 mph || Saffir–Simpson scale: 1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+.
+hurr-029 | 1 | mcq | Which sustained wind range matches a Category 1 hurricane? || 74–95 mph || 96–110 mph ; 111–129 mph ; 130–156 mph || Saffir–Simpson scale: 1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+.
+hurr-032 | 1 | short | A hurricane's calm center is called the… || Eye || Core wall ; Fringe ; Spiral band || The eye is clear and calm.
+hurr-033 | 1 | short | The strongest winds in a hurricane are usually in the… || Eyewall | Eyewalls || Eye ; Outer bands ; Anvil || The ring of storms around the eye.
+hurr-034 | 2 | mcq | The hurricane season in the Atlantic is… || June 1 to November 30 || January to March ; December to February ; Only August || Peak is around September 10.
+hurr-035 | 2 | mcq | Storm surge is… || A rise of sea water pushed ashore by a storm || A large wave only ; Tide ; Rainfall || Surge is the leading cause of hurricane deaths.
+hurr-036 | 2 | short | Which side of a hurricane moving north typically has the strongest winds and surge? || Right-front side | Right-front sides || Left-rear ; Center ; Left-front || Forward motion adds to wind speed on the right.
+hurr-037 | 1 | mcq | A tropical storm has winds of… || 39–73 mph || 74–95 mph ; Under 39 mph ; Over 157 mph || Below hurricane strength.
+hurr-038 | 1 | short | What do we call a huge spinning storm over warm ocean water with winds of 74 mph or more? || hurricane ||  || 74 mph is the threshold.
+hurr-039 | 1 | short | What is the calm center of a hurricane called? || eye ||  || But the strongest winds are right around it, in the eyewall.
+hurr-040 | 1 | short | In what season are most Atlantic hurricanes formed: summer-fall or winter? || summer-fall | summer and fall | summer | fall | late summer ||  || The Atlantic season is June 1 to November 30.
+hurr-041 | 1 | short | A hurricane needs warm ocean water. About what temperature, in °C, is the minimum? || 26.5 | 26.5 °c | 27 | 26.5c ||  || About 26.5 °C (80 °F).
+hurr-042 | 1 | short | The rising mound of ocean water pushed onto shore by a hurricane is the storm… || surge | storm surge ||  || Surge floods coastal areas.
+hurr-043 | 2 | short | A tropical storm has winds of 65 mph. How many mph more are needed to be a hurricane (74 mph)? || 9.0 (tol 0.02) ||  || 9 mph.
+hurr-044 | 2 | short | Which Saffir-Simpson category begins at 111 mph and is called a major hurricane? || category 3 | cat 3 | 3 | cat. 3 ||  || Cat 3 is 111–129 mph.
+hurr-045 | 2 | short | What category is a hurricane with winds of 100 mph? (Cat 1: 74–95, Cat 2: 96–110, Cat 3: 111–129) || category 2 | cat 2 | 2 ||  || That is category 2.
+hurr-046 | 2 | short | Which side of a Northern Hemisphere hurricane moving north has the strongest winds: right or left? || right | right side | the right side ||  || The right-front quadrant is strongest.
+hurr-047 | 2 | short | How does a hurricane weaken when it moves over land: it loses its supply of…? || warm water | heat | moisture | warm ocean water | warm water and moisture ||  || Over land, friction also slows the wind.
+hurr-048 | 2 | short | Is the eyewall or the outer rain band where the strongest winds usually are? || eyewall | the eyewall ||  || It holds the strongest winds and heaviest rain.

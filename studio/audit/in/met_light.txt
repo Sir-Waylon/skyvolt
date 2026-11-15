@@ -1,0 +1,36 @@
+# meteorology-b / light: Lightning  (62 questions, 26 families)
+## STUDY NOTE (what students are taught)
+Ice and graupel collide in the cloud. Smaller, lighter ice rises with positive charge. Heavier graupel falls with negative charge. The cloud base is mostly negative. The ground below turns positive. Type Path Cloud-to-ground Cloud to the surface Intracloud Inside one cloud Cloud-to-cloud Between two clouds Cloud-to-air Cloud into clear air Lightning detection systems locate strikes using sensors across a network (they time the signal at each sensor). Miles = seconds between flash and thunder ÷ 5
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+light-001 | 1 | mcq | Lightning is an electric discharge that comes from… || Charge separation in a cloud || Friction with wind only ; Rain hitting the ground ; The Sun heating clouds || Colliding ice particles separate charge.
+light-002 | 2 | mcq | Which particles collide in a thunderstorm to separate electric charge? || Ice crystals and graupel || Raindrops and dust ; Smoke and fog ; Sleet and wind || Collisions transfer charge.
+light-003 | 2 | short | Typically, the lower part of a thunderstorm cloud is… || Mostly negatively charged | Mostly negatively chargeds || Mostly positively charged ; Neutral ; Alternating each minute || Negative charge sits low and positive higher.
+light-004 | 1 | short | Which lightning type stays inside one cloud? || Intracloud | Intraclouds || Cloud-to-ground ; Cloud-to-air ; Cloud-to-cloud || Intra means within.
+light-005 | 2 | short | Lightning that jumps between two separate clouds is… || Cloud-to-cloud | Cloud-to-clouds || Intracloud ; Cloud-to-ground ; Cloud-to-air || Cloud-to-cloud.
+light-006 | 2 | short | A flash discharges from a cloud into clear air beside the storm. This is… || Cloud-to-air | Cloud-to-airs || Intracloud ; Cloud-to-ground ; Sprite || Cloud-to-air.
+light-007 | 2 | mcq | Lightning detection systems find strikes mainly by… || Timing the signal at many sensors || Counting thunder ; Watching satellites ; Measuring rainfall || Networks use arrival-time differences.
+light-008 | 3 | mcq | Why is the ground under a storm cloud base positively charged? || The negative cloud base repels electrons away from the surface || Rain adds positive ions ; The ground heats up ; Wind carries positive charge down || Induced charge is opposite the cloud base.
+### FAMILY th1: 30 generated variants of one template (3 shown; numbers vary)
+light-009 | 1 | short | You count 130 seconds between a flash and its thunder. About how far away is the lightning (miles)? (5 seconds ≈ 1 mile) || 26.0 (tol 0.005) ||  || 130 ÷ 5 = 26.
+light-010 | 1 | short | You count 165 seconds between a flash and its thunder. About how far away is the lightning (miles)? (5 seconds ≈ 1 mile) || 33.0 (tol 0.005) ||  || 165 ÷ 5 = 33.
+light-011 | 1 | short | You count 150 seconds between a flash and its thunder. About how far away is the lightning (miles)? (5 seconds ≈ 1 mile) || 30.0 (tol 0.005) ||  || 150 ÷ 5 = 30.
+### FAMILY th2: 8 generated variants of one template (3 shown; numbers vary)
+light-039 | 2 | short | Lightning is about 2 miles away. About how many seconds should pass between flash and thunder? || 10.0 (tol 0.005) ||  || 2 × 5 = 10.
+light-040 | 2 | short | Lightning is about 7 miles away. About how many seconds should pass between flash and thunder? || 35.0 (tol 0.005) ||  || 7 × 5 = 35.
+light-041 | 2 | short | Lightning is about 1 miles away. About how many seconds should pass between flash and thunder? || 5.0 (tol 0.005) ||  || 1 × 5 = 5.
+light-047 | 1 | mcq | What is lightning? || A giant spark of electricity || A cloud type ; A heat wave ; A wind || Charge separation makes a discharge.
+light-048 | 1 | short | When thunder roars, go… || Indoors | Indoor || Under a tree ; To an open field ; To the water || When thunder roars, go indoors.
+light-049 | 2 | mcq | How long should you wait after the last thunder before going outside? || 30 minutes || 5 minutes ; 1 hour ; None || The 30-minute rule.
+light-050 | 2 | mcq | Thunder is caused by… || Rapid heating and expansion of air by lightning || Clouds crashing ; Wind ; Rain || The air expands faster than sound.
+light-051 | 2 | short | Cloud-to-ground lightning usually carries which charge from the cloud base? || Negative | Negatives || Positive ; None ; Both equally || Most strikes bring negative charge down.
+light-052 | 1 | short | The sound you hear after a lightning flash is called… || thunder ||  || The air expands, making thunder.
+light-053 | 1 | short | Which travels faster, light or sound? || light ||  || So you see lightning before you hear thunder.
+light-054 | 1 | short | If you can hear thunder, are you close enough to be struck by lightning? || yes ||  || Lightning can strike that far from the storm: when thunder roars, go indoors.
+light-055 | 1 | short | Where is the safest place during a lightning storm? || inside a building | indoors | inside | a building | inside a hard-topped vehicle | in a building ||  || A hard-topped car is the next best.
+light-056 | 1 | short | Should you stand under a lone tree during a thunderstorm? || no | never ||  || Never shelter under a tree.
+light-057 | 2 | short | Sound travels about 340 m/s. You hear thunder 6 seconds after a flash. About how far away is the lightning in meters? || 2040.0 (tol 0.05) ||  || 340 × 6 = 2040 m.
+light-058 | 2 | short | A rough rule: divide the seconds between flash and thunder by 3 to get kilometers. The delay is 12 seconds. How many kilometers away? || 4.0 (tol 0.02) ||  || The strike is about 4 km away.
+light-059 | 2 | short | Divide seconds by 5 to get miles. The delay is 15 seconds. How many miles away? || 3.0 (tol 0.02) ||  || The strike is about 3 miles away.
+light-060 | 2 | short | The 30-30 rule says go indoors if flash-to-bang is 30 seconds or less. How long should you wait after the last thunder before going back out? || 30 minutes | 30 min | half an hour | 30 ||  || Wait 30 minutes after the last thunder.
+light-061 | 2 | short | Heat lightning is just lightning from a storm that is too what? || far away | distant | far ||  || You see the flashes but thunder does not reach you.
+light-062 | 2 | short | Cloud-to-ground lightning that starts at the top of the storm and travels down starts as a stepped… || leader | stepped leader ||  || When it meets an upward streamer, the return stroke flashes.

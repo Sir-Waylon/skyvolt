@@ -1,0 +1,34 @@
+@page{size:letter;margin:.55in .6in}
+*{box-sizing:border-box}
+body{font:10.5pt/1.35 Georgia,'Times New Roman',serif;color:#000;background:#fff;margin:0}
+h1{font:700 20pt/1.1 Arial,Helvetica,sans-serif;margin:0 0 4pt}
+h2{font:700 13pt/1.2 Arial,Helvetica,sans-serif;border-bottom:1.5pt solid #000;margin:14pt 0 6pt;padding-bottom:2pt;break-after:avoid}
+h3{font:700 10.5pt Arial,Helvetica,sans-serif;margin:8pt 0 3pt;break-after:avoid}
+p{margin:3pt 0}ul,ol{margin:3pt 0;padding-left:16pt}li{margin:1.5pt 0}
+table{border-collapse:collapse;width:100%;font-size:9.5pt;margin:5pt 0;break-inside:avoid}
+th,td{border:.75pt solid #000;padding:2pt 5pt;text-align:left;vertical-align:top}th{background:#fff;font-weight:700;border-bottom:1.5pt solid #000}
+.card{border:.75pt solid #000;padding:5pt 8pt;margin:5pt 0;break-inside:avoid}
+.trap{border-left:3pt solid #000;padding:2pt 8pt;margin:5pt 0;break-inside:avoid}.trap b:first-child{text-transform:uppercase;font:700 8pt Arial;margin-right:4pt}
+.f{display:block;font-family:'Courier New',monospace;font-size:9.5pt}
+.sw{display:inline-block;width:8pt;height:8pt;border:.75pt solid #000;border-radius:50%;margin-right:2pt;background:#fff!important}
+.doc{break-after:page}.doc:last-child{break-after:auto}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2pt solid #000;padding-bottom:4pt;margin-bottom:8pt;gap:12pt}
+.hdr .sub{font:9pt Arial}
+.meta{display:flex;gap:18pt;font:10pt Arial;margin:6pt 0 10pt}.meta span{flex:1;border-bottom:.75pt solid #000;padding-bottom:1pt}
+.q{display:grid;grid-template-columns:34pt 1fr;gap:4pt;margin:0 0 9pt;break-inside:avoid}
+.q .ab{border-bottom:.75pt solid #000;height:15pt;align-self:start;margin-top:2pt}
+.q .n{font:700 10pt Arial}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:1pt 14pt;margin:2pt 0 0 4pt}.opts.one{grid-template-columns:1fr}
+.opts div{padding-left:0}.pt{font:8pt Arial;float:right;margin-left:8pt}
+.line{border-bottom:.75pt solid #000;height:15pt;margin-top:3pt}
+.box{display:inline-block;width:30pt;height:14pt;border:.75pt solid #000;margin-right:4pt;vertical-align:middle}
+.two{columns:2;column-gap:20pt}.two .card,.two table,.two h3{break-inside:avoid}
+svg.fig{width:210pt;height:auto;display:block;margin:3pt 0;color:#000}
+.cardsheet{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1.9in;height:9.5in;gap:0;break-after:page;margin:0}
+.cc{border:.75pt dashed #000;display:grid;place-items:center;text-align:center;padding:10pt 14pt;font:12pt/1.3 Arial;overflow:hidden}
+.cc.b{font-size:10.5pt}
+.key .q{grid-template-columns:30pt 1fr}.key .a{font-weight:700}
+.tk{display:inline-block;width:9pt;height:9pt;border:.9pt solid #000;margin-right:5pt;vertical-align:-1pt}
+.task{margin:3pt 0;break-inside:avoid}.task small{font:700 7.5pt Arial;text-transform:uppercase;margin-right:4pt}
+.day{break-inside:avoid;margin-bottom:6pt}
+.foot{font:8pt Arial;margin-top:8pt}

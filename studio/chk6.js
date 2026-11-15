@@ -1,0 +1,20 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+const ctx=await b.newContext({viewport:{width:400,height:800}});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(m.type()==='error'&&!/fonts|ERR_|Failed to load/.test(m.text()))errs.push(m.text())});
+const U='file://'+process.argv[2],PW=process.argv[3];
+await p.goto(U);await p.fill('#lp','wrong-pass-11');await p.click('#lb');await p.waitForTimeout(2500);
+console.log('wrong:',await p.textContent('#le'));
+await p.waitForTimeout(1200);await p.fill('#lp',PW);await p.click('#lb');await p.waitForSelector('#tabs button',{timeout:20000});
+console.log('unlocked; globals leaked:',await p.evaluate(()=>[typeof S,typeof QS,typeof award,typeof P].join()));
+await p.click('[data-v=study]');await p.click('[data-st=virpe]');await p.click('[data-sn="1"]');await p.waitForTimeout(400);
+console.log('ls:',await p.evaluate(()=>Object.keys(localStorage).map(k=>k+'='+localStorage[k].slice(0,14))));
+await p.click('[data-v=me]');await p.waitForTimeout(500);console.log('ERRS',errs);
+const code=await p.inputValue('#mc');console.log('code',code.slice(0,12),code.split('.').length);
+await p.fill('#fc',code.replace(/.$/,c=>c==='A'?'B':'A'));await p.click('#fadd');await p.waitForTimeout(400);
+console.log('forged friend rejected:',await p.evaluate(()=>/not valid/.test(document.body.innerText)));
+await p.screenshot({path:'ck/me.png',fullPage:true});
+// tamper
+await p.evaluate(()=>{for(const k of Object.keys(localStorage))if(k.startsWith('scioly:st'))localStorage[k]=localStorage[k].slice(0,-3)+'AAA'});
+await p.reload();await p.fill('#lp',PW);await p.click('#lb');await p.waitForSelector('#tabs button',{timeout:20000});
+console.log('after tamper xp reset (0 shown):',await p.textContent('#lvx'));
+console.log('errs',errs);await b.close()})();

@@ -1,0 +1,31 @@
+# meteorology-b / winds: Damaging winds  (29 questions, 24 families)
+## STUDY NOTE (what students are taught)
+Straight-line winds = damage not from rotation. Damage is spread out in one direction. Term Meaning Downdraft Sinking air Downburst Downdraft that hits the ground and spreads out Microburst Downburst under 4 km wide. Brief, intense Macroburst Downburst 4 km or wider. Longer lasting Gust front Leading edge of cool outflow Squall line Organized line of storms Derecho Long-lived, widespread windstorm. Track of hundreds of miles Downslope wind Air accelerating down a mountain slope On radar: bow echo (derecho/damaging wind), fine line (gust front), bowing segment on a squall line.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+winds-001 | 1 | short | Thunderstorm wind damage not caused by rotation is called… || Straight-line wind | Straight-line winds || Tornado ; Dust devil ; Waterspout || Straight-line wind damage is spread in one direction.
+winds-002 | 2 | short | A downdraft that hits the ground and spreads outward is a… || Downburst | Downbursts || Gust front ; Derecho ; Shear || Downburst.
+winds-003 | 2 | mcq | A microburst is a downburst that is… || Less than 4 km wide || At least 4 km wide ; Always rotating ; Only over water || Under 4 km.
+winds-004 | 2 | mcq | A macroburst is a downburst that is… || At least 4 km wide || Under 4 km wide ; Only in winter ; Always a tornado || 4 km or wider.
+winds-005 | 3 | mcq | Which hazard from a microburst is especially dangerous for airplanes near the ground? || Sudden strong wind shear || Slow steady rain ; Fog ; Light turbulence || Rapid changes in wind speed near the runway.
+winds-006 | 2 | short | The leading edge of cool air spreading out from a thunderstorm is a… || Gust front | Gust fronts || Dryline ; Warm front ; Jet streak || Outflow boundary.
+winds-007 | 2 | short | An organized line of severe thunderstorms producing wind damage is a… || Squall line | Squall lines || Dryline ; Waterspout ; MCC || Squall line.
+winds-008 | 2 | short | A long-lived windstorm caused by a fast-moving band of storms and with hundreds of miles of damage is a… || Derecho | Derechos || Microburst ; Gust front ; Dust devil || Derecho.
+winds-009 | 2 | mcq | Downslope winds are winds that… || Speed up as they flow down a mountain slope || Blow only inside thunderstorms ; Always bring snow ; Blow toward the equator || They can occur with no storm.
+winds-010 | 2 | mcq | On radar, a derecho usually appears as… || A long-lived bow echo || A hook echo ; A small round blob ; A velocity couplet || Bow-shaped lines show a wind-driven storm.
+winds-011 | 2 | mcq | On radar, a thin faint arc ahead of storms is usually… || A gust front (fine line) || A hurricane eyewall ; A tornado ; A dryline || Fine lines are outflow boundaries.
+winds-012 | 3 | mcq | Where are the strongest winds on a squall line usually found? || Where the line bows outward || At the trailing end only ; Far behind the line ; In the calm center || Bowing segments show intense downdrafts.
+winds-013 | 3 | short | Damage on the ground fans out in the same direction across a long path. This best matches… || Straight-line wind | Straight-line winds || A tornado ; A hailstorm ; A surge || Rotation leaves convergent or swirled damage; straight-line is uniform.
+### FAMILY kt1: 6 generated variants of one template (3 shown; numbers vary)
+winds-014 | 2 | short | Convert 35 knots to mph (nearest whole). (1 knot ≈ 1.15 mph) || 40.0 (tol 1.01) ||  || 35 × 1.15 = 40.2.
+winds-015 | 2 | short | Convert 80 knots to mph (nearest whole). (1 knot ≈ 1.15 mph) || 92.0 (tol 1.01) ||  || 80 × 1.15 = 92.0.
+winds-016 | 2 | short | Convert 100 knots to mph (nearest whole). (1 knot ≈ 1.15 mph) || 115.0 (tol 1.01) ||  || 100 × 1.15 = 115.0.
+winds-020 | 1 | mcq | Straight-line winds are… || Wind damage without rotation || Tornado winds ; Hurricane eye winds ; Mountain winds only || Damage falls in one direction.
+winds-021 | 2 | mcq | A derecho is… || A widespread long-lived windstorm || A tornado outbreak ; A hailstorm ; A blizzard || It travels in a swath of damaging winds.
+winds-022 | 2 | mcq | A gust front is… || The leading edge of cool outflow from a storm || A hot wind ; A cold front ; A jet || It can arrive before the rain.
+winds-023 | 2 | short | A derecho is a long-lived windstorm. Its damage swath must stretch at least how many miles? || 240.0 (tol 0.02) ||  || 240 miles.
+winds-024 | 1 | short | Wind is air moving from high pressure toward what? || low pressure | lower pressure | low ||  || It tries to even out pressure.
+winds-025 | 1 | short | A wind from the north blows toward which direction? || south | toward the south ||  || North wind moves toward the south.
+winds-026 | 1 | short | A strong, straight-line wind from a thunderstorm can knock down trees. Is it a tornado? || no ||  || Straight-line wind blows in one direction, not rotating.
+winds-027 | 2 | short | A wind gust measured at 40 knots. Convert to mph. (1 kt ≈ 1.15 mph) || 46.0 (tol 0.02) ||  || 46 mph.
+winds-028 | 2 | short | What word describes sudden, brief increases in wind speed? || gusts | gust ||  || Short bursts are gusts.
+winds-029 | 2 | compass | A wind is reported as blowing FROM the northeast. Drag the pointer to that direction. ||  ||  || That is 45°.

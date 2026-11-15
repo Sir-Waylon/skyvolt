@@ -1,0 +1,13 @@
+{
+ "effective": "October 28, 2026",
+ "contact": "To reach us, contact the coach who shared this link, or open an issue in the project’s GitHub repository.",
+ "site_url": {
+  "skyvolt": "https://skyvolt.study-spaces.workers.dev",
+  "axiom": ""
+ },
+ "repo": {
+  "skyvolt": "",
+  "axiom": ""
+ },
+ "repo_note": "Set \"repo\" to the public GitHub URL (for example https://github.com/OWNER/skyvolt-v2) and rebuild to show the link on the site."
+}

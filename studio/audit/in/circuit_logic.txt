@@ -1,0 +1,125 @@
+# circuit-lab-b / logic: Digital logic  (239 questions, 80 families)
+## STUDY NOTE (what students are taught)
+A B AND OR NAND NOR XOR XNOR 0 0 0 0 1 1 0 1 0 1 0 1 1 0 1 0 1 0 0 1 1 0 1 0 1 1 1 1 0 0 0 1 Precedence: NOT, then AND, then OR. n inputs = 2ⁿ truth-table rows. Gate tricks: AND with 1 passes the input, AND with 0 gives 0. OR with 0 passes, OR with 1 gives 1. XOR with 1 inverts, XOR with 0 passes. De Morgan: (AB)′ = A′ + B′ and (A + B)′ = A′B′. Break the bar, flip the operator. So A′B′ = NOR, and NAND of inverted inputs = OR. Identities: A + AB = A, A(A + B) = A, AB + AB′ = A, A + A′B = A + B, A(A′ + B) = AB, AB + AB′ + A′B = A + B. Universal gates: NAND and NOR. With NAND: NOT = 1 gate (tie inputs), AND = 2, OR = 3, NOR = 4, XOR = 4. With NOR: NOT = 1, OR = 2. Truth table to expression: write an AND term for each 1 row (complement the variables that are 0), then OR the terms, then simplify. Multiplexer: n select lines choose among 2ⁿ inputs. 2:1: Y = S′A + SB. A mux with a data input tied to 0 or B can act as AND (select = A, I₀ = 0, I₁ = B). Half adder: Sum = A ⊕ B, Carry = A·B. Full adder: Sum = A ⊕ B ⊕ Cin, Carry = AB + Cin(A ⊕ B). The sum is 1 when an odd number of inputs are 1. A ripple adder chains full adders. Binary Place values: 1, 2, 4, 8, 16, 32, 64, 128. 101101 = 32 + 8 + 4 + 1 = 45. Decimal to binary: subtract the largest power of 2, repeat. 37 = 32 + 4 + 1 = 100101. Addition: 0+0 = 0, 0+1 = 1, 1+1 = 10 (carry 1), 1+1+1 = 11. Adding two n-bit numbers needs up to n + 1 bits. n bits hold 0 to 2ⁿ − 1. Check by converting to decimal: 1101 + 1001 = 13 + 9 = 22 = 10110.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+logic-001 | 2 | short | How many of the 8 input rows make Y = A + B·C equal to 1? || 5.0 (tol 0.005) || 3 ; 4 ; 6 || A = 1 gives 4 rows. With A = 0, B·C = 1 gives one more row: 5 rows.
+logic-002 | 3 | short | How many of the 8 input rows make Y = (A ⊕ B)·C' equal to 1? || 2.0 (tol 0.005) || 1 ; 4 ; 3 || A ⊕ B = 1 on 2 of the 4 (A,B) pairs, and C′ = 1 for half the C values: 2 rows.
+logic-003 | 1 | short | Evaluate Y = (A + B)·C′ for A = 0, B = 1, C = 0. || 1.0 (tol 0.005) || 0 ; Undefined ; Depends on the gate || A + B = 1 and C′ = 1, so 1·1 = 1.
+logic-004 | 2 | short | Evaluate Y = A·B′ + A′·B for A = 1, B = 1. || 0.0 (tol 0.005) || 1 ; 2 ; Undefined || A·B′ = 0 and A′·B = 0, so Y = 0. This is XOR.
+logic-005 | 1 | short | By operator precedence, NOT is applied first, then AND, then OR. For A = 0, B = 1, C = 0, the value of A + B·C is: || 0.0 (tol 0.005) || 1 ; Undefined ; 2 || B·C = 0, then A + 0 = 0.
+logic-006 | 2 | mcq | By De Morgan's law, (A′ + B)′ equals: || A·B′ || A′·B ; A + B′ ; A′·B′ || Break the bar, flip the operator, complement each term: A′′·B′ = A·B′.
+logic-007 | 3 | mcq | By De Morgan's law, (A·B′ + C)′ equals: || (A′ + B)·C′ || A′·B + C′ ; (A′ + B′)·C′ ; A·B′·C′ || Complement each term and flip OR to AND: (A·B′)′ = A′ + B, then AND with C′.
+logic-008 | 2 | short | A·(A + B) simplifies to: || A || A + B ; A·B ; B || Absorption: A·A + A·B = A + A·B = A(1 + B) = A.
+logic-009 | 2 | short | A·B + A·B′ simplifies to: || A || B ; A + B ; 1 || A·(B + B′) = A·1 = A.
+logic-010 | 3 | mcq | A·B + A·B′ + A′·B′ simplifies to: || A + B′ || A + B ; A·B′ ; A′ + B || A·B + A·B′ = A, leaving A + A′·B′ = A + B′ (using A + A′X = A + X).
+logic-011 | 3 | mcq | A·(A′ + B) simplifies to: || A·B || A + B ; A′·B ; A || A·A′ + A·B = 0 + A·B.
+logic-012 | 2 | short | What is the minimum number of 2-input NAND gates needed to build an OR gate? || 3.0 (tol 0.005) || 1 ; 2 ; 4 || Invert each input with a NAND (2 gates), then NAND those inverted signals (1 gate): A + B = (A′·B′)′.
+logic-013 | 3 | short | What is the minimum number of 2-input NAND gates needed to build an XOR gate? || 4.0 (tol 0.005) || 2 ; 3 ; 6 || Standard design: N = NAND(A,B); then NAND(A,N) and NAND(B,N); then NAND those two results.
+logic-014 | 2 | mcq | How can a NOT gate be made from a 2-input NOR gate? || Tie both inputs together || Leave one input open ; Connect one input to logic 1 ; Connect both inputs to ground || NOR(A,A) = (A + A)′ = A′.
+logic-015 | 2 | mcq | A 2-input NAND gate has both inputs connected to the same signal A. The output is: || A′ || A ; 0 ; 1 || NAND(A,A) = (A·A)′ = A′.
+logic-016 | 2 | mcq | A 2-input XOR gate has one input held at logic 1. The gate then acts as: || an inverter for the other input || a buffer for the other input ; a constant 0 ; a constant 1 || A ⊕ 1 = A′. With the input held at 0, XOR passes the other input unchanged.
+logic-017 | 1 | mcq | A 2-input AND gate has one input held at 0. The output is: || 0 for any value of the other input || equal to the other input ; 1 for any value of the other input ; the inverse of the other input || Anything AND 0 is 0. With one input at 1 the gate passes the other input.
+logic-018 | 2 | short | An AND gate with both inputs inverted is equivalent to: || a NOR gate | a NOR gates || a NAND gate ; an OR gate ; an XOR gate || A′·B′ = (A + B)′ by De Morgan.
+logic-019 | 2 | short | A NAND gate whose two inputs are each inverted is equivalent to: || an OR gate | an OR gates || an AND gate ; a NOR gate ; an XNOR gate || (A′·B′)′ = A + B.
+logic-020 | 1 | short | Which gate outputs 1 when its two inputs are equal? || XNOR || XOR ; NAND ; NOR || XNOR is the equality gate. XOR is 1 when inputs differ.
+logic-021 | 1 | short | How many input rows does the truth table of a 4-input gate have? || 16.0 (tol 0.005) || 8 ; 4 ; 24 || 2ⁿ rows: 2⁴ = 16.
+logic-022 | 2 | short | A truth table with 5 inputs has how many rows? || 32.0 (tol 0.005) || 10 ; 25 ; 16 || 2⁵ = 32.
+logic-023 | 2 | mcq | A 3-input truth table has Y = 1 only for A = 1, B = 1, C = 0. The Boolean expression is: || Y = A·B·C′ || Y = A + B + C′ ; Y = A·B + C′ ; Y = A′·B′·C || Write one AND term for the single 1 row, complementing the variables that are 0.
+logic-024 | 2 | mcq | A 2-input truth table gives Y = 1 for (0,1), (1,0) and (1,1) and Y = 0 for (0,0). The expression simplifies to: || Y = A + B || Y = A·B ; Y = A ⊕ B ; Y = A′·B′ || That is the OR truth table.
+logic-025 | 2 | mcq | A 2-input truth table gives Y = 1 only for (0,0). The expression is: || Y = A′·B′ || Y = A·B ; Y = A + B ; Y = A′ + B′ || One 1 row at A = 0, B = 0: A′·B′, which is the NOR function.
+logic-026 | 2 | short | A 4:1 multiplexer has data inputs I0 to I3 = 0, 1, 1, 0 and select lines S1 S0 = 1 0. The output is: || 1.0 (tol 0.005) || 0 ; Undefined ; The select lines || S1S0 = 10 (binary 2) selects I2, which is 1.
+logic-027 | 2 | short | A 2:1 multiplexer is described by Y = S′·A + S·B. If S = 1, the output is: || B || A ; A + B ; 0 || S = 1 makes S′ = 0 and S = 1, leaving Y = B.
+logic-028 | 3 | mcq | A 2:1 multiplexer has select input A, input I0 tied to 0, and input I1 tied to B. The output equals: || A·B || A + B ; A ⊕ B ; A′·B || When A = 0 the output is I0 = 0; when A = 1 the output is B. That is A·B.
+### FAMILY X #:# multiplexer needs how many select lines?: 4 generated variants of one template (3 shown; numbers vary)
+logic-029 | 2 | short | A 16:1 multiplexer needs how many select lines? || 4.0 (tol 0.005) || 16 ; 8 ; 2 || 2⁴ = 16, so 4 select lines.
+logic-138 | 2 | short | A 2:1 multiplexer needs how many select lines? || 1.0 (tol 0.02) ||  || n select lines choose among 2ⁿ inputs. 2^1 = 2, so n = 1.
+logic-139 | 2 | short | A 4:1 multiplexer needs how many select lines? || 2.0 (tol 0.02) ||  || n select lines choose among 2ⁿ inputs. 2^2 = 4, so n = 2.
+### FAMILY Add in binary: # + # =: 34 generated variants of one template (3 shown; numbers vary)
+logic-030 | 2 | short | Add in binary: 1101 + 1001 = || 10110.0 (tol 0.01) || 10010 ; 10100 ; 11000 || 13 + 9 = 22 = 10110.
+logic-031 | 2 | short | Add in binary: 10111 + 1101 = || 100100.0 (tol 0.01) || 100110 ; 100010 ; 101100 || 23 + 13 = 36 = 100100.
+logic-032 | 2 | short | Add in binary: 111111 + 1 = || 1000000.0 (tol 0.01) || 111110 ; 1111111 ; 1000001 || 63 + 1 = 64 = 2⁶, a 1 followed by six 0s.
+logic-034 | 1 | short | Convert decimal 37 to binary. || 100101.0 (tol 0.01) || 101001 ; 100011 ; 110101 || 37 = 32 + 4 + 1.
+logic-035 | 2 | short | Convert decimal 100 to binary. || 1100100.0 (tol 0.01) || 1100010 ; 1001100 ; 1101000 || 100 = 64 + 32 + 4.
+logic-049 | 2 | short | Convert decimal 77 to binary. || 1001101 ||  || 77 = 64 + 8 + 4 + 1 = 1001101.
+logic-036 | 2 | short | Convert binary 101101 to decimal. || 45.0 (tol 0.005) || 43 ; 47 ; 53 || 32 + 8 + 4 + 1 = 45.
+logic-037 | 2 | short | Convert binary 1110011 to decimal. || 115.0 (tol 0.005) || 113 ; 123 ; 103 || 64 + 32 + 16 + 2 + 1 = 115.
+logic-051 | 1 | short | Convert binary 11001 to decimal. || 25 (tol 0.0) ||  || 16 + 8 + 1 = 25.
+logic-038 | 2 | short | The largest whole number that fits in 6 binary bits is: || 63.0 (tol 0.005) || 64 ; 31 ; 36 || 2⁶ − 1 = 63.
+logic-039 | 3 | short | The smallest number of bits needed to write the decimal number 100 is: || 7.0 (tol 0.005) || 6 ; 8 ; 5 || 2⁶ = 64 is too small; 2⁷ = 128 is enough, so 7 bits.
+logic-040 | 2 | short | Adding two 4-bit numbers can produce a result that needs at most how many bits? || 5.0 (tol 0.005) || 4 ; 8 ; 3 || The largest sum is 15 + 15 = 30, which needs 5 bits.
+logic-041 | 1 | mcq | A half adder receives A = 0 and B = 1. Its outputs are: || Sum 1, Carry 0 || Sum 0, Carry 1 ; Sum 1, Carry 1 ; Sum 0, Carry 0 || Sum = A ⊕ B = 1. Carry = A·B = 0.
+logic-042 | 2 | mcq | A full adder receives A = 1, B = 0 and Carry-in = 1. Its outputs are: || Sum 0, Carry 1 || Sum 1, Carry 0 ; Sum 1, Carry 1 ; Sum 0, Carry 0 || 1 + 0 + 1 = 2 = binary 10: sum bit 0, carry 1.
+logic-043 | 2 | mcq | A full adder receives A = 0, B = 0 and Carry-in = 1. Its outputs are: || Sum 1, Carry 0 || Sum 0, Carry 1 ; Sum 1, Carry 1 ; Sum 0, Carry 0 || 0 + 0 + 1 = 1: sum bit 1, carry 0.
+logic-044 | 3 | short | For how many of the 8 input combinations is the sum output of a full adder equal to 1? || 4.0 (tol 0.005) || 2 ; 3 ; 8 || Sum = A ⊕ B ⊕ Cin is 1 when an odd number of inputs are 1: 4 rows.
+logic-045 | 3 | mcq | A 4-bit ripple-carry adder adds 1011 + 0101. The final carry-out and the 4-bit sum are: || Carry-out 1, sum 0000 || Carry-out 0, sum 1111 ; Carry-out 1, sum 1111 ; Carry-out 0, sum 0000 || 11 + 5 = 16 = 10000, so a carry out of 1 and four zeros.
+logic-046 | 3 | short | The output of a circuit is Y = NAND(NAND(A,B), C). For A = 1, B = 1, C = 1, Y is: || 1.0 (tol 0.005) || 0 ; Undefined ; Depends on the gate delay || NAND(1,1) = 0, then NAND(0,1) = 1.
+logic-047 | 2 | multi | Select ALL gates that are universal (any logic function can be built from that gate alone). || NAND; NOR || AND ; XOR || Only NAND and NOR are universal. AND, OR and XOR cannot make an inverter on their own.
+logic-048 | 1 | mcq | In positive logic with a 5 V system, logic 1 is represented by: || the higher voltage (near 5 V) || the lower voltage (near 0 V) ; a negative voltage ; a floating, unconnected wire || Positive logic maps the high level to 1.
+logic-050 | 2 | short | Add in binary: 1011 + 0110. Write the result in binary. || 10001 ||  || 11 + 6 = 17 = 10001.
+logic-052 | 1 | short | How many rows are in the truth table of a gate or circuit with 6 inputs? || 64 (tol 0.0) ||  || 2⁶ = 64.
+logic-053 | 2 | short | What is the minimum number of bits needed to write the decimal number 200? || 8 (tol 0.0) ||  || 2⁷ = 128 < 200 ≤ 255 = 2⁸ − 1, so 8 bits.
+logic-054 | 2 | short | Evaluate Y = A′ + B·C for A = 1, B = 1, C = 1. Give 0 or 1. || 1 (tol 0.0) ||  || A′ = 0; B·C = 1; 0 + 1 = 1.
+logic-055 | 2 | short | Simplify A·B + A·B′ to a single variable. || a | a. ||  || A(B + B′) = A·1 = A.
+logic-056 | 1 | short | Name the 2-input gate whose output is 0 only when both inputs are 1. || nand ||  || NAND is the inverse of AND.
+logic-057 | 1 | short | Name the 2-input gate whose output is 1 only when its inputs differ. || xor | exclusive or | exclusive-or ||  || XOR (exclusive OR).
+logic-058 | 2 | order | Order these values from smallest to largest. || binary 1100 > decimal 13 > binary 1110 > decimal 17 ||  || 12, 13, 14, 17.
+logic-059 | 2 | match | Match each gate to its output behavior. || AND=1 only when both inputs are 1; OR=1 when at least one input is 1; NOR=1 only when both inputs are 0; XOR=1 when the inputs differ; NAND=0 only when both inputs are 1 ||  || 
+logic-060 | 2 | mcq | For which inputs (A,B) does a 2-input XOR gate output 1? || (0,1) and (1,0) || (0,0) and (0,1) and (1,0) ; (1,1) ; (0,1) and (1,0) and (1,1) || XOR output is 1 when the inputs DIFFER. So it is 1 for: (0,1) and (1,0).
+logic-061 | 2 | mcq | For which inputs (A,B) does a 2-input NOR gate output 1? || (0,0) || (0,1) and (1,0) and (1,1) ; (0,0) and (0,1) and (1,0) ; (1,1) || NOR output is the opposite of OR: 1 only when both inputs are 0. So it is 1 for: (0,0).
+logic-062 | 2 | mcq | For which inputs (A,B) does a 2-input AND gate output 1? || (1,1) || (0,0) and (0,1) and (1,0) ; (0,1) and (1,0) and (1,1) ; (0,0) || AND output is 1 only when BOTH inputs are 1. So it is 1 for: (1,1).
+logic-063 | 2 | mcq | For which inputs (A,B) does a 2-input NAND gate output 1? || (0,0) and (0,1) and (1,0) || (0,1) and (1,0) and (1,1) ; (0,0) ; (1,1) || NAND output is the opposite of AND: 0 only when both inputs are 1. So it is 1 for: (0,0) and (0,1) and (1,0).
+logic-064 | 2 | mcq | For which inputs (A,B) does a 2-input XNOR gate output 1? || (0,0) and (1,1) || (1,1) ; (0,1) and (1,0) and (1,1) ; (0,0) and (0,1) and (1,0) || XNOR output is 1 when the inputs are the SAME. So it is 1 for: (0,0) and (1,1).
+logic-065 | 2 | mcq | For which inputs (A,B) does a 2-input OR gate output 1? || (0,1) and (1,0) and (1,1) || (0,0) and (0,1) and (1,0) ; (1,1) ; (0,0) || OR output is 1 when AT LEAST ONE input is 1. So it is 1 for: (0,1) and (1,0) and (1,1).
+logic-066 | 2 | short | How many of the 4 rows of a AND truth table output 1? || 1.0 (tol 0.02) ||  || AND is 1 only when BOTH inputs are 1. Count the rows: 1.
+logic-067 | 2 | short | How many of the 4 rows of a XNOR truth table output 1? || 2.0 (tol 0.02) ||  || XNOR is 1 when the inputs are the SAME. Count the rows: 2.
+logic-068 | 2 | short | How many of the 4 rows of a NOR truth table output 1? || 1.0 (tol 0.02) ||  || NOR is the opposite of OR: 1 only when both inputs are 0. Count the rows: 1.
+logic-069 | 2 | short | How many of the 4 rows of a NAND truth table output 1? || 3.0 (tol 0.02) ||  || NAND is the opposite of AND: 0 only when both inputs are 1. Count the rows: 3.
+logic-070 | 2 | short | How many of the 4 rows of a OR truth table output 1? || 3.0 (tol 0.02) ||  || OR is 1 when AT LEAST ONE input is 1. Count the rows: 3.
+logic-071 | 2 | short | How many of the 4 rows of a XOR truth table output 1? || 2.0 (tol 0.02) ||  || XOR is 1 when the inputs DIFFER. Count the rows: 2.
+logic-072 | 2 | mcq | Which input makes  (A XOR B) AND C  equal 1? || A=1, B=0, C=1 || A=1, B=0, C=0 ; A=1, B=1, C=1 ; A=0, B=0, C=0 || Plug each into (A XOR B) AND C. Only A=1, B=0, C=1 gives 1; the others give 0. Evaluate parentheses first, then NOT, then AND/OR.
+logic-073 | 2 | mcq | Which input makes  (A AND NOT B) OR C  equal 1? || A=1, B=0, C=1 || A=0, B=1, C=0 ; A=0, B=0, C=0 ; A=1, B=1, C=0 || Plug each into (A AND NOT B) OR C. Only A=1, B=0, C=1 gives 1; the others give 0. Evaluate parentheses first, then NOT, then AND/OR.
+logic-074 | 2 | mcq | Which input makes  NOT (A OR B) OR C  equal 1? || A=1, B=1, C=1 || A=0, B=1, C=0 ; A=1, B=0, C=0 ; A=1, B=1, C=0 || Plug each into NOT (A OR B) OR C. Only A=1, B=1, C=1 gives 1; the others give 0. Evaluate parentheses first, then NOT, then AND/OR.
+logic-075 | 2 | mcq | Which input makes  A AND (B OR C)  equal 1? || A=1, B=1, C=1 || A=1, B=0, C=0 ; A=0, B=1, C=1 ; A=0, B=0, C=0 || Plug each into A AND (B OR C). Only A=1, B=1, C=1 gives 1; the others give 0. Evaluate parentheses first, then NOT, then AND/OR.
+logic-076 | 2 | mcq | Which input makes  (A OR B) AND NOT C  equal 1? || A=1, B=1, C=0 || A=0, B=1, C=1 ; A=0, B=0, C=0 ; A=1, B=1, C=1 || Plug each into (A OR B) AND NOT C. Only A=1, B=1, C=0 gives 1; the others give 0. Evaluate parentheses first, then NOT, then AND/OR.
+### FAMILY NOT (X AND X)  is equivalent to…: 16 generated variants of one template (3 shown; numbers vary)
+logic-077 | 1 | mcq | NOT (A AND P)  is equivalent to… || NOT A OR NOT P || NOT A AND NOT P ; NOT A OR P ; A OR P || De Morgan: break the bar and flip the operator. AND becomes OR and each input is inverted. (This is why a NAND acts like an OR of inverted inputs.)
+logic-079 | 1 | mcq | NOT (Y AND Q)  is equivalent to… || NOT Y OR NOT Q || NOT Y AND NOT Q ; Y OR Q ; NOT Y OR Q || De Morgan: break the bar and flip the operator. AND becomes OR and each input is inverted. (This is why a NAND acts like an OR of inverted inputs.)
+logic-081 | 1 | mcq | NOT (A AND M)  is equivalent to… || NOT A OR NOT M || A OR M ; NOT A AND NOT M ; NOT A OR M || De Morgan: break the bar and flip the operator. AND becomes OR and each input is inverted. (This is why a NAND acts like an OR of inverted inputs.)
+### FAMILY NOT (X OR X)  is equivalent to…: 15 generated variants of one template (3 shown; numbers vary)
+logic-078 | 1 | mcq | NOT (Y OR M)  is equivalent to… || NOT Y AND NOT M || NOT Y AND M ; Y AND M ; NOT Y OR NOT M || De Morgan: break the bar and flip the operator. OR becomes AND and each input is inverted.
+logic-080 | 1 | mcq | NOT (X OR P)  is equivalent to… || NOT X AND NOT P || X AND P ; NOT X AND P ; NOT X OR NOT P || De Morgan: break the bar and flip the operator. OR becomes AND and each input is inverted.
+logic-082 | 1 | mcq | NOT (B OR Q)  is equivalent to… || NOT B AND NOT Q || NOT B AND Q ; NOT B OR NOT Q ; B AND Q || De Morgan: break the bar and flip the operator. OR becomes AND and each input is inverted.
+### FAMILY # + # in binary = ?: 30 generated variants of one template (3 shown; numbers vary)
+logic-108 | 2 | short | 0100 + 0110 in binary = ? || 1010.0 (tol 0.02) ||  || 0100 is 4 and 0110 is 6. Sum 10 = 1010. Binary rule: 1+1 = 10 (write 0, carry 1).
+logic-109 | 2 | short | 0101 + 1010 in binary = ? || 1111.0 (tol 0.02) ||  || 0101 is 5 and 1010 is 10. Sum 15 = 1111. Binary rule: 1+1 = 10 (write 0, carry 1).
+logic-110 | 2 | short | 0110 + 1101 in binary = ? || 10011.0 (tol 0.02) ||  || 0110 is 6 and 1101 is 13. Sum 19 = 10011. Binary rule: 1+1 = 10 (write 0, carry 1).
+### FAMILY X half adder receives X=#, X=#. Outputs?: 4 generated variants of one template (3 shown; numbers vary)
+logic-141 | 2 | mcq | A half adder receives A=1, B=1. Outputs? || Sum 0, Carry 1 || Sum 1, Carry 0 ; Sum 0, Carry 0 ; Sum 1, Carry 1 || Sum = A XOR B = 0, Carry = A AND B = 1.
+logic-142 | 2 | mcq | A half adder receives A=1, B=0. Outputs? || Sum 1, Carry 0 || Sum 0, Carry 0 ; Sum 1, Carry 1 ; Sum 0, Carry 1 || Sum = A XOR B = 1, Carry = A AND B = 0.
+logic-143 | 2 | mcq | A half adder receives A=0, B=1. Outputs? || Sum 1, Carry 0 || Sum 1, Carry 1 ; Sum 0, Carry 1 ; Sum 0, Carry 0 || Sum = A XOR B = 1, Carry = A AND B = 0.
+### FAMILY X full adder receives X=#, X=#, Carry-in=#. Outputs?: 8 generated variants of one template (3 shown; numbers vary)
+logic-144 | 2 | mcq | A full adder receives A=1, B=0, Carry-in=1. Outputs? || Sum 0, Carry 1 || Sum 1, Carry 1 ; Sum 0, Carry 0 ; Sum 1, Carry 0 || Add all three bits: 1+0+1 = 2 = binary 10. Sum bit = 0, carry = 1.
+logic-145 | 2 | mcq | A full adder receives A=0, B=0, Carry-in=1. Outputs? || Sum 1, Carry 0 || Sum 0, Carry 0 ; Sum 1, Carry 1 ; Sum 0, Carry 1 || Add all three bits: 0+0+1 = 1 = binary 1. Sum bit = 1, carry = 0.
+logic-147 | 2 | mcq | A full adder receives A=0, B=1, Carry-in=0. Outputs? || Sum 1, Carry 0 || Sum 0, Carry 1 ; Sum 0, Carry 0 ; Sum 1, Carry 1 || Add all three bits: 0+1+0 = 1 = binary 1. Sum bit = 1, carry = 0.
+logic-153 | 1 | short | Which gate types are universal (can build every other gate)? || NAND and NOR | NAND and NORs || AND and OR ; XOR and XNOR ; NOT and AND || Any logic function can be built from only NAND gates, or only NOR gates.
+logic-184 | 1 | mcq | By De Morgan's law, NOT(A'·B) equals: || A + B' || A'·B' ; A·B' ; A' + B || De Morgan: break the bar and flip the operator (AND ↔ OR), complementing each variable.
+### FAMILY binadd: 16 generated variants of one template (3 shown; numbers vary)
+logic-185 | 2 | short | Add in binary: 101000 + 10101. Give the result in binary. || 111101 ||  || 40 + 21 = 61 = 111101 in binary.
+logic-186 | 2 | short | Add in binary: 10110 + 100010. Give the result in binary. || 111000 ||  || 22 + 34 = 56 = 111000 in binary.
+logic-187 | 2 | short | Add in binary: 11110 + 101001. Give the result in binary. || 1000111 ||  || 30 + 41 = 71 = 1000111 in binary.
+### FAMILY dec2bin: 14 generated variants of one template (3 shown; numbers vary)
+logic-201 | 2 | short | Convert decimal 35 to binary. || 100011 ||  || 35 = 100011 in binary.
+logic-202 | 2 | short | Convert decimal 216 to binary. || 11011000 ||  || 216 = 11011000 in binary.
+logic-203 | 2 | short | Convert decimal 155 to binary. || 10011011 ||  || 155 = 10011011 in binary.
+### FAMILY bits: 10 generated variants of one template (3 shown; numbers vary)
+logic-215 | 2 | short | What is the smallest number of bits needed to write the decimal number 159? || 8 (tol 0) ||  || 2^7 = 128 ≤ 159 < 2^8, so 8 bits.
+logic-216 | 2 | short | What is the smallest number of bits needed to write the decimal number 70? || 7 (tol 0) ||  || 2^6 = 64 ≤ 70 < 2^7, so 7 bits.
+logic-217 | 2 | short | What is the smallest number of bits needed to write the decimal number 166? || 8 (tol 0) ||  || 2^7 = 128 ≤ 166 < 2^8, so 8 bits.
+### FAMILY tt-count: 8 generated variants of one template (3 shown; numbers vary)
+logic-225 | 3 | short | For how many of the 8 input combinations of A, B, C is Y = A + B·C equal to 1? || 5 (tol 0) ||  || Check each of the 8 rows: 5 rows give Y = 1.
+logic-226 | 3 | short | For how many of the 8 input combinations of A, B, C is Y = A·B + C′ equal to 1? || 5 (tol 0) ||  || Check each of the 8 rows: 5 rows give Y = 1.
+logic-227 | 3 | short | For how many of the 8 input combinations of A, B, C is Y = (A + B)·C equal to 1? || 3 (tol 0) ||  || Check each of the 8 rows: 3 rows give Y = 1.
+### FAMILY mux: 7 generated variants of one template (3 shown; numbers vary)
+logic-233 | 1 | short | How many select lines does a 4:1 multiplexer need? (Round up to a whole number.) || 2 (tol 0) ||  || 2^2 = 4 inputs, so 2 select lines.
+logic-234 | 1 | short | How many select lines does a 8:1 multiplexer need? (Round up to a whole number.) || 3 (tol 0) ||  || 2^3 = 8 inputs, so 3 select lines.
+logic-235 | 1 | short | How many select lines does a 16:1 multiplexer need? (Round up to a whole number.) || 4 (tol 0) ||  || 2^4 = 16 inputs, so 4 select lines.

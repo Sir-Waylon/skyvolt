@@ -1,0 +1,33 @@
+# meteorology-b / winter: Winter storms  (81 questions, 23 families)
+## STUDY NOTE (what students are taught)
+Storm Key facts Blizzard Wind or gusts ≥ 35 mph + falling/blowing snow + visibility under ¼ mile, all for 3+ hours Nor'easter Strong East Coast storm; northeast winds; snow, coastal flooding, wind Lake effect Cold air over warm open lake water, narrow heavy snow bands downwind Ice storm Freezing rain builds up ice. ¼ inch can bring down lines A blizzard does not need new snow. Wind can blow old snow.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+winter-001 | 2 | short | Which condition is NOT required for a blizzard? || New snow falling | New snow fallings || Wind or gusts of 35 mph or more ; Visibility under ¼ mile ; Lasting at least 3 hours || Blowing snow counts.
+winter-002 | 2 | mcq | A nor'easter is… || A strong East Coast storm with northeast winds || A hurricane in the Pacific ; A lake storm ; A desert wind || Named for onshore northeast winds.
+winter-003 | 2 | mcq | Lake effect snow forms when… || Cold air moves over warm open lake water || Warm air moves over frozen lakes ; A hurricane crosses a lake ; Wind blows over mountains only || Moisture and heat from the lake feed bands.
+winter-004 | 2 | mcq | Lake effect snow bands are… || Narrow and very local || Always wide ; Only on mountains ; Limited to the East Coast || Neighboring towns can differ a lot.
+winter-005 | 2 | short | An ice storm is mainly caused by… || Freezing rain | Freezing rains || Sleet ; Blowing snow ; Hail || Ice builds up on surfaces.
+winter-006 | 3 | short | About how much ice accumulation can bring down power lines? || ¼ inch || 0.01 inch ; 3 inches ; No amount can || Even a thin ice coat adds heavy weight.
+winter-007 | 3 | short | Wind gusts 38 mph, blowing snow, visibility 1/8 mile for 5 hours. This is… || A blizzard | A blizzards || A nor'easter only ; A lake effect storm ; Not severe || All blizzard conditions are met.
+winter-008 | 3 | mcq | Wind 30 mph, heavy snow, visibility 1/8 mile for 6 hours. Why is this not a blizzard? || Wind is below 35 mph || Visibility is too high ; It lasted too long ; Snow is too heavy || Wind or gusts must reach 35 mph.
+### FAMILY wc1: 30 generated variants of one template (3 shown; numbers vary)
+winter-009 | 3 | short | NWS wind chill formula: 35.74 + 0.6215T − 35.75V^0.16 + 0.4275TV^0.16. Find the wind chill (nearest °F) for T = −10°F and wind V = 20 mph. || -35.0 (tol 1.01) ||  || Result ≈ −35.1 → −35.
+winter-010 | 3 | short | NWS wind chill formula: 35.74 + 0.6215T − 35.75V^0.16 + 0.4275TV^0.16. Find the wind chill (nearest °F) for T = 0°F and wind V = 30 mph. || -26.0 (tol 1.01) ||  || Result ≈ −25.9 → −26.
+winter-011 | 3 | short | NWS wind chill formula: 35.74 + 0.6215T − 35.75V^0.16 + 0.4275TV^0.16. Find the wind chill (nearest °F) for T = 5°F and wind V = 20 mph. || -15.0 (tol 1.01) ||  || Result ≈ −15.4 → −15.
+### FAMILY bl1: 30 generated variants of one template (3 shown; numbers vary)
+winter-039 | 3 | mcq | Winds 34 mph, visibility 0.25 mile, for 2 hours with falling or blowing snow. Is this a blizzard? (Needs wind ≥ 35 mph AND visibility < ¼ mile for ≥ 3 hours.) || No || Yes ; Only if it is below 0°F ; Only if snowfall exceeds 12 inches || At least one test fails, so no.
+winter-040 | 3 | mcq | Winds 36 mph, visibility 0.25 mile, for 2 hours with falling or blowing snow. Is this a blizzard? (Needs wind ≥ 35 mph AND visibility < ¼ mile for ≥ 3 hours.) || No || Yes ; Only if it is below 0°F ; Only if snowfall exceeds 12 inches || At least one test fails, so no.
+winter-041 | 3 | mcq | Winds 22 mph, visibility 0.1 mile, for 4 hours with falling or blowing snow. Is this a blizzard? (Needs wind ≥ 35 mph AND visibility < ¼ mile for ≥ 3 hours.) || No || Yes ; Only if it is below 0°F ; Only if snowfall exceeds 12 inches || At least one test fails, so no.
+winter-069 | 1 | mcq | Lake-effect snow occurs when… || Cold air crosses warmer lake water || Warm air crosses cold land ; A front stalls ; It is humid || Moisture and heat from the lake make snow bands.
+winter-070 | 2 | mcq | Which is more dangerous: wind chill below 0°F or 32°F? || Below 0°F: frostbite risk in minutes || 32°F ; Equal ; None || Colder wind chills freeze skin faster.
+winter-071 | 2 | mcq | A winter storm watch means… || Hazardous winter weather is possible || It is happening now ; It is over ; No snow || Be prepared.
+winter-072 | 2 | short | Which wintry precipitation builds up the heaviest ice on power lines: sleet or freezing rain? || freezing rain ||  || Sleet bounces and does not coat them.
+winter-073 | 1 | short | Frozen raindrops that bounce off the ground as small ice pellets are… || sleet ||  || Sleet is ice pellets.
+winter-074 | 1 | short | Rain that freezes when it touches the ground and coats everything with ice is… || freezing rain ||  || Freezing rain makes roads very slippery.
+winter-075 | 1 | short | A winter storm with strong winds and lots of blowing snow, with low visibility, is a… || blizzard ||  || Visibility is under 1/4 mile.
+winter-076 | 1 | short | What can make cold air feel even colder when the wind blows? || wind chill ||  || This is wind chill.
+winter-077 | 1 | short | Should you travel during a blizzard warning? || no | avoid | no avoid travel | avoid travel ||  || Stay home or off the road.
+winter-078 | 2 | short | A blizzard requires sustained winds of at least 35 mph. A storm has 28 mph. How many mph short is it? || 7.0 (tol 0.02) ||  || 7 mph short.
+winter-079 | 2 | short | A snowfall is 24 cm. Assuming a 10:1 ratio, how many cm of liquid water does it contain? || 2.4 (tol 0.02) ||  || 24 ÷ 10 = 2.4 cm.
+winter-080 | 2 | short | For freezing rain, the temperature aloft is above 0 °C and at the ground is… || below 0 °c | below freezing | below 0 | below zero | at or below freezing ||  || Near the ground a thin cold layer refreezes the water on contact.
+winter-081 | 2 | short | A lake-effect snow forms when cold air moves across what? || warm lake water | a warm lake | the great lakes | warmer lakes | lake water ||  || Snow bands fall on the downwind shores.

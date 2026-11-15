@@ -1,0 +1,52 @@
+# meteorology-b / upper: Upper air, soundings, CAPE  (56 questions, 42 families)
+## STUDY NOTE (what students are taught)
+Standard levels: 850 mb (low moisture), 700 mb (steering), 500 mb (troughs and ridges), 300 mb (jet stream). Hodograph: plots the wind at each height as a point, then connects them. A long, curving path means strong shear. Curving clockwise with height (veering) favors supercells. Stüve / Skew-T: temperature (solid) and dew point (dashed) against pressure. Lines close together = moist or cloudy. Far apart = dry. A layer where temperature rises with height is an inversion (very stable, a "cap"). States/Nationals: LCL (m) ≈ 125 × (T − Td in °C) Dry parcel cools 10 °C per km. Typical air cools about 6.5 °C per km. CAPE (J/kg) Instability Under 1,000 Marginal 1,000–2,500 Moderate 2,500–4,000 Strong Over 4,000 Extreme Low LCL (low cloud base) raises tornado risk. CAPE alone is not enough: you also need shear and a lift trigger.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+upper-001 | 1 | short | Which pressure level is usually used to locate the jet stream? || 300.0 (tol 0.005) || 850 mb ; 700 mb ; 1000 mb || 300 mb is near the jet stream level.
+upper-002 | 2 | short | Which level best shows low-level moisture and temperature? || 850.0 (tol 0.005) || 500 mb ; 300 mb ; 200 mb || 850 mb is about 1.5 km above ground.
+upper-003 | 2 | short | Troughs and ridges are usually read on which upper-air chart? || 500.0 (tol 0.005) || 1000 mb ; Surface ; 850 mb || 500 mb shows the mid-level wave pattern.
+upper-004 | 2 | mcq | What does a hodograph display? || Wind speed and direction at different heights || Temperature and dew point at different heights ; Rainfall rate over time ; Pressure change over 3 hours || Each point is the wind at one height.
+upper-005 | 3 | mcq | Which hodograph shape favors supercells? || A long path curving clockwise with height || A tiny cluster of points ; A straight short line ; A path that curves counterclockwise || Strong shear with veering winds supports rotating updrafts.
+upper-006 | 2 | short | On a Stüve diagram, where the temperature and dew point lines nearly touch, the air is… || Nearly saturated | Nearly saturateds || Very dry ; Unstable only ; Moving fastest || Close lines mean the air is near 100% humidity (cloud).
+upper-007 | 2 | short | A sounding layer where temperature increases with height is called… || An inversion | An inversions || A lapse zone ; A dryline ; A trough || An inversion is very stable.
+upper-008 | 3 | short | A strong inversion near the surface that holds back storms until broken is called… || A cap || A jet ; A wake ; A ridge || A cap suppresses convection until heating or lift breaks it.
+upper-009 | 2 | short | On a sounding, a wide gap between temperature and dew point means the layer is… || Dry || Saturated ; Rotating ; Frozen || Far apart lines mean low humidity.
+upper-010 | 3 | short | A steep temperature line (cooling fast with height) indicates… || Unstable air | Unstable airs || Stable air ; An inversion ; A warm front || Rapid cooling with height favors rising parcels.
+upper-011 | 2 | mcq | Skew-T diagrams differ from Stüve diagrams mainly because… || Their temperature lines are tilted to spread curves apart || They show rainfall instead of temperature ; They only cover the surface ; They have no wind barbs || The reading skills are the same; the axes are skewed.
+upper-012 | 2 | mcq | The lifting condensation level (LCL) is the height where… || A rising parcel becomes saturated and makes cloud || A storm reaches its top ; Wind is strongest ; Temperature is lowest || LCL marks the cloud base for a lifted parcel.
+upper-013 | 3 | short | Which LCL is more favorable for tornadoes? || A low LCL | A low LCLs || A very high LCL ; No difference ; An LCL above 5 km || Low cloud bases are linked with greater tornado risk.
+upper-014 | 2 | mcq | CAPE is a measure of… || Energy available to lift a parcel || Total rainfall expected ; Wind shear strength ; Hail size || Convective Available Potential Energy is stored buoyant energy.
+upper-015 | 2 | short | A CAPE of 3,200 J/kg is best described as… || Strong | Strongs || Marginal ; Moderate ; Extreme || 2,500–4,000 is strong.
+upper-016 | 3 | mcq | A forecaster sees very high CAPE but no wind shear and no trigger. What is the best conclusion? || Storms are possible but may not become organized or even start || Supercells are certain ; No instability exists ; A derecho is certain || CAPE is fuel but shear and lift are also needed.
+upper-017 | 3 | short | A dry parcel lifted 2 km from 24 °C (no condensation) will have a temperature near… || 4.0 (tol 0.005) || 11 °C ; 22 °C ; 14 °C || Dry adiabatic cooling is about 10 °C per km.
+### FAMILY cp1: 7 generated variants of one template (3 shown; numbers vary)
+upper-018 | 2 | short | CAPE of 300 J/kg is best described as… (weak <1000, moderate 1000–2500, strong 2500–4000, extreme >4000) || weak || moderate ; strong ; extreme || 300 falls in the weak range.
+upper-019 | 2 | short | CAPE of 3800 J/kg is best described as… (weak <1000, moderate 1000–2500, strong 2500–4000, extreme >4000) || strong | strongs || weak ; moderate ; extreme || 3800 falls in the strong range.
+upper-020 | 2 | short | CAPE of 2000 J/kg is best described as… (weak <1000, moderate 1000–2500, strong 2500–4000, extreme >4000) || moderate | moderates || weak ; strong ; extreme || 2000 falls in the moderate range.
+### FAMILY lr1: 9 generated variants of one template (3 shown; numbers vary)
+upper-025 | 3 | short | A rising dry (unsaturated) air parcel cools about 5.5°F per 1000 ft. By how many °F does it cool rising 4000 ft? || 22.0 (tol 0.06) ||  || 4 × 5.5 = 22.
+upper-026 | 3 | short | A rising dry (unsaturated) air parcel cools about 5.5°F per 1000 ft. By how many °F does it cool rising 7000 ft? || 38.5 (tol 0.06) ||  || 7 × 5.5 = 38.5.
+upper-027 | 3 | short | A rising dry (unsaturated) air parcel cools about 5.5°F per 1000 ft. By how many °F does it cool rising 9000 ft? || 49.5 (tol 0.06) ||  || 9 × 5.5 = 49.5.
+upper-034 | 1 | short | The troposphere is the layer where… || Most weather happens | Most weather happen || The ozone layer is ; Satellites orbit ; Auroras shine || It's the lowest layer.
+upper-035 | 2 | short | Air temperature in the troposphere usually… || Decreases with height | Decreases with heights || Increases with height ; Stays constant ; Doubles || The lapse rate is about 6.5°C per km.
+upper-036 | 2 | short | An inversion is when temperature… || Increases with height | Increases with heights || Decreases with height ; Stays the same ; Is below freezing || Warm air sits above cooler air.
+upper-037 | 3 | mcq | A strong 'cap' (inversion) above the surface can… || Delay storms but let energy build || Stop all weather forever ; Cause hail directly ; Remove CAPE || If it breaks, storms can explode.
+upper-038 | 2 | mcq | On a skew-T, the dew point line is usually on the… || Left of the temperature line || Right of the temperature line ; Same as temperature ; Top || Dew point ≤ temperature.
+upper-039 | 2 | short | When the temperature and dew point lines touch on a sounding, that layer is… || Saturated (cloudy) | Saturated | Saturateds || Dry ; Frozen ; Unstable only || Equal T and Td means 100% humidity.
+upper-040 | 2 | mcq | Wind shear is a change in wind… || Speed or direction with height || At sea level only ; With time of day only ; Only in winter || Shear helps storms rotate.
+upper-041 | 3 | mcq | On a hodograph, a long curved line suggests… || Strong turning wind with height (supercell potential) || No wind ; Only calm conditions ; A dry cold front || Curved hodographs favor rotating storms.
+upper-042 | 1 | short | Near the ground, temperature usually gets warmer or cooler as you climb higher in the atmosphere? || cooler | colder | gets cooler | gets colder | decreases ||  || In the troposphere the temperature falls with height.
+upper-043 | 1 | short | What is the lowest layer of the atmosphere, where almost all weather happens? || troposphere ||  || The troposphere is the layer we live in.
+upper-044 | 1 | short | A rising bubble of air is called an air… || parcel ||  || They call it a parcel and follow it as it rises.
+upper-045 | 1 | short | Air pressure gets higher or lower as you climb up a mountain? || lower | decreases | drops | decrease | gets lower ||  || Pressure falls with height.
+upper-046 | 1 | short | When rising air cools enough, water vapor turns into tiny droplets. This change is called… || condensation | condensing ||  || This is how clouds begin.
+upper-047 | 1 | short | A graph of temperature and moisture at different heights, made from a weather balloon, is called a… || sounding | skew-t | profile | vertical profile ||  || The record of those measurements is called a sounding.
+upper-048 | 2 | short | The dry adiabatic lapse rate is about 10 °C per kilometer. A dry parcel at 25 °C rises 2 km. What is its new temperature? || 5.0 (tol 0.02) ||  || 25 − 20 = 5 °C.
+upper-049 | 2 | short | A saturated parcel cools about 6 °C per km as it rises. How many degrees does it cool in 3 km? || 18.0 (tol 0.02) ||  || The parcel cools 18 °C.
+upper-050 | 2 | short | Estimate the lifting condensation level (cloud base) with 125 m × (T − Td). The surface temperature is 30 °C and the dew point is 18 °C. How high is the cloud base? || 1500.0 (tol 0.02) ||  || 125 × 12 = 1500 m.
+upper-051 | 2 | short | A layer where temperature increases with height is called a(n)… || inversion | temperature inversion | capping inversion ||  || When it warms with height instead, that is an inversion.
+upper-052 | 2 | short | What does CAPE stand for? || convective available potential energy ||  || Convective Available Potential Energy.
+upper-053 | 2 | short | CAPE is measured in joules per what? || kilogram | kg | joules per kilogram ||  || The unit is J/kg.
+upper-054 | 2 | short | Larger CAPE means a stronger or weaker possible updraft? || stronger | strong | stronger updraft ||  || More energy means stronger updrafts.
+upper-055 | 2 | short | A warm layer above the ground that stops rising air from reaching high levels is called a… || cap | capping inversion | lid ||  || If the cap breaks, storms can explode.
+upper-056 | 2 | short | On a sounding, the temperature is 20 °C at the surface and 4 °C at 2 km. What is the average lapse rate in °C per km? || 8.0 (tol 0.02) ||  || 16 °C over 2 km is 8 °C per km.

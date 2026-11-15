@@ -1,0 +1,1828 @@
+{
+"fix": {
+"logic-002": {
+"l": 2,
+"b": 0.3
+},
+"logic-039": {
+"l": 2,
+"b": 0.3
+},
+"logic-044": {
+"l": 2,
+"b": 0.5
+},
+"logic-045": {
+"l": 2,
+"b": 0.6
+},
+"sym-008": {
+"l": 2,
+"b": 0.3
+},
+"logic-004": {
+"w": "A·B′ = 0 and A′·B = 0, so Y = 0. This expression is XOR: it is 1 only when A and B differ."
+}
+},
+"del": [
+"logic-001",
+"logic-138",
+"logic-139",
+"logic-141",
+"logic-142",
+"logic-143",
+"logic-144",
+"logic-145",
+"logic-147",
+"logic-153",
+"logic-066",
+"logic-067",
+"logic-068",
+"logic-069",
+"logic-070",
+"logic-071",
+"sym-103",
+"sym-108",
+"sym-121",
+"sym-104",
+"sym-106",
+"sym-107",
+"sym-105",
+"sym-118",
+"sym-119",
+"sym-109",
+"sym-111",
+"sym-114"
+],
+"del_family": [],
+"new": [
+{
+"t": "logic",
+"l": 1,
+"b": -0.8,
+"type": "mcq",
+"q": "Which 2-input gate is the exact opposite of OR (output flips for every input row)?",
+"o": [
+"NOR",
+"NAND",
+"XNOR",
+"AND"
+],
+"w": "NOR is OR followed by an inverter.",
+"sol": [
+"OR is 1 for three rows and 0 only for (0,0).",
+"Flip every output: 0 only for three rows, 1 only for (0,0).",
+"That is NOR. NAND flips AND, not OR."
+],
+"fp": "c6_1"
+},
+{
+"t": "logic",
+"l": 1,
+"b": -0.5,
+"type": "mcq",
+"q": "A binary number ends in 1. Is the number odd or even?",
+"o": [
+"Odd",
+"Even",
+"It depends on the other bits",
+"Only odd if it has an even number of 1s"
+],
+"w": "The rightmost bit is worth 1; every other place value is even.",
+"sol": [
+"Place values are 1, 2, 4, 8 ... Only the 1 is odd.",
+"So the parity of the number is set by the last bit alone.",
+"Misconception: counting 1s is parity of the bits, not of the number."
+],
+"fp": "c6_2"
+},
+{
+"t": "logic",
+"l": 1,
+"b": -0.5,
+"type": "mcq",
+"q": "A 2-input OR gate has one input held at 1. The output is:",
+"o": [
+"always 1",
+"equal to the other input",
+"always 0",
+"the inverse of the other input"
+],
+"w": "OR with 1 gives 1 whatever the other input is.",
+"sol": [
+"OR is 1 if at least one input is 1.",
+"One input is already 1, so the output is locked at 1.",
+"OR with 0 is the one that passes the other input."
+],
+"fp": "c6_3"
+},
+{
+"t": "logic",
+"l": 1,
+"b": -0.5,
+"type": "mcq",
+"q": "The 2-input gate outputs for inputs (A,B) = (0,0), (0,1), (1,0), (1,1) are 1, 1, 1, 0. Which gate is it?",
+"o": [
+"NAND",
+"NOR",
+"XOR",
+"OR"
+],
+"w": "NAND is 0 only when both inputs are 1.",
+"sol": [
+"List where the output is 0: only (1,1).",
+"AND gives 0 on three rows, so the opposite gate gives 0 on one row.",
+"That is NAND."
+],
+"fp": "c6_4"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.0,
+"type": "mcq",
+"q": "The 2-input gate outputs for (0,0), (0,1), (1,0), (1,1) are 1, 0, 0, 1. Which gate is it?",
+"o": [
+"XNOR",
+"XOR",
+"NOR",
+"AND"
+],
+"w": "Output is 1 when the inputs are equal.",
+"sol": [
+"The 1s are at (0,0) and (1,1).",
+"Both of those have equal inputs.",
+"That is XNOR (equality). XOR would be 0, 1, 1, 0."
+],
+"fp": "c6_5"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.2,
+"type": "mcq",
+"q": "Even parity: a check bit is added so the total number of 1s is even. The data bits are 1011. What is the check bit?",
+"o": [
+"1",
+"0",
+"It cannot be found",
+"10"
+],
+"w": "1011 has three 1s, so a 1 makes four.",
+"sol": [
+"Count the 1s in 1011: three.",
+"Three is odd, so add a 1 to reach four (even).",
+"The check bit equals the XOR of the data bits: 1⊕0⊕1⊕1 = 1."
+],
+"fp": "c6_6"
+},
+{
+"t": "logic",
+"l": 1,
+"b": -0.3,
+"type": "short",
+"q": "How many of the 16 rows of a 4-input AND gate output 0?",
+"num": {
+"v": 15,
+"tol": 0.0
+},
+"w": "AND is 1 only when all four inputs are 1.",
+"sol": [
+"2⁴ = 16 rows.",
+"Only the row 1111 gives 1.",
+"16 − 1 = 15 rows give 0."
+],
+"fp": "c6_7"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.3,
+"type": "short",
+"q": "How many of the 16 rows of a 4-input XOR (1 when an odd number of inputs are 1) output 1?",
+"num": {
+"v": 8,
+"tol": 0.0
+},
+"w": "Odd parity is true for exactly half of the rows.",
+"sol": [
+"Choose rows with one 1 (4 rows) or three 1s (4 rows).",
+"4 + 4 = 8.",
+"Half of 16 is 8: flipping any one input flips the output."
+],
+"fp": "c6_8"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.3,
+"type": "short",
+"q": "A 3-input XOR gives 1 when an odd number of inputs are 1. What is its output for A = 1, B = 1, C = 1?",
+"num": {
+"v": 1,
+"tol": 0.0
+},
+"w": "Three 1s is an odd count, so the output is 1.",
+"sol": [
+"XOR in steps: 1⊕1 = 0.",
+"Then 0⊕1 = 1.",
+"Odd number of 1s gives 1."
+],
+"fp": "c6_9"
+},
+{
+"t": "logic",
+"l": 1,
+"b": -0.7,
+"type": "order",
+"q": "Put the evaluation order for  A + B·C′  from FIRST to LAST.",
+"items": [
+"NOT on C",
+"AND of B with C′",
+"OR with A"
+],
+"w": "Precedence is NOT, then AND, then OR.",
+"sol": [
+"NOT binds tightest.",
+"AND comes before OR, like × before +.",
+"OR is last."
+],
+"fp": "c6_10"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.3,
+"type": "match",
+"q": "For a 3-input gate, match each gate to how many of its 8 rows output 1.",
+"pairs": [
+[
+"AND",
+"1"
+],
+[
+"OR",
+"7"
+],
+[
+"XOR (odd parity)",
+"4"
+]
+],
+"w": "Count rows: AND needs all 1s; OR fails only at 000; XOR is odd parity.",
+"sol": [
+"AND is 1 only at 111.",
+"OR is 0 only at 000, so 7 rows are 1.",
+"XOR is 1 when one or three inputs are 1: 3 + 1 = 4 rows."
+],
+"fp": "c6_11"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 0.9,
+"type": "short",
+"q": "For how many of the 8 input rows is Y = (A ⊕ B) + B·C equal to 1?",
+"num": {
+"v": 5,
+"tol": 0.0
+},
+"w": "Build the 8-row table in pieces and count the 1s.",
+"sol": [
+"List all 8 (A,B,C) rows.",
+"Work out each inner part first, then combine, following NOT before AND before OR.",
+"Count the rows with output 1: 5."
+],
+"fp": "c6_12"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.05,
+"type": "short",
+"q": "For how many of the 8 input rows is Y = A′·(B ⊕ C) equal to 1?",
+"num": {
+"v": 2,
+"tol": 0.0
+},
+"w": "Build the 8-row table in pieces and count the 1s.",
+"sol": [
+"List all 8 (A,B,C) rows.",
+"Work out each inner part first, then combine, following NOT before AND before OR.",
+"Count the rows with output 1: 2."
+],
+"fp": "c6_13"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.5,
+"type": "short",
+"q": "For how many of the 8 input rows is Y = NOR(AND(A,B), XOR(A,C)) equal to 1?",
+"num": {
+"v": 3,
+"tol": 0.0
+},
+"w": "Build the 8-row table in pieces and count the 1s.",
+"sol": [
+"List all 8 (A,B,C) rows.",
+"Work out each inner part first, then combine, following NOT before AND before OR.",
+"Count the rows with output 1: 3."
+],
+"fp": "c6_16"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.2,
+"type": "short",
+"q": "Y = NOR( AND(A,B), XOR(A,C) ). Find Y for A = 1, B = 0, C = 1.",
+"num": {
+"v": 1,
+"tol": 0.0
+},
+"w": "AND = 0 and XOR = 0, so NOR(0,0) = 1.",
+"sol": [
+"AND(1,0) = 0.",
+"XOR(1,1) = 0 (equal inputs).",
+"NOR(0,0) = 1."
+],
+"fp": "c6_17"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.3,
+"type": "short",
+"q": "Y = XOR( NAND(A,B), OR(B,C) ). Find Y for A = 1, B = 1, C = 0.",
+"num": {
+"v": 1,
+"tol": 0.0
+},
+"w": "NAND = 0, OR = 1, so XOR = 1.",
+"sol": [
+"NAND(1,1) = 0.",
+"OR(1,0) = 1.",
+"XOR(0,1) = 1."
+],
+"fp": "c6_18"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "short",
+"q": "Y = AND( NOR(A,B), XNOR(B,C) ). For how many of the 8 input rows is Y = 1?",
+"num": {
+"v": 1,
+"tol": 0.0
+},
+"w": "NOR needs A = 0, B = 0; then XNOR needs C = 0.",
+"sol": [
+"NOR(A,B) = 1 only when A = 0 and B = 0.",
+"With B = 0, XNOR(B,C) = 1 only when C = 0.",
+"Only the row 000 works: 1 row."
+],
+"fp": "c6_19"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "A′·B + A·B + A′·B′ simplifies to:",
+"o": [
+"A′ + B",
+"A + B′",
+"A′·B",
+"A′ + B′"
+],
+"w": "A′B + AB = B, and B + A′B′ = A′ + B (using X + X′Y = X + Y).",
+"sol": [
+"A′B + AB = B(A′ + A) = B.",
+"Now B + A′B′ = B + A′ because B + B′Z = B + Z.",
+"Result: A′ + B. Check A = 1, B = 0: every term is 0, so Y = 0, and A′ + B = 0 too."
+],
+"fp": "c6_20"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "(A + B)·(A + B′) simplifies to:",
+"o": [
+"A",
+"A + B",
+"1",
+"A·B"
+],
+"w": "Expand: A + A·B′ + A·B + B·B′ = A + A(B′ + B) + 0 = A.",
+"sol": [
+"Multiply out the brackets.",
+"B·B′ = 0 and A·B + A·B′ = A.",
+"So A + A = A. Spot check: A = 0 makes both brackets B and B′, and B·B′ = 0."
+],
+"fp": "c6_21"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.8,
+"type": "mcq",
+"q": "A·B + A′·C + B·C simplifies to:",
+"o": [
+"A·B + A′·C",
+"A·B + B·C",
+"A′·C + B·C",
+"A·B·C"
+],
+"w": "The B·C term is redundant (consensus): when B·C = 1, either A·B or A′·C is already 1.",
+"sol": [
+"Look at B·C = 1. Then B = 1 and C = 1.",
+"If A = 1, A·B = 1. If A = 0, A′·C = 1.",
+"So B·C never adds a new 1 and can be removed."
+],
+"fp": "c6_22"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "(A ⊕ B) ⊕ B simplifies to:",
+"o": [
+"A",
+"B",
+"A ⊕ B",
+"0"
+],
+"w": "XOR with B twice cancels: B ⊕ B = 0 and A ⊕ 0 = A.",
+"sol": [
+"XOR is associative: A ⊕ (B ⊕ B).",
+"B ⊕ B = 0 (equal inputs).",
+"A ⊕ 0 = A."
+],
+"fp": "c6_23"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.5,
+"type": "mcq",
+"q": "XNOR(A,B) = (A ⊕ B)′ is also equal to:",
+"o": [
+"A ⊕ B′",
+"A′ ⊕ B′",
+"A′·B′",
+"A′ + B′"
+],
+"w": "Inverting one XOR input inverts the output.",
+"sol": [
+"XOR with 1 inverts the other input.",
+"Inverting one input flips the result: (A ⊕ B′) = (A ⊕ B)′.",
+"Inverting both inputs cancels: A′ ⊕ B′ = A ⊕ B, the opposite."
+],
+"fp": "c6_24"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.4,
+"type": "mcq",
+"q": "By De Morgan, (A·B·C)′ equals:",
+"o": [
+"A′ + B′ + C′",
+"A′·B′·C′",
+"A′ + B + C",
+"A + B + C"
+],
+"w": "Break the bar, flip the operator, complement each variable.",
+"sol": [
+"Break the long bar over the AND.",
+"AND becomes OR.",
+"Each variable gets its own bar."
+],
+"fp": "c6_25"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.1,
+"type": "mcq",
+"q": "By De Morgan, (A + B′ + C)′ equals:",
+"o": [
+"A′·B·C′",
+"A′·B′·C′",
+"A′ + B + C′",
+"A·B′·C"
+],
+"w": "OR becomes AND and every term is complemented, including B′ becoming B.",
+"sol": [
+"Break the bar, change + to ·.",
+"Complement each term: A′, (B′)′ = B, C′.",
+"Do not forget B′ flips to B (double negation)."
+],
+"fp": "c6_26"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "short",
+"q": "What is the minimum number of 2-input NAND gates needed to build a NOR gate?",
+"num": {
+"v": 4,
+"tol": 0.0
+},
+"w": "NOR = NOT(OR); OR takes 3 NAND gates and the final inverter is a 4th.",
+"sol": [
+"OR from NANDs: 2 inverters + 1 NAND = 3 gates.",
+"NOR is OR inverted.",
+"One more NAND wired as an inverter: 3 + 1 = 4."
+],
+"fp": "c6_27"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.5,
+"type": "short",
+"q": "What is the minimum number of 2-input NAND gates needed to build an AND gate?",
+"num": {
+"v": 2,
+"tol": 0.0
+},
+"w": "NAND then an inverter (a NAND with tied inputs).",
+"sol": [
+"AND = NOT(NAND).",
+"NAND is 1 gate.",
+"Inverter is a second NAND: 2 gates."
+],
+"fp": "c6_28"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.5,
+"type": "short",
+"q": "What is the minimum number of 2-input NOR gates needed to build an XNOR gate? (Use the circuit N = NOR(A,B), then NOR(A,N) and NOR(B,N), then NOR of those two.)",
+"num": {
+"v": 4,
+"tol": 0.0
+},
+"w": "The four-gate NOR design gives XNOR.",
+"sol": [
+"N = A′B′.",
+"NOR(A,N) = A′B and NOR(B,N) = AB′.",
+"NOR of those = (A′B + AB′)′ = XNOR. Four gates."
+],
+"fp": "c6_30"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.5,
+"type": "mcq",
+"q": "A circuit is NAND( NAND(A,A), NAND(B,B) ). It behaves as which single gate?",
+"o": [
+"OR",
+"AND",
+"NOR",
+"XOR"
+],
+"w": "The inner NANDs are inverters, so the output is (A′·B′)′ = A + B.",
+"sol": [
+"NAND(A,A) = A′ and NAND(B,B) = B′.",
+"Outer: (A′·B′)′.",
+"De Morgan: = A + B, an OR gate."
+],
+"fp": "c6_31"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 2.0,
+"type": "mcq",
+"q": "Y = NAND( A, NAND(A,B) ). Which expression equals Y?",
+"o": [
+"A′ + B",
+"A·B",
+"A + B′",
+"A′·B"
+],
+"w": "NAND(A,B) = A′ + B′. Then Y = (A·(A′ + B′))′ = (A·B′)′ = A′ + B.",
+"sol": [
+"Inner NAND = (AB)′ = A′ + B′.",
+"A·(A′ + B′) = A·B′.",
+"Y = (A·B′)′ = A′ + B. It is 0 only for A = 1, B = 0."
+],
+"fp": "c6_33"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 0.9,
+"type": "mcq",
+"q": "A 3-input function has Y = 1 for ABC = 001, 011, 101, 111 and Y = 0 otherwise. Y equals:",
+"o": [
+"C",
+"A·B·C",
+"A + B + C",
+"A ⊕ B ⊕ C"
+],
+"w": "Every 1 row has C = 1, and every row with C = 1 is a 1 row.",
+"sol": [
+"Look at the column C in the four 1 rows: always 1.",
+"A and B take all four combinations.",
+"So Y ignores A and B: Y = C."
+],
+"fp": "c6_34"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.2,
+"type": "mcq",
+"q": "A 3-input function has Y = 1 for ABC = 000, 001, 110, 111 and 0 otherwise. Y equals:",
+"o": [
+"A·B + A′·B′ (XNOR of A and B)",
+"A ⊕ B",
+"A·B·C",
+"A′·B′·C′"
+],
+"w": "C does not matter. Y = 1 exactly when A = B.",
+"sol": [
+"The 1 rows pair up: 000 and 001 differ only in C.",
+"Same for 110 and 111, so C drops out.",
+"Left: A = B = 0 or A = B = 1, which is XNOR."
+],
+"fp": "c6_35"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.3,
+"type": "mcq",
+"q": "Y = 1 for ABC = 011, 101, 110, 111 (at least two inputs are 1). Which expression matches?",
+"o": [
+"A·B + A·C + B·C",
+"A + B + C",
+"A·B·C",
+"A ⊕ B ⊕ C"
+],
+"w": "Each pair of 1s makes Y = 1: AB, AC or BC.",
+"sol": [
+"The rows with two or more 1s each contain a pair (AB, AC or BC).",
+"OR the three pair terms.",
+"A ⊕ B ⊕ C is wrong because it is 0 for 011."
+],
+"fp": "c6_36"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.2,
+"type": "mcq",
+"q": "A 4:1 mux has S1 = A, S0 = B and data inputs I0, I1, I2, I3 = 0, 1, 1, 0. The output is:",
+"o": [
+"A ⊕ B",
+"A·B",
+"A + B",
+"A ⊕ B′"
+],
+"w": "Output is 1 only for AB = 01 and 10: XOR.",
+"sol": [
+"S1S0 = AB picks the input numbered AB in binary.",
+"I1 (AB = 01) and I2 (AB = 10) are 1.",
+"1 when A and B differ: XOR."
+],
+"fp": "c6_37"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.4,
+"type": "mcq",
+"q": "A 2:1 mux has select = A, I0 = 1 and I1 = B. The output is:",
+"o": [
+"A′ + B",
+"A + B",
+"A·B",
+"A′·B"
+],
+"w": "A = 0 gives 1; A = 1 passes B.",
+"sol": [
+"Select 0 picks I0 = 1.",
+"Select 1 picks I1 = B.",
+"Y = 1 unless A = 1 and B = 0, which is A′ + B."
+],
+"fp": "c6_40"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "To build any 3-input function with an 8:1 mux, connect A, B, C to the select lines. What goes on the 8 data inputs?",
+"o": [
+"The 8 output values of the truth table (0 or 1 each)",
+"The inputs A, B and C repeated",
+"Only the rows where the output is 1, one per input",
+"Nothing; the mux calculates it"
+],
+"w": "Each select combination picks one data input, so that input just holds the output for that row.",
+"sol": [
+"8 select combinations = 8 rows.",
+"Row k is picked by select value k.",
+"Tie input k to 1 or 0 to match the table."
+],
+"fp": "c6_41"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.5,
+"type": "short",
+"q": "For how many of the 8 input rows is the Carry-out of a full adder equal to 1?",
+"num": {
+"v": 4,
+"tol": 0.0
+},
+"w": "Carry is 1 when at least two of the three inputs are 1.",
+"sol": [
+"Carry means the sum is 2 or 3.",
+"Rows with two 1s: 3. Rows with three 1s: 1.",
+"3 + 1 = 4."
+],
+"fp": "c6_45"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.2,
+"type": "short",
+"q": "How many full adders does an 8-bit ripple-carry adder with a carry input use?",
+"num": {
+"v": 8,
+"tol": 0.0
+},
+"w": "One full adder per bit position.",
+"sol": [
+"Each bit adds A, B and the carry from the right.",
+"That is a full adder.",
+"8 bits means 8 full adders."
+],
+"fp": "c6_46"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.3,
+"type": "mcq",
+"q": "In a ripple-carry adder, why does the top sum bit settle later than the bottom one?",
+"o": [
+"The carry must pass through each stage in turn",
+"The top gates are slower",
+"The top bits are larger numbers",
+"The sum bits use a different clock"
+],
+"w": "Each stage waits for the carry from the stage to its right.",
+"sol": [
+"Stage 0 makes carry c1.",
+"Stage 1 needs c1 before it can make c2, and so on.",
+"The delay adds up along the chain."
+],
+"fp": "c6_48"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.2,
+"type": "short",
+"q": "What is the largest number that fits in 8 binary bits? Give the answer in decimal.",
+"num": {
+"v": 255,
+"tol": 0.0
+},
+"w": "2⁸ − 1 = 255.",
+"sol": [
+"8 bits give 2⁸ = 256 patterns.",
+"They start at 0.",
+"So the largest is 255."
+],
+"fp": "c6_49"
+},
+{
+"t": "logic",
+"l": 2,
+"b": 0.3,
+"type": "mcq",
+"q": "Adding a 0 on the right end of a binary number (for example 101 becomes 1010) does what to its value?",
+"o": [
+"Doubles it",
+"Adds 2",
+"Halves it",
+"Squares it"
+],
+"w": "Every bit moves one place to the left, so every place value doubles.",
+"sol": [
+"101 = 5 and 1010 = 10.",
+"Each bit now sits in a place worth twice as much.",
+"Same idea as adding a 0 in decimal multiplies by 10."
+],
+"fp": "c6_50"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.0,
+"type": "short",
+"q": "Subtract in binary: 10010 − 1011. Give the answer in binary.",
+"text": [
+"111",
+"0111",
+"00111"
+],
+"w": "18 − 11 = 7 = 111.",
+"sol": [
+"Convert: 10010 = 18 and 1011 = 11.",
+"18 − 11 = 7.",
+"7 = 4 + 2 + 1 = 111."
+],
+"fp": "c6_52"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.7,
+"type": "short",
+"q": "A 4-bit adder adds 1111 + 1111. What 5-bit result comes out?",
+"text": [
+"11110"
+],
+"w": "15 + 15 = 30 = 11110.",
+"sol": [
+"Each number is 15.",
+"Sum is 30 = 16 + 8 + 4 + 2.",
+"So 11110: carry-out 1 and sum bits 1110."
+],
+"fp": "c6_61"
+},
+{
+"t": "logic",
+"l": 3,
+"b": 1.9,
+"type": "mcq",
+"q": "Y = A·B + A·C′. A student wants fewer gates. Which factored form equals Y?",
+"o": [
+"A·(B + C′)",
+"A + B·C′",
+"(A + B)·(A + C′)",
+"A·B·C′"
+],
+"w": "Factor out A: A·B + A·C′ = A·(B + C′).",
+"sol": [
+"Both terms share A.",
+"Distributive law reverses.",
+"Check A = 0: Y = 0 and A(B + C′) = 0. (A + B)(A + C′) would be wrong because it is 1 when B = C′ = 1 and A = 0."
+],
+"fp": "c6_62"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.2,
+"type": "mcq",
+"q": "What is the contrapositive of P → Q?",
+"o": [
+"~Q → ~P",
+"Q → P",
+"~P → ~Q",
+"~(P → Q)"
+],
+"w": "The contrapositive swaps and negates both parts, and it always has the same truth value as the original.",
+"sol": [
+"Converse: Q → P (swap only).",
+"Inverse: ~P → ~Q (negate only).",
+"Contrapositive: swap AND negate = ~Q → ~P."
+],
+"fp": "c6_63"
+},
+{
+"t": "sym",
+"l": 1,
+"b": -0.3,
+"type": "mcq",
+"q": "Statement: \"If the switch is closed, the lamp lights.\" What is its converse?",
+"o": [
+"If the lamp lights, the switch is closed.",
+"If the switch is open, the lamp is off.",
+"If the lamp is off, the switch is open.",
+"The switch is closed and the lamp lights."
+],
+"w": "The converse swaps the if-part and the then-part.",
+"sol": [
+"Original: if S then L.",
+"Swap the two parts only: if L then S.",
+"The converse is NOT equivalent to the original: a lamp can light for other reasons."
+],
+"fp": "c6_64"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.3,
+"type": "mcq",
+"q": "Statement: \"If the switch is closed, the lamp lights.\" What is its inverse?",
+"o": [
+"If the switch is open, the lamp does not light.",
+"If the lamp lights, the switch is closed.",
+"If the lamp is off, the switch is open.",
+"The switch is open or the lamp lights."
+],
+"w": "The inverse negates both parts but keeps the order.",
+"sol": [
+"Original: if S then L.",
+"Negate both parts, keep the order: if not S then not L.",
+"The inverse is NOT equivalent to the original, but it is the contrapositive of the converse."
+],
+"fp": "c6_65"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "Which statement is logically equivalent to P → Q?",
+"o": [
+"~P ∨ Q",
+"P ∨ ~Q",
+"~P ∧ Q",
+"Q → P"
+],
+"w": "P → Q fails only when P is true and Q is false, and ~P ∨ Q fails in exactly that row.",
+"sol": [
+"P → Q is false only for P = T, Q = F.",
+"~P ∨ Q is false only when ~P is F and Q is F, i.e. P = T, Q = F.",
+"The tables match."
+],
+"fp": "c6_66"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.2,
+"type": "mcq",
+"q": "Which statement is the negation of P → Q?",
+"o": [
+"P ∧ ~Q",
+"~P → ~Q",
+"P → ~Q",
+"~P ∧ Q"
+],
+"w": "The only way an if-then fails is when the if-part is true and the then-part is false.",
+"sol": [
+"Ask when P → Q is false: P true, Q false.",
+"Write that as P ∧ ~Q.",
+"Misconception: the negation of an if-then is NOT another if-then."
+],
+"fp": "c6_67"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.4,
+"type": "mcq",
+"q": "By De Morgan and double negation, ~(P ∧ ~Q) is equivalent to:",
+"o": [
+"~P ∨ Q",
+"~P ∧ Q",
+"P ∨ ~Q",
+"~P ∨ ~Q"
+],
+"w": "Flip ∧ to ∨ and negate each part: ~P ∨ ~~Q = ~P ∨ Q.",
+"sol": [
+"Break the bar over the AND.",
+"Negate P and negate ~Q.",
+"~~Q = Q, so ~P ∨ Q (which is P → Q)."
+],
+"fp": "c6_68"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.5,
+"type": "mcq",
+"q": "Which pair of statements are logically equivalent to each other?",
+"o": [
+"The converse and the inverse of the same if-then",
+"An if-then and its converse",
+"An if-then and its inverse",
+"An if-then and its negation"
+],
+"w": "Converse is Q → P; inverse is ~P → ~Q. These are contrapositives of each other.",
+"sol": [
+"Take the contrapositive of Q → P: ~P → ~Q.",
+"That is exactly the inverse.",
+"So they always match each other, but not the original."
+],
+"fp": "c6_70"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.3,
+"type": "short",
+"q": "In how many of the 4 rows of a truth table is (P → Q) ∧ (Q → P) true?",
+"num": {
+"v": 2,
+"tol": 0.0
+},
+"w": "That is P ↔ Q: true when P and Q match.",
+"sol": [
+"Rows (T,T) and (F,F) have P = Q.",
+"Rows (T,F) and (F,T) break one direction.",
+"2 rows."
+],
+"fp": "c6_72"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.2,
+"type": "short",
+"q": "In how many of the 8 rows of a truth table for P, Q, R is (P → Q) → R true?",
+"num": {
+"v": 5,
+"tol": 0.0
+},
+"w": "Work out P → Q first, then the outer if-then.",
+"sol": [
+"R true: always makes the outer if-then true (4 rows).",
+"R false: need (P → Q) false, i.e. P = T, Q = F (1 row).",
+"4 + 1 = 5."
+],
+"fp": "c6_73"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.3,
+"type": "short",
+"q": "In how many of the 8 rows is P → (Q → R) true?",
+"num": {
+"v": 7,
+"tol": 0.0
+},
+"w": "It is false only when P is T, Q is T and R is F.",
+"sol": [
+"The outer if-then fails only if P is T and Q → R is F.",
+"Q → R is F only for Q = T, R = F.",
+"1 failing row, so 8 − 1 = 7."
+],
+"fp": "c6_74"
+},
+{
+"t": "sym",
+"l": 1,
+"b": -0.5,
+"type": "short",
+"q": "A statement that is true in every row of its truth table, like P ∨ ~P, is called a ______.",
+"text": [
+"tautology"
+],
+"w": "A tautology is always true.",
+"sol": [
+"Check P true: P ∨ ~P is true.",
+"Check P false: ~P is true, so still true.",
+"Always true means tautology."
+],
+"fp": "c6_75"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.4,
+"type": "mcq",
+"q": "Given P → Q is true and Q is true. What can you conclude about P?",
+"o": [
+"Nothing; P may be true or false",
+"P is true",
+"P is false",
+"P → Q must be false"
+],
+"w": "A true Q is consistent with P true or false: affirming the consequent is invalid.",
+"sol": [
+"With Q true, P → Q is true whatever P is.",
+"So P can be T or F.",
+"No conclusion follows."
+],
+"fp": "c6_77"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.4,
+"type": "mcq",
+"q": "Premises: P → Q and ~P. Which conclusion follows validly?",
+"o": [
+"None of the usual conclusions (~Q is not forced)",
+"~Q",
+"Q",
+"P"
+],
+"w": "Denying the antecedent proves nothing about Q.",
+"sol": [
+"Try P = F, Q = T: both premises true.",
+"Then ~Q is false, so ~Q is not forced.",
+"Q is also not forced (Q = F works)."
+],
+"fp": "c6_78"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "Which is the correct translation of \"The relay clicks only if the switch is closed\"? (R = relay clicks, S = switch closed)",
+"o": [
+"R → S",
+"S → R",
+"R ↔ S",
+"R ∧ S"
+],
+"w": "\"Only if\" points to the necessary condition: the click needs the closed switch.",
+"sol": [
+"If the relay clicks, the switch must have been closed.",
+"So R is the \"if\" part: R → S.",
+"Misconception: \"only if\" does not mean S → R."
+],
+"fp": "c6_79"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.1,
+"type": "mcq",
+"q": "Translate: \"The lamp is lit if the switch is closed.\" (L = lamp lit, S = switch closed)",
+"o": [
+"S → L",
+"L → S",
+"L ∧ S",
+"S ∨ L"
+],
+"w": "A plain \"if\" introduces the condition: closed switch is sufficient for a lit lamp.",
+"sol": [
+"\"X if Y\" means Y → X.",
+"Y is the closed switch.",
+"So S → L."
+],
+"fp": "c6_80"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.3,
+"type": "mcq",
+"q": "Translate \"P and Q are not both true.\"",
+"o": [
+"~(P ∧ Q)",
+"~P ∧ ~Q",
+"~P ∨ ~Q ∨ P",
+"P ∨ Q"
+],
+"w": "\"Not both\" negates the whole AND.",
+"sol": [
+"Put the bar over the entire P ∧ Q.",
+"Neither P nor Q would be ~P ∧ ~Q (both false), which is stronger.",
+"~(P ∧ Q) = ~P ∨ ~Q by De Morgan."
+],
+"fp": "c6_81"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.2,
+"type": "mcq",
+"q": "Let D = battery is dead, S = switch is open, L = lamp is off. \"If the battery is dead or the switch is open, then the lamp is off.\"",
+"o": [
+"(D ∨ S) → L",
+"D ∨ (S → L)",
+"(D → S) ∨ L",
+"D ∨ S ∨ L"
+],
+"w": "The \"if\" part contains the OR group.",
+"sol": [
+"The comma after \"open\" marks the end of the if-part.",
+"The if-part is D ∨ S.",
+"So (D ∨ S) → L."
+],
+"fp": "c6_82"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.3,
+"type": "mcq",
+"q": "Let D = battery is dead, S = switch is open, L = lamp is off. \"The lamp is off only if the battery is dead or the switch is open.\"",
+"o": [
+"L → (D ∨ S)",
+"(D ∨ S) → L",
+"L ↔ (D ∨ S)",
+"L ∧ (D ∨ S)"
+],
+"w": "\"Only if\" puts the lamp-off on the if side.",
+"sol": [
+"Lamp off needs a cause: D or S.",
+"So L implies D ∨ S.",
+"(D ∨ S) → L is the converse."
+],
+"fp": "c6_83"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.4,
+"type": "mcq",
+"q": "Let L = lamp is on, S = switch is closed, B = battery is charged. \"The lamp is on if and only if the switch is closed and the battery is charged.\"",
+"o": [
+"L ↔ (S ∧ B)",
+"L → (S ∧ B)",
+"(L ↔ S) ∧ B",
+"L ∨ (S ∧ B)"
+],
+"w": "\"If and only if\" is ↔; the group S ∧ B sits on the right.",
+"sol": [
+"\"If and only if\" is the double arrow.",
+"Both conditions (S and B) are grouped.",
+"So L ↔ (S ∧ B)."
+],
+"fp": "c6_84"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.5,
+"type": "mcq",
+"q": "Switch A is in series with a parallel pair of switches B and C. The lamp is on when:",
+"o": [
+"A ∧ (B ∨ C)",
+"(A ∧ B) ∨ C",
+"A ∨ (B ∧ C)",
+"(A ∨ B) ∧ C"
+],
+"w": "The parallel pair works like OR, and the series link with A works like AND.",
+"sol": [
+"B and C in parallel: B ∨ C.",
+"That block is in series with A: AND.",
+"A ∧ (B ∨ C)."
+],
+"fp": "c6_87"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.7,
+"type": "mcq",
+"q": "Switches A and B in series form one branch. A switch C forms a second branch in parallel with it. The lamp is on when:",
+"o": [
+"(A ∧ B) ∨ C",
+"A ∧ (B ∨ C)",
+"A ∨ B ∨ C",
+"(A ∨ B) ∧ C"
+],
+"w": "Each branch is a way for current to flow: either A and B both closed, or C closed.",
+"sol": [
+"Branch 1 works if A ∧ B.",
+"Branch 2 works if C.",
+"Parallel branches: OR of the two."
+],
+"fp": "c6_88"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "Proof lines: 1. A → B (P)  2. B → C (P)  3. A (P)  4. B (MP 1,3)  5. C (?). The reason for line 5 is:",
+"o": [
+"MP, lines 2 and 4",
+"HS, lines 1 and 2",
+"MP, lines 1 and 3",
+"MT, lines 2 and 4"
+],
+"w": "Line 5 uses B → C and B, which is modus ponens.",
+"sol": [
+"Need an if-then and its antecedent.",
+"Line 2 is B → C and line 4 gives B.",
+"That is MP. HS would give A → C, not C."
+],
+"fp": "c6_89"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "Proof lines: 1. P ∨ Q (P)  2. ~P (P)  3. Q (DS 1,2)  4. Q → R (P)  5. R (?). The reason for line 5 is:",
+"o": [
+"MP, lines 3 and 4",
+"DS, lines 1 and 4",
+"MT, lines 3 and 4",
+"HS, lines 3 and 4"
+],
+"w": "Q is true (line 3) and Q → R, so R by modus ponens.",
+"sol": [
+"Look for an if-then with a true antecedent.",
+"Line 4 is Q → R and line 3 is Q.",
+"That is MP."
+],
+"fp": "c6_90"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.6,
+"type": "mcq",
+"q": "Proof lines: 1. ~A ∨ B (P)  2. A (P)  3. ~~A (DN 2)  4. B (?). The reason for line 4 is:",
+"o": [
+"DS, lines 1 and 3",
+"DS, lines 1 and 2",
+"MP, lines 1 and 2",
+"MT, lines 1 and 3"
+],
+"w": "Disjunctive syllogism needs the NEGATION of one side of the OR. The negation of ~A is ~~A (line 3).",
+"sol": [
+"Line 1 is ~A ∨ B.",
+"To use DS we must deny ~A, which means having ~~A.",
+"Line 3 does that, so B follows by DS from 1 and 3."
+],
+"fp": "c6_91"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.6,
+"type": "mcq",
+"q": "~(P ∧ Q), P ∴ ~Q. Is this argument valid?",
+"o": [
+"Valid",
+"Invalid: Q could be true",
+"Invalid: needs P ∨ Q",
+"Valid only if Q is false already"
+],
+"w": "~(P ∧ Q) is ~P ∨ ~Q by De Morgan; with P true, ~P is false, so ~Q.",
+"sol": [
+"De Morgan: ~P ∨ ~Q.",
+"P is true, so ~P is false.",
+"Disjunctive syllogism leaves ~Q."
+],
+"fp": "c6_93"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 2.0,
+"type": "mcq",
+"q": "P → Q and ~P → R. Does Q ∨ R follow?",
+"o": [
+"Yes; either P or ~P is true, so Q or R",
+"No; P might be false",
+"No; the premises share no letter",
+"Only if Q and R are both true"
+],
+"w": "Constructive dilemma with P ∨ ~P (a tautology) as the third premise.",
+"sol": [
+"P ∨ ~P is always true.",
+"If P, then Q. If ~P, then R.",
+"So Q ∨ R in every case."
+],
+"fp": "c6_94"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.4,
+"type": "mcq",
+"q": "Premises: P → (Q → R), P, Q. Which conclusion follows?",
+"o": [
+"R",
+"Q → R only, not R",
+"~R",
+"P → R"
+],
+"w": "MP on P gives Q → R; MP again with Q gives R.",
+"sol": [
+"P → (Q → R) and P give Q → R (MP).",
+"Q → R and Q give R (MP).",
+"Two modus ponens steps."
+],
+"fp": "c6_95"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.8,
+"type": "mcq",
+"q": "P → Q, R → Q, Q ∴ P ∨ R. Is this valid?",
+"o": [
+"Invalid (affirming the consequent)",
+"Valid (constructive dilemma)",
+"Valid (modus ponens)",
+"Valid (hypothetical syllogism)"
+],
+"w": "Q can be true for a third reason, with P and R both false.",
+"sol": [
+"Constructive dilemma needs P ∨ R as a premise, not Q.",
+"Try P = F, R = F, Q = T.",
+"All premises true, conclusion false."
+],
+"fp": "c6_97"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.8,
+"type": "mcq",
+"q": "P → Q and P → R. Which conclusion follows?",
+"o": [
+"P → (Q ∧ R)",
+"(Q ∧ R) → P",
+"P → (Q ∨ R) only",
+"Q ↔ R"
+],
+"w": "If P is true, both Q and R must be true.",
+"sol": [
+"Assume P.",
+"Then Q by the first premise and R by the second.",
+"So P → (Q ∧ R). The converse does not follow."
+],
+"fp": "c6_98"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.6,
+"type": "short",
+"q": "Let A = 1, B = 1, C = 0 (1 = true, 0 = false). Find the value of ~(A ∧ B) → C. Give 1 or 0.",
+"num": {
+"v": 1,
+"tol": 0.0
+},
+"w": "Evaluate the inside parts first, then the connectives in order.",
+"sol": [
+"Substitute the values.",
+"Work out each smaller piece.",
+"Combine to get 1."
+],
+"fp": "c6_102"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 0.9,
+"type": "short",
+"q": "Let A = 1, B = 0, C = 0 (1 = true, 0 = false). Find the value of (A ∨ B) → (A ∧ B). Give 1 or 0.",
+"num": {
+"v": 0,
+"tol": 0.0
+},
+"w": "Evaluate the inside parts first, then the connectives in order.",
+"sol": [
+"Substitute the values.",
+"Work out each smaller piece.",
+"Combine to get 0."
+],
+"fp": "c6_103"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.1,
+"type": "short",
+"q": "Let A = 0, B = 1, C = 1 (1 = true, 0 = false). Find the value of ~(A → B) ∨ ~C. Give 1 or 0.",
+"num": {
+"v": 0,
+"tol": 0.0
+},
+"w": "Evaluate the inside parts first, then the connectives in order.",
+"sol": [
+"Substitute the values.",
+"Work out each smaller piece.",
+"Combine to get 0."
+],
+"fp": "c6_104"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.2,
+"type": "order",
+"q": "Put these proof lines in order to prove R from P → Q, Q → R and P.",
+"items": [
+"P → Q (premise)",
+"Q → R (premise)",
+"P → R (HS)",
+"P (premise)",
+"R (MP)"
+],
+"w": "Chain the conditionals first, then apply modus ponens with P.",
+"sol": [
+"Premises first.",
+"HS joins P → Q and Q → R into P → R.",
+"MP with P gives R."
+],
+"fp": "c6_106"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.2,
+"type": "match",
+"q": "Match each rule to its pattern.",
+"pairs": [
+[
+"Conjunctive elimination",
+"P ∧ Q ∴ P"
+],
+[
+"Conjunctive addition",
+"P, Q ∴ P ∧ Q"
+],
+[
+"Disjunctive addition",
+"P ∴ P ∨ Q"
+],
+[
+"Double negation",
+"~~P ∴ P"
+]
+],
+"w": "Know each short pattern by sight.",
+"sol": [
+"Elimination takes a part out of an AND.",
+"Addition builds a bigger AND or OR.",
+"Double negation removes two tildes."
+],
+"fp": "c6_107"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.5,
+"type": "multi",
+"q": "Select ALL argument forms that are VALID.",
+"o": [
+"P → Q, P ∴ Q",
+"P → Q, ~Q ∴ ~P",
+"P → Q, Q ∴ P",
+"P → Q, ~P ∴ ~Q"
+],
+"a": [
+0,
+1
+],
+"w": "Only modus ponens and modus tollens are valid here.",
+"sol": [
+"MP and MT always work.",
+"Affirming the consequent (third) fails when P is false and Q is true.",
+"Denying the antecedent (fourth) fails in the same row."
+],
+"fp": "c6_108"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.5,
+"type": "multi",
+"q": "Select ALL statements equivalent to P → Q.",
+"o": [
+"~Q → ~P",
+"~P ∨ Q",
+"~(P ∧ ~Q)",
+"Q → P",
+"~P → ~Q"
+],
+"a": [
+0,
+1,
+2
+],
+"w": "The contrapositive, the OR form and the negated-failure form all match P → Q. The converse and inverse do not.",
+"sol": [
+"Each true option is false only in the row P = T, Q = F.",
+"Q → P is false in the row P = F, Q = T.",
+"~P → ~Q (inverse) is also false in that row."
+],
+"fp": "c6_109"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.8,
+"type": "multi",
+"q": "Select ALL statements that are tautologies (always true).",
+"o": [
+"P ∨ ~P",
+"(P ∧ Q) → P",
+"P → (P ∨ Q)",
+"P → (P ∧ Q)",
+"(P → Q) → (Q → P)"
+],
+"a": [
+0,
+1,
+2
+],
+"w": "Test the last two with P = T, Q = F: both come out false.",
+"sol": [
+"The first three can never fail.",
+"P → (P ∧ Q) fails at P = T, Q = F.",
+"(P → Q) → (Q → P) fails at P = F, Q = T (P → Q true, Q → P false)."
+],
+"fp": "c6_110"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.8,
+"type": "mcq",
+"q": "One row of the truth table shows that BOTH affirming the consequent and denying the antecedent are invalid. It is:",
+"o": [
+"P false, Q true",
+"P true, Q false",
+"P true, Q true",
+"P false, Q false"
+],
+"w": "With P false and Q true, P → Q is true, ~P is true and Q is true, yet P and ~Q are both false.",
+"sol": [
+"Affirming: P → Q, Q ∴ P. Premises true, P false.",
+"Denying: P → Q, ~P ∴ ~Q. Premises true, ~Q false.",
+"Both break in the row P = F, Q = T."
+],
+"fp": "c6_111"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.4,
+"type": "mcq",
+"q": "Premises: P ↔ Q and ~P. Which conclusion follows?",
+"o": [
+"~Q",
+"Q",
+"P",
+"Q → P is false"
+],
+"w": "P ↔ Q includes Q → P; with ~P, modus tollens gives ~Q.",
+"sol": [
+"P ↔ Q means (P → Q) ∧ (Q → P).",
+"Use Q → P and ~P.",
+"Modus tollens: ~Q."
+],
+"fp": "c6_112"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.2,
+"type": "mcq",
+"q": "\"If the circuit is shorted, the fuse blows. The fuse blew. So the circuit was shorted.\" This argument is:",
+"o": [
+"invalid (affirming the consequent)",
+"valid (modus ponens)",
+"valid (modus tollens)",
+"invalid (denying the antecedent)"
+],
+"w": "A fuse can blow for another reason, such as an overload.",
+"sol": [
+"Form: S → F, F ∴ S.",
+"That reverses modus ponens.",
+"Another cause of F is enough to break it."
+],
+"fp": "c6_113"
+},
+{
+"t": "sym",
+"l": 2,
+"b": 0.3,
+"type": "mcq",
+"q": "\"If the switch is closed, the lamp lights. The lamp does not light. So the switch is open.\" This argument is:",
+"o": [
+"valid (modus tollens)",
+"invalid (affirming the consequent)",
+"invalid (denying the antecedent)",
+"valid (modus ponens)"
+],
+"w": "Closed switch would force a lit lamp, so an unlit lamp means the switch is not closed.",
+"sol": [
+"Form: S → L, ~L ∴ ~S.",
+"That is modus tollens.",
+"\"Open\" means not closed."
+],
+"fp": "c6_114"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.3,
+"type": "mcq",
+"q": "Premises: A → B, ~B, A ∨ C. Which conclusion follows?",
+"o": [
+"C",
+"A",
+"B",
+"~C"
+],
+"w": "MT with the first two gives ~A; then DS on A ∨ C leaves C.",
+"sol": [
+"A → B and ~B give ~A (modus tollens).",
+"A ∨ C and ~A give C (disjunctive syllogism).",
+"Two steps."
+],
+"fp": "c6_115"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "Premises: (P ∧ Q) → R, P, Q. To reach R you need these steps in order:",
+"o": [
+"Conjunctive addition (P ∧ Q), then modus ponens",
+"Modus ponens, then conjunctive elimination",
+"Disjunctive syllogism, then modus ponens",
+"Modus tollens, then double negation"
+],
+"w": "The antecedent is P ∧ Q, so build it from P and Q first.",
+"sol": [
+"MP needs the full antecedent.",
+"Conjunctive addition makes P ∧ Q.",
+"Then MP with (P ∧ Q) → R."
+],
+"fp": "c6_117"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 2.2,
+"type": "mcq",
+"q": "P ∨ Q and ~P ∨ R. Which conclusion follows?",
+"o": [
+"Q ∨ R",
+"Q ∧ R",
+"P ∨ R",
+"~Q ∨ ~R"
+],
+"w": "If P is true, ~P is false so R is true; if P is false, Q is true. Either way Q ∨ R.",
+"sol": [
+"Case P true: second premise gives R.",
+"Case P false: first premise gives Q.",
+"In both cases Q ∨ R. (This is the resolution rule.)"
+],
+"fp": "c6_118"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.0,
+"type": "mcq",
+"q": "\"The lamp is lit only if the switch is closed.\" Which situation would make this statement FALSE?",
+"o": [
+"Lamp lit, switch open",
+"Lamp off, switch closed",
+"Lamp off, switch open",
+"Lamp lit, switch closed"
+],
+"w": "The statement forbids a lit lamp with an open switch.",
+"sol": [
+"Write it as L → S.",
+"False only when L is true and S is false.",
+"Lamp off with a closed switch is allowed."
+],
+"fp": "c6_121"
+},
+{
+"t": "sym",
+"l": 3,
+"b": 1.7,
+"type": "mcq",
+"q": "A student says: \"P ∨ Q and ~P ∴ Q is valid, so P ∨ Q and Q ∴ ~P must be valid too.\" What is wrong?",
+"o": [
+"The OR is inclusive, so Q true does not rule out P",
+"Nothing, both are valid",
+"The conclusion should be P, not ~P",
+"Affirming Q removes the need for P"
+],
+"w": "DS denies one side to get the other. Affirming one side proves nothing about the other.",
+"sol": [
+"Try P = T, Q = T.",
+"Premises P ∨ Q and Q are true.",
+"~P is false, so the argument fails."
+],
+"fp": "c6_124"
+}
+],
+"report": "Logic: reviewed 239 shown/known items; no factual errors found in the shown variants (checked truth tables, De Morgan, NAND/NOR counts, binary arithmetic, adders, mux). Re-levelled 5, fixed 1 explanation. Deleted 28 duplicates/lookalikes (row-count drills 066-071 repeat 060-065; half/full adder families repeat 041-043; mux 138/139 had empty distractors; sym premise-form families repeat the 'Given X, what follows' families). Only the 3 shown variants of each generated family were visible, so unshown variants of families (binadd, dec2bin, bits, tt-count, mux, X+X in binary, De Morgan, sym rule-ID families) are unverified; sym rule/MP/MT families are heavily l1 drills (recommend capping them). Added 89 new (43 logic, 46 sym), ~half level 3, with python-verified truth-table/validity checks. Gaps filled: parity, consensus, NAND/NOR gate counts, mux as function generator, carry chains, converse/inverse/contrapositive, only-if translation, series/parallel to logic, multi-step proofs, invalid-argument spotting. Doubt: sym 'None of the usual conclusions' item wording; logic gate-count minimums rely on standard textbook constructions."
+}

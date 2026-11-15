@@ -1,0 +1,5 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+const p=await (await b.newContext({viewport:{width:900,height:700},deviceScaleFactor:2})).newPage();const E=[];p.on('pageerror',x=>E.push(x.message));
+await p.goto('file://'+process.cwd()+'/out/_app_axiom/quanta/index.html');await p.waitForTimeout(500);
+await p.evaluate(()=>{const ids=AV.map(a=>a[0]);let h='<div style="display:grid;grid-template-columns:repeat(6,1fr);gap:6px;padding:10px;background:#fff">';ids.forEach(id=>{h+='<div style="text-align:center;font:11px sans-serif">'+mascot(id,'idle',120)+'<br>'+avOf(id)[1]+'</div>'});['cheer','oops','think'].forEach(m=>{h+='<div style="text-align:center;font:11px sans-serif">'+mascot('a3',m,120)+'<br>'+m+'</div>'});h+='</div>';const d=document.createElement('div');d.id='avt';d.style.cssText='position:fixed;inset:0;z-index:9999;background:#fff;overflow:auto';d.innerHTML=h;document.body.appendChild(d)});
+await p.screenshot({path:'shots/t81.png'});console.log(E);await b.close()})()

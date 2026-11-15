@@ -1,0 +1,108 @@
+# circuit-lab-b / sym: Symbolic logic  (155 questions, 40 families)
+## STUDY NOTE (what students are taught)
+Connectives: ∧ and, ∨ or, → if…then, ~ not, ↔ if and only if. The antecedent is the "if" part. Find the main connective by commas and "both…and", "either…or", "if…then". Rule Form Modus ponens P→Q, P ∴ Q Modus tollens P→Q, ~Q ∴ ~P Hypothetical syllogism P→Q, Q→R ∴ P→R Disjunctive syllogism P∨Q, ~P ∴ Q Conjunctive elimination / addition P∧Q ∴ P; P, Q ∴ P∧Q Disjunctive addition P ∴ P∨Q Constructive dilemma P→Q, R→S, P∨R ∴ Q∨S Double negation, tautology, commutation ~~P = P; P∨P = P; P∨Q = Q∨P Equivalence P↔Q = (P→Q)∧(Q→P) De Morgan ~(P∧Q) = ~P∨~Q; ~(P∨Q) = ~P∧~Q Trap Affirming the consequent (Q, so P) and denying the antecedent (~P, so ~Q) are invalid. In a proof, P in the reason column means premise.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+sym-001 | 1 | short | If the circuit is open (O), then no current flows (N). The circuit is open. Which conclusion follows? || N || ~N ; ~O ; O ∧ ~N || Modus ponens: O → N, O ∴ N.
+sym-002 | 2 | mcq | If the fuse is blown (B) then the lamp is off (L). The lamp is not off. What follows? || ~B || B ; L ; ~B → L || Modus tollens: B → L, ~L ∴ ~B.
+sym-003 | 2 | mcq | If the switch is closed (S) the relay clicks (R). If the relay clicks, the motor runs (M). Which conclusion follows by hypothetical syllogism? || S → M || M → S ; S ∧ M ; ~S → ~M || Chain the conditionals: S → R, R → M ∴ S → M.
+sym-004 | 2 | short | Either the LED is reversed (E) or the resistor is open (O). The LED is not reversed. What follows? || O || E ; ~O ; E ∧ O || Disjunctive syllogism: E ∨ O, ~E ∴ O.
+sym-005 | 2 | mcq | "If R then S. Not R. Therefore not S." This argument is: || invalid (denying the antecedent) || valid (modus ponens) ; valid (modus tollens) ; valid (disjunctive syllogism) || S could be true for another reason. The valid contrapositive form would need ~S.
+sym-006 | 2 | mcq | Let D = the battery is dead, S = the switch is open, L = the lamp is off. "Either the battery is dead or the switch is open, and the lamp is off" is written: || (D ∨ S) ∧ L || D ∨ (S ∧ L) ; (D ∧ S) ∨ L ; D → (S ∧ L) || The comma after "open" makes the OR group first: (D ∨ S) and L.
+sym-007 | 2 | mcq | Let F = the fuse is blown, L = the lamp is off, M = the motor is off. "If the fuse is blown, then the lamp and the motor are off" is written: || F → (L ∧ M) || (F → L) ∧ M ; F ∧ (L → M) ; F ∨ (L ∧ M) || The condition F implies the compound result L ∧ M.
+sym-008 | 3 | mcq | Given A → B, C → D, and A ∨ C, which conclusion follows? || B ∨ D || B ∧ D ; A ∧ C ; ~B ∨ ~D || Constructive dilemma.
+sym-009 | 1 | short | Which rule takes P ∧ Q and concludes Q? || Conjunctive elimination | Conjunctive eliminations || Conjunctive addition ; Disjunctive addition ; Modus tollens || Conjunctive elimination (simplification) pulls out one conjunct.
+sym-010 | 2 | short | Which rule takes P and concludes P ∨ Q? || Disjunctive addition | Disjunctive additions || Conjunctive addition ; Disjunctive syllogism ; Double negation || If P is true, P or anything is true.
+sym-011 | 3 | mcq | By De Morgan's law and double negation, ~(R ∨ ~S) is equivalent to: || ~R ∧ S || ~R ∨ S ; R ∧ ~S ; ~R ∧ ~S || ~(R ∨ ~S) = ~R ∧ ~(~S) = ~R ∧ S.
+sym-012 | 2 | mcq | P ↔ Q is equivalent to: || (P → Q) ∧ (Q → P) || (P → Q) ∨ (Q → P) ; P ∧ Q ; P → Q || The biconditional means both directions hold.
+sym-013 | 3 | mcq | A proof has 1. ~R → S (P)  2. ~S (P)  3. ~~R (?)  4. R (DN). The reason for line 3 is: || Modus tollens, lines 1 and 2 || Modus ponens, lines 1 and 2 ; Disjunctive syllogism, lines 1 and 2 ; Hypothetical syllogism, lines 1 and 2 || From ~R → S and ~S, modus tollens gives ~(~R), written ~~R.
+sym-014 | 2 | short | Name the rule: from P → Q and ~Q, conclude ~P. || modus tollens ||  || Modus tollens (denying the consequent).
+sym-015 | 2 | match | Match each rule to its form. || modus ponens=P → Q, P ∴ Q; modus tollens=P → Q, ~Q ∴ ~P; hypothetical syllogism=P → Q, Q → R ∴ P → R; disjunctive syllogism=P ∨ Q, ~P ∴ Q ||  || 
+### FAMILY Given X → X and X, what follows?: 8 generated variants of one template (3 shown; numbers vary)
+sym-016 | 1 | short | Given A → R and A, what follows? || R || ~A ; ~R ; A ∧ ~R || Modus ponens: if the antecedent is true, the consequent is true.
+sym-017 | 1 | short | Given C → S and C, what follows? || S || ~C ; ~S ; C ∧ ~S || Modus ponens: if the antecedent is true, the consequent is true.
+sym-018 | 1 | short | Given S → Q and S, what follows? || Q || S ∧ ~Q ; ~Q ; ~S || Modus ponens: if the antecedent is true, the consequent is true.
+### FAMILY Given X → X and ~X, what follows?: 8 generated variants of one template (3 shown; numbers vary)
+sym-024 | 1 | mcq | Given Q → S and ~S, what follows? || ~Q || Q ∧ S ; S ; Q || Modus tollens: if the consequent is false, the antecedent must be false (otherwise the conditional would fail).
+sym-025 | 1 | mcq | Given B → P and ~P, what follows? || ~B || B ; B ∧ P ; P || Modus tollens: if the consequent is false, the antecedent must be false (otherwise the conditional would fail).
+sym-026 | 1 | mcq | Given A → B and ~B, what follows? || ~A || A ∧ B ; A ; B || Modus tollens: if the consequent is false, the antecedent must be false (otherwise the conditional would fail).
+### FAMILY Given X → X and X → X, what follows?: 8 generated variants of one template (3 shown; numbers vary)
+sym-032 | 1 | mcq | Given B → Q and Q → A, what follows? || B → A || ~B → ~A ; A → B ; B ∧ A || Hypothetical syllogism chains the conditionals so the middle statement cancels.
+sym-033 | 1 | mcq | Given Q → S and S → R, what follows? || Q → R || R → Q ; ~Q → ~R ; Q ∧ R || Hypothetical syllogism chains the conditionals so the middle statement cancels.
+sym-034 | 1 | mcq | Given S → A and A → R, what follows? || S → R || ~S → ~R ; R → S ; S ∧ R || Hypothetical syllogism chains the conditionals so the middle statement cancels.
+### FAMILY Given X ∨ X and ~X, what follows?: 8 generated variants of one template (3 shown; numbers vary)
+sym-040 | 1 | short | Given Q ∨ S and ~Q, what follows? || S || Q ∧ S ; Q ; ~S || Disjunctive syllogism: if one side of an OR is false, the other side must be true.
+sym-041 | 1 | short | Given C ∨ Q and ~C, what follows? || Q || C ∧ Q ; ~Q ; C || Disjunctive syllogism: if one side of an OR is false, the other side must be true.
+sym-042 | 1 | short | Given P ∨ D and ~P, what follows? || D || P ∧ D ; ~D ; P || Disjunctive syllogism: if one side of an OR is false, the other side must be true.
+### FAMILY Given X → X,  X → X,  and  X ∨ X, what follows?: 8 generated variants of one template (3 shown; numbers vary)
+sym-048 | 1 | mcq | Given Q → B,  C → D,  and  Q ∨ C, what follows? || B ∨ D || B → D ; B ∧ D ; Q ∨ D || Constructive dilemma: one of the antecedents is true, so one of the consequents is true.
+sym-049 | 1 | mcq | Given R → B,  A → Q,  and  R ∨ A, what follows? || B ∨ Q || B → Q ; B ∧ Q ; R ∨ Q || Constructive dilemma: one of the antecedents is true, so one of the consequents is true.
+sym-050 | 1 | mcq | Given D → A,  C → P,  and  D ∨ C, what follows? || A ∨ P || A ∧ P ; A → P ; D ∨ P || Constructive dilemma: one of the antecedents is true, so one of the consequents is true.
+### FAMILY If X then X. Not X. Therefore not X.  Is the argument valid?: 8 generated variants of one template (3 shown; numbers vary)
+sym-056 | 1 | mcq | If Q then P. Not Q. Therefore not P.  Is the argument valid? || Invalid (denying the antecedent) || Invalid (affirming the consequent) ; Valid (modus ponens) ; Valid (modus tollens) || Compare: "if he has a cat he has a pet; he has a pet" does not prove he has a cat (it could be a dog). Only the two forms MP and MT are valid here, so this form is invalid.
+sym-059 | 1 | mcq | If B then Q. Not Q. Therefore not B.  Is the argument valid? || Valid (modus tollens) || Invalid (denying the antecedent) ; Valid (modus ponens) ; Invalid (affirming the consequent) || This matches a valid rule form.
+sym-061 | 1 | mcq | If S then P. Not S. Therefore not P.  Is the argument valid? || Invalid (denying the antecedent) || Valid (modus tollens) ; Valid (modus ponens) ; Invalid (affirming the consequent) || Compare: "if he has a cat he has a pet; he has a pet" does not prove he has a cat (it could be a dog). Only the two forms MP and MT are valid here, so this form is invalid.
+### FAMILY If X then X. X. Therefore X.  Is the argument valid?: 8 generated variants of one template (3 shown; numbers vary)
+sym-057 | 1 | mcq | If B then D. B. Therefore D.  Is the argument valid? || Valid (modus ponens) || Invalid (affirming the consequent) ; Invalid (denying the antecedent) ; Valid (modus tollens) || This matches a valid rule form.
+sym-058 | 1 | mcq | If S then B. S. Therefore B.  Is the argument valid? || Valid (modus ponens) || Invalid (denying the antecedent) ; Valid (modus tollens) ; Invalid (affirming the consequent) || This matches a valid rule form.
+sym-060 | 1 | mcq | If C then Q. Q. Therefore C.  Is the argument valid? || Invalid (affirming the consequent) || Invalid (denying the antecedent) ; Valid (modus tollens) ; Valid (modus ponens) || Compare: "if he has a cat he has a pet; he has a pet" does not prove he has a cat (it could be a dog). Only the two forms MP and MT are valid here, so this form is invalid.
+sym-072 | 1 | mcq | Which rule justifies this step?   C ∧ P  ∴  C || CE · conjunctive elimination || MP · modus ponens ; CD · constructive dilemma ; DA · disjunctive addition || This is the shape of conjunctive elimination (CE).
+sym-075 | 1 | mcq | Which rule justifies this step?   P ∧ D  ∴  P || CE · conjunctive elimination || DS · disjunctive syllogism ; CA · conjunctive addition ; DN · double negation || This is the shape of conjunctive elimination (CE).
+sym-085 | 1 | mcq | Which rule justifies this step?   Q ∧ R  ∴  Q || CE · conjunctive elimination || MT · modus tollens ; DA · disjunctive addition ; CD · constructive dilemma || This is the shape of conjunctive elimination (CE).
+### FAMILY Which rule justifies this step?   X → X,  X → X,  X ∨ X  ∴  : 6 generated variants of one template (3 shown; numbers vary)
+sym-073 | 1 | mcq | Which rule justifies this step?   S → A,  B → Q,  S ∨ B  ∴  A ∨ Q || CD · constructive dilemma || DA · disjunctive addition ; DS · disjunctive syllogism ; DN · double negation || This is the shape of constructive dilemma (CD).
+sym-084 | 1 | mcq | Which rule justifies this step?   Q → C,  B → P,  Q ∨ B  ∴  C ∨ P || CD · constructive dilemma || CE · conjunctive elimination ; DA · disjunctive addition ; DN · double negation || This is the shape of constructive dilemma (CD).
+sym-091 | 1 | mcq | Which rule justifies this step?   P → B,  D → C,  P ∨ D  ∴  B ∨ C || CD · constructive dilemma || CE · conjunctive elimination ; DS · disjunctive syllogism ; MP · modus ponens || This is the shape of constructive dilemma (CD).
+sym-074 | 1 | mcq | Which rule justifies this step?   A  ∴  A ∨ R || DA · disjunctive addition || CA · conjunctive addition ; DS · disjunctive syllogism ; CD · constructive dilemma || This is the shape of disjunctive addition (DA).
+sym-083 | 1 | mcq | Which rule justifies this step?   Q  ∴  Q ∨ R || DA · disjunctive addition || MP · modus ponens ; MT · modus tollens ; HS · hypothetical syllogism || This is the shape of disjunctive addition (DA).
+### FAMILY Which rule justifies this step?   X → X,  ~X  ∴  ~X: 4 generated variants of one template (3 shown; numbers vary)
+sym-076 | 1 | mcq | Which rule justifies this step?   D → B,  ~B  ∴  ~D || MT · modus tollens || DA · disjunctive addition ; MP · modus ponens ; DS · disjunctive syllogism || This is the shape of modus tollens (MT).
+sym-078 | 1 | mcq | Which rule justifies this step?   R → A,  ~A  ∴  ~R || MT · modus tollens || HS · hypothetical syllogism ; CA · conjunctive addition ; DA · disjunctive addition || This is the shape of modus tollens (MT).
+sym-081 | 1 | mcq | Which rule justifies this step?   R → C,  ~C  ∴  ~R || MT · modus tollens || DS · disjunctive syllogism ; CA · conjunctive addition ; CE · conjunctive elimination || This is the shape of modus tollens (MT).
+### FAMILY Which rule justifies this step?   ~(~X)  ∴  X: 4 generated variants of one template (3 shown; numbers vary)
+sym-077 | 1 | mcq | Which rule justifies this step?   ~(~D)  ∴  D || DN · double negation || CE · conjunctive elimination ; CA · conjunctive addition ; MP · modus ponens || This is the shape of double negation (DN).
+sym-080 | 1 | mcq | Which rule justifies this step?   ~(~S)  ∴  S || DN · double negation || MT · modus tollens ; CE · conjunctive elimination ; CA · conjunctive addition || This is the shape of double negation (DN).
+sym-092 | 1 | mcq | Which rule justifies this step?   ~(~B)  ∴  B || DN · double negation || HS · hypothetical syllogism ; MP · modus ponens ; CE · conjunctive elimination || This is the shape of double negation (DN).
+sym-079 | 1 | mcq | Which rule justifies this step?   B → Q,  Q → R  ∴  B → R || HS · hypothetical syllogism || DA · disjunctive addition ; MT · modus tollens ; DS · disjunctive syllogism || This is the shape of hypothetical syllogism (HS).
+sym-082 | 1 | mcq | Which rule justifies this step?   A → C,  A  ∴  C || MP · modus ponens || DS · disjunctive syllogism ; CD · constructive dilemma ; CE · conjunctive elimination || This is the shape of modus ponens (MP).
+sym-093 | 1 | mcq | Which rule justifies this step?   D → P,  D  ∴  P || MP · modus ponens || DN · double negation ; DA · disjunctive addition ; DS · disjunctive syllogism || This is the shape of modus ponens (MP).
+### FAMILY Which rule justifies this step?   X,  X  ∴  X ∧ X: 4 generated variants of one template (3 shown; numbers vary)
+sym-086 | 1 | mcq | Which rule justifies this step?   P,  A  ∴  P ∧ A || CA · conjunctive addition || DN · double negation ; DA · disjunctive addition ; CD · constructive dilemma || This is the shape of conjunctive addition (CA).
+sym-096 | 1 | mcq | Which rule justifies this step?   R,  D  ∴  R ∧ D || CA · conjunctive addition || MT · modus tollens ; HS · hypothetical syllogism ; CD · constructive dilemma || This is the shape of conjunctive addition (CA).
+sym-099 | 1 | mcq | Which rule justifies this step?   Q,  B  ∴  Q ∧ B || CA · conjunctive addition || MP · modus ponens ; DS · disjunctive syllogism ; DN · double negation || This is the shape of conjunctive addition (CA).
+### FAMILY Which rule justifies this step?   X ∨ X,  ~X  ∴  X: 4 generated variants of one template (3 shown; numbers vary)
+sym-087 | 1 | mcq | Which rule justifies this step?   C ∨ A,  ~C  ∴  A || DS · disjunctive syllogism || DA · disjunctive addition ; HS · hypothetical syllogism ; DN · double negation || This is the shape of disjunctive syllogism (DS).
+sym-088 | 1 | mcq | Which rule justifies this step?   R ∨ S,  ~R  ∴  S || DS · disjunctive syllogism || DN · double negation ; DA · disjunctive addition ; HS · hypothetical syllogism || This is the shape of disjunctive syllogism (DS).
+sym-090 | 1 | mcq | Which rule justifies this step?   Q ∨ C,  ~Q  ∴  C || DS · disjunctive syllogism || CA · conjunctive addition ; MT · modus tollens ; DA · disjunctive addition || This is the shape of disjunctive syllogism (DS).
+sym-102 | 1 | mcq | Translate "it is neither P nor Q" using ~ ∧ ∨. || ~P ∧ ~Q || ~(P ∧ Q) ; P → ~Q ; ~P ∨ ~Q || Neither/nor means both are false: ~P ∧ ~Q, which equals ~(P ∨ Q) by De Morgan.
+### FAMILY Given the premises X → X and X, which conclusion follows val: 6 generated variants of one template (3 shown; numbers vary)
+sym-103 | 1 | short | Given the premises Q → P and Q, which conclusion follows validly? || P || ~Q ; P → Q ; ~P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-108 | 1 | short | Given the premises P → R and P, which conclusion follows validly? || R || ~R ; ~P ; R → P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-121 | 1 | short | Given the premises R → P and R, which conclusion follows validly? || P || ~R ; P → R ; ~P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+### FAMILY Given the premises X → X and X → X, which conclusion follows: 8 generated variants of one template (3 shown; numbers vary)
+sym-104 | 1 | mcq | Given the premises R → S and S → Q, which conclusion follows validly? || R → Q || Q → R ; R ∨ Q ; ~R → ~Q || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-106 | 1 | mcq | Given the premises R → P and P → Q, which conclusion follows validly? || R → Q || Q → R ; R ∨ Q ; ~R → ~Q || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-107 | 1 | mcq | Given the premises S → R and R → P, which conclusion follows validly? || S → P || S ∨ P ; P → S ; ~S → ~P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+### FAMILY Given the premises X ∨ X and ~X, which conclusion follows va: 6 generated variants of one template (3 shown; numbers vary)
+sym-105 | 1 | short | Given the premises R ∨ S and ~R, which conclusion follows validly? || S || R ; ~S ; R ∧ S || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-118 | 1 | short | Given the premises Q ∨ R and ~Q, which conclusion follows validly? || R || Q ; Q ∧ R ; ~R || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-119 | 1 | short | Given the premises Q ∨ S and ~Q, which conclusion follows validly? || S || ~S ; Q ; Q ∧ S || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+### FAMILY Given the premises X → X and ~X, which conclusion follows va: 8 generated variants of one template (3 shown; numbers vary)
+sym-109 | 1 | mcq | Given the premises S → P and ~P, which conclusion follows validly? || ~S || S ∧ P ; S ; P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-111 | 1 | mcq | Given the premises Q → P and ~P, which conclusion follows validly? || ~Q || Q ; Q ∧ P ; P || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+sym-114 | 1 | mcq | Given the premises P → S and ~S, which conclusion follows validly? || ~P || P ; P ∧ S ; S || MP: P→Q, P ∴ Q. MT: P→Q, ~Q ∴ ~P. HS: P→Q, Q→R ∴ P→R. DS: P∨Q, ~P ∴ Q.
+### FAMILY Which statement is logically equivalent to ~(~X)? (De Morgan: 5 generated variants of one template (3 shown; numbers vary)
+sym-131 | 1 | mcq | Which statement is logically equivalent to ~(~C)? (De Morgan / Double Negation) || C || ~C ∨ C ; ~C ; C ∧ C || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-138 | 1 | mcq | Which statement is logically equivalent to ~(~H)? (De Morgan / Double Negation) || H || ~H ; ~H ∨ H ; H ∧ H || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-139 | 1 | mcq | Which statement is logically equivalent to ~(~P)? (De Morgan / Double Negation) || P || ~P ; P ∧ P ; ~P ∨ P || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+### FAMILY Which statement is logically equivalent to ~(X ∨ X)? (De Mor: 6 generated variants of one template (3 shown; numbers vary)
+sym-132 | 1 | mcq | Which statement is logically equivalent to ~(H ∨ R)? (De Morgan / Double Negation) || ~H ∧ ~R || ~H ∧ R ; ~H ∨ ~R ; H ∧ R || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-133 | 1 | mcq | Which statement is logically equivalent to ~(Q ∨ C)? (De Morgan / Double Negation) || ~Q ∧ ~C || ~Q ∧ C ; Q ∧ C ; ~Q ∨ ~C || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-136 | 1 | mcq | Which statement is logically equivalent to ~(H ∨ P)? (De Morgan / Double Negation) || ~H ∧ ~P || H ∧ P ; ~H ∧ P ; ~H ∨ ~P || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+### FAMILY Which statement is logically equivalent to ~(X ∧ X)? (De Mor: 8 generated variants of one template (3 shown; numbers vary)
+sym-134 | 1 | mcq | Which statement is logically equivalent to ~(C ∧ Q)? (De Morgan / Double Negation) || ~C ∨ ~Q || ~C ∨ Q ; ~C ∧ ~Q ; C ∨ Q || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-135 | 1 | mcq | Which statement is logically equivalent to ~(P ∧ H)? (De Morgan / Double Negation) || ~P ∨ ~H || ~P ∧ ~H ; P ∨ H ; ~P ∨ H || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-140 | 1 | mcq | Which statement is logically equivalent to ~(P ∧ R)? (De Morgan / Double Negation) || ~P ∨ ~R || ~P ∧ ~R ; ~P ∨ R ; P ∨ R || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+### FAMILY Which statement is logically equivalent to ~X ∨ ~X? (De Morg: 6 generated variants of one template (3 shown; numbers vary)
+sym-137 | 1 | mcq | Which statement is logically equivalent to ~R ∨ ~P? (De Morgan / Double Negation) || ~(R ∧ P) || R ∧ P ; ~(R ∨ P) ; ~R ∧ ~P || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-144 | 1 | mcq | Which statement is logically equivalent to ~R ∨ ~Q? (De Morgan / Double Negation) || ~(R ∧ Q) || R ∧ Q ; ~R ∧ ~Q ; ~(R ∨ Q) || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.
+sym-149 | 1 | mcq | Which statement is logically equivalent to ~H ∨ ~Q? (De Morgan / Double Negation) || ~(H ∧ Q) || ~(H ∨ Q) ; H ∧ Q ; ~H ∧ ~Q || De Morgan: change ∧ to ∨ (or back) and negate each part; ~(~P) = P.

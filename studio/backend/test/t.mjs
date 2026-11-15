@@ -1,0 +1,36 @@
+import {DatabaseSync} from 'node:sqlite';import fs from 'node:fs';import {onRequest} from './route.mjs';
+const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync('../schema.sql','utf8'));
+const stmt=(sql)=>{let a=[];const o={bind(...x){a=x;return o},async first(){return db.prepare(sql).get(...a)||null},async all(){return {results:db.prepare(sql).all(...a)}},async run(){const r=db.prepare(sql).run(...a);return {meta:{last_row_id:Number(r.lastInsertRowid)}}}};return o};
+const env={DB:{prepare:stmt},PEPPER:'testpepper'};const O='https://x.test';
+class U{constructor(){this.c={}}
+ async call(m,p,b,opt={}){const h={'content-type':'application/json',origin:O,'cf-connecting-ip':opt.ip||'1.1.1.1'};const ck=Object.entries(this.c).map(([k,v])=>k+'='+v).join('; ');if(ck)h.cookie=ck;if(this.c['__Host-csrf']&&!opt.nocsrf)h['x-csrf']=this.c['__Host-csrf'];
+  const r=await onRequest({request:new Request(O+'/api'+p,{method:m,headers:h,body:m==='POST'?JSON.stringify(b||{}):undefined}),env});
+  for(const c of r.headers.getSetCookie()){const [kv,...rest]=c.split(';'),[k,v]=kv.split('=');if(/Max-Age=0/.test(c))delete this.c[k];else this.c[k]=v;if(k==='__Host-sid'&&!(/HttpOnly/.test(c)&&/Secure/.test(c)&&/SameSite=Lax/.test(c)))throw new Error('cookie flags')}
+  return [r.status,await r.json()]}}
+let fail=0;const t=(n,c)=>{console.log(c?'ok  ':'FAIL',n);if(!c)fail++};
+const a=new U(),b=new U();
+let [s,j]=await a.call('POST','/signup',{email:'a@x.com',username:'alice_1',password:'short'});t('weak pw rejected',s===400);
+[s,j]=await a.call('POST','/signup',{email:'a@x.com',username:'fuckme',password:'correct horse 42'});t('bad username rejected',s===400);
+[s,j]=await a.call('POST','/signup',{email:'a@x.com',username:'alice_1',password:'correct horse 42'});t('signup',s===200&&j.username==='alice_1'&&a.c['__Host-sid']);
+[s,j]=await b.call('POST','/signup',{email:'b@x.com',username:'bob_2',password:'another long pass 9'});t('signup b',s===200);
+[s,j]=await new U().call('POST','/signup',{email:'a@x.com',username:'zed',password:'correct horse 42'});t('dup email 409',s===409);
+const c=new U();[s,j]=await c.call('POST','/login',{id:'alice_1',password:'wrong password!'});t('bad login 401',s===401);
+[s,j]=await c.call('POST','/login',{id:'A@x.com',password:'correct horse 42'});t('login by email',s===200);
+[s,j]=await a.call('GET','/me');t('me',s===200&&j.username==='alice_1');
+[s,j]=await new U().call('GET','/me');t('unauth 401',s===401);
+[s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:100}},{nocsrf:1});t('csrf required',s===403);
+[s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:100,x:1},shared:{days:{}},pub:{av:'a2',lv:3,st:2}});t('sync',s===200);
+[s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:999999}});t('implausible xp rejected',s===422);
+[s,j]=await a.call('GET','/save?pack=p-1');t('save roundtrip',s===200&&j.state.xp===100);
+[s,j]=await b.call('POST','/sync',{pack:'p-1',state:{xp:60},pub:{av:'a1',lv:2,st:1}});
+[s,j]=await a.call('POST','/friends/request',{username:'nobody_x'});t('request unknown looks same',s===200&&j.ok===1);
+[s,j]=await a.call('POST','/friends/request',{username:'bob_2'});t('request',s===200);
+[s,j]=await b.call('GET','/friends');t('incoming shown',j.incoming.length===1&&j.incoming[0].username==='alice_1');
+[s,j]=await b.call('POST','/friends/accept',{username:'alice_1'});t('accept -> league',j.league.length===2&&j.league[0].wk>=j.league[1].wk);
+[s,j]=await a.call('GET','/friends');t('league both sides',j.league.some(x=>x.username==='bob_2'&&x.xp===60));
+let blocked=0;for(let i=0;i<12;i++){[s]=await c.call('POST','/login',{id:'alice_1',password:'nope nope nope'},{ip:'9.9.9.'+i});if(s===429)blocked++}t('per-account rate limit',blocked>0);
+[s,j]=await a.call('POST','/logout');t('logout',s===200&&!a.c['__Host-sid']);
+[s,j]=await b.call('POST','/delete');t('delete',s===200);
+[s,j]=await new U().call('POST','/login',{id:'bob_2',password:'another long pass 9'});t('deleted cannot login',s===401);
+[s,j]=await new U().call('POST','/google',{credential:'a.b.c'});t('google unconfigured safe',s===401);
+console.log(fail?'FAILURES '+fail:'ALL PASS');
