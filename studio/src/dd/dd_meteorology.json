@@ -1,0 +1,2513 @@
+{
+ "cases-L1#0": {
+  "why": "Hurricane case studies are really about telling a hurricane from other disasters. Each name on this list is a tropical storm that grew over warm ocean and then hit land. The big harm came from wind, storm surge, and rain together. Galveston 1900 is the deadliest U.S. natural disaster on record, from surge before warnings existed. Later storms show how forecasts and building rules changed outcomes.",
+  "pic": "Draw a simple U.S. map with the Gulf and Atlantic coasts. Put a dot for each place: Galveston, New Orleans (Katrina), New York and New Jersey (Sandy), Houston area (Hilary is West Coast, so draw it near Southern California). Label each dot with its year.",
+  "analogy": "Think of a list of famous football games. You do not replay every play, you just remember the game, the year, and why it mattered. Here the 'game' is a storm and 'why it mattered' is the damage type. The analogy stops working because storms are natural and no team plans them.",
+  "ways": [
+   [
+    "In words",
+    "Hurricane list means the event was a tropical cyclone, not a blizzard or tornado outbreak."
+   ],
+   [
+    "In numbers",
+    "Galveston 1900, Andrew 1992, Katrina 2005, Sandy 2012, Ida 2021, Ian 2022, Hilary 2023, Helene 2024, Erin 2025, Melissa 2025. That is 10 names, spanning 125 years."
+   ],
+   [
+    "As a rule of thumb",
+    "Name plus year plus 'ocean storm with surge' = hurricane case."
+   ]
+  ],
+  "ex": {
+   "q": "Hurricane Katrina (2005) caused major flooding in which U.S. city?",
+   "steps": [
+    "Katrina is on the hurricane list, so think Gulf Coast.",
+    "Recall the surge and broken levees (flood walls) in 2005.",
+    "The levees failed in New Orleans, Louisiana.",
+    "Answer: New Orleans.",
+    "Check: flooding came from surge, a hurricane hazard."
+   ]
+  },
+  "trap": "Mixing up the lists. Students put Storm of the Century (1993) with hurricanes because it sounds huge. Ask: did it form over warm tropical ocean? If it is a winter storm, it goes on the other list.",
+  "tip": "Hurricanes on the first list all had a name or came from the sea: Gal-Katrina-Sandy-Ida-Ian."
+ },
+ "cases-L1#1": {
+  "why": "These events are big weather disasters that were not hurricanes. Each has a different cause, so the type tells you the clues. A blizzard needs wind and snow. A drought needs weeks of no rain. A tornado outbreak needs lots of warm, humid, sheared air. Knowing the cause lets you name the event from data without memorizing every detail.",
+  "pic": "Make a 6-row chart. Left column: event name and year. Right column: one picture word, like snowflake, dust cloud, funnel, rain cloud, river, big winter storm. Draw a tiny icon for each.",
+  "analogy": "Like sorting school supplies into bins: pencils, glue, markers. Each event goes in its own bin by what it is made of. The analogy stops because real events can mix, such as a storm with both snow and flooding.",
+  "ways": [
+   [
+    "In words",
+    "Blizzard 1888 = snow and wind. Dust Bowl = drought. Xenia 1974 = tornado."
+   ],
+   [
+    "In numbers",
+    "1888, 1930s, 1974, 2011, 1993, 1993: six events from three centuries' worth of eras (1800s and 1900s and 2000s)."
+   ],
+   [
+    "As a rule of thumb",
+    "Ask: what fell or blew? Snow, dust, wind funnel, rain, river water."
+   ]
+  ],
+  "ex": {
+   "q": "The Storm of the Century (March 1993) was a huge winter storm. Which type of event is it?",
+   "steps": [
+    "Look at the date: March 1993.",
+    "It is on the non-hurricane list.",
+    "It brought heavy snow, high wind, and cold to the eastern U.S.",
+    "So it is a winter storm, not a tropical cyclone.",
+    "Answer: a large winter storm (blizzard-type)."
+   ]
+  },
+  "trap": "Thinking 'Storm of the Century' means a hurricane. The name is just a nickname. The type comes from the clues: cold air, snow, and wind.",
+  "tip": "B-D-X-A-G-S: Blizzard, Dust, Xenia, April, Great flood, Storm."
+ },
+ "cases-L1#2": {
+  "why": "The rules give you data and ask you to analyze it. So you do not need a dictionary of dates. You only need to know what kind of event each one was. A type tells you what the data should look like: wind speeds for hurricanes, snow depth for blizzards, rainfall for floods.",
+  "pic": "Draw a funnel. Wide top says 'event data'. Middle says 'clues'. Narrow bottom says 'type of event'.",
+  "analogy": "A detective does not memorize every crime, just the patterns. Clues point to a kind of crime. Here clues point to a kind of storm. The analogy stops because detectives need proof, and weather data gives probabilities.",
+  "ways": [
+   [
+    "In words",
+    "Know the type of each event, not the story."
+   ],
+   [
+    "In numbers",
+    "Wind 130 mph = hurricane Cat 4. Snow 24 inches with 40 mph wind = blizzard."
+   ],
+   [
+    "As a rule of thumb",
+    "Type first, details second."
+   ]
+  ],
+  "ex": {
+   "q": "A report shows months of heavy rain and the Missouri and Mississippi rivers over their banks in 1993. What type?",
+   "steps": [
+    "List the clues: months of rain, two big rivers.",
+    "Heavy rain over a long time points to flooding.",
+    "Rivers rising is a river flood, not a flash flood.",
+    "Match to the list: Great Flood of 1993.",
+    "Answer: major river flood."
+   ]
+  },
+  "trap": "Memorizing every date and detail. Practice spotting clues instead.",
+  "tip": "Type first, story second."
+ },
+ "cases-L2#0": {
+  "why": "This is a four-step habit for any case question. Naming the storm type narrows what scale or tool applies. Clues tell you what data matter. The right scale gives a rating. The date matters because scales changed: the Fujita scale before 1 Feb 2007 and the Enhanced Fujita after. Skipping the date check is how people choose the wrong scale.",
+  "pic": "Draw four boxes in a row with arrows: Type, Clues, Scale, Date. Put a small calendar icon on the last box.",
+  "analogy": "Like a recipe: pick the dish, check ingredients, use the right pan, check the oven temperature. Each step prevents a different mistake. It stops working because recipes are fixed and storms vary.",
+  "ways": [
+   [
+    "In words",
+    "Name it, list clues, pick the scale, check the date."
+   ],
+   [
+    "In numbers",
+    "Tornado on 2011-04-27: 2011 is after Feb 1, 2007, so use EF. Tornado on 1974-04-03: before, so use F."
+   ],
+   [
+    "As a rule of thumb",
+    "Date decides EF or F."
+   ]
+  ],
+  "ex": {
+   "q": "A tornado hit on 3 April 1974 with peak wind estimated 170 mph. Which scale applies, and what is the rule?",
+   "steps": [
+    "Step 1: type is tornado.",
+    "Step 2: clue is wind damage estimate.",
+    "Step 3: tornado scales are F or EF.",
+    "Step 4: 1974 is before 1 Feb 2007, so use the original Fujita scale.",
+    "Answer: Fujita (F) scale."
+   ]
+  },
+  "trap": "Using EF for old tornadoes. Always compare the date to 1 Feb 2007 first.",
+  "tip": "Name, Clues, Scale, Date: N-C-S-D, 'Never Check Stale Dates'."
+ },
+ "cases-L2#1": {
+  "why": "The Dust Bowl was not a single storm. Drought dried the soil. Farmers had plowed up the native prairie grass whose roots held the dirt. With no roots and no rain, strong winds lifted the soil into huge dust storms. Cause: drought plus bare, plowed ground plus wind. Remove any one and it would have been much milder.",
+  "pic": "Draw a flat field with no plants. Draw wavy arrows lifting brown specks into a tall brown wall. Add a dry sun above.",
+  "analogy": "A bare table dusted with flour: blow and it flies. If you cover it with a cloth (grass), it stays. Mapping: flour is topsoil, cloth is grass roots, your breath is wind. It stops working because the Dust Bowl lasted years across many states.",
+  "ways": [
+   [
+    "In words",
+    "Long dry spell plus loose soil plus wind equals dust storms."
+   ],
+   [
+    "In numbers",
+    "Years of drought in the 1930s. Rain near 0 for months means soil moisture near 0, so soil is loose."
+   ],
+   [
+    "As a rule of thumb",
+    "No rain + no roots = dust."
+   ]
+  ],
+  "ex": {
+   "q": "Which historic event was mainly a long drought with massive dust storms on the Plains?",
+   "steps": [
+    "Clue: extended drought.",
+    "Clue: dust storms on the Plains.",
+    "Match against the list: 1930s event.",
+    "The event is the Dust Bowl.",
+    "Answer: Dust Bowl (1930s)."
+   ]
+  },
+  "trap": "Calling it a hurricane or tornado because dust walls look like storms. Check for drought first.",
+  "tip": "Dry + plowed + wind = Dust Bowl."
+ },
+ "cases-L2#2": {
+  "why": "In 1993 the Midwest got rain for months, not just one big storm. Soil filled up, so extra rain ran straight to rivers. The Mississippi and Missouri rose over banks and levees for weeks. Cause: a long wet pattern with storm after storm over the same region. Because the pattern lasted so long, it is a river flood, not a flash flood.",
+  "pic": "Draw two rivers joining on a map of the Midwest (Missouri from the west, Mississippi down the middle). Shade a wide blue band along them.",
+  "analogy": "A sink with the tap on and a clogged drain. The tap is steady rain and the sink is the river basin. It overflows slowly. It stops working because rain also soaks into soil first.",
+  "ways": [
+   [
+    "In words",
+    "Months of heavy rain made big rivers flood."
+   ],
+   [
+    "In numbers",
+    "1993 summer: rain on top of full soil. If 2 in/week falls for 8 weeks, that is 16 in on already wet ground."
+   ],
+   [
+    "As a rule of thumb",
+    "River floods take days to weeks."
+   ]
+  ],
+  "ex": {
+   "q": "The Great Flood of 1993 mainly affected which river basins?",
+   "steps": [
+    "Recall the cause: months of heavy rain.",
+    "Rain was over the central U.S.",
+    "Rivers draining that area are the Mississippi and Missouri.",
+    "Floods were along those rivers and their tributaries.",
+    "Answer: upper Mississippi and Missouri river basins."
+   ]
+  },
+  "trap": "Calling it a flash flood. A flash flood takes minutes to hours. This took weeks.",
+  "tip": "1993: two rivers, one wet summer."
+ },
+ "clouds-L1#0": {
+  "why": "Cumulonimbus is the only cloud that makes thunderstorms. Warm moist air rises strongly, cools, and keeps growing upward until it hits the stable layer (the tropopause) and spreads into an anvil. Because the updraft is so deep and strong, it can carry hail, build charge for lightning, and make strong winds. That is why it can bring every type of severe weather.",
+  "pic": "Draw a tall tower with a flat anvil top and a dark flat base. Put arrows going up in the center, and rain and hail falling from the base.",
+  "analogy": "A boiling pot with a lid on: steam rises hard, hits the lid, and spreads sideways. The pot is the ground, steam is the updraft, the lid is the stable layer, the sideways steam is the anvil. It stops working because the atmosphere has no actual lid.",
+  "ways": [
+   [
+    "In words",
+    "Cumulonimbus: tall, dark, thunder-making cloud."
+   ],
+   [
+    "In numbers",
+    "Cb tops can pass 12 km (about 40,000 ft) while bases sit near 1 to 2 km."
+   ],
+   [
+    "As a rule of thumb",
+    "Anvil top plus thunder = Cb."
+   ]
+  ],
+  "ex": {
+   "q": "Which cloud is the thunderstorm cloud?",
+   "steps": [
+    "Thunderstorm needs deep rising air.",
+    "Names: cumulus (puffy), nimbus (rain), so cumulo-nimbus is puffy plus rain.",
+    "Stratus is a flat layer and cirrus is thin, high ice.",
+    "Only cumulonimbus is tall and makes lightning.",
+    "Answer: cumulonimbus."
+   ]
+  },
+  "trap": "Picking cumulus. Cumulus is fair-weather puffs. The 'nimbus' part means rain.",
+  "tip": "Cumulo-NIMBUS: nimbus = rain, 'nimby, it's raining!'"
+ },
+ "clouds-L1#1": {
+  "why": "A wall cloud forms where rain-cooled air gets pulled into the updraft. That air is humid, so it condenses at a lower height than the rest of the cloud base. The result is a lowered section. If it rotates and is beneath the main updraft, the storm is organizing rotation near the ground. That is why it is a key warning sign for a tornado.",
+  "pic": "Draw a big flat cloud base. Under one spot, draw a lower block hanging down like a step. Add a curved arrow showing it turning.",
+  "analogy": "A tent with one pole pushed up from underneath so the fabric droops down beside it. Mapping: the updraft is the pole, the lowered cloth is the wall cloud. It stops working because a wall cloud rotates and fabric does not.",
+  "ways": [
+   [
+    "In words",
+    "Wall cloud: lowered, often rotating base under the main updraft."
+   ],
+   [
+    "In numbers",
+    "Normal base 1,500 m. Wall cloud base may sit 300 to 500 m lower."
+   ],
+   [
+    "As a rule of thumb",
+    "Lowered AND rotating AND under the updraft = take cover."
+   ]
+  ],
+  "ex": {
+   "q": "A lowered, often rotating cloud base under the main updraft is a what?",
+   "steps": [
+    "Find the location: under the updraft, not at the edge.",
+    "It is lowered from the normal base.",
+    "Not a shelf cloud, which is at the front edge.",
+    "It is the wall cloud.",
+    "Answer: wall cloud."
+   ]
+  },
+  "trap": "Mixing wall and shelf clouds. Wall: under the updraft, may rotate. Shelf: along the front edge, does not rotate.",
+  "tip": "A WALL stands where the storm breathes IN."
+ },
+ "clouds-L1#2": {
+  "why": "A shelf cloud forms where the storm's cool outflow slides under warm moist air. The warm air is forced up fast and condenses, forming a wedge. The cool air racing out is the gust front. So the shelf marks the leading edge of strong winds. It looks scary but is not rotating like a wall cloud.",
+  "pic": "Draw the ground and a storm to the right. Draw a long low wedge-shaped cloud pointing left with an arrow showing cold air rushing out.",
+  "analogy": "A snowplow shoving snow ahead of itself. Mapping: the plow is the cool air, the pushed snow is warm air lifted into cloud. It stops working because snow is not warm.",
+  "ways": [
+   [
+    "In words",
+    "Shelf cloud: wedge on the leading edge, marks the gust front."
+   ],
+   [
+    "In numbers",
+    "Gust front winds can reach 58 mph or more in severe storms."
+   ],
+   [
+    "As a rule of thumb",
+    "Wedge in front = wind coming."
+   ]
+  ],
+  "ex": {
+   "q": "A wedge-shaped low cloud on a storm's leading edge usually marks what?",
+   "steps": [
+    "Wedge shape: think shelf.",
+    "Leading edge: the front of the storm.",
+    "Cool outflow edge is the gust front.",
+    "So the shelf cloud is over the gust front.",
+    "Answer: the gust front."
+   ]
+  },
+  "trap": "Calling it a tornado sign. Shelf clouds mean wind, not a funnel.",
+  "tip": "Shelf holds the GUST."
+ },
+ "clouds-L2#0": {
+  "why": "A funnel cloud is a rotating cone of condensed water droplets. Low pressure in the spinning air cools it, so water vapor condenses into a visible cone. If it does not touch the ground, it is not called a tornado. If it touches, it is. A thin funnel can quickly reach the ground, so treat it seriously.",
+  "pic": "Draw a storm base. Hang a pointed cone from it. Stop the tip in the air. Draw a ground line below. Then draw the tip touching to show a tornado.",
+  "analogy": "A spinning top balanced on your finger: the spin is the rotation, the finger is the ground. Not touching = funnel cloud. Touching = tornado. It stops working because real funnels are air, not solid.",
+  "ways": [
+   [
+    "In words",
+    "Funnel cloud = rotating cone not touching the ground."
+   ],
+   [
+    "In numbers",
+    "Funnel cloud: 0 ft contact. Tornado: ground contact at 1 ft or more of debris/damage."
+   ],
+   [
+    "As a rule of thumb",
+    "Touch the ground = tornado."
+   ]
+  ],
+  "ex": {
+   "q": "A rotating cone-shaped cloud hanging from a storm but not touching the ground is a what?",
+   "steps": [
+    "Rotating cone: funnel shape.",
+    "Check ground contact: none.",
+    "No contact means not a tornado yet.",
+    "Name: funnel cloud.",
+    "Answer: funnel cloud."
+   ]
+  },
+  "trap": "Calling every funnel a tornado. Contact with ground is the test.",
+  "tip": "Funnel in the air, tornado on the ground."
+ },
+ "clouds-L2#1": {
+  "why": "Mammatus are pouches that hang under an anvil. Sinking air is cooler than the air around it, and it sinks in lumps. The lumps hold cloud droplets, so they show as pouches. They often show up when the storm is weakening, but the storm can still be dangerous. They are not a tornado sign.",
+  "pic": "Draw a big flat anvil. Under it draw rows of round bumps like cow udders or bubble wrap, hanging down.",
+  "analogy": "Bubbles of bubble wrap or sagging balloons under a table. Mapping: each balloon is a sinking lump of cloud. It stops working because balloons are filled, but mammatus are made of sinking air.",
+  "ways": [
+   [
+    "In words",
+    "Mammatus: pouches under an anvil."
+   ],
+   [
+    "In numbers",
+    "Each pouch is about 1 to 3 km wide and lasts about 10 minutes."
+   ],
+   [
+    "As a rule of thumb",
+    "Pouches hanging down = mammatus."
+   ]
+  ],
+  "ex": {
+   "q": "Pouch-like cloud shapes under an anvil are called what?",
+   "steps": [
+    "Pouches point to mammatus.",
+    "They hang from the anvil base.",
+    "Not wall clouds, which are lower rotating blocks.",
+    "Pick mammatus.",
+    "Answer: mammatus."
+   ]
+  },
+  "trap": "Thinking mammatus mean a tornado is coming. They do not. They show sinking air.",
+  "tip": "MAMMA-tus look like MAMA's soft pouches."
+ },
+ "dh-L1#0": {
+  "why": "Drought is not just no rain today. It is a long stretch of less moisture than normal. First rain runs short (meteorological). Then soil dries and crops suffer (agricultural). Then streams and reservoirs run low (hydrological). Each type builds on the one before. Water takes time to drain, so reservoirs show the problem last.",
+  "pic": "Draw three stacked boxes: sky with no rain, field with dry cracked soil, river with low water. Arrows go down from one to the next.",
+  "analogy": "A bank account. Rain is income, soil is your wallet, reservoir is savings. If income stops, the wallet empties first, savings last. It stops working because savings can be refilled quickly if a big storm hits.",
+  "ways": [
+   [
+    "In words",
+    "Drought: far too little precipitation for a long time."
+   ],
+   [
+    "In numbers",
+    "If normal is 4 in/month and you get 1 in/month, you are short 3 in each month; after 6 months, 18 in short."
+   ],
+   [
+    "As a rule of thumb",
+    "Rain, then soil, then rivers."
+   ]
+  ],
+  "ex": {
+   "q": "Name the type of drought when streams, lakes, and reservoirs run low.",
+   "steps": [
+    "Streams and reservoirs hold water on the surface.",
+    "Types: meteorological (rain), agricultural (soil/crops), hydrological (water supply).",
+    "Low water bodies point to the third type.",
+    "Answer: hydrological drought.",
+    "Check: it shows up last in a long drought."
+   ]
+  },
+  "trap": "Mixing up the types. Agricultural is about soil and crops. Hydrological is about rivers and reservoirs.",
+  "tip": "Hydro = water you can see in rivers."
+ },
+ "dh-L1#1": {
+  "why": "A heat wave is a long run of unusually high temperatures. Heat is most dangerous when nights stay warm, because your body does not get a break to cool down. Humid air adds to it, because sweat evaporates more slowly. Cities hold heat in pavement and buildings. The danger comes from body heat piling up day after day.",
+  "pic": "Draw a thermometer line across 5 days. Show daytime highs as peaks and nights as valleys that stay above 75 F. Add a person under a hot sun.",
+  "analogy": "A phone that never gets to charge. Daytime heat drains you. Cool nights recharge you. Hot nights mean no recharge. It stops working because bodies cannot be plugged in.",
+  "ways": [
+   [
+    "In words",
+    "Hot days plus hot nights give the body no recovery."
+   ],
+   [
+    "In numbers",
+    "Day 1 high 100, low 80. Day 2 high 102, low 82. Body never drops below stress."
+   ],
+   [
+    "As a rule of thumb",
+    "Warm nights make heat waves deadly."
+   ]
+  ],
+  "ex": {
+   "q": "Overnight temperatures stay high during a heat wave. Why is this dangerous?",
+   "steps": [
+    "Normally nights cool the body and buildings.",
+    "If it stays hot, no cooling happens.",
+    "Heat builds up over days.",
+    "Risk of heat illness rises, especially for kids and older adults.",
+    "Answer: the body cannot recover, so heat stress adds up."
+   ]
+  },
+  "trap": "Thinking only the afternoon high matters. The night low matters too.",
+  "tip": "Hot nights, no rest."
+ },
+ "dh-L1#2": {
+  "why": "A blocking ridge is a big area of high pressure that stalls. Sinking air under a high warms and dries, so clouds do not form. The ridge also acts like a rock in a stream, pushing storms around it. Under the ridge it stays sunny and hot, and soil dries. Dry soil heats faster, so the heat strengthens the ridge.",
+  "pic": "Draw a big H on a map. Draw storm arrows bending around it. Under the H, write 'sinking, dry, hot'.",
+  "analogy": "A big rock in a river. Water flows around it, leaving a calm spot behind. The rock is the ridge, water is storms. It stops working because rock is solid and the ridge changes over days.",
+  "ways": [
+   [
+    "In words",
+    "A stalled high pushes storms away and gives sinking, dry air."
+   ],
+   [
+    "In numbers",
+    "A ridge may sit for 7 to 14 days. 14 days with no rain is a drought start."
+   ],
+   [
+    "As a rule of thumb",
+    "Parked high = hot and dry."
+   ]
+  ],
+  "ex": {
+   "q": "Which pattern often causes both drought and heat waves?",
+   "steps": [
+    "Look for something that stops rain and adds heat.",
+    "High pressure has sinking air.",
+    "If it stalls, it is blocking.",
+    "It repeats day after day.",
+    "Answer: a blocking high-pressure ridge."
+   ]
+  },
+  "trap": "Linking drought to low pressure. Lows bring rising air and clouds.",
+  "tip": "High and dry, low and wet."
+ },
+ "dh-L1#3": {
+  "why": "Drought and heat hurt in four ways. Crops lack water and fail. Cities limit water use. Dry plants and soil burn easily, so wildfires spread. Bodies overheat, causing cramps, exhaustion, and heat stroke. All four trace back to too little water and too much heat. Drinking water helps because sweat is your body's cooling system.",
+  "pic": "Draw four icons around a sun: wilted plant, faucet with an X, flame, and a sweating person.",
+  "analogy": "A car engine overheating. Water is the coolant, heat is the work. Low coolant means breakdown. It stops working because you can drink more water but a car cannot.",
+  "ways": [
+   [
+    "In words",
+    "Crop loss, water limits, fire risk, heat illness."
+   ],
+   [
+    "In numbers",
+    "On a hot day you can lose over 1 liter of sweat per hour; drink often, not just when thirsty."
+   ],
+   [
+    "As a rule of thumb",
+    "Drink water before you feel thirsty."
+   ]
+  ],
+  "ex": {
+   "q": "What should you drink more of during a heat wave?",
+   "steps": [
+    "Sweat lets you cool off.",
+    "Sweat loses water.",
+    "Replace what you lose.",
+    "Choose water, not sugary or caffeinated drinks.",
+    "Answer: water."
+   ]
+  },
+  "trap": "Waiting until thirsty. Thirst shows up late.",
+  "tip": "Heat up, water up."
+ },
+ "hurr-L1#0": {
+  "why": "Hurricane, typhoon, and cyclone are the same kind of storm. The names are just location labels. Atlantic and Northeast Pacific: hurricane. Northwest Pacific: typhoon. Indian Ocean and South Pacific: cyclone. A spinning ocean storm with warm core is what they all are. Only the map region changes the word.",
+  "pic": "Draw a world map with three colored zones: Atlantic and east Pacific (hurricane), west Pacific (typhoon), Indian Ocean and southern oceans (cyclone).",
+  "analogy": "Soda is called 'pop', 'soda', or 'coke' depending on where you live. Same drink, different words. Mapping: the drink is the storm, the word is the region. It stops working because soda names are slang, while storm names are official.",
+  "ways": [
+   [
+    "In words",
+    "Same storm, different names by ocean."
+   ],
+   [
+    "In numbers",
+    "Winds at 74 mph or more qualify in every ocean for hurricane-strength."
+   ],
+   [
+    "As a rule of thumb",
+    "Name = where on the map."
+   ]
+  ],
+  "ex": {
+   "q": "A hurricane, a typhoon, and a cyclone are what?",
+   "steps": [
+    "Check what changes: the region.",
+    "Check what stays the same: the physics.",
+    "They are one storm type.",
+    "Different names by ocean.",
+    "Answer: the same type of storm (tropical cyclone)."
+   ]
+  },
+  "trap": "Thinking typhoons are stronger. They are not a different type.",
+  "tip": "Same storm, different zip code."
+ },
+ "hurr-L1#1": {
+  "why": "A tropical storm system grows in steps as winds speed up. An invest is a disturbance being watched. Depression is under 39 mph. Tropical storm is 39 to 73 mph and gets a name. Hurricane is 74 mph or more. Major hurricane is Category 3 and up, 111 mph or more. More wind means more damage because force grows faster than wind speed.",
+  "pic": "Draw a staircase going up. Label steps with Invest, TD, TS (39-73), Hurricane (74+), Major (111+).",
+  "analogy": "Leveling up in a video game. Each level needs more points (wind). It stops working because storms can also skip levels or fall back.",
+  "ways": [
+   [
+    "In words",
+    "Wind speed sets the stage."
+   ],
+   [
+    "In numbers",
+    "Under 39: depression. 39-73: tropical storm. 74+: hurricane. 111+: major."
+   ],
+   [
+    "As a rule of thumb",
+    "74 is the hurricane line."
+   ]
+  ],
+  "ex": {
+   "q": "A tropical storm has winds of 65 mph. How many mph more are needed to be a hurricane (74 mph)?",
+   "steps": [
+    "Hurricane starts at 74 mph.",
+    "Current wind: 65 mph.",
+    "Subtract: 74 - 65 = 9.",
+    "Check: 65 + 9 = 74.",
+    "Answer: 9 mph."
+   ]
+  },
+  "trap": "Subtracting from 73. Hurricane is 74 and up.",
+  "tip": "39 and 74: 'Thirty-nine, seventy-four, the storm gets a name and then a roar.'"
+ },
+ "hurr-L1#2": {
+  "why": "The Saffir-Simpson scale sorts hurricanes by sustained wind into five categories. It rates wind only, not surge or rain. Each step up brings much more damage because wind force grows faster than wind speed, roughly with its square. A Cat 5 can destroy homes.",
+  "pic": "Draw five bars rising like a bar chart. Under each write the category and mph: 74-95, 96-110, 111-129, 130-156, 157+.",
+  "analogy": "A bike speed scale: walk, jog, run, sprint, rocket. Each speed hits harder. It stops working because storms also differ in size and rain.",
+  "ways": [
+   [
+    "In words",
+    "Category 1 to 5 by sustained wind."
+   ],
+   [
+    "In numbers",
+    "Cat 1: 74-95. Cat 2: 96-110. Cat 3: 111-129. Cat 4: 130-156. Cat 5: 157+."
+   ],
+   [
+    "As a rule of thumb",
+    "Cat 3 and up is major."
+   ]
+  ],
+  "ex": {
+   "q": "A hurricane has sustained winds of 105 mph. Which category?",
+   "steps": [
+    "Find where 105 fits in the ranges.",
+    "Cat 1 ends at 95. 105 is above.",
+    "Cat 2 is 96 to 110.",
+    "105 is inside 96 to 110.",
+    "Answer: Category 2."
+   ]
+  },
+  "trap": "Rounding up to the next category. Use the ranges exactly.",
+  "tip": "1-2-3-4-5: 74, 96, 111, 130, 157."
+ },
+ "hurr-L2#0": {
+  "why": "A hurricane is a heat engine. Warm ocean water gives heat and moisture. At 26.5 C or warmer, evaporation is strong enough to feed the storm. Low wind shear lets the storm stack straight up. Away from the equator is needed because the Coriolis force (spin from Earth) is too weak there to start rotation.",
+  "pic": "Draw a bowl of warm ocean. Arrows rise from it. Add a vertical column showing calm winds aloft. Mark the equator with an X where spin is missing.",
+  "analogy": "A campfire needs wood, air, and a spark. Missing one and it dies. Mapping: warm water is the wood, low shear is steady air, Coriolis is the spark. It stops working because a fire is chemical.",
+  "ways": [
+   [
+    "In words",
+    "Warm water, moisture, low shear, away from equator."
+   ],
+   [
+    "In numbers",
+    "26.5 C is about 80 F."
+   ],
+   [
+    "As a rule of thumb",
+    "Below 26 C, no hurricane fuel."
+   ]
+  ],
+  "ex": {
+   "q": "A hurricane needs warm ocean water. About what temperature, in C, is the minimum?",
+   "steps": [
+    "Recall the threshold: 26.5 C.",
+    "That fits the Fahrenheit near 80.",
+    "Colder water gives too little fuel.",
+    "So the minimum is about 26.5 C.",
+    "Answer: about 26.5 C (80 F)."
+   ]
+  },
+  "trap": "Thinking 20 C is enough. It is not.",
+  "tip": "26.5 C: fuel to feel."
+ },
+ "hurr-L2#1": {
+  "why": "A hurricane has parts with different jobs. The eye is the calm center where air sinks. Around it the eyewall has the strongest wind and rain because air rises hard there. Spiral bands farther out bring showers and sometimes tornadoes. So the worst weather is the ring around the calm, not the calm itself.",
+  "pic": "Draw a circle target. Center: eye, calm. First ring: eyewall, worst. Spirals outward: bands.",
+  "analogy": "A donut. The hole is the eye, the dough is the eyewall, sprinkles are the bands. It stops working because donuts are not rotating.",
+  "ways": [
+   [
+    "In words",
+    "Calm eye, fierce eyewall, bands with showers and tornadoes."
+   ],
+   [
+    "In numbers",
+    "Eye width is often 20 to 40 miles."
+   ],
+   [
+    "As a rule of thumb",
+    "The wall is the worst."
+   ]
+  ],
+  "ex": {
+   "q": "Spiral bands in a hurricane can sometimes produce what?",
+   "steps": [
+    "Bands are outside the eyewall.",
+    "They bring rain and gusts.",
+    "Spin in the bands can make small tornadoes.",
+    "So tornadoes are possible.",
+    "Answer: tornadoes."
+   ]
+  },
+  "trap": "Thinking the eye is the most dangerous. It is calm, but the eyewall around it is not.",
+  "tip": "Eye calm, wall wild."
+ },
+ "hurr-L2#2": {
+  "why": "Storm surge is water pushed onshore by wind. Big storms push more water. Slow storms push longer. Shallow coasts let water pile up higher. Surge is often the deadliest hazard because water is heavy and floods homes fast. It is not a tide, and it is not rain.",
+  "pic": "Draw a side view of a coast sloping gently. Draw wind arrows pushing a wave of water up the slope and over a house.",
+  "analogy": "Blowing on a bowl of soup: the soup piles on one side. Mapping: your breath is wind, the soup is the sea. It stops working because real surge also includes low pressure.",
+  "ways": [
+   [
+    "In words",
+    "Wind pushes ocean water onto land."
+   ],
+   [
+    "In numbers",
+    "Cat 4 surge can reach 13 to 18 ft above normal tide."
+   ],
+   [
+    "As a rule of thumb",
+    "Strong + big + slow + shallow = high surge."
+   ]
+  ],
+  "ex": {
+   "q": "Storm surge is what?",
+   "steps": [
+    "Surge is a rise in water level.",
+    "It is caused by wind pushing water.",
+    "It is not rain or tide.",
+    "It occurs on the coast.",
+    "Answer: water pushed onshore by a storm's winds."
+   ]
+  },
+  "trap": "Confusing surge with rain flooding. Surge comes from the sea.",
+  "tip": "Surge = sea on the surge."
+ },
+ "hurr-L2#3": {
+  "why": "Hurricanes weaken when fuel runs out or something tears them apart. Land cuts off warm water and adds friction. Wind shear tilts the storm. Dry air dries it out. Cooler water gives less heat. Without moisture and heat from the ocean, the engine stalls.",
+  "pic": "Draw a hurricane over water and then over land. Add an X on the arrow from the ocean to the storm when over land.",
+  "analogy": "A car running out of gas. Land is an empty tank. It stops working because a hurricane may still drop heavy rain after losing wind.",
+  "ways": [
+   [
+    "In words",
+    "Lose warm water, lose power."
+   ],
+   [
+    "In numbers",
+    "Winds can drop 25 percent within about 24 hours over land."
+   ],
+   [
+    "As a rule of thumb",
+    "No warm ocean, no hurricane."
+   ]
+  ],
+  "ex": {
+   "q": "How does a hurricane weaken over land: it loses its supply of what?",
+   "steps": [
+    "Hurricanes feed on ocean heat.",
+    "Land has no warm water.",
+    "So moisture and heat are cut.",
+    "Friction also slows winds.",
+    "Answer: warm, moist ocean air (moisture and heat)."
+   ]
+  },
+  "trap": "Thinking weakening means no danger. Rain and flooding can last.",
+  "tip": "Land = lose the gas tank."
+ },
+ "light-L1#0": {
+  "why": "Charge forms where ice and graupel (soft hail pellets) collide inside the cloud. Light ice crystals get carried up and end up positive. Heavier graupel falls and ends up negative. So the top is mostly positive and the middle and base are mostly negative. Lightning is the discharge that evens it out.",
+  "pic": "Draw a tall cloud. Put plus signs near the top, minus signs near the bottom. Draw rising arrows with tiny ice crystals and falling arrows with big pellets.",
+  "analogy": "Rubbing a balloon on hair. Rubbing moves charge. Mapping: balloon is graupel, hair is ice. It stops working because the cloud has billions of particles.",
+  "ways": [
+   [
+    "In words",
+    "Collisions separate charge. Top positive, base negative."
+   ],
+   [
+    "In numbers",
+    "Cloud potential can reach millions of volts."
+   ],
+   [
+    "As a rule of thumb",
+    "Light goes up (+), heavy goes down (-)."
+   ]
+  ],
+  "ex": {
+   "q": "Where is the main positive charge in a typical thunderstorm?",
+   "steps": [
+    "Light ice rises.",
+    "Light ice is positive.",
+    "It collects near the top.",
+    "Base is negative.",
+    "Answer: in the upper part of the cloud."
+   ]
+  },
+  "trap": "Thinking the base is positive. It is mostly negative.",
+  "tip": "Light lifts positive."
+ },
+ "light-L1#1": {
+  "why": "Lightning is named by where it goes. Cloud-to-ground hits the earth. Intracloud stays inside one cloud. Cloud-to-cloud jumps between clouds. Cloud-to-air shoots into clear air. Most flashes stay in the cloud because the opposite charges are closer inside the cloud than the ground.",
+  "pic": "Draw two clouds. Draw four bolts: one to the ground, one inside a cloud, one between clouds, one out the side into the air.",
+  "analogy": "Sparks between objects. A spark jumps the shortest path. It stops working because lightning picks branches.",
+  "ways": [
+   [
+    "In words",
+    "Four types: CG, IC, CC, CA."
+   ],
+   [
+    "In numbers",
+    "About 75 percent of flashes do not reach the ground."
+   ],
+   [
+    "As a rule of thumb",
+    "Most lightning never reaches the ground."
+   ]
+  ],
+  "ex": {
+   "q": "Most lightning flashes stay where?",
+   "steps": [
+    "Opposite charges are within the cloud.",
+    "Short path inside the cloud is easiest.",
+    "So most flashes stay in the cloud.",
+    "Ground strikes are the minority.",
+    "Answer: inside the cloud (intracloud)."
+   ]
+  },
+  "trap": "Thinking most lightning hits the ground. Most does not.",
+  "tip": "Most flashes stay home."
+ },
+ "light-L1#2": {
+  "why": "Light reaches you almost instantly. Sound travels about 1 mile in 5 seconds. So the gap between flash and thunder tells distance. Divide seconds by 5 for miles. It is an estimate, not exact.",
+  "pic": "Draw a bolt and a person. Draw a line between them with a clock showing seconds. Write 5 s = 1 mi.",
+  "analogy": "A stadium: you see the pitcher throw, then hear the bat crack later. Mapping: light is sight, sound is the delay. It stops working because it is not exact in wind.",
+  "ways": [
+   [
+    "In words",
+    "Count the seconds, divide by 5."
+   ],
+   [
+    "In numbers",
+    "5 s = 1 mi. 10 s = 2 mi. 15 s = 3 mi. 20 s = 4 mi."
+   ],
+   [
+    "As a rule of thumb",
+    "30 seconds or less means go inside."
+   ]
+  ],
+  "ex": {
+   "q": "The flash-to-bang time is 10 seconds. About how many miles away is the lightning?",
+   "steps": [
+    "Sound travels about 1 mile per 5 seconds.",
+    "Time is 10 s.",
+    "Divide: 10 / 5 = 2.",
+    "Units: miles.",
+    "Answer: about 2 miles."
+   ]
+  },
+  "trap": "Dividing by 3 (that is for kilometers). Miles use 5.",
+  "tip": "Five seconds, one mile."
+ },
+ "light-L1#3": {
+  "why": "Lightning sends out a radio pulse. Sensors at different places hear it at slightly different times. Computers use the time differences to find where it came from. More sensors give better accuracy. It is like triangulation.",
+  "pic": "Draw three towers around a dot. Draw circles from each tower that cross at the dot.",
+  "analogy": "Three friends hear a shout at different moments and can work out where it came from. It stops working because lightning is far faster.",
+  "ways": [
+   [
+    "In words",
+    "Time differences between sensors locate strikes."
+   ],
+   [
+    "In numbers",
+    "Radio travels about 300,000 km per second, so timing must be in microseconds."
+   ],
+   [
+    "As a rule of thumb",
+    "More sensors, better map."
+   ]
+  ],
+  "ex": {
+   "q": "Lightning detection systems find strikes mainly by what?",
+   "steps": [
+    "Lightning gives off radio waves.",
+    "Sensors record arrival times.",
+    "Time differences give location.",
+    "So they time the signal.",
+    "Answer: timing the signal at several sensors."
+   ]
+  },
+  "trap": "Thinking they use cameras only. Radio timing is the main method.",
+  "tip": "Time it to find it."
+ },
+ "maps-L1#0": {
+  "why": "A station model packs a whole weather report into a small space. Every number has a fixed spot, so you read it like a form, not a picture. Temperature sits upper left, dew point lower left, pressure upper right, pressure change lower right. The circle in the middle shows how much sky is covered, and the staff shows the wind. Fixed spots let hundreds of stations fit on one map.",
+  "pic": "Draw a small circle. Write T at upper left, Td at lower left, P at upper right, change at lower right. Draw a line (staff) out of the circle for wind.",
+  "analogy": "Like a score box in a sports broadcast: the same spot always shows the same stat. Mapping: the circle is the game, each corner is one stat. It stops working because a score box has words, while a station model has only numbers.",
+  "ways": [
+   [
+    "In words",
+    "Left side is temperature and dew point. Right side is pressure and its change."
+   ],
+   [
+    "In numbers",
+    "72 at upper left, 65 at lower left: temperature 72, dew point 65 (7 degrees apart, so fairly humid)."
+   ],
+   [
+    "As a rule of thumb",
+    "Top left is temperature, below it is dew point."
+   ]
+  ],
+  "ex": {
+   "q": "On a station model, where is the dew point plotted?",
+   "steps": [
+    "Picture the circle with four corners.",
+    "Temperature goes upper left.",
+    "Dew point is always directly below it.",
+    "So dew point is lower left.",
+    "Answer: lower left of the circle."
+   ]
+  },
+  "trap": "Swapping temperature and dew point. Dew point is never larger than temperature, so the top number should be bigger.",
+  "tip": "Temperature on top, dew point drops below."
+ },
+ "maps-L1#1": {
+  "why": "A wind barb tells you wind direction and speed. The staff points toward where the wind comes FROM, like a weather vane. Flags on the end tell speed. A half flag is 5 knots, a full flag is 10, a triangle is 50. You add them. More flags mean stronger wind because each mark is a fixed chunk of speed.",
+  "pic": "Draw a staff pointing to the northwest. At the far end draw one triangle, two full lines, and one short line. Label 50, 10, 10, 5.",
+  "analogy": "Like coins: a triangle is a 50-cent coin, a full flag a dime, a half flag a nickel. You add them for the total. It stops working because wind is not money, and direction matters too.",
+  "ways": [
+   [
+    "In words",
+    "Staff points to the source. Add the flags."
+   ],
+   [
+    "In numbers",
+    "1 triangle + 2 full + 1 half = 50 + 20 + 5 = 75 knots."
+   ],
+   [
+    "As a rule of thumb",
+    "Staff points into the wind."
+   ]
+  ],
+  "ex": {
+   "q": "A wind barb staff points toward the north. Where is the wind coming from, and what is the speed with 1 full flag and 1 half flag?",
+   "steps": [
+    "Staff points to where wind comes FROM.",
+    "Staff is north, so wind is from the north.",
+    "Full flag = 10 knots.",
+    "Half flag = 5 knots.",
+    "Add: 10 + 5 = 15 knots. Answer: from the north at 15 knots."
+   ]
+  },
+  "trap": "Reading the staff as where the wind is going. It is from the staff side.",
+  "tip": "Staff is the source, flags are the force."
+ },
+ "maps-L1#2": {
+  "why": "Pressure is printed as three digits to save space. The leading 9 or 10 and the decimal point are left out because pressure on Earth is almost always 950 to 1050 mb. So you rebuild it. If the three digits are 500 or more, the real value starts with 9. If less than 500, it starts with 10. Then put a decimal before the last digit.",
+  "pic": "Draw a number line from 950 to 1050 with a mark at 1000. Above numbers under 500 draw an arrow to the right of the 1000 mark. Above numbers 500 or more draw an arrow to the left.",
+  "analogy": "Like a cashier writing 199 for $1.99. The dollar sign and dot are understood. It stops working because the pressure code rule changes at 500.",
+  "ways": [
+   [
+    "In words",
+    "Three digits, then add 9 or 10, then a decimal."
+   ],
+   [
+    "In numbers",
+    "132 is under 500, so 10 in front, decimal: 1013.2. 998 is 500 or more, so 9 in front: 999.8."
+   ],
+   [
+    "As a rule of thumb",
+    "500 or more starts with 9."
+   ]
+  ],
+  "ex": {
+   "q": "A station model shows pressure code 998. What is the pressure?",
+   "steps": [
+    "Look at 998: that is 500 or more.",
+    "So put 9 in front: 9998.",
+    "Put a decimal before the last digit: 999.8.",
+    "Check range: 999.8 mb is a normal low.",
+    "Answer: 999.8 mb."
+   ]
+  },
+  "trap": "Always adding 10. Use 10 only for codes under 500.",
+  "tip": "Big code, nine in front, small code, ten at the front."
+ },
+ "maps-L2#0": {
+  "why": "A METAR is a short code pilots use. The wind group is easy to read as pieces: three digits for direction, two digits for speed, optional G and two digits for gust, then KT for knots. Direction is where wind comes FROM. A gust is a short burst above the steady speed.",
+  "pic": "Write 18018G28KT. Draw boxes under each piece: 180, 18, G28, KT. Add a compass with an arrow pointing in from the south.",
+  "analogy": "Like a license plate where each part means something. It stops working because plates are random.",
+  "ways": [
+   [
+    "In words",
+    "From direction, speed, gust, in knots."
+   ],
+   [
+    "In numbers",
+    "18018G28KT = from 180 degrees (south), 18 kt steady, gusting to 28 kt."
+   ],
+   [
+    "As a rule of thumb",
+    "G means gust."
+   ]
+  ],
+  "ex": {
+   "q": "METAR 18015G25KT means wind from 180 degrees at 15 knots with what?",
+   "steps": [
+    "Split the code: 180, 15, G25, KT.",
+    "180 is direction (from the south).",
+    "15 is steady speed.",
+    "G25 is a gust to 25 knots.",
+    "Answer: gusts to 25 knots."
+   ]
+  },
+  "trap": "Thinking the direction is where it blows to. It is where it comes from.",
+  "tip": "G is for gust."
+ },
+ "maps-L2#1": {
+  "why": "A METAR sky group has a cloud amount and a height. FEW, SCT, BKN, OVC mean few, scattered, broken, overcast, so they get cloudier. The three digits are the base height in hundreds of feet, so you add two zeros. Pilots care about low cloud decks (ceilings).",
+  "pic": "Draw a ladder with FEW, SCT, BKN, OVC from bottom to top for more cloud. Draw a cloud base at 4,000 ft.",
+  "analogy": "Like a restaurant seat count: few, scattered, broken, full. It stops working because sky cover is not discrete.",
+  "ways": [
+   [
+    "In words",
+    "Cloud amount, then height in hundreds of feet."
+   ],
+   [
+    "In numbers",
+    "BKN040 = 40 x 100 = 4,000 ft, broken. OVC008 = 800 ft, overcast."
+   ],
+   [
+    "As a rule of thumb",
+    "Add two zeros to the number."
+   ]
+  ],
+  "ex": {
+   "q": "In a METAR, what does BKN040 mean?",
+   "steps": [
+    "BKN means broken clouds.",
+    "040 is the height in hundreds of feet.",
+    "40 x 100 = 4,000.",
+    "Combine them.",
+    "Answer: broken clouds at 4,000 feet."
+   ]
+  },
+  "trap": "Reading 040 as 40 feet. Multiply by 100.",
+  "tip": "Add two zeros to get the base."
+ },
+ "maps-L2#2": {
+  "why": "METAR temperature groups are in Celsius, temperature first and dew point second, separated by a slash. If the number is below zero, an M replaces the minus sign. So M01 means minus 1. A small gap between temperature and dew point means humid air.",
+  "pic": "Draw a thermometer with zero marked. Put M on the part below zero.",
+  "analogy": "The M is like a minus sign dressed in a letter. It stops working because normal numbers do not use letters.",
+  "ways": [
+   [
+    "In words",
+    "First number is temperature, second is dew point."
+   ],
+   [
+    "In numbers",
+    "27/22 = 27 C and 22 C. 02/M01 = 2 C and -1 C."
+   ],
+   [
+    "As a rule of thumb",
+    "M means minus."
+   ]
+  ],
+  "ex": {
+   "q": "A METAR temperature group reads 02/M01. What are the temperature and dew point?",
+   "steps": [
+    "Left of the slash is temperature: 02.",
+    "Leading zero just fills space, so 2 C.",
+    "Right of the slash is dew point: M01.",
+    "M means minus, so -1 C.",
+    "Answer: 2 C and -1 C."
+   ]
+  },
+  "trap": "Reading M as meters or missing. It means minus.",
+  "tip": "M for minus."
+ },
+ "maps-L2#3": {
+  "why": "The altimeter group tells pressure in inches of mercury. It starts with A, then four digits. Put a decimal after the first two digits. This is pressure adjusted to sea level, so pilots set their altimeters.",
+  "pic": "Write A2985. Draw an arrow that inserts a dot between 29 and 85.",
+  "analogy": "Like 2985 cents being $29.85. It stops working because here the unit is inches of mercury.",
+  "ways": [
+   [
+    "In words",
+    "A then four digits, decimal after two."
+   ],
+   [
+    "In numbers",
+    "A2985 = 29.85 inHg. A3012 = 30.12 inHg."
+   ],
+   [
+    "As a rule of thumb",
+    "Normal is about 29.92."
+   ]
+  ],
+  "ex": {
+   "q": "What pressure does A3005 show?",
+   "steps": [
+    "Drop the A.",
+    "Digits are 3005.",
+    "Put a decimal after two digits: 30.05.",
+    "Units: inches of mercury.",
+    "Answer: 30.05 inHg."
+   ]
+  },
+  "trap": "Reading it as millibars. It is inches of mercury.",
+  "tip": "A for altimeter, two digits then dot."
+ },
+ "obs-L1#0": {
+  "why": "Different tools watch different places. ASOS stations are automated and sit mostly at airports. Mesonets are dense local networks that fill gaps. Buoys measure over water. Radiosondes are balloon instruments that rise and send back temperature, humidity, and wind at each height. Together they make a full picture of the air.",
+  "pic": "Draw a vertical column of air. Put a station at the bottom, a buoy on a wave, and a balloon rising with a small box.",
+  "analogy": "A school with security cameras: some at doors, some in halls, some on the roof. Each camera covers a spot. It stops working because cameras do not measure wind.",
+  "ways": [
+   [
+    "In words",
+    "ASOS airport, mesonet local, buoy water, balloon upper air."
+   ],
+   [
+    "In numbers",
+    "Radiosondes launch twice a day at 00Z and 12Z."
+   ],
+   [
+    "As a rule of thumb",
+    "Surface by ASOS, upper air by balloon."
+   ]
+  ],
+  "ex": {
+   "q": "Which network of automated airport weather stations is the main surface observing system in the U.S.?",
+   "steps": [
+    "Airport and automated: ASOS.",
+    "Mesonets are local, not airport.",
+    "Buoys are in water.",
+    "Radiosondes are balloons.",
+    "Answer: ASOS."
+   ]
+  },
+  "trap": "Mixing ASOS and mesonet. ASOS is airports, mesonet is dense local.",
+  "tip": "ASOS at the airport."
+ },
+ "obs-L1#1": {
+  "why": "Radar sends a pulse, then listens for the echo. Bigger or more drops and hail send back more energy. Reflectivity measures that echo strength in dBZ. Higher dBZ means heavier rain or hail. Composite reflectivity shows the strongest echo at any height above a point.",
+  "pic": "Draw a radar dot with a beam going out to a storm and a returning arrow. Color the storm green to red from outside to the core.",
+  "analogy": "Like shouting at a cliff and hearing a louder echo from a bigger cliff. It stops working because radar uses radio waves.",
+  "ways": [
+   [
+    "In words",
+    "Brighter or hotter colors mean stronger echoes."
+   ],
+   [
+    "In numbers",
+    "20 dBZ is light rain, 40 dBZ is moderate to heavy, 60 dBZ and up can be hail."
+   ],
+   [
+    "As a rule of thumb",
+    "Red or purple means big drops or hail."
+   ]
+  ],
+  "ex": {
+   "q": "Which radar product shows how much precipitation is in a storm and where?",
+   "steps": [
+    "Echo strength tells amount.",
+    "The product is reflectivity.",
+    "Velocity is motion, not amount.",
+    "So choose reflectivity.",
+    "Answer: reflectivity."
+   ]
+  },
+  "trap": "Thinking reflectivity shows wind. It shows amount.",
+  "tip": "Reflectivity reflects the rain."
+ },
+ "obs-L1#2": {
+  "why": "Doppler radar uses the shift in the returning wave. Targets moving toward the radar squeeze the wave, away stretches it. The radar shows this as motion. Toward is green, called negative. Away is red, called positive. It only sees the motion along the radar beam, not across it.",
+  "pic": "Draw a radar at the left. Draw an arrow pointing toward it labeled green and an arrow pointing away labeled red.",
+  "analogy": "Like an ambulance siren: higher as it comes, lower as it leaves. It stops working because radar sees only toward or away.",
+  "ways": [
+   [
+    "In words",
+    "Green toward, red away."
+   ],
+   [
+    "In numbers",
+    "-20 kt is toward the radar. +20 kt is away."
+   ],
+   [
+    "As a rule of thumb",
+    "Red is away, green is toward."
+   ]
+  ],
+  "ex": {
+   "q": "Which radar product shows motion toward or away from the radar?",
+   "steps": [
+    "Motion: Doppler.",
+    "Product: velocity.",
+    "Not reflectivity.",
+    "Green toward, red away.",
+    "Answer: velocity."
+   ]
+  },
+  "trap": "Confusing red with hot weather. Red is away.",
+  "tip": "Red away, green gets near."
+ },
+ "obs-L2#0": {
+  "why": "Correlation coefficient (CC) measures how alike the targets are in each radar pulse. Raindrops are similar in shape, so CC is high, near 1. Debris, hail mix, and birds are mixed shapes, so CC is low. A low spot inside a hook can mean a tornado is lofting debris.",
+  "pic": "Draw a hook echo. Inside it draw a small blue spot labeled low CC.",
+  "analogy": "A class of students in the same uniform (high CC) versus a crowd in costumes (low CC). It stops working because debris is not alive.",
+  "ways": [
+   [
+    "In words",
+    "Rain is alike, debris is not."
+   ],
+   [
+    "In numbers",
+    "Rain CC about 0.97 to 1.0. Debris may drop below 0.8."
+   ],
+   [
+    "As a rule of thumb",
+    "Low CC in a hook is a debris sign."
+   ]
+  ],
+  "ex": {
+   "q": "What does a low correlation coefficient value inside a storm usually mean?",
+   "steps": [
+    "CC compares targets.",
+    "Low means mixed shapes.",
+    "Rain would be uniform.",
+    "So something non-rain is there, such as debris.",
+    "Answer: mixed or non-rain targets such as debris."
+   ]
+  },
+  "trap": "Thinking low CC means light rain. It means mixed targets.",
+  "tip": "Low CC, lots of junk."
+ },
+ "obs-L2#1": {
+  "why": "Storms move, and that motion hides the spin. Storm relative motion subtracts the storm's own movement. After that, wind toward and away from the radar shows the rotation more clearly. Without it, the signal looks mixed.",
+  "pic": "Draw a storm moving east. Draw wind arrows. Then draw them again with the storm's motion removed, showing a clear pair.",
+  "analogy": "Like walking on a moving train: you judge your motion relative to the train. It stops working because the radar frame is the ground.",
+  "ways": [
+   [
+    "In words",
+    "Remove the storm's travel to see the spin."
+   ],
+   [
+    "In numbers",
+    "Storm moves 30 kt east. Wind of 50 kt east becomes 20 kt east relative to the storm."
+   ],
+   [
+    "As a rule of thumb",
+    "SRM reveals rotation."
+   ]
+  ],
+  "ex": {
+   "q": "A wind of 50 kt east is measured while a storm moves 30 kt east. What is the storm-relative wind?",
+   "steps": [
+    "Storm relative means subtract storm motion.",
+    "Both are east, so subtract.",
+    "50 - 30 = 20.",
+    "Direction stays east.",
+    "Answer: 20 kt east."
+   ]
+  },
+  "trap": "Adding instead of subtracting.",
+  "tip": "Subtract the storm to see the swirl."
+ },
+ "obs-L2#2": {
+  "why": "Satellites see from above. Visible imagery uses reflected sunlight, so it works only in daylight. Infrared measures heat given off, so it works day and night. Colder cloud tops are higher and show bright, so tall storms stand out. Water vapor shows moisture in the upper air.",
+  "pic": "Draw a satellite above Earth with two arrows: sun to cloud to satellite (visible) and cloud to satellite (infrared).",
+  "analogy": "Visible is a camera with no flash, so it needs light. Infrared is a heat camera that works in dark. It stops working because satellites also use filters.",
+  "ways": [
+   [
+    "In words",
+    "Visible needs the sun. IR does not."
+   ],
+   [
+    "In numbers",
+    "Tops at -60 C are much higher than tops at +10 C."
+   ],
+   [
+    "As a rule of thumb",
+    "Cold means tall."
+   ]
+  ],
+  "ex": {
+   "q": "Which satellite imagery works only in daylight?",
+   "steps": [
+    "Visible light needs the sun.",
+    "Infrared and water vapor use heat or moisture.",
+    "So they work at night.",
+    "Only visible fails at night.",
+    "Answer: visible."
+   ]
+  },
+  "trap": "Thinking infrared needs light. It does not.",
+  "tip": "Visible needs vision."
+ },
+ "precip-L1#0": {
+  "why": "In warm clouds there is no ice. Cloud droplets are tiny and float. Bigger ones fall faster, hit smaller ones, and merge. This is collision-coalescence. As they grow they fall faster and gather more, until they are heavy enough to fall as rain. It needs a tall, wet cloud.",
+  "pic": "Draw a big drop falling through a bunch of tiny dots, swallowing them and getting bigger.",
+  "analogy": "A snowball rolling downhill picking up snow. It stops working because droplets merge in a collision, not stick.",
+  "ways": [
+   [
+    "In words",
+    "Big drops catch small drops."
+   ],
+   [
+    "In numbers",
+    "Cloud droplet about 0.02 mm. Raindrop about 2 mm. That is about 100 times wider."
+   ],
+   [
+    "As a rule of thumb",
+    "Warm cloud, bump and merge."
+   ]
+  ],
+  "ex": {
+   "q": "Which process lets cloud droplets merge into raindrops in warm clouds?",
+   "steps": [
+    "Warm cloud: no ice.",
+    "Droplets collide.",
+    "Collide and merge: coalescence.",
+    "Name: collision-coalescence.",
+    "Answer: collision-coalescence."
+   ]
+  },
+  "trap": "Using Bergeron for warm clouds. Bergeron needs ice.",
+  "tip": "Bump and merge."
+ },
+ "precip-L1#1": {
+  "why": "In cold clouds, both ice crystals and supercooled droplets (liquid below 0 C) exist. Air has more vapor than ice needs, and less than droplets need. So vapor leaves droplets and sticks on ice. Ice crystals grow while droplets shrink. When the crystals get heavy they fall.",
+  "pic": "Draw a small crystal with tiny droplets around it. Draw arrows from droplets to the crystal. Make the crystal bigger.",
+  "analogy": "A playground where one kid hogs the toys. The crystal hogs the water vapor. It stops working because toys are not made of gas.",
+  "ways": [
+   [
+    "In words",
+    "Ice steals vapor from droplets."
+   ],
+   [
+    "In numbers",
+    "Crystal grows from 0.1 mm to over 1 mm while droplets evaporate."
+   ],
+   [
+    "As a rule of thumb",
+    "Ice grows, drops shrink."
+   ]
+  ],
+  "ex": {
+   "q": "In the Bergeron process, ice crystals grow because what?",
+   "steps": [
+    "Droplets are supercooled.",
+    "Vapor pressure over ice is lower.",
+    "Vapor moves to ice.",
+    "Ice grows, drops shrink.",
+    "Answer: vapor leaves droplets and deposits on ice."
+   ]
+  },
+  "trap": "Thinking both grow. The droplets shrink.",
+  "tip": "Bergeron: ice gets big, drops go away."
+ },
+ "precip-L1#2": {
+  "why": "Two ways to grow ice. Riming: supercooled drops hit ice and freeze on contact, making graupel and, in strong updrafts, hail. Aggregation: ice crystals bump and stick, which makes snowflakes. Snowflakes are clumps of crystals. Aggregation works best near 0 C where crystals are sticky.",
+  "pic": "Draw a pellet with small bumps from frozen drops (riming). Draw a snowflake made of several joined crystals (aggregation).",
+  "analogy": "Riming is paint spraying on a wall. Aggregation is gluing stickers together. It stops working because ice is not sticky like glue.",
+  "ways": [
+   [
+    "In words",
+    "Riming adds frozen drops. Aggregation sticks crystals."
+   ],
+   [
+    "In numbers",
+    "Hail grows in many layers, each layer from a rimed drop trip."
+   ],
+   [
+    "As a rule of thumb",
+    "Riming makes graupel and hail, aggregation makes snow."
+   ]
+  ],
+  "ex": {
+   "q": "Snowflakes mostly form by what?",
+   "steps": [
+    "Snowflakes are clumps of crystals.",
+    "Crystals stick together.",
+    "That is aggregation.",
+    "Riming makes graupel.",
+    "Answer: aggregation."
+   ]
+  },
+  "trap": "Mixing them. Riming involves liquid drops.",
+  "tip": "Aggregate = a group."
+ },
+ "precip-L2#0": {
+  "why": "The kind of precipitation depends on the temperature layers from the cloud to the ground. All cold: snow. A warm layer aloft that melts snow, then a cold layer near the ground that refreezes it: sleet. A warm layer all the way down with a thin cold layer at the ground: freezing rain, which freezes on contact. Freezing rain is dangerous because it coats everything with ice.",
+  "pic": "Draw three columns from the cloud to the ground. Shade cold and warm layers. Add snow, ice pellets, and a drop on a branch.",
+  "analogy": "Like a sandwich: warm filling in the middle changes what happens. It stops working because the layers can change quickly.",
+  "ways": [
+   [
+    "In words",
+    "Cold throughout is snow. Melt then refreeze is sleet. Melt then freeze on contact is freezing rain."
+   ],
+   [
+    "In numbers",
+    "Surface at -2 C with warm air aloft means freezing rain is possible."
+   ],
+   [
+    "As a rule of thumb",
+    "Count the layers."
+   ]
+  ],
+  "ex": {
+   "q": "Freezing rain is dangerous because it does what?",
+   "steps": [
+    "It falls as liquid.",
+    "The ground is below 0 C.",
+    "It freezes on contact.",
+    "Ice builds on roads and lines.",
+    "Answer: it coats roads and power lines with ice."
+   ]
+  },
+  "trap": "Mixing sleet and freezing rain. Sleet bounces as pellets.",
+  "tip": "Sleet bounces, freezing rain sticks."
+ },
+ "precip-L2#1": {
+  "why": "Hail grows when updrafts hold ice in the cloud. Bigger hail needs a stronger updraft to hold it up. Severe hail is 1 inch or more. Size comparisons help: pea 1/4, penny 3/4, quarter 1, golf ball 1 3/4, baseball 2 3/4 inches.",
+  "pic": "Draw five circles in size order. Label each with the object.",
+  "analogy": "A balloon held up by a fan: a bigger balloon needs a stronger fan. It stops working because hail is heavy.",
+  "ways": [
+   [
+    "In words",
+    "Bigger hail, stronger updraft."
+   ],
+   [
+    "In numbers",
+    "1/4, 3/4, 1, 1.75, 2.75 inches."
+   ],
+   [
+    "As a rule of thumb",
+    "A quarter is severe."
+   ]
+  ],
+  "ex": {
+   "q": "Hail with a diameter of about 1 inch is the size of which coin?",
+   "steps": [
+    "1 inch is the severe threshold.",
+    "Penny is 3/4 inch.",
+    "Quarter is 1 inch.",
+    "Match.",
+    "Answer: a quarter."
+   ]
+  },
+  "trap": "Picking a penny. A penny is 3/4 inch, not severe.",
+  "tip": "Quarter means severe."
+ },
+ "precip-L2#2": {
+  "why": "Floods differ by speed and cause. Flash floods come in minutes to hours from intense rain. River floods rise over days as water collects. Urban floods happen when drains are overwhelmed. Burn scars repel water, so rain runs off fast and can cause debris flows.",
+  "pic": "Draw a timeline: minutes-hours (flash), days (river). Add a city street with a full drain and a burned slope with a mudflow.",
+  "analogy": "A bathtub: tap fast fills quickly (flash), slow fills over time (river). It stops working because tubs have a drain control.",
+  "ways": [
+   [
+    "In words",
+    "Flash is fast, river is slow."
+   ],
+   [
+    "In numbers",
+    "Flash: under 6 hours. River: days."
+   ],
+   [
+    "As a rule of thumb",
+    "Fast rain, fast flood."
+   ]
+  ],
+  "ex": {
+   "q": "Which type of flood develops within minutes to hours of heavy rain?",
+   "steps": [
+    "Fast flood is flash flood.",
+    "River is days.",
+    "Urban depends on drains.",
+    "Choose flash.",
+    "Answer: flash flood."
+   ]
+  },
+  "trap": "Calling a river flood a flash flood.",
+  "tip": "Flash is fast."
+ },
+ "precip-L2#3": {
+  "why": "IDF curves link rainfall intensity (inches per hour), duration, and frequency. Short bursts can be very intense, but over longer times the average intensity drops. Rarer storms (100-year) plot higher than common ones. Chance per year is 1 divided by the return period.",
+  "pic": "Draw a graph with duration on the bottom and intensity on the side. Draw two curves falling to the right, 100-year above 10-year.",
+  "analogy": "Sprinting vs jogging: you can sprint fast for a short time, but not for a long time. It stops working because rain is not effort.",
+  "ways": [
+   [
+    "In words",
+    "Longer storms have lower average intensity."
+   ],
+   [
+    "In numbers",
+    "100-year storm has a 1/100 = 1 percent chance each year. 10-year has 10 percent."
+   ],
+   [
+    "As a rule of thumb",
+    "Rarer plots higher."
+   ]
+  ],
+  "ex": {
+   "q": "An IDF curve for a 100-year storm shows that as duration gets longer, intensity does what?",
+   "steps": [
+    "Curves slope down.",
+    "Longer duration.",
+    "Average intensity falls.",
+    "So decreases.",
+    "Answer: decreases."
+   ]
+  },
+  "trap": "Thinking a 100-year storm happens once every 100 years exactly. It is a 1 percent chance each year.",
+  "tip": "1 divided by years."
+ },
+ "safety-L1#0": {
+  "why": "A watch means the ingredients are in place for a hazard, but it has not happened yet. You have time to prepare. Know where you will go, charge phones, and watch the sky. Think of it as a heads-up.",
+  "pic": "Draw a clock with a long time to go and a person packing a bag.",
+  "analogy": "Like a coach saying the weather might be bad for the game, so bring a jacket. It stops working because watches cover large areas.",
+  "ways": [
+   [
+    "In words",
+    "Watch means possible. Get ready."
+   ],
+   [
+    "In numbers",
+    "A watch can cover 6 to 8 hours and many counties."
+   ],
+   [
+    "As a rule of thumb",
+    "Watch means watch out."
+   ]
+  ],
+  "ex": {
+   "q": "A tornado watch means what?",
+   "steps": [
+    "Watch means conditions are favorable.",
+    "No tornado confirmed.",
+    "Get ready.",
+    "Pay attention.",
+    "Answer: conditions are favorable for tornadoes; be ready."
+   ]
+  },
+  "trap": "Treating a watch as no danger. Stay alert.",
+  "tip": "Watch: wait and watch."
+ },
+ "safety-L1#1": {
+  "why": "A warning means the hazard is happening or about to. Radar or spotters have seen it. Warnings cover small areas and short times, so you must act at once. Go to shelter right now.",
+  "pic": "Draw a small polygon on a map with a red border and a person running to a shelter.",
+  "analogy": "A fire alarm: you leave now. It stops working because alarms may be false.",
+  "ways": [
+   [
+    "In words",
+    "Warning means it is here. Act."
+   ],
+   [
+    "In numbers",
+    "Tornado warnings often last 30 to 45 minutes and cover a small area."
+   ],
+   [
+    "As a rule of thumb",
+    "Warning means go."
+   ]
+  ],
+  "ex": {
+   "q": "A tornado warning means what?",
+   "steps": [
+    "Warning means it is happening or about to.",
+    "Radar or spotters saw it.",
+    "Take shelter now.",
+    "No waiting.",
+    "Answer: a tornado is occurring or imminent; take shelter now."
+   ]
+  },
+  "trap": "Waiting to see it. Act when warned.",
+  "tip": "Warning: Walk to shelter."
+ },
+ "safety-L1#2": {
+  "why": "An advisory covers conditions that are less serious but can still cause trouble, such as light snow or dense fog. They are not life-threatening for most but can cause crashes or delays. Take care.",
+  "pic": "Draw a yellow caution sign next to a slippery road.",
+  "analogy": "A yellow traffic light: slow down. It stops working because advisories are for specific hazards.",
+  "ways": [
+   [
+    "In words",
+    "Be careful."
+   ],
+   [
+    "In numbers",
+    "Winter weather advisory may be 2 to 4 inches of snow."
+   ],
+   [
+    "As a rule of thumb",
+    "Advisory means adjust plans."
+   ]
+  ],
+  "ex": {
+   "q": "Which is more serious: a watch, an advisory, or a warning?",
+   "steps": [
+    "Advisory is least serious.",
+    "Watch is possible.",
+    "Warning is happening.",
+    "Warning is highest.",
+    "Answer: warning."
+   ]
+  },
+  "trap": "Ignoring advisories.",
+  "tip": "Advisory: advise, be wise."
+ },
+ "safety-L2#0": {
+  "why": "Tornado winds break windows and throw debris. The safest spot is low, in the middle, and away from glass. Walls around you stop flying debris. Lower floors are less exposed than upper floors.",
+  "pic": "Draw a house. Mark the lowest floor, the center room with an X, and windows with an X.",
+  "analogy": "Like hiding in the middle of a hallway during a school drill. It stops working because homes differ.",
+  "ways": [
+   [
+    "In words",
+    "Lowest floor, interior room, away from windows."
+   ],
+   [
+    "In numbers",
+    "Put 2 walls between you and outside."
+   ],
+   [
+    "As a rule of thumb",
+    "Get low, get in, get away from glass."
+   ]
+  ],
+  "ex": {
+   "q": "Where is the safest place in a house during a tornado warning?",
+   "steps": [
+    "Go low: basement or lowest floor.",
+    "Pick an interior room.",
+    "Stay away from windows.",
+    "Cover your head.",
+    "Answer: lowest floor, interior room, no windows."
+   ]
+  },
+  "trap": "Opening windows. This does nothing.",
+  "tip": "Low, middle, no glass."
+ },
+ "safety-L2#1": {
+  "why": "Hurricanes bring surge, wind, and rain. Surge is often the deadliest, and you cannot outlast it at home in a surge zone. Officials order evacuations by zone. Follow them early because roads fill up.",
+  "pic": "Draw a coast map with zones A, B, C moving inland and an arrow going away from the coast.",
+  "analogy": "Like a school fire drill where the teacher tells your class when to move. It stops working because storms change.",
+  "ways": [
+   [
+    "In words",
+    "Leave when told."
+   ],
+   [
+    "In numbers",
+    "Evacuate 48 to 72 hours before landfall if ordered."
+   ],
+   [
+    "As a rule of thumb",
+    "Surge kills, so go."
+   ]
+  ],
+  "ex": {
+   "q": "In a hurricane evacuation, you should follow orders from whom?",
+   "steps": [
+    "Local officials know zones.",
+    "They use NHC forecasts.",
+    "Follow them.",
+    "Do not wait.",
+    "Answer: local emergency officials."
+   ]
+  },
+  "trap": "Staying because the wind seems fine. Surge is the main danger.",
+  "tip": "Surge says surge, so leave."
+ },
+ "safety-L2#2": {
+  "why": "Floods and lightning each have a rule. Water 6 inches deep can knock you down and 12 inches can float a car. Lightning can strike miles from the storm. A hard-topped car or a building is safe.",
+  "pic": "Draw a car in water with an X and a building with a check mark.",
+  "analogy": "A slippery slide: easy to start, hard to stop. It stops working because water is dangerous.",
+  "ways": [
+   [
+    "In words",
+    "Turn Around, Don't Drown. When thunder roars, go indoors."
+   ],
+   [
+    "In numbers",
+    "6 inches can knock you down. 12 inches floats a car."
+   ],
+   [
+    "As a rule of thumb",
+    "Never drive through water."
+   ]
+  ],
+  "ex": {
+   "q": "Complete the NWS slogan about flooded roads: Turn Around, ___.",
+   "steps": [
+    "It rhymes.",
+    "Turn Around, Don't Drown.",
+    "It warns about flooded roads.",
+    "Safe action: turn around.",
+    "Answer: Don't Drown."
+   ]
+  },
+  "trap": "Trying to cross shallow water.",
+  "tip": "Turn Around, Don't Drown."
+ },
+ "safety-L3#0": {
+  "why": "Good sources are official and fast. Weather.gov is the NWS site, spc.noaa.gov covers storms, nhc.noaa.gov covers tropical storms. NOAA Weather Radio works without internet or cell service, so it can wake you with alerts.",
+  "pic": "Draw a radio with an alert light and three website boxes.",
+  "analogy": "Like a smoke alarm that runs on batteries. It stops working because radios need batteries.",
+  "ways": [
+   [
+    "In words",
+    "Use official sources."
+   ],
+   [
+    "In numbers",
+    "3 sources: weather.gov, spc, nhc."
+   ],
+   [
+    "As a rule of thumb",
+    "SPC storms, NHC tropics."
+   ]
+  ],
+  "ex": {
+   "q": "A NOAA Weather Radio is useful because it what?",
+   "steps": [
+    "It broadcasts alerts.",
+    "Works without internet.",
+    "Has a battery backup.",
+    "Reliable.",
+    "Answer: gives alerts even when power or cell service is out."
+   ]
+  },
+  "trap": "Trusting social media alone.",
+  "tip": "Radio when the grid is out."
+ },
+ "safety-L3#1": {
+  "why": "After storms, hidden dangers remain. Downed lines can still be live. Generators make carbon monoxide, an invisible poison gas, so they must stay outside, away from windows. Cold or dark homes tempt people to bring them in. Never do it.",
+  "pic": "Draw a house with a generator outside 20 feet away and an X for indoors.",
+  "analogy": "Like a car in a closed garage. It stops working because generators are louder.",
+  "ways": [
+   [
+    "In words",
+    "Generator outside, away from doors and windows."
+   ],
+   [
+    "In numbers",
+    "Place at least 20 feet from the house."
+   ],
+   [
+    "As a rule of thumb",
+    "Stay away from downed lines."
+   ]
+  ],
+  "ex": {
+   "q": "After an ice storm, why is a portable generator used outside only?",
+   "steps": [
+    "Generators burn fuel.",
+    "Burning makes carbon monoxide.",
+    "CO is invisible and deadly.",
+    "Fresh air blows it away.",
+    "Answer: it makes carbon monoxide."
+   ]
+  },
+  "trap": "Running it in the garage.",
+  "tip": "Generator out, CO out."
+ },
+ "setup-L1#0": {
+  "why": "Storms need four things. Moisture is the fuel. Instability lets air rise by itself. Lift (a front or dryline) starts the rise. Shear organizes the storm. If one is missing, the storm fails.",
+  "pic": "Draw four boxes in a row and a storm. Cross out one box and a weak storm.",
+  "analogy": "A pizza needs dough, sauce, cheese, oven. Missing one and it fails. It stops working because storms are not bakeable.",
+  "ways": [
+   [
+    "In words",
+    "Moisture, instability, lift, shear."
+   ],
+   [
+    "In numbers",
+    "4 ingredients."
+   ],
+   [
+    "As a rule of thumb",
+    "Miss one, struggle."
+   ]
+  ],
+  "ex": {
+   "q": "Name the four ingredients for severe storms.",
+   "steps": [
+    "Moisture.",
+    "Instability.",
+    "Lift.",
+    "Shear.",
+    "Answer: moisture, instability, lift, and shear."
+   ]
+  },
+  "trap": "Thinking you only need heat.",
+  "tip": "MILS: Moisture, Instability, Lift, Shear."
+ },
+ "setup-L1#1": {
+  "why": "The jet stream is a fast stream of air aloft. It steers storms and adds shear. It also helps by pulling air up. The dryline is separate: storms start there because it gives lift, with moist air meeting dry air in the afternoon when heating triggers rising.",
+  "pic": "Draw a long arrow high above the map with a wiggly shape and storms below.",
+  "analogy": "A river carrying leaves. It stops working because the jet is air.",
+  "ways": [
+   [
+    "In words",
+    "Jet steers storms."
+   ],
+   [
+    "In numbers",
+    "Jet speed can exceed 100 mph, up to 200."
+   ],
+   [
+    "As a rule of thumb",
+    "300 mb is jet level."
+   ]
+  ],
+  "ex": {
+   "q": "Why do storms often start along a dryline in the afternoon?",
+   "steps": [
+    "Dryline is a boundary.",
+    "Moist air meets dry air.",
+    "The boundary gives lift.",
+    "Daytime heating adds instability.",
+    "Answer: lift from the boundary plus daytime heating."
+   ]
+  },
+  "trap": "Thinking the jet is on the ground.",
+  "tip": "Jet is high, steers the sky."
+ },
+ "setup-L1#2": {
+  "why": "Fronts are the edges of air masses. A cold front moves fast, with cold air shoving under warm air, so lift is sharp and storms form in a narrow line. A warm front slopes gently, so air rises slowly over a wide area, giving steady rain. Occluded: cold catches warm. Stationary: stalled.",
+  "pic": "Draw a steep cold wedge and a shallow warm slope.",
+  "analogy": "A bulldozer (cold front) vs. a ramp (warm front). It stops working because fronts move.",
+  "ways": [
+   [
+    "In words",
+    "Cold is steep, warm is gentle."
+   ],
+   [
+    "In numbers",
+    "Cold front slope about 1:50. Warm front about 1:200."
+   ],
+   [
+    "As a rule of thumb",
+    "Cold fast, warm slow."
+   ]
+  ],
+  "ex": {
+   "q": "Why do cold fronts bring narrow bands of intense storms but warm fronts wide, steady rain?",
+   "steps": [
+    "Cold front is steep.",
+    "Air is forced up fast.",
+    "Narrow band of strong lift.",
+    "Warm front is gentle.",
+    "Answer: steep fast lift versus gentle slow lift."
+   ]
+  },
+  "trap": "Mixing up the slopes.",
+  "tip": "Cold is a cliff, warm is a ramp."
+ },
+ "setup-L2#0": {
+  "why": "The dryline is a boundary between moist air and dry air, not warm and cold. On the Plains in spring, moist Gulf air is on the east and dry desert air is on the west. Moist air is lighter, so it rides over, and storms often form on the moist side.",
+  "pic": "Draw a map with a line. East side moist (green), west side dry (brown).",
+  "analogy": "A damp towel next to a dry towel. It stops working because air mixes.",
+  "ways": [
+   [
+    "In words",
+    "Moisture divide."
+   ],
+   [
+    "In numbers",
+    "Dew point 65 on one side, 35 on the other."
+   ],
+   [
+    "As a rule of thumb",
+    "Moist east, dry west."
+   ]
+  ],
+  "ex": {
+   "q": "On the Great Plains in spring, the dryline usually has moist air to its what?",
+   "steps": [
+    "Gulf moisture comes from the south and east.",
+    "Dry air from the southwest.",
+    "Dryline separates them.",
+    "Moist is east.",
+    "Answer: east."
+   ]
+  },
+  "trap": "Thinking it separates hot and cold.",
+  "tip": "Dry in the west."
+ },
+ "setup-L2#1": {
+  "why": "Wind shear is wind changing with height. It tilts the updraft so rain falls apart from it. Then the storm lives longer. A change in direction creates spin. Strong shear organizes storms such as supercells.",
+  "pic": "Draw a tilted storm with rain falling beside the updraft.",
+  "analogy": "A tilted chimney: smoke goes up while ash falls aside. It stops working because storms are bigger.",
+  "ways": [
+   [
+    "In words",
+    "Shear tilts the storm."
+   ],
+   [
+    "In numbers",
+    "Shear 40 kt or more favors supercells."
+   ],
+   [
+    "As a rule of thumb",
+    "Shear organizes."
+   ]
+  ],
+  "ex": {
+   "q": "Does strong wind shear tend to organize thunderstorms or tear them apart?",
+   "steps": [
+    "Strong shear tilts updrafts.",
+    "Downdraft stays apart.",
+    "Storm lasts.",
+    "Supercells form.",
+    "Answer: it organizes them (supercells)."
+   ]
+  },
+  "trap": "Thinking shear always kills storms. Weak storms may.",
+  "tip": "Shear tilts and organizes."
+ },
+ "setup-L2#2": {
+  "why": "An atmospheric river is a long narrow band of water vapor in the sky. When it runs into mountains, air is forced up and the moisture falls as heavy rain or snow. That is why landfall can bring floods.",
+  "pic": "Draw a long ribbon from the ocean to a coast with mountains.",
+  "analogy": "A fire hose of moisture. It stops working because vapor is invisible.",
+  "ways": [
+   [
+    "In words",
+    "Sky river of water vapor."
+   ],
+   [
+    "In numbers",
+    "Can carry more than the Mississippi's flow."
+   ],
+   [
+    "As a rule of thumb",
+    "Mountains squeeze it out."
+   ]
+  ],
+  "ex": {
+   "q": "What is an atmospheric river?",
+   "steps": [
+    "It is air.",
+    "It is narrow.",
+    "It carries vapor.",
+    "It brings rain at landfall.",
+    "Answer: a narrow stream of heavy water vapor."
+   ]
+  },
+  "trap": "Thinking it is in the ocean.",
+  "tip": "River in the sky."
+ },
+ "setup-L2#3": {
+  "why": "Fetch is the distance wind blows over open water. Longer fetch builds bigger waves. Warm water feeds storms. Storms churn up cooler water behind them. Mountains can lift, block, or turn storms.",
+  "pic": "Draw a long arrow across open water and bigger waves at the end.",
+  "analogy": "A runway: more room, more speed. It stops working because wind is not a vehicle.",
+  "ways": [
+   [
+    "In words",
+    "Wind distance over water."
+   ],
+   [
+    "In numbers",
+    "Longer fetch gives bigger waves."
+   ],
+   [
+    "As a rule of thumb",
+    "Long fetch, big waves."
+   ]
+  ],
+  "ex": {
+   "q": "What is fetch?",
+   "steps": [
+    "Fetch involves wind.",
+    "Over water.",
+    "Distance.",
+    "Open water.",
+    "Answer: the distance wind blows over open water."
+   ]
+  },
+  "trap": "Thinking fetch is time.",
+  "tip": "Fetch it far."
+ },
+ "torn-L1#0": {
+  "why": "A tornado needs two things at once: spinning air and contact with both a cloud base and the ground. The spin comes from wind shear that is tilted upright by a storm updraft. Squeezing the spinning air into a narrow column makes it spin faster, like a skater pulling in her arms. A waterspout is the same kind of column over water.",
+  "pic": "Draw a storm cloud. Draw a narrow column from the cloud base to the ground and add a curved arrow around it. Draw the same column over a lake and label it waterspout.",
+  "analogy": "A skater spinning: arms in means faster spin. Arms are the wide spinning air, the pulled-in position is the tight tornado. It stops working because a skater has a solid body.",
+  "ways": [
+   [
+    "In words",
+    "Rotating column touching ground and cloud."
+   ],
+   [
+    "In numbers",
+    "Tornado width ranges from about 50 ft to over 1 mile."
+   ],
+   [
+    "As a rule of thumb",
+    "No ground contact, no tornado."
+   ]
+  ],
+  "ex": {
+   "q": "A tornado is a violently rotating column of air that touches what?",
+   "steps": [
+    "It must touch the ground.",
+    "It must connect to a cloud.",
+    "Both are required.",
+    "That separates it from a funnel cloud.",
+    "Answer: the ground and a cloud base."
+   ]
+  },
+  "trap": "Calling a funnel cloud a tornado. Check for ground contact.",
+  "tip": "Tornado touches down."
+ },
+ "torn-L1#1": {
+  "why": "Tornadoes need warm, humid air and a spinning storm. In spring, warm Gulf air meets cold air from the north over the Plains. Late afternoon is when the ground is hottest, so air is most unstable. The Plains and Southeast get the most. But the ingredients can appear any month, so tornadoes are possible any time.",
+  "pic": "Draw a U.S. map. Shade the Plains and Southeast. Draw a clock showing 4 to 6 pm.",
+  "analogy": "A pot of water reaching a boil after a while. Heating takes time, so the peak comes late. It stops working because storms need lift too.",
+  "ways": [
+   [
+    "In words",
+    "Spring, late afternoon, Plains and Southeast, but any time."
+   ],
+   [
+    "In numbers",
+    "Peak hour is about 4 to 6 pm local time."
+   ],
+   [
+    "As a rule of thumb",
+    "Hot afternoon, warm moist air, danger."
+   ]
+  ],
+  "ex": {
+   "q": "What time of day do tornadoes most often occur?",
+   "steps": [
+    "Daytime heating builds instability.",
+    "Hottest time is mid to late afternoon.",
+    "Storms peak a bit after.",
+    "Pick late afternoon.",
+    "Answer: late afternoon."
+   ]
+  },
+  "trap": "Believing tornadoes only happen in spring afternoons.",
+  "tip": "Spring, Plains, late day."
+ },
+ "torn-L1#2": {
+  "why": "The EF scale rates a tornado by the damage it causes, then gives an estimated wind speed. EF0 is 65 to 85 mph, EF1 86 to 110, EF2 111 to 135, EF3 136 to 165, EF4 166 to 200, EF5 over 200. Because rating comes after the fact, it is an estimate. Each step means worse damage.",
+  "pic": "Draw six steps going up. Label each with EF number and range.",
+  "analogy": "Like grading a test after it is done. It stops working because the tornado does the damage, not the grade.",
+  "ways": [
+   [
+    "In words",
+    "Damage gives rating."
+   ],
+   [
+    "In numbers",
+    "EF0 65-85, EF1 86-110, EF2 111-135, EF3 136-165, EF4 166-200, EF5 200+."
+   ],
+   [
+    "As a rule of thumb",
+    "EF3 and up is violent-ish, EF4 and EF5 are devastating."
+   ]
+  ],
+  "ex": {
+   "q": "A tornado's estimated peak wind is 160 mph. What is its EF rating?",
+   "steps": [
+    "Look at the ranges.",
+    "EF2 ends at 135.",
+    "EF3 is 136 to 165.",
+    "160 fits in 136 to 165.",
+    "Answer: EF3."
+   ]
+  },
+  "trap": "Picking EF4 because 160 feels high. Use the ranges.",
+  "tip": "E-F-3: 136 to 165."
+ },
+ "torn-L2#0": {
+  "why": "The original Fujita (F) scale was used before 1 Feb 2007. The Enhanced Fujita (EF) scale started on that date. Both rate tornado damage, not the wind directly. EF uses more damage indicators and updated wind estimates. So date decides.",
+  "pic": "Draw a timeline with a line at Feb 1, 2007. Label F on the left and EF on the right.",
+  "analogy": "A video game patch: before the patch the old rules, after the new ones. It stops working because the scale did not replace history.",
+  "ways": [
+   [
+    "In words",
+    "F before, EF on or after."
+   ],
+   [
+    "In numbers",
+    "Tornado on 2011-05-22: EF. 1974-04-03: F."
+   ],
+   [
+    "As a rule of thumb",
+    "2007 is the switch."
+   ]
+  ],
+  "ex": {
+   "q": "Which scale is used for tornadoes occurring after February 1, 2007?",
+   "steps": [
+    "Find the cutoff: Feb 1, 2007.",
+    "After is the new scale.",
+    "New scale is EF.",
+    "Old is F.",
+    "Answer: Enhanced Fujita (EF) scale."
+   ]
+  },
+  "trap": "Using F for recent ones.",
+  "tip": "EF = Enhanced = Evermore."
+ },
+ "torn-L2#1": {
+  "why": "A hook echo is a shape on radar reflectivity where rain and hail wrap around the rotating part of a supercell (the mesocyclone). It looks like a fishhook. It shows that the storm is rotating. A tornado is often near the tip of the hook.",
+  "pic": "Draw a blob of radar color with a curved tail wrapping around a small circle at the lower right.",
+  "analogy": "Cream swirled into coffee. It stops working because hook echoes are drops.",
+  "ways": [
+   [
+    "In words",
+    "Rain wraps around the spin."
+   ],
+   [
+    "In numbers",
+    "Hook is often 2 to 5 miles long."
+   ],
+   [
+    "As a rule of thumb",
+    "Hook plus low CC means debris."
+   ]
+  ],
+  "ex": {
+   "q": "What does a hook echo on reflectivity wrap around?",
+   "steps": [
+    "It forms from rain.",
+    "It wraps around.",
+    "The spinning updraft.",
+    "The mesocyclone.",
+    "Answer: the mesocyclone."
+   ]
+  },
+  "trap": "Thinking the hook is the tornado. The tornado is near its tip.",
+  "tip": "Hook it on the spin."
+ },
+ "torn-L2#2": {
+  "why": "A tornado vortex signature (TVS) shows on velocity radar as strong inbound (green) winds right beside strong outbound (red) winds. Next to each other means air is spinning tightly. It is a sign of intense rotation.",
+  "pic": "Draw a radar dot. Draw a tiny green blob touching a tiny red blob. Draw a circle arrow around them.",
+  "analogy": "A merry-go-round seen from the side: one edge comes toward you, the other goes away. It stops working because radar sees only one slice.",
+  "ways": [
+   [
+    "In words",
+    "Green next to red."
+   ],
+   [
+    "In numbers",
+    "A pair like -50 kt and +50 kt side by side is 100 kt of shear."
+   ],
+   [
+    "As a rule of thumb",
+    "Tight couplet means strong spin."
+   ]
+  ],
+  "ex": {
+   "q": "On Doppler velocity radar, a tight pair of inbound and outbound winds next to each other shows what?",
+   "steps": [
+    "Inbound is green.",
+    "Outbound is red.",
+    "Side by side means spin.",
+    "Tight means intense.",
+    "Answer: strong rotation (possible tornado)."
+   ]
+  },
+  "trap": "Thinking it is two storms.",
+  "tip": "Green meets red, rotation ahead."
+ },
+ "torn-L2#3": {
+  "why": "When a tornado lifts debris, the radar pulse hits many odd shapes: boards, leaves, dirt. They do not look alike, so correlation coefficient falls. A low CC spot inside the hook is a debris ball. It means the tornado is on the ground doing damage.",
+  "pic": "Draw the hook echo with a small blue-colored dot at the tip labeled low CC.",
+  "analogy": "A bag of mixed candy compared with a bag of identical candy. It stops working because candy is not flying.",
+  "ways": [
+   [
+    "In words",
+    "Mixed junk, low CC."
+   ],
+   [
+    "In numbers",
+    "Rain CC about 0.98. Debris often below 0.8."
+   ],
+   [
+    "As a rule of thumb",
+    "Low CC in a hook is a debris signature."
+   ]
+  ],
+  "ex": {
+   "q": "Why does correlation coefficient drop inside a debris ball?",
+   "steps": [
+    "CC measures similarity.",
+    "Debris has many shapes.",
+    "Targets differ.",
+    "So CC falls.",
+    "Answer: debris targets are mixed in size and shape."
+   ]
+  },
+  "trap": "Thinking low CC means light rain.",
+  "tip": "Debris = different = low CC."
+ },
+ "tstorm-L1#0": {
+  "why": "The National Weather Service calls a thunderstorm severe if it makes hail 1 inch or bigger, wind 58 mph or more, or a tornado. These thresholds mark damage: 1-inch hail dents cars and 58 mph wind breaks branches. Heavy rain or lightning alone do not make a storm severe.",
+  "pic": "Draw a quarter, a gust arrow marked 58, and a funnel. Label them 'any one'.",
+  "analogy": "A speeding ticket: you cross a line and it counts. It stops working because storms are not tickets.",
+  "ways": [
+   [
+    "In words",
+    "Hail, wind, or tornado."
+   ],
+   [
+    "In numbers",
+    "Hail 1 in, wind 58 mph."
+   ],
+   [
+    "As a rule of thumb",
+    "Quarter, 58, twister."
+   ]
+  ],
+  "ex": {
+   "q": "NWS criteria for a severe thunderstorm include hail at least how big?",
+   "steps": [
+    "Severe hail starts at 1 inch.",
+    "That is a quarter.",
+    "Earlier it was 3/4.",
+    "Now 1 inch.",
+    "Answer: 1 inch in diameter."
+   ]
+  },
+  "trap": "Using 3/4 inch.",
+  "tip": "One inch, 58, tornado."
+ },
+ "tstorm-L1#1": {
+  "why": "A single-cell storm has one updraft. Rain forms, falls, and drags air down. The downdraft cuts off the warm updraft, so it dies in about an hour. With weak shear, rain falls into the updraft and kills it.",
+  "pic": "Draw a cell with an up arrow, then a rain shaft over the arrow, then fading.",
+  "analogy": "A candle with a cup placed over it. It stops working because storms are bigger.",
+  "ways": [
+   [
+    "In words",
+    "Storm kills its own fuel."
+   ],
+   [
+    "In numbers",
+    "Lasts 30 to 60 minutes."
+   ],
+   [
+    "As a rule of thumb",
+    "Weak shear means short life."
+   ]
+  ],
+  "ex": {
+   "q": "Why does a single-cell pulse storm die in about an hour?",
+   "steps": [
+    "Rain makes a downdraft.",
+    "Downdraft falls into updraft.",
+    "Fuel is cut.",
+    "Storm dies.",
+    "Answer: its downdraft cuts off the updraft."
+   ]
+  },
+  "trap": "Thinking they run out of water.",
+  "tip": "Rain rains out the storm."
+ },
+ "tstorm-L1#2": {
+  "why": "A multicell cluster has many cells at different stages. Outflow from old cells lifts air to start new cells. So the group lasts for hours even if each cell dies in an hour. Lines of cells can bring wind and flooding.",
+  "pic": "Draw three storms side by side: young, mature, old.",
+  "analogy": "A relay race: runners change but the team keeps going. It stops working because cells are not people.",
+  "ways": [
+   [
+    "In words",
+    "New cells keep forming."
+   ],
+   [
+    "In numbers",
+    "Each cell about 1 hour, cluster several hours."
+   ],
+   [
+    "As a rule of thumb",
+    "Cluster means multicell."
+   ]
+  ],
+  "ex": {
+   "q": "A cluster of cells at different stages that keep forming new storms is what?",
+   "steps": [
+    "Many cells.",
+    "Different stages.",
+    "Not a single cell.",
+    "Not rotating supercell.",
+    "Answer: a multicell storm."
+   ]
+  },
+  "trap": "Calling it a supercell.",
+  "tip": "Multi = many."
+ },
+ "tstorm-L2#0": {
+  "why": "A supercell has one long-lived rotating updraft called a mesocyclone. Shear separates the updraft from the downdraft, so the storm keeps running. The rotation makes it capable of large hail and the strongest tornadoes.",
+  "pic": "Draw a tilted giant cloud with a swirl in the middle labeled mesocyclone.",
+  "analogy": "A hurricane in miniature. It stops working because they form differently.",
+  "ways": [
+   [
+    "In words",
+    "One storm, rotating, long-lived."
+   ],
+   [
+    "In numbers",
+    "Can last 2 to 6 hours."
+   ],
+   [
+    "As a rule of thumb",
+    "Supercell makes the strongest tornadoes."
+   ]
+  ],
+  "ex": {
+   "q": "A very strong, long-lived thunderstorm forms with a rotating updraft. Which is most likely to produce a strong tornado?",
+   "steps": [
+    "Rotating updraft.",
+    "Long-lived.",
+    "Supercell.",
+    "Others lack spin.",
+    "Answer: a supercell."
+   ]
+  },
+  "trap": "Thinking MCC makes the strongest tornadoes.",
+  "tip": "Super spin."
+ },
+ "tstorm-L2#1": {
+  "why": "An MCC (mesoscale convective complex) is a huge, round cluster of storms. It forms at night over the Plains, can last 12 hours, and brings heavy rain. It is organized and has a big cold cloud shield on satellite.",
+  "pic": "Draw a big round cold cloud on a satellite.",
+  "analogy": "A big family reunion. It stops working because storms leave.",
+  "ways": [
+   [
+    "In words",
+    "Large, round, long-lived."
+   ],
+   [
+    "In numbers",
+    "Area over 100,000 sq km, lasting 6 hours or more."
+   ],
+   [
+    "As a rule of thumb",
+    "MCC is big and round."
+   ]
+  ],
+  "ex": {
+   "q": "A large, long-lived, organized cluster of thunderstorms covering a big area is what?",
+   "steps": [
+    "Large.",
+    "Organized.",
+    "Many storms.",
+    "MCC.",
+    "Answer: a mesoscale convective complex (MCC)."
+   ]
+  },
+  "trap": "Calling it a supercell.",
+  "tip": "Mega Cluster Circle."
+ },
+ "tstorm-L2#2": {
+  "why": "A thunderstorm has three stages. Cumulus: updraft only, cloud grows. Mature: updraft and downdraft side by side, the worst weather. Dissipating: downdraft only, the storm fades. The downdraft cuts the supply.",
+  "pic": "Draw three clouds: up arrows only, up and down arrows, down arrows only.",
+  "analogy": "A life: growing, adult, retired. It stops working because storms don't age by years.",
+  "ways": [
+   [
+    "In words",
+    "Grow, peak, fade."
+   ],
+   [
+    "In numbers",
+    "3 stages, 20 min each."
+   ],
+   [
+    "As a rule of thumb",
+    "Both arrows means mature."
+   ]
+  ],
+  "ex": {
+   "q": "Which stage has both an updraft and a downdraft?",
+   "steps": [
+    "Cumulus is up only.",
+    "Dissipating is down only.",
+    "Mature has both.",
+    "Worst weather.",
+    "Answer: mature stage."
+   ]
+  },
+  "trap": "Picking cumulus.",
+  "tip": "Mature has Mixed motion."
+ },
+ "upper-L1#0": {
+  "why": "Weather charts at fixed pressure levels show different jobs. 850 mb is about 1.5 km up and shows low-level moisture. 700 mb is about 3 km and shows steering. 500 mb is about 5.5 km and shows troughs and ridges. 300 mb is about 9 km and shows the jet stream. Pressure drops as you go up.",
+  "pic": "Draw a vertical line with four marks: 850, 700, 500, 300. Label each job.",
+  "analogy": "Floors of a building, each with a different job. It stops working because floors are fixed in height.",
+  "ways": [
+   [
+    "In words",
+    "Higher means lower pressure."
+   ],
+   [
+    "In numbers",
+    "850 mb about 1.5 km, 700 about 3 km, 500 about 5.5 km, 300 about 9 km."
+   ],
+   [
+    "As a rule of thumb",
+    "300 is jet."
+   ]
+  ],
+  "ex": {
+   "q": "Which pressure level is usually used to locate the jet stream?",
+   "steps": [
+    "Jet is high.",
+    "Highest listed is 300.",
+    "300 mb.",
+    "Matches.",
+    "Answer: 300 mb."
+   ]
+  },
+  "trap": "Using 850 for the jet.",
+  "tip": "Three hundred, jet-stream trend."
+ },
+ "upper-L1#1": {
+  "why": "A hodograph plots the wind at each height as a point on a graph, joined by a line. A long path means the wind changes a lot with height, so shear is strong. A clockwise curve helps supercells because it supports rotating updrafts.",
+  "pic": "Draw axes. Plot dots at increasing height, join them in a curve going clockwise.",
+  "analogy": "A map of a hike: a long winding path means a lot of change. It stops working because wind has direction too.",
+  "ways": [
+   [
+    "In words",
+    "Long path, strong shear."
+   ],
+   [
+    "In numbers",
+    "Wind 10 kt at surface to 60 kt aloft is 50 kt change."
+   ],
+   [
+    "As a rule of thumb",
+    "Clockwise curve favors supercells."
+   ]
+  ],
+  "ex": {
+   "q": "Why does a long path on a hodograph mean strong shear?",
+   "steps": [
+    "Each point is wind at a height.",
+    "Distance between points is change.",
+    "Long means large change.",
+    "Shear is that change.",
+    "Answer: wind changes a lot with height."
+   ]
+  },
+  "trap": "Thinking a short path is bad.",
+  "tip": "Long line, shear shine."
+ },
+ "upper-L1#2": {
+  "why": "A sounding is a balloon's profile of the air. Temperature is a solid line and dew point is a dashed line. Where the lines are close, the air is moist or cloudy. Where they are far apart, the air is dry.",
+  "pic": "Draw two lines on a chart, close together at one level and far apart at another.",
+  "analogy": "Two friends walking: close together means they are alike. It stops working because air isn't friendly.",
+  "ways": [
+   [
+    "In words",
+    "Close is moist, far is dry."
+   ],
+   [
+    "In numbers",
+    "T 20, Td 19 is saturated-ish. T 20, Td 0 is dry."
+   ],
+   [
+    "As a rule of thumb",
+    "Small gap, cloud."
+   ]
+  ],
+  "ex": {
+   "q": "On a sounding, a wide gap between temperature and dew point means the layer is what?",
+   "steps": [
+    "Gap is dryness.",
+    "Wide gap is dry.",
+    "Not cloudy.",
+    "So dry.",
+    "Answer: dry."
+   ]
+  },
+  "trap": "Thinking wide is moist.",
+  "tip": "Close = cloudy."
+ },
+ "upper-L2#0": {
+  "why": "An inversion is a layer where temperature rises with height, the opposite of normal. A warm layer on top of cooler air means rising parcels become cooler than their surroundings and stop. It is very stable, so it can cap storms. If the cap breaks, storms explode.",
+  "pic": "Draw a temperature line going up, then bending to the right for a short stretch.",
+  "analogy": "A lid on a pot. It stops working because the cap can leak.",
+  "ways": [
+   [
+    "In words",
+    "Warm over cool."
+   ],
+   [
+    "In numbers",
+    "Temperature rises 22 C at 900 m to 25 C at 1000 m."
+   ],
+   [
+    "As a rule of thumb",
+    "Inversion holds storms."
+   ]
+  ],
+  "ex": {
+   "q": "A sounding layer where temperature increases with height is called what?",
+   "steps": [
+    "Normal: temperature falls with height.",
+    "Opposite is rising.",
+    "Inversion.",
+    "Very stable.",
+    "Answer: an inversion."
+   ]
+  },
+  "trap": "Thinking inversions are unstable.",
+  "tip": "Inverted, so inverted lid."
+ },
+ "upper-L2#1": {
+  "why": "A Skew-T uses the same data as a Stüve. The temperature lines are tilted to the right to spread out the data and make the plots easier to read. So the skills are the same.",
+  "pic": "Draw a square grid, then tilt its lines.",
+  "analogy": "Like looking at a poster from an angle. It stops working because tilt changes shape.",
+  "ways": [
+   [
+    "In words",
+    "Same data, tilted lines."
+   ],
+   [
+    "In numbers",
+    "Isotherms slant at 45 degrees."
+   ],
+   [
+    "As a rule of thumb",
+    "Skew-T tilts."
+   ]
+  ],
+  "ex": {
+   "q": "Skew-T diagrams differ from Stüve diagrams mainly because what?",
+   "steps": [
+    "Both plot sounding.",
+    "Skew-T tilts lines.",
+    "That spreads data.",
+    "Same use.",
+    "Answer: its temperature lines are tilted."
+   ]
+  },
+  "trap": "Thinking they use different data.",
+  "tip": "Skew = slant."
+ },
+ "upper-L2#2": {
+  "why": "The LCL is the height where a rising parcel becomes saturated and forms cloud. The gap between temperature and dew point tells how far it must rise. About 125 m for every degree C of gap. A lower LCL means a lower cloud base, which favors tornadoes.",
+  "pic": "Draw a parcel rising from the ground to a cloud base at the LCL.",
+  "analogy": "Like a balloon cooling until it fogs. It stops working because it is an approximation.",
+  "ways": [
+   [
+    "In words",
+    "Bigger gap, higher cloud base."
+   ],
+   [
+    "In numbers",
+    "T 30, Td 18, gap 12, LCL = 125 x 12 = 1500 m."
+   ],
+   [
+    "As a rule of thumb",
+    "125 m per degree."
+   ]
+  ],
+  "ex": {
+   "q": "Surface temperature is 30 C and dew point is 18 C. What is the LCL?",
+   "steps": [
+    "Find the gap: 30 - 18 = 12.",
+    "Use 125 m per degree.",
+    "Multiply: 125 x 12 = 1500.",
+    "Units m.",
+    "Answer: about 1500 m."
+   ]
+  },
+  "trap": "Using T + Td.",
+  "tip": "125 times the gap."
+ },
+ "upper-L2#3": {
+  "why": "CAPE is the energy stored for storms, in joules per kilogram. It measures how much a rising parcel would speed up. Under 1000 is marginal, 1000 to 2500 moderate, 2500 to 4000 strong, over 4000 extreme.",
+  "pic": "Draw a sounding with a shaded area between parcel and environment.",
+  "analogy": "A fuel tank gauge. It stops working because CAPE is not used up.",
+  "ways": [
+   [
+    "In words",
+    "Bigger area, stronger storms."
+   ],
+   [
+    "In numbers",
+    "300 is weak, 2000 moderate, 3000 strong, 5000 extreme."
+   ],
+   [
+    "As a rule of thumb",
+    "1000 is the first line."
+   ]
+  ],
+  "ex": {
+   "q": "CAPE of 300 J/kg is best described as what?",
+   "steps": [
+    "Under 1000.",
+    "Weak.",
+    "Marginal.",
+    "Low.",
+    "Answer: weak."
+   ]
+  },
+  "trap": "Thinking CAPE alone makes a storm.",
+  "tip": "CAPE is cake: more is stronger."
+ }
+}
