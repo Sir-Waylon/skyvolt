@@ -2509,5 +2509,375 @@
   },
   "trap": "Thinking CAPE alone makes a storm.",
   "tip": "CAPE is cake: more is stronger."
+ },
+ "winds-L1#0": {
+  "why": "Thunderstorm winds come from two sources: rotation (a tornado) or air that rushes straight along the ground. Straight-line wind is the second kind. Rain-cooled air is heavy, so it sinks, hits the ground, and spreads out in a line. The damage path points the same way, like a bowling lane. Tornado damage instead twists and swirls around a center. Straight-line wind is the most common storm wind report because every strong storm can make it, but only a few make tornadoes.",
+  "pic": "Draw a storm cloud. Under it, draw arrows going down, then bending flat along the ground in one direction. Draw trees all lying with their tops pointing the same way.",
+  "analogy": "Think of a glass of water dumped on a table. The water hits and spreads out in all directions in a line from the splash. The storm's cold air is the water, the ground is the table. Unlike a spill, the storm wind can be 60 to 100 mph and last minutes.",
+  "ways": [
+   [
+    "In words",
+    "Wind damage with no spin is straight-line wind."
+   ],
+   [
+    "In numbers",
+    "Fallen trees: 10 pointing east, 0 pointing other ways = straight-line. Trees pointing every direction in a small spot = rotation."
+   ],
+   [
+    "As a rule of thumb",
+    "Same direction means straight-line. Swirly means tornado."
+   ]
+  ],
+  "ex": {
+   "q": "A neighborhood has 12 fallen trees, all pointing north-east, and no rotation seen on radar. What caused it?",
+   "steps": [
+    "Look at the tree directions: all the same way.",
+    "Same direction means the wind pushed in one straight path.",
+    "No rotation on radar rules out a tornado.",
+    "Rain-cooled air sank and spread out along the ground.",
+    "Answer: straight-line wind."
+   ]
+  },
+  "trap": "Thinking any storm wind damage is a tornado. Check the pattern: parallel means straight-line, twisted means tornado.",
+  "tip": "Straight trees fall in a straight line: straight-line wind."
+ },
+ "winds-L1#1": {
+  "why": "A downburst starts when rain and hail drag air down inside a storm. Falling rain also cools the air as water evaporates, which makes it denser than the air around it. Dense air sinks fast. When it hits the ground it cannot go further down, so it fans out sideways in all directions. That outward burst is what knocks things over. Without the ground to stop it, it would just keep falling and there would be no sideways blast.",
+  "pic": "Draw a storm cloud. Below it draw a thick arrow pointing down. At the ground, draw arrows curving out to the left and right like a starburst. Label the spot 'impact'.",
+  "analogy": "A water balloon dropped on the floor: the water falls down, hits, then splashes out sideways. The downdraft is the falling balloon, the ground is the floor, the spreading outflow is the splash. A real downburst can be invisible when the air is dry and no rain reaches the ground.",
+  "ways": [
+   [
+    "In words",
+    "A downdraft that hits the ground and spreads out is a downburst."
+   ],
+   [
+    "In numbers",
+    "Air goes down at maybe 30 mph, then spreads outward at 60+ mph near the ground."
+   ],
+   [
+    "As a graph or diagram",
+    "Side view: arrow down, then arrows flat in both directions along the ground."
+   ]
+  ],
+  "ex": {
+   "q": "A downdraft hits the ground and winds spread outward. What is it called?",
+   "steps": [
+    "Notice the air goes down first.",
+    "Then it hits the ground.",
+    "Then it spreads outward in all directions.",
+    "That full pattern defines a downburst.",
+    "Answer: downburst."
+   ]
+  },
+  "trap": "Mixing it up with a tornado. A tornado rotates and pulls inward; a downburst blows outward.",
+  "tip": "Downburst: down, then burst out."
+ },
+ "winds-L1#2": {
+  "why": "Size is the only difference between the two. A microburst is a small downburst, under 4 km wide. The small size makes the wind very strong in a tiny area and it can last just a few minutes. A macroburst is 4 km or more wide and can last longer. The word micro means small and macro means large, so you can remember the sizes from the Greek parts of the words.",
+  "pic": "Draw a circle 4 km wide on a grid. Draw a small circle inside it for a microburst and a big one reaching past it for a macroburst. Label the line '4 km'.",
+  "analogy": "A sprinkler head versus a fire hose: both spray water out, but one covers a small patch and one covers a big area. Microburst is the small spray, macroburst the big one. Real winds differ in strength too, not just size.",
+  "ways": [
+   [
+    "In words",
+    "Under 4 km is micro. 4 km or more is macro."
+   ],
+   [
+    "In numbers",
+    "3 km wide = microburst. 4 km wide = macroburst. 10 km wide = macroburst."
+   ],
+   [
+    "As a rule of thumb",
+    "Four kilometers is the dividing line."
+   ]
+  ],
+  "ex": {
+   "q": "A downburst spreads over an area 7 km wide. Micro or macro?",
+   "steps": [
+    "Compare 7 km with the 4 km cutoff.",
+    "7 is greater than 4.",
+    "Four or more km means macroburst.",
+    "Answer: macroburst."
+   ]
+  },
+  "trap": "Calling exactly 4 km a microburst. The rule says 4 km or more is macro.",
+  "tip": "Micro is mini; macro is massive."
+ },
+ "winds-L2#0": {
+  "why": "Rain-cooled air sinks and spreads out under a storm. The edge of this cool pool is the gust front. It pushes into the warm air in front of the storm like a snow plow. Warm air is lifted by the cool wedge. When the lifted air cools enough, a cloud forms along the edge. That low, wedge-shaped cloud is the shelf cloud. The gust front arrives before the rain, so a sudden wind shift and temperature drop tells you a storm is near.",
+  "pic": "Draw the ground and a storm on the right. Draw a low blob of cool air with a sloping front edge. Draw an arrow of warm air rising over the slope and a shelf cloud on top of the edge.",
+  "analogy": "A snow plow pushes snow ahead of it. The cool outflow is the plow, warm air is the snow being shoved up. The plow stops pushing when it runs out of power, and a gust front fades the same way.",
+  "ways": [
+   [
+    "In words",
+    "Gust front: leading edge of cool outflow. Shelf cloud: wedge cloud on top of it."
+   ],
+   [
+    "In numbers",
+    "Before: 90 F, calm. At front: wind jumps to 50 mph, temperature falls to 75 F."
+   ],
+   [
+    "As a rule of thumb",
+    "Wind and cool air arrive first; the rain follows."
+   ]
+  ],
+  "ex": {
+   "q": "A low, wedge-shaped cloud sits on the front edge of a storm. What is it?",
+   "steps": [
+    "Notice the cloud is low and wedge-shaped.",
+    "It sits at the front edge of outflow.",
+    "Warm air lifted by the gust front makes it.",
+    "That cloud type is a shelf cloud.",
+    "Answer: shelf cloud."
+   ]
+  },
+  "trap": "Confusing a shelf cloud with a wall cloud. Shelf clouds are on the front edge and spread wide; wall clouds hang lower under the storm base and can rotate.",
+  "tip": "Shelf cloud: a shelf over the front."
+ },
+ "winds-L2#1": {
+  "why": "A squall line is a row of storms that formed in a line. When the storms push cool air out in one strong, shared surge, the line can race ahead. The line can bend into a bow shape. The strongest wind blows from the middle of the bow. If the line lasts a long time and causes damage over hundreds of miles, it is called a derecho. A derecho keeps going because its cool outflow keeps lifting new warm air, which feeds new storms.",
+  "pic": "Draw a long line of storm cells across a map from left to right. Bend the middle forward into a bow. Draw arrows pointing straight out from the middle and a long damage path trailing behind.",
+  "analogy": "A line of dominoes: one falling hits the next, so the whole row keeps going. Each storm is a domino pushing air that triggers the next. A derecho is a very long row that keeps falling for hours. Dominoes run out of row; storms run out of warm, moist air.",
+  "ways": [
+   [
+    "In words",
+    "Squall line: storms in a line. Derecho: long-lived, wide windstorm."
+   ],
+   [
+    "In numbers",
+    "Damage swath of 400+ miles and wind gusts of 58 mph or more are signs of a derecho."
+   ],
+   [
+    "As a rule of thumb",
+    "A squall line is the group. A derecho is the extreme version."
+   ]
+  ],
+  "ex": {
+   "q": "A fast-moving band of storms damages trees across 450 miles with winds over 60 mph. Name it.",
+   "steps": [
+    "The storms move as a band.",
+    "The damage is long: 450 miles, in the hundreds.",
+    "The wind is strong and straight-line.",
+    "A long-lived windstorm like this is a derecho.",
+    "Answer: derecho."
+   ]
+  },
+  "trap": "Thinking every squall line is a derecho. Most are not; a derecho needs a long path of damage.",
+  "tip": "Derecho: Damage Extends Really Far."
+ },
+ "winds-L2#2": {
+  "why": "Downslope wind needs no storm. Air flows over a mountain, then sinks down the far side. Sinking air gets squeezed by higher pressure, which heats it. It warms by about 5.5 F for every 1,000 ft it drops when dry. Gravity and a pressure difference speed it up as it goes down the slope. In a thunderstorm downdraft, air is heavy from rain and cool from evaporation, so gravity pulls it quickly toward the ground.",
+  "pic": "Draw a mountain. Draw arrows rising up the left side and plunging down the right side, getting longer as they go. Label the bottom 'warm, dry, gusty'.",
+  "analogy": "A kid sliding down a playground slide speeds up as they go. The air is the kid, the slope is the slide. Unlike a slide, air also warms as it descends.",
+  "ways": [
+   [
+    "In words",
+    "Air sinking down a mountain speeds up and warms."
+   ],
+   [
+    "In numbers",
+    "Drop 3,000 ft: dry air warms about 16.5 F (3 x 5.5)."
+   ],
+   [
+    "As a rule of thumb",
+    "Heavier or colder than surroundings means it sinks fast."
+   ]
+  ],
+  "ex": {
+   "q": "Dry air drops 2,000 ft down a slope. About how much does it warm at 5.5 F per 1,000 ft?",
+   "steps": [
+    "Rate is 5.5 F per 1,000 ft.",
+    "Drop is 2,000 ft, which is 2 thousands.",
+    "Multiply 2 x 5.5.",
+    "That gives 11.",
+    "Answer: about 11 F."
+   ]
+  },
+  "trap": "Saying you need a thunderstorm for strong sinking wind. Mountains alone can do it.",
+  "tip": "Down the slope, speed and warm both grow."
+ },
+ "winds-L2#3": {
+  "why": "Radar sees rain and hail, not wind. But wind shapes where the rain goes. When a squall line surges forward in the middle, radar shows a bow-shaped echo. That bow means fast winds pushing the line ahead, so the middle is the most damaging. A fine line is a thin streak where outflow lifts air and dust or bugs; it marks a gust front. Learn the shape and you can guess the wind.",
+  "pic": "Draw a straight line on a radar screen, then the same line with its middle bulged forward like an archer's bow. Mark the strongest wind at the bulge. Draw a thin dotted line ahead of storms and label it gust front.",
+  "analogy": "A rope held by two people: if the middle is pushed, it bows out. The storm line is the rope, the fast wind is the push. Unlike rope, the radar bow is formed by air, not a hand.",
+  "ways": [
+   [
+    "In words",
+    "Bow echo means strong wind. Fine line means gust front."
+   ],
+   [
+    "In numbers",
+    "Bowing segment gusts: often 60 to 80 mph. Other parts of line: weaker."
+   ],
+   [
+    "As a graph or diagram",
+    "Straight line = normal. Bowed line = strong wind."
+   ]
+  ],
+  "ex": {
+   "q": "On radar a line of storms bows out in the middle. Where is the wind strongest?",
+   "steps": [
+    "Find the bowing part of the line.",
+    "The outward push is where air is fastest.",
+    "So winds are strongest at the bow.",
+    "Answer: the bowing segment."
+   ]
+  },
+  "trap": "Looking only at color. The shape of the echo tells you about wind.",
+  "tip": "Bow means blow."
+ },
+ "winter-L1#0": {
+  "why": "A blizzard is about wind and visibility, not how much snow falls. Needed: wind or gusts of 35 mph or more, snow in the air, and visibility under 1/4 mile, for at least 3 hours. Wind picks up snow and fills the air, making a whiteout. Without strong wind, snow falls straight down and you can see further. All three parts must happen together for 3 hours.",
+  "pic": "Draw a road with flat white ground. Add a wind arrow marked 35 mph. Draw snow filling the air so a car 1/4 mile away disappears. Put a clock showing 3 hours.",
+  "analogy": "A snow globe: shake it and you cannot see through. The wind is the shake. The globe stops swirling after a moment, but a blizzard keeps going for hours.",
+  "ways": [
+   [
+    "In words",
+    "Strong wind + snow in air + low visibility, for 3 hours."
+   ],
+   [
+    "In numbers",
+    "40 mph wind, 1/8 mile visibility, 4 hours = blizzard. 25 mph, 1/8 mile, 4 hours = not."
+   ],
+   [
+    "As a rule of thumb",
+    "35, 1/4, 3: wind, view, hours."
+   ]
+  ],
+  "ex": {
+   "q": "Wind gusts 38 mph, visibility 1/8 mile in blowing snow, for 4 hours. Blizzard?",
+   "steps": [
+    "Wind 38 is at least 35.",
+    "Visibility 1/8 is under 1/4.",
+    "Time of 4 hours is at least 3.",
+    "All three tests pass.",
+    "Answer: yes."
+   ]
+  },
+  "trap": "Thinking heavy snow makes a blizzard. A light snowfall with strong wind can qualify; heavy snow with calm wind cannot.",
+  "tip": "35, quarter, three: a blizzard's key."
+ },
+ "winter-L1#1": {
+  "why": "Blowing snow counts. Wind can lift old snow off the ground and fill the air. That drops visibility the same as new snow. So the test only asks for wind, snow in the air, and low visibility. It does not care where the snow came from. A clear, sunny sky can still have a ground blizzard.",
+  "pic": "Draw a sunny sky with no clouds. On the ground draw wind arrows kicking up a cloud of old snow. Label it 'ground blizzard'.",
+  "analogy": "A broom sweeping dust: the dust was already there but it fills the air. Wind is the broom and old snow is the dust. The broom can't sweep up more than is there; if the ground is bare, no blizzard.",
+  "ways": [
+   [
+    "In words",
+    "Old snow blown by wind can meet the blizzard test."
+   ],
+   [
+    "In numbers",
+    "0 inches of new snow, 40 mph wind, visibility 1/8 mile for 3 hours: still a blizzard."
+   ],
+   [
+    "As a rule of thumb",
+    "Needed: wind, snow in air, low view. Not needed: new snow."
+   ]
+  ],
+  "ex": {
+   "q": "Which is NOT required for a blizzard: wind, low visibility, or new snowfall?",
+   "steps": [
+    "List the required items: wind, snow in air, low visibility.",
+    "Check each option against the list.",
+    "New snowfall is not on the list.",
+    "Old snow blown around counts.",
+    "Answer: new snowfall."
+   ]
+  },
+  "trap": "Believing it must be snowing. It does not have to be.",
+  "tip": "Old snow can still blow."
+ },
+ "winter-L1#2": {
+  "why": "A nor'easter is a big storm along the East Coast with winds from the northeast. The winds push ocean water toward the coast for days. Water piles up, and slow-moving storms mean it lasts through several high tides. Each high tide sits on the extra water, so flooding repeats. Add heavy snow or rain and strong gusts, and it is a major event.",
+  "pic": "Draw the East Coast on the right and ocean on the left. Draw a low-pressure circle offshore with wind arrows from the northeast toward the coast. Show water piled against shore.",
+  "analogy": "A bathtub being pushed by a hand: pushing water to one end raises it there. Wind is the hand, the coast the tub end. Unlike a tub, tides rise and fall on top, so flooding comes in waves.",
+  "ways": [
+   [
+    "In words",
+    "Northeast winds, big storm, snow, wind, coastal floods."
+   ],
+   [
+    "In numbers",
+    "Normal high tide plus 3 ft storm surge = flooding at each high tide for 2 days."
+   ],
+   [
+    "As a rule of thumb",
+    "Slow storm plus repeated high tides means long flooding."
+   ]
+  ],
+  "ex": {
+   "q": "Storm surge adds 3 ft for 3 days at 2 high tides per day. How many high tides are affected?",
+   "steps": [
+    "Count tides per day: 2.",
+    "Days: 3.",
+    "Multiply 2 x 3.",
+    "That gives 6.",
+    "Answer: 6 high tides."
+   ]
+  },
+  "trap": "Thinking the flooding ends after the first high tide. A slow storm keeps pushing water.",
+  "tip": "Nor'easter: wind from the northeast, tides keep the flood."
+ },
+ "winter-L2#0": {
+  "why": "Cold air moves over warm open lake water. The lake heats and moistens the bottom of the air. Warm moist air rises, forms clouds, and drops snow. Wind carries the snow downwind so it falls in narrow bands along the shore. The bigger the temperature difference between lake and air, the heavier the snow. If the lake freezes, the supply stops.",
+  "pic": "Draw a lake with wind arrows blowing across it. Draw wavy arrows rising off the water and a thick cloud band downwind. Shade the shore underneath with heavy snow.",
+  "analogy": "A pot of hot water in a cold room: steam rises off the top. The lake is the pot, cold air is the room. The pot cools if you don't reheat it, but a big lake stays warm for weeks.",
+  "ways": [
+   [
+    "In words",
+    "Cold air plus warm lake equals snow bands downwind."
+   ],
+   [
+    "In numbers",
+    "Lake 45 F, air 15 F: difference 30 F. Bigger difference, more snow."
+   ],
+   [
+    "As a rule of thumb",
+    "Needs open water that is warmer than the air."
+   ]
+  ],
+  "ex": {
+   "q": "Lake water is 40 F and air is 10 F. What is the difference?",
+   "steps": [
+    "Find the lake temperature: 40.",
+    "Find the air temperature: 10.",
+    "Subtract 40 - 10.",
+    "That is 30 F.",
+    "Answer: 30 F; a large difference, good for snow."
+   ]
+  },
+  "trap": "Thinking it snows everywhere equally. It falls in narrow bands downwind.",
+  "tip": "Warm lake, cold air: snow over there."
+ },
+ "winter-L2#1": {
+  "why": "Freezing rain falls as liquid, then freezes on contact with surfaces below 32 F. It coats lines, trees, and roads with a layer of ice. Even 1/4 inch can add hundreds of pounds to a power line and break branches. Sleet bounces and does not stick, so it builds little weight. That is why freezing rain is worse for power lines. A cold layer near the ground freezes the drops on touching.",
+  "pic": "Draw a power line with a thick tube of ice around it. Draw raindrops falling and freezing where they touch. Draw a sleeping tree branch bending under the ice.",
+  "analogy": "A glaze on a donut: liquid sugar coats the donut and hardens. Freezing rain is the glaze, objects are the donut. The glaze is sweet; ice is dangerous.",
+  "ways": [
+   [
+    "In words",
+    "Freezing rain coats everything with ice."
+   ],
+   [
+    "In numbers",
+    "1/4 inch of ice on lines can bring down trees and wires."
+   ],
+   [
+    "As a rule of thumb",
+    "Sleet bounces; freezing rain sticks."
+   ]
+  ],
+  "ex": {
+   "q": "Which builds heavier ice on power lines: sleet or freezing rain?",
+   "steps": [
+    "Sleet is ice pellets that bounce.",
+    "Freezing rain stays liquid until it touches.",
+    "It then spreads and freezes in a layer.",
+    "The layer adds weight.",
+    "Answer: freezing rain."
+   ]
+  },
+  "trap": "Thinking sleet and freezing rain are the same. Sleet bounces, freezing rain coats.",
+  "tip": "Freezing rain: Glaze, then pain."
  }
 }
