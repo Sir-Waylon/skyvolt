@@ -26,6 +26,11 @@ const c=new U();[s,j]=await c.call('POST','/login',{id:'alice_1',password:'wrong
 [s,j]=await a.call('POST','/friends/request',{username:'nobody_x'});t('request unknown looks same',s===200&&j.ok===1);
 [s,j]=await a.call('POST','/friends/request',{username:'bob_2'});t('request',s===200);
 [s,j]=await b.call('GET','/friends');t('incoming shown',j.incoming.length===1&&j.incoming[0].username==='alice_1');
+[s,j]=await b.call('GET','/friends/ping');t('ping shows request',s===200&&j.inc.length===1&&j.inc[0]==='alice_1'&&j.n===0);
+[s,j]=await a.call('GET','/friends/suggest?q=bob');t('suggest prefix',s===200&&j.names.includes('bob_2'));
+[s,j]=await a.call('GET','/friends/suggest?q=bpb_2');t('suggest one typo',j.names.includes('bob_2'));
+[s,j]=await a.call('GET','/friends/suggest?q=zz');t('suggest needs 3 chars',j.names.length===0);
+[s,j]=await new U().call('GET','/friends/suggest?q=bob');t('suggest needs sign-in',s===401);
 [s,j]=await b.call('POST','/friends/accept',{username:'alice_1'});t('accept -> league',j.league.length===2&&j.league[0].wk>=j.league[1].wk);
 [s,j]=await a.call('GET','/friends');t('league both sides',j.league.some(x=>x.username==='bob_2'&&x.xp===60));
 let blocked=0;for(let i=0;i<12;i++){[s]=await c.call('POST','/login',{id:'alice_1',password:'nope nope nope'},{ip:'9.9.9.'+i});if(s===429)blocked++}t('per-account rate limit',blocked>0);

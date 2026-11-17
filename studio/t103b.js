@@ -1,0 +1,4 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+const p=await (await b.newContext({viewport:{width:360,height:700}})).newPage();const E=[];p.on('pageerror',x=>E.push(x.message));
+await p.goto('file://'+process.cwd()+'/out/_app_skyvolt/meteorology/index.html');await p.waitForTimeout(400);
+const r=await p.evaluate(()=>{var q=QS.filter(q=>q.type==='mcq'||q.type==='multi')[3],o=[];for(var i=0;i<40;i++)o.push(mkItem(q.id).perm.join(''));var c=0;for(i=1;i<o.length;i++)if(o[i]===o[i-1])c++;var pos={};o.forEach(x=>{var k=x.indexOf('0');pos[k]=(pos[k]||0)+1});return{id:q.id,n:q.o.length,sameAsPrev:c,pos}});console.log(JSON.stringify(r),E);await b.close()})()
