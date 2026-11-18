@@ -4,7 +4,7 @@ K=os.getcwd();msg=sys.argv[1] if len(sys.argv)>1 else 'Update'
 # continuity bundle: whole working kit (minus build outputs) so work can resume if the sandbox is lost
 def bundle():
     R='/home/claude/skyvolt';dst=os.path.join(R,'studio');shutil.rmtree(dst,ignore_errors=True)
-    ign=shutil.ignore_patterns('out','shots','node_modules','*.png','*.zip','__pycache__')
+    ign=shutil.ignore_patterns('out','shots','node_modules','*.png','*.zip','__pycache__','HANDOFF*','*.private*')
     shutil.copytree(K,dst,ignore=ign)
     shutil.copytree(os.path.join(os.path.dirname(K),'audit'),os.path.join(dst,'audit'),ignore=shutil.ignore_patterns('__pycache__'))
 
