@@ -21,3 +21,13 @@ Not retrievable (do not retry blindly): rexcreations.com (robots.txt disallows a
 
 ## Portfolio projects worth reviewing by hand
 Baby Warmer /phase-change-incubator, Light Waves /light-waves, Soundwaves /sound-waves-visualizer, Math Workspace /math-workspace (toolbar plus tools launcher).
+
+## Brand system (Nov 17, single source: src/brand.json)
+- Sites: Skyvolt = green #2D6A4F + blue #0077B6 (gold #FFB703); Axiom = red #BC4749 + teal #0F4C5C (gold #E9B44C). Dark-mode primaries are lighter tints; mksite.py asserts AA contrast.
+- Trainers: Voltaic green, Stratus blue, Apex red, Quanta teal. Roster/avatar backgrounds use the same hues.
+- Icons: rounded-square glyphs (bolt, cloud+bolt, triangle, atom) as SVG plus 180/192/512 PNGs via icons_png.js (apple-touch, manifest).
+- Cosmetic direction from the 16 character references (Fortnite art): turnaround sheets (front/back), one outfit in several colourways, a limited palette with a single metallic accent, strong silhouettes. Used as principles only; avatars stay original and no reference character is reproduced.
+
+## Security stance (accurate wording)
+- Passwords are not used (Google sign-in). Data is encrypted in transit (HTTPS) and at rest by Cloudflare. It is NOT end-to-end encrypted: friends, leaderboards and username suggestions need the server to read usernames and public progress.
+- Possible later: optional client-side (WebCrypto AES-GCM) encryption of private progress backups with a passphrase the server never sees; trade-off is that a lost passphrase cannot be recovered.

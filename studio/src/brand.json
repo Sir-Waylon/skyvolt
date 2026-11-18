@@ -1,0 +1,4 @@
+{"sites":{"Skyvolt":{"pri":"#2D6A4F","pri_d":"#74C69D","acc":"#0077B6","acc_d":"#90E0EF","gold":"#FFB703","tint":"#D8F3DC"},
+"Axiom":{"pri":"#BC4749","pri_d":"#F4A6A7","acc":"#0F4C5C","acc_d":"#8FD3E3","gold":"#E9B44C","tint":"#F7E9D7"}},
+"trainers":{"circuit-lab-b":["#2D6A4F","#D8F3DC"],"meteorology-b":["#0077B6","#CAF0F8"],"apex-math":["#BC4749","#F7E9D7"],"apex-merged":["#BC4749","#F7E9D7"],"quanta-physics":["#0F4C5C","#FFE9D2"]},
+"note":"Single source of truth for brand colours. palette.py, build_open.py and mksite.py read this file."}
