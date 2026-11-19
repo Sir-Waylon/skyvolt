@@ -1,0 +1,4 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+for(const [n,u] of [['quanta','_app_axiom/quanta'],['meteo','_app_skyvolt/meteorology'],['circuit','_app_skyvolt/circuit'],['apex','_app_axiom/apex']])for(const w of [320,360,390]){const p=await (await b.newContext({viewport:{width:w,height:700}})).newPage();
+await p.goto('file://'+process.cwd()+`/out/${u}/index.html`);await p.waitForTimeout(400);await p.evaluate(()=>{S.dgr={};ALL.forEach((t,i)=>S.dgr[t]=i%2);S.dg=today();S.cu=null;route()});await p.waitForTimeout(200);
+console.log(n,w,await p.evaluate(()=>{const e=document.querySelector('.brand b');const cs=getComputedStyle(e);return e.textContent+' clipped='+(e.scrollWidth>e.clientWidth)+' display='+cs.display}));await p.close()}await b.close()})()
