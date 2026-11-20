@@ -1,0 +1,2857 @@
+{
+"fix": {
+"obs-008": {
+"o": [
+"The strongest echo at any height in the column",
+"The average echo from the lowest two scans",
+"Total rainfall accumulated over the past hour",
+"Wind speed measured on a plane flying at 10,000 ft"
+]
+},
+"obs-009": {
+"o": [
+"Mixed or non-weather targets such as debris",
+"Pure, uniform raindrops of one size falling",
+"Very dry air with no particles inside",
+"Calm winds throughout the whole storm cell"
+]
+},
+"obs-010": {
+"o": [
+"It subtracts storm motion so rotation stands out",
+"It measures rainfall rate more precisely than reflectivity",
+"It shows only the lowest cloud heights in the scan",
+"It filters out hail echoes to show clear air"
+]
+},
+"obs-013": {
+"o": [
+"Moisture in the middle and upper air",
+"Fog forming near the ground at night",
+"Hail size inside a strong storm cell",
+"Wind gust speeds measured at the surface"
+]
+},
+"obs-015": {
+"o": [
+"Reporting temperature and wind along their route",
+"Dropping weather balloons as they fly overhead",
+"Measuring ocean temperature from cruising height",
+"Launching small sensors every hour from the cabin"
+]
+},
+"maps-002": {
+"o": [
+"The filled amount of the center circle",
+"The number printed at the upper right",
+"The length of the wind staff and barbs",
+"The number printed at the lower right"
+]
+},
+"maps-003": {
+"o": [
+"The direction the wind is coming from",
+"The direction the wind is blowing toward",
+"The direction of the nearest high",
+"The direction of the closest storm"
+]
+},
+"maps-007": {
+"o": [
+"Fog or low cloud is possible",
+"Very dry and clear all day",
+"Heavy hail is about to fall",
+"Strong wind shear is present"
+]
+},
+"maps-008": {
+"o": [
+"A lower-pressure system is approaching",
+"A high-pressure ridge is building overhead",
+"Skies will clear within a few hours",
+"Winds will fall to calm very soon"
+]
+},
+"maps-009": {
+"o": [
+"Wind from 180° at 18 kt gusting 28 kt",
+"Wind toward 180° at 28 kt gusting 18 kt",
+"Wind from 18° at 180 kt gusting 28 kt",
+"Visibility 18 miles in a 28 kt storm"
+]
+},
+"maps-012": {
+"o": [
+"−3 °C air and −8 °C dew point",
+"3 °C air and 8 °C dew point",
+"−3 °C air and 8 °C dew point",
+"−3 °C air and −18 °C dew point"
+]
+},
+"maps-013": {
+"o": [
+"Altimeter setting 29.92 inHg",
+"Wind gusting to 29.92 knots",
+"Air temperature of 29.2 °C",
+"Cloud base height of 2,992 ft"
+]
+},
+"maps-015": {
+"o": [
+"Cumulonimbus with possible storms and gusts",
+"Cirrus clouds with calm fair weather",
+"Fog at the surface cutting visibility",
+"A weak sea breeze with light winds"
+]
+},
+"upper-005": {
+"o": [
+"A long path curving clockwise with height",
+"A tiny cluster of points near the center",
+"A short straight line along one axis",
+"A path that curves counterclockwise with height"
+]
+},
+"upper-011": {
+"o": [
+"Their temperature lines tilt to spread curves apart",
+"They plot rainfall totals instead of temperature",
+"They only cover conditions at the surface level",
+"They only cover the weather conditions at the surface"
+]
+},
+"upper-012": {
+"o": [
+"A rising parcel becomes saturated and forms cloud",
+"A thunderstorm updraft reaches its highest top",
+"Wind speed is at its strongest value in the sounding",
+"Temperature is at its lowest in the profile"
+]
+},
+"upper-014": {
+"o": [
+"Energy available to lift a rising parcel",
+"Total rainfall expected from the storm system",
+"Strength of the wind shear aloft",
+"Size of the hail that will fall"
+]
+},
+"upper-016": {
+"o": [
+"Storms are possible but may stay disorganized or not start",
+"Organized supercells are certain to develop by this evening",
+"No instability exists in the atmosphere, so no storms",
+"A long-lived derecho is certain to sweep through"
+]
+},
+"setup-002": {
+"o": [
+"Steering systems and adding energy aloft",
+"Cooling the surface air near the ground",
+"Blocking all storms from moving east",
+"Forming at the equator only, all year long"
+]
+},
+"setup-005": {
+"o": [
+"A cold front overtakes a warm front",
+"Two warm fronts meet over the ocean",
+"A warm front retreats back to the south",
+"A jet stream breaks down over the area"
+]
+},
+"setup-008": {
+"o": [
+"A narrow corridor of heavy water vapor transport",
+"A fast jet of wind at the tropopause level",
+"A river that flows into the ocean basin",
+"A long line of thunderstorms over land"
+]
+},
+"setup-009": {
+"o": [
+"A change in wind speed or direction with height",
+"The sudden fall of pressure inside a storm",
+"A boundary line between two different air masses",
+"The rotation of Earth that bends the wind"
+]
+},
+"setup-010": {
+"o": [
+"It helps the updraft begin to rotate",
+"It cools the cloud base too quickly",
+"It dries the lower air near the ground",
+"It slows the storm until it stops moving"
+]
+},
+"setup-011": {
+"o": [
+"The distance wind blows over open water",
+"The height of a wave from trough to crest",
+"The depth of warm water below the surface",
+"The speed at which a cold front moves"
+]
+},
+"setup-013": {
+"o": [
+"Allow a hurricane to intensify",
+"Always weaken a hurricane quickly",
+"Produce lake-effect blizzards",
+"Push a cold front away from land"
+]
+},
+"setup-014": {
+"o": [
+"Lifting air to trigger storms or weaken and steer them",
+"Always making every storm stronger as it crosses",
+"Having no effect on how storms form or move",
+"Only stopping tornadoes from forming nearby"
+]
+},
+"setup-015": {
+"o": [
+"Strong contrast that favors fronts and storms",
+"Calm, clear weather for several days",
+"Calm, clear weather with light winds for days",
+"Immediate hurricanes forming over the Plains"
+]
+},
+"dh-001": {
+"o": [
+"A long period of below-normal precipitation",
+"A short hot spell lasting a single day",
+"A flood warning for a river basin",
+"Hail falling over an entire county"
+]
+},
+"dh-002": {
+"o": [
+"A blocking high-pressure ridge",
+"A strong low-pressure trough",
+"A deep low-pressure trough aloft",
+"A fast-moving cold front"
+]
+},
+"dh-004": {
+"o": [
+"A long stretch of unusually high temperatures",
+"Any single afternoon that tops 80 °F",
+"A single hot afternoon thunderstorm cell",
+"A rapid fall in air pressure overnight"
+]
+},
+"dh-005": {
+"o": [
+"Dry, hardened ground absorbs water slowly",
+"Dry soil adds extra water to the runoff",
+"Clouds hold less rain after a long drought",
+"Rain falling on dry ground always evaporates"
+]
+},
+"precip-002": {
+"o": [
+"Supercooled droplets evaporate and vapor deposits on ice",
+"Ice crystals melt and then refreeze on the way down",
+"Droplets collide and merge with each other inside the cloud",
+"Wind blows existing snow upward into the cold layer"
+]
+},
+"precip-003": {
+"o": [
+"Supercooled drops freeze onto an ice particle",
+"Ice crystals stick to one another in large clumps",
+"Raindrops merge together into larger drops",
+"Snow melts and refreezes into clear pellets"
+]
+},
+"precip-005": {
+"o": [
+"Snow melts in a warm layer, then refreezes in cold air below",
+"Rain freezes on contact with a cold road surface",
+"Hail melts and refreezes on the way to the ground",
+"Supercooled drops freeze onto ice inside the cloud"
+]
+},
+"precip-006": {
+"o": [
+"Falls as liquid and freezes on contact",
+"Is made of tiny ice pellets that bounce",
+"Forms only in warm clouds above freezing",
+"Falls only during the summer months"
+]
+},
+"precip-007": {
+"o": [
+"Strong updrafts of thunderstorms",
+"Thin stratus layers across the sky",
+"Dense fog on calm cold mornings",
+"Wispy cirrus layers high above"
+]
+},
+"precip-010": {
+"o": [
+"Debris flows and mudslides",
+"Blizzards and heavy snow drifts",
+"Large hail and strong winds",
+"Derechos and long wind storms"
+]
+},
+"light-001": {
+"o": [
+"Charge separation in a cloud",
+"Wind rubbing against the ground",
+"Rain droplets striking the ground",
+"The Sun heating the top of clouds"
+]
+},
+"light-002": {
+"o": [
+"Ice crystals and graupel",
+"Raindrops and dust grains",
+"Smoke particles and fog",
+"Sleet pellets and wind gusts"
+]
+},
+"light-007": {
+"o": [
+"Timing the signal at many sensors",
+"Counting the seconds of thunder",
+"Measuring rainfall with rain gauges",
+"Reading the temperature at stations"
+]
+},
+"light-008": {
+"o": [
+"Negative charge overhead repels electrons from the ground",
+"Falling rain carries positive ions down into the soil",
+"Daytime heating of the ground strips off its electrons",
+"Strong winds carry positive charge down from the thunderstorm anvil"
+]
+},
+"tstorm-008": {
+"o": [
+"Updraft and downdraft stay separated, not cancelling",
+"It has no downdraft at all, so rain never falls from it",
+"It moves very slowly and stays in one place",
+"It forms only at night when the ground is cool"
+]
+},
+"winds-003": {
+"o": [
+"Less than 4 km wide",
+"At least 4 km wide",
+"Always rotating",
+"Only found over water"
+]
+},
+"winds-004": {
+"o": [
+"At least 4 km wide",
+"Under 4 km wide",
+"Only in winter months",
+"Always a tornado"
+]
+},
+"winds-005": {
+"o": [
+"Sudden strong wind shear",
+"Slow steady rain at takeoff",
+"Thick fog at the runway",
+"Light turbulence aloft"
+]
+},
+"winds-009": {
+"o": [
+"Speed up as they flow down a mountain slope",
+"Blow only inside the downdrafts of thunderstorms",
+"Always bring heavy snow to the valley",
+"Blow toward the equator from the poles"
+]
+},
+"winds-010": {
+"o": [
+"A long-lived bow echo",
+"A compact hook-shaped echo",
+"A small round blob of rain",
+"A tight velocity couplet"
+]
+},
+"winds-011": {
+"o": [
+"A gust front (fine line)",
+"A hurricane eyewall ring",
+"A tornado touching down",
+"A stalled warm front aloft"
+]
+},
+"winds-012": {
+"o": [
+"Where the line bows outward",
+"At the far trailing end only",
+"Far behind the line in clear air",
+"In the calm center of the line"
+]
+},
+"torn-001": {
+"o": [
+"The ground and a cloud base",
+"Only the surface of the ocean",
+"Only the top of a mountain",
+"Only a cloud, never the ground"
+]
+},
+"torn-002": {
+"o": [
+"A tornado-like vortex over water",
+"A hurricane that stays near shore",
+"A rain gauge mounted on ships",
+"A wind barb drawn on a chart"
+]
+},
+"torn-003": {
+"o": [
+"Late afternoon and early evening in spring",
+"In the middle of the night in winter",
+"Only in the summer, during the early morning hours",
+"Only near the coast in the afternoon"
+]
+},
+"torn-004": {
+"o": [
+"Enhanced Fujita (EF)",
+"Original Fujita (F) scale",
+"Saffir-Simpson hurricane scale",
+"Beaufort wind force scale"
+]
+},
+"torn-007": {
+"o": [
+"A reflectivity hook wrapping around a mesocyclone",
+"A thin line of weak echoes ahead of a storm line",
+"The clear, calm eye at the center of a hurricane",
+"A large round mass of light rain across a whole county"
+]
+},
+"torn-009": {
+"o": [
+"Low correlation coefficient area in the hook",
+"A high reflectivity area and nothing else",
+"A region of very cold cloud tops aloft",
+"A broad area of very strong outbound velocity"
+]
+},
+"torn-011": {
+"o": [
+"A tornado can be embedded in a wind event",
+"Only hail is possible in this storm",
+"No hazards because the rotation is too small",
+"A hurricane eyewall is moving inland"
+]
+},
+"hurr-001": {
+"o": [
+"The same type of storm in different ocean basins",
+"Three different storm types with different causes",
+"Winter storms that form over land masses",
+"Large tornadoes that form over warm oceans"
+]
+},
+"hurr-004": {
+"o": [
+"Warm ocean water and low wind shear",
+"Cold ocean water and strong wind shear",
+"Tall mountains and very dry air aloft",
+"Passing cold fronts and cool dry air"
+]
+},
+"hurr-010": {
+"o": [
+"Ocean water pushed onshore by the storm",
+"Heavy rain falling inland from the storm",
+"Spray thrown up by large breaking waves",
+"The regular rise and fall of the tide"
+]
+},
+"hurr-011": {
+"o": [
+"Large, strong, slow, hitting a shallow, funnel-shaped coast",
+"Small, weak, fast, hitting a deep, steep coastline",
+"Small, weak, fast-moving, hitting a deep, steep coastline",
+"Any strong storm that stays far out over deep water"
+]
+},
+"hurr-012": {
+"o": [
+"They lose the warm ocean heat and moisture source",
+"Land contains more water vapor than the ocean",
+"Land cools the air high above the storm center",
+"Wind shear completely disappears over all land areas"
+]
+},
+"hurr-013": {
+"o": [
+"It disrupts the storm and weakens it",
+"It strengthens and clears the eye",
+"It adds more heat from the ocean",
+"It adds more heat from the warm ocean surface"
+]
+},
+"hurr-014": {
+"o": [
+"Lower, because of stronger wind shear",
+"Higher, because of cooler Atlantic water",
+"Higher, because of weaker upper-level winds",
+"About the same, since it only affects the Pacific"
+]
+},
+"hurr-015": {
+"o": [
+"Large-scale flow such as subtropical ridges",
+"Ocean tides rising and falling at the coast",
+"The Moon's pull on the ocean surface",
+"The spinning of the eyewall alone"
+]
+},
+"hurr-016": {
+"o": [
+"A strong, organized hurricane",
+"A dying storm falling apart",
+"A cold front moving across land",
+"A derecho moving across plains"
+]
+},
+"winter-002": {
+"o": [
+"A strong East Coast storm with northeast winds",
+"A hurricane that forms in the Pacific Ocean basin",
+"A Great Lakes storm that makes snow bands",
+"A hot dry desert wind from the northeast"
+]
+},
+"winter-003": {
+"o": [
+"Cold air moves over warm open lake water",
+"Warm air moves over a frozen lake surface",
+"A hurricane crosses over a large lake",
+"Wind blows over mountains near the lake"
+]
+},
+"safety-001": {
+"o": [
+"Conditions are favorable for tornadoes",
+"A tornado is occurring right now nearby",
+"A tornado has already passed the area",
+"No tornado danger exists for the day"
+]
+},
+"safety-003": {
+"o": [
+"Lowest floor, interior room, away from windows",
+"Upstairs bedroom next to a large window",
+"Inside a car parked in the driveway nearby",
+"Inside a car that is parked in the driveway nearby"
+]
+},
+"safety-004": {
+"o": [
+"Follow the order for your zone",
+"Wait to see the eye of the storm",
+"Drive toward the coast for a view",
+"Shelter in the attic of your house"
+]
+},
+"safety-005": {
+"o": [
+"Turn around, don't drive through",
+"Drive slowly through the shallow water",
+"Walk through it to check depth",
+"Stay in your car on the flooded road"
+]
+},
+"safety-006": {
+"o": [
+"Go indoors or into a hard-topped vehicle",
+"Stand under a tall tree for shelter",
+"Move to open ground away from trees",
+"Wait outside until the rain begins"
+]
+},
+"safety-010": {
+"o": [
+"Less severe but still disruptive conditions",
+"A tornado is on the ground right now",
+"A hurricane is making landfall now",
+"Everything is clear for the next day"
+]
+},
+"safety-011": {
+"o": [
+"Carbon monoxide can kill indoors",
+"It is too loud to run inside",
+"It uses too much fuel indoors",
+"Static electricity builds up inside"
+]
+},
+"safety-013": {
+"o": [
+"Follow NWS information and official alerts",
+"Ignore the warning and stay outdoors",
+"Check only the app and nothing else",
+"Wait until rain actually starts before you act"
+]
+},
+"cases-002": {
+"o": [
+"Mississippi and Missouri river basins",
+"The Gulf Coast beaches and barrier islands",
+"The West Coast near the Pacific",
+"Only the high Rocky mountain peaks"
+]
+},
+"cases-004": {
+"o": [
+"A violent 1974 tornado",
+"A 1900 hurricane landfall",
+"A 1993 river flood event",
+"A 1930s Plains dust storm"
+]
+},
+"cases-005": {
+"o": [
+"A huge winter and severe storm across the eastern U.S.",
+"A Pacific typhoon that struck islands near Guam",
+"A multi-year drought across the western Plains",
+"A dust storm that darkened the southern Plains"
+]
+},
+"cases-007": {
+"o": [
+"Storm surge and levee failures on the Gulf Coast",
+"A Pacific Ocean landfall on the Oregon coast",
+"A huge blizzard across the northern Plains",
+"A tornado outbreak across the Mississippi Valley"
+]
+},
+"cases-008": {
+"o": [
+"Was very large and drove surge into NY/NJ",
+"Was a Category 5 hurricane at landfall",
+"Formed over the Pacific and crossed Mexico",
+"Was a small, compact tornado-like storm"
+]
+},
+"cases-009": {
+"o": [
+"Remnant flash flooding in the Northeast",
+"A blizzard that buried the Great Lakes",
+"A derecho that swept across the upper Midwest",
+"A drought that dried up the Southeast"
+]
+},
+"cases-010": {
+"o": [
+"Inland flooding in the Appalachians",
+"Huge storm surge in the Rocky Mountains",
+"Large hail across the Great Plains",
+"Tornadoes only, with no flooding"
+]
+},
+"cases-011": {
+"o": [
+"Tornado outbreaks in the Southeast",
+"Hurricanes along the Gulf coast",
+"Blizzards across the northern states",
+"Droughts across the Southwest region"
+]
+},
+"cases-012": {
+"o": [
+"Galveston hurricane, 1900",
+"Hurricane Andrew, 1992",
+"Hurricane Hilary, 2023",
+"The Dust Bowl drought, 1930s"
+]
+},
+"obs-016": {
+"o": [
+"Amount of rain that fell",
+"Speed of the wind gusts",
+"Air pressure at the station",
+"Height of the cloud base"
+]
+},
+"maps-050": {
+"o": [
+"Gusts to 25 knots",
+"Gradient to 25 knots",
+"Gale of 25 knots",
+"Gauge reading 25"
+]
+},
+"upper-037": {
+"o": [
+"Delay storms but let energy build",
+"Stop all weather from ever forming",
+"Directly make hail at the surface",
+"Remove all the CAPE from the air"
+]
+},
+"upper-040": {
+"o": [
+"Speed or direction with height",
+"At sea level only, not aloft",
+"Only with the time of day, not height",
+"Only in winter, not in summer"
+]
+},
+"setup-018": {
+"o": [
+"Fast winds high in the atmosphere",
+"A gentle surface breeze at the coast",
+"A warm ocean current near the shore",
+"A kind of high, thin cirrus cloud"
+]
+},
+"setup-021": {
+"o": [
+"Keeps rising, being warmer than the air around it",
+"Sinks back down because it is cooler than the air",
+"Stays still at the height where it was lifted",
+"Stops rising right after it leaves the ground"
+]
+},
+"clouds-039": {
+"o": [
+"The spread-out top of a thunderstorm",
+"A low funnel hanging from the cloud base",
+"A rain shaft falling under a cloud",
+"A thick ground fog layer at dawn"
+]
+},
+"clouds-041": {
+"o": [
+"Hanging pouches under an anvil",
+"Thin streaks high in the sky",
+"Flat layers covering the whole sky",
+"A long rope-shaped cloud edge"
+]
+},
+"dh-027": {
+"o": [
+"Hot, red, dry skin with confusion",
+"Mild sweating after some light exercise",
+"Feeling thirsty on a warm day",
+"Itchy skin and a few red bumps"
+]
+},
+"precip-025": {
+"o": [
+"Ice pellets from melted snow that refreezes in the air",
+"Rain that freezes the moment it touches the ground",
+"Hail that falls from the top of a thunderstorm",
+"Fog droplets that freeze onto cold trees and power wires"
+]
+},
+"precip-026": {
+"o": [
+"Coats surfaces with ice",
+"Weighs more than dry snow",
+"Falls with no sound at all",
+"Gives no warning before it falls"
+]
+},
+"precip-027": {
+"o": [
+"Flooding is happening or about to",
+"Flooding may occur sometime this week",
+"The river is running very low now",
+"The rain has ended for the day"
+]
+},
+"precip-028": {
+"o": [
+"Never drive through flooded roads",
+"Swim away from floods quickly",
+"Wait in your car in the flood water",
+"Drive faster to cross the water"
+]
+},
+"light-047": {
+"o": [
+"A giant spark of electricity",
+"A type of tall, dark cloud",
+"A kind of hot summer wind",
+"A burst of heat from the Sun"
+]
+},
+"light-049": {
+"o": [
+"30 minutes",
+"5 minutes",
+"10 minutes",
+"1 hour"
+]
+},
+"light-050": {
+"o": [
+"Rapid heating and expansion of air by lightning",
+"Clouds crashing into each other overhead",
+"Strong winds rushing through the cloud",
+"Raindrops slamming into the ground below"
+]
+},
+"tstorm-040": {
+"o": [
+"Hail ≥1 inch, wind ≥58 mph, or a tornado",
+"Any rain that falls for over an hour",
+"Only lightning with no other effects",
+"Wind gusts of 20 mph and some small hail"
+]
+},
+"tstorm-042": {
+"o": [
+"A strong downdraft that spreads out at the ground",
+"A narrow tornado that touches the ground",
+"A kind of hail that falls in sheets",
+"A rising bubble of warm air from the ground"
+]
+},
+"tstorm-043": {
+"o": [
+"A large organized cluster of thunderstorms",
+"One isolated thunderstorm with a tall anvil",
+"A hurricane that has moved over land",
+"A front that stalls over the Plains"
+]
+},
+"torn-028": {
+"o": [
+"Lowest interior room, away from windows",
+"Next to a large window to watch it",
+"Inside a parked car near the house",
+"Outside in the open yard, away from the trees"
+]
+},
+"torn-029": {
+"o": [
+"A rare alert for a confirmed tornado near people",
+"A normal watch issued when severe storms are possible",
+"A practice drill held at schools each spring",
+"An all-clear message sent after a storm ends"
+]
+},
+"hurr-034": {
+"o": [
+"June 1 to November 30",
+"January 1 to March 31",
+"December 1 to February 28",
+"Only the month of August"
+]
+},
+"hurr-035": {
+"o": [
+"A rise of sea water pushed ashore by a storm",
+"One single huge wave that crashes onto the beach",
+"The normal daily tide rising and falling",
+"Heavy rainfall that floods inland towns"
+]
+},
+"winter-071": {
+"o": [
+"Hazardous winter weather is possible in 1–2 days; prepare",
+"Dangerous winter weather is happening right now; take action",
+"The storm has just ended; roads will reopen soon",
+"Only light flurries are expected, with no impacts"
+]
+},
+"safety-016": {
+"o": [
+"Inside a sturdy building",
+"Under a tall tree in a field",
+"Floating in a swimming pool",
+"On top of a hill or ridge"
+]
+},
+"safety-018": {
+"o": [
+"Sends alerts even if the power or phone fails",
+"Streams music and local news all day",
+"Shows storm radar maps on a color screen",
+"Only works when Wi-Fi is available inside the home"
+]
+},
+"obs-xm1001": {
+"o": [
+"Near zero, since the wind moves across the beam",
+"Strong outbound (red), because the wind is so fast",
+"Strong inbound (green), because the wind comes from the west",
+"Twice the actual wind speed, due to the storm's size"
+]
+},
+"obs-xm1003": {
+"o": [
+"Rotation: winds going toward and away from radar side by side",
+"Heavy rain: green is light rain and red is heavy rain",
+"A cold front: green marks cold air and red warm air",
+"Hail: green marks small hail while red marks large hail"
+]
+},
+"obs-xm1005": {
+"o": [
+"The beam climbs and overshoots the low rain far away",
+"Drizzle drops are too large for radar to reflect",
+"Radar cannot detect any kind of rain unless it is daytime",
+"The radar's wind profile feature is switched off"
+]
+},
+"obs-xm1006": {
+"o": [
+"Insects, birds or ground clutter, not rain",
+"A line of strong thunderstorms nearby",
+"Hail falling out of a clear blue sky",
+"A bank of fog over the ocean surface"
+]
+},
+"obs-xm1007": {
+"o": [
+"Inversion bends the beam down, giving false ground echoes",
+"A tornado is forming in the clear, cloud-free air",
+"The radar is detecting a layer of falling snow",
+"Heavy rain is falling under a gap in the cloud deck"
+]
+},
+"obs-xm1008": {
+"o": [
+"Velocity aliasing (folding)",
+"Beam bending (ducting)",
+"Hail spike (three-body scatter)",
+"Range attenuation (signal loss)"
+]
+},
+"obs-xm1009": {
+"o": [
+"Lofted debris, a strong sign a tornado is on the ground",
+"Pure, evenly sized raindrops falling in the hook",
+"Dry air aloft mixing into the back of the storm",
+"Clear-air echoes from insects around the storm"
+]
+},
+"obs-xm1013": {
+"o": [
+"Its top is about as warm as the ground, so it blends in",
+"Fog patches are too tiny for any satellite to ever see",
+"Infrared sensors can detect only falling rain, not cloud",
+"Infrared works only during daylight hours, not at night"
+]
+},
+"obs-xm1014": {
+"o": [
+"Dry air in the middle or upper levels",
+"A heavy rain band wrapping into the storm",
+"Very cold cloud tops of tall storms",
+"Bare land with no clouds over it at night"
+]
+},
+"obs-xm1015": {
+"o": [
+"Geostationary stays over one spot; polar-orbiting circles pole to pole with more detail but fewer passes",
+"Polar-orbiting satellites stay over one spot; geostationary ones circle the poles every day",
+"Geostationary satellites orbit low and see the poles best; polar ones see the whole hemisphere at once",
+"They differ only in picture color; both stay fixed over one spot and always view the very same region"
+]
+},
+"obs-xm1018": {
+"o": [
+"Air pressure drops, so the balloon expands until it pops",
+"The helium inside heats up too much and makes it burst open",
+"Its radio signal grows strong and pops the latex",
+"Jet stream winds tear the balloon apart at that height"
+]
+},
+"obs-xm1019": {
+"o": [
+"So models get a worldwide snapshot of the same moment",
+"Because it is daylight everywhere at those hours",
+"Because balloons rise only during those two hours",
+"So that each country launches by its own local clock time"
+]
+},
+"obs-xm1020": {
+"o": [
+"By tracking how the balloon drifts, using GPS",
+"By a cup anemometer that is carried on the balloon",
+"By measuring how fast the balloon rises",
+"By the color of the balloon in the sky"
+]
+},
+"obs-xm1022": {
+"o": [
+"Sun would heat the sensor; airflow keeps it at air temperature",
+"So it stays dry and clean whenever it rains outside",
+"To cool the nearby air so that readings come out lower than normal",
+"Shade makes the sensor accurate only after dark falls"
+]
+},
+"obs-xm1023": {
+"o": [
+"When the air is saturated (100% humidity)",
+"When the air is extremely dry (low humidity)",
+"When the wind is blowing very strongly",
+"When the temperature is below freezing"
+]
+},
+"obs-xm1025": {
+"o": [
+"The gauge is exact at one point; radar covers more area but estimates, so use both",
+"Radar is always correct, so the gauge at the school must be broken or faulty",
+"The gauge is always right, so all of the radar data should be thrown out",
+"They should always be averaged together, with the result reported as exact"
+]
+},
+"obs-xm1029": {
+"o": [
+"Echo frequency shifts up for approaching targets, down for receding ones",
+"Faster targets always send back much louder echoes than slower ones do",
+"Slow-moving targets return their echoes later than the fast-moving ones",
+"Colors on the screen show the actual temperature of each target"
+]
+},
+"obs-xm1030": {
+"o": [
+"The beam can't tilt high enough, leaving a 'cone of silence' above",
+"The radar can only see storms located more than 100 km away",
+"The storm top is too cold for radio waves to bounce back",
+"Radar needs the storm to be rotating before it can scan it"
+]
+},
+"obs-xm1033": {
+"o": [
+"It subtracts the 30 kt, so one side turns red and rotation shows",
+"It doubles the 20 kt rotation so it shows up more clearly",
+"It deletes every green pixel so only red echoes remain",
+"It converts the winds into a rain rate map instead of showing winds"
+]
+},
+"obs-xm1034": {
+"o": [
+"So buildings and trees don't block the wind, giving comparable readings",
+"Because wind is always strongest at ground level, so they read higher there",
+"To keep them cooler in summer so the sensors last much longer",
+"So birds cannot reach them and damage the delicate sensors"
+]
+},
+"obs-xm1035": {
+"o": [
+"Infrared satellite imagery",
+"Visible satellite imagery",
+"A tipping-bucket rain gauge",
+"A cup anemometer on a mast"
+]
+},
+"maps-xm1044": {
+"o": [
+"Friction slows the wind, so the pressure force wins over the turn",
+"Warm air rising in the center pushes the wind outward",
+"The jet stream aloft pulls the surface wind sideways",
+"Map makers draw isobars slightly wrong near the ground"
+]
+},
+"maps-xm1046": {
+"o": [
+"City A, since pressure changes faster over distance",
+"City B, since its isobars are spread farther apart",
+"Both the same, since each pair of lines is 4 mb apart",
+"Cannot be told without knowing the air temperature"
+]
+},
+"maps-xm1058": {
+"o": [
+"MVFR, because a 3,000 ft ceiling is not above 3,000",
+"VFR, because 6 SM visibility is above 5 miles",
+"IFR, because broken clouds always mean IFR",
+"LIFR, because any ceiling under 3,000 ft counts as LIFR"
+]
+},
+"maps-xm1063": {
+"o": [
+"12:53 pm",
+"10:53 am",
+"8:53 pm",
+"12:53 am"
+]
+},
+"maps-xm1066": {
+"o": [
+"Wind from the northwest at 8 kt, fairly dry air",
+"Wind toward 310° at 8 kt, very humid air",
+"Wind from 31° at 8 kt, with dense fog",
+"Wind from the northwest at 80 kt, in a big storm"
+]
+},
+"maps-xm1067": {
+"o": [
+"From the east (a bit northeast with friction)",
+"From the west, blowing straight toward the low center",
+"From the north, straight at the low center",
+"From the south, away from the low center"
+]
+},
+"maps-xm1073": {
+"o": [
+"A cold front arriving soon, with storms possible in the warm humid air",
+"Clear, cool and calm weather arriving within the next hour or so",
+"A warm front arriving with a whole day of steady, light drizzle",
+"A strong high-pressure system building overhead later tonight"
+]
+},
+"upper-xm2001": {
+"o": [
+"About 5.5 km (18,000 ft)",
+"About 1.5 km (5,000 ft)",
+"About 12 km (about 40,000 ft)",
+"About 9 km (30,000 ft)"
+]
+},
+"upper-xm2005": {
+"o": [
+"A dip in the height lines toward lower heights",
+"A bulge in the height lines toward the north pole",
+"A closed ring of the warmest temperatures at 500 mb",
+"A perfectly straight east-west line of heights"
+]
+},
+"upper-xm2006": {
+"o": [
+"Ahead of (east of) the trough axis",
+"Behind (west of) the trough axis",
+"Directly under the ridge axis",
+"Only inside the center of a surface high"
+]
+},
+"upper-xm2012": {
+"o": [
+"It ends up colder than its surroundings and sinks (stable)",
+"It becomes warmer than its surroundings and keeps on rising",
+"It stays at the same temperature as the air around it",
+"It condenses into a cloud immediately at that height"
+]
+},
+"upper-xm2013": {
+"o": [
+"Conditionally unstable: stable when dry, unstable when cloudy",
+"Absolutely stable: a lifted parcel always sinks back",
+"Absolutely unstable: a lifted parcel always keeps rising",
+"A temperature inversion with warm air above cool air"
+]
+},
+"upper-xm2014": {
+"o": [
+"Absolutely unstable: a lifted dry parcel stays warmer",
+"Absolutely stable: a lifted parcel always sinks back down",
+"A temperature inversion, with warm air above cool air",
+"Conditionally unstable, but only once it is saturated"
+]
+},
+"upper-xm2017": {
+"o": [
+"The energy barrier a parcel must overcome to rise freely",
+"The total rainfall a storm is expected to produce",
+"The amount of wind shear in the lowest kilometer",
+"The largest hail size the storm can produce aloft"
+]
+},
+"upper-xm2018": {
+"o": [
+"Heated parcels can break the cap and release the stored CAPE at once",
+"Heating strengthens the cap, so the whole air column turns more stable",
+"Heating burns off all of the CAPE stored in the lower atmosphere",
+"Heating cuts the wind shear to zero in and around the storm area"
+]
+},
+"upper-xm2019": {
+"o": [
+"Few storms form, but any that break the cap can be violent",
+"Storms are sure to form by noon and stay weak",
+"The cap removes all moisture so storms are impossible",
+"A strong cap guarantees that a derecho will form by midnight"
+]
+},
+"upper-xm2023": {
+"o": [
+"A right-moving supercell that veers right of the mean wind",
+"A left-moving supercell only, drifting left of the wind",
+"A storm that stays stuck in place for many hours",
+"A storm that rotates clockwise only near the ground and nowhere else"
+]
+},
+"upper-xm2024": {
+"o": [
+"Low-level spin is closest to the ground, where tornadoes form",
+"Low-level shear removes CAPE and weakens the storm",
+"Shear above 6 km is always zero, so only low levels ever count",
+"Shear in the lowest km mainly controls how big hail grows"
+]
+},
+"upper-xm2025": {
+"o": [
+"Strong downdrafts and damaging winds as rain evaporates",
+"Dense fog that forms near the ground just after dawn each day",
+"Heavy snow falling across the whole region by evening",
+"Lower cloud bases with long periods of heavy steady rain"
+]
+},
+"upper-xm2026": {
+"o": [
+"A strong, long updraft (large CAPE) with a low freezing level",
+"Light winds at every height and very weak updrafts",
+"Warm, stable layers throughout and a high freezing level",
+"Saturated air near the ground and little CAPE aloft"
+]
+},
+"upper-xm2032": {
+"o": [
+"Air diverging aloft pulls air upward, lowering surface pressure",
+"It pushes cold air straight down onto the ground, raising pressure",
+"It dries out the lower air so the low can strengthen",
+"It cools the nearby ocean water, which deepens the low"
+]
+},
+"upper-xm2033": {
+"o": [
+"The cold polar and warm tropical air contrast is greatest",
+"The Sun sits closest to the poles during winter",
+"Mountains grow taller in winter and block more wind",
+"The ocean freezes and speeds up the upper winds"
+]
+},
+"upper-xm2034": {
+"o": [
+"Disorganized pulse storms that collapse quickly",
+"Long-lived supercells with rotating updrafts",
+"No storms at all, since the air is too dry",
+"Hurricane-like storms that spin over the Plains"
+]
+},
+"upper-xm2035": {
+"o": [
+"Where the rising parcel stops being warmer than its surroundings",
+"At the cloud base, where the parcel first becomes saturated",
+"At the ground, where the parcel first starts to rise",
+"At the level where the dew point is highest on the sounding"
+]
+},
+"upper-xm2037": {
+"o": [
+"Each point is the wind at one height, so a long path means big changes",
+"A long path means the storm is making heavy rain at the ground",
+"A long path means the air is very warm at all of those heights",
+"A long path means the pressure is falling quickly at each height"
+]
+},
+"upper-xm2038": {
+"o": [
+"Warm, moist air at 850 mb with cold air at 500 mb",
+"Cold, dry air at 850 mb with warm, moist air at 500 mb",
+"Equal temperatures at 850 mb and at 500 mb",
+"Dry, cold air at 850 mb with moist air at 500 mb"
+]
+},
+"upper-xm2040": {
+"o": [
+"Strong downdrafts and damaging outflow winds",
+"Thick fog across the entire storm area",
+"A hurricane forming over the dry Plains",
+"A blizzard dumping snow across the area"
+]
+},
+"upper-xm2041": {
+"o": [
+"Good ingredients raise the odds but don't guarantee a tornado",
+"A low LCL never matters when forecasting a tornado",
+"Wind shear has no effect on whether a storm rotates",
+"Tornadoes happen only when the LCL is very high up"
+]
+},
+"setup-xm2043": {
+"o": [
+"From southwesterly to northwesterly",
+"From northwesterly to southerly winds",
+"From easterly to southeasterly",
+"There is no wind shift at all"
+]
+},
+"setup-xm2044": {
+"o": [
+"Cirrus, then thicker layers, then steady rain clouds",
+"Cumulonimbus first, then clearing skies behind it",
+"Fog first, then cirrus after the rain has ended",
+"Nothing changes in the sky until the rain suddenly starts"
+]
+},
+"setup-xm2045": {
+"o": [
+"Cold fronts are steep and fast, so lift is strong, brief",
+"Cold fronts are slower and gentler, so lift is weak",
+"Warm fronts have no moisture, so only cold fronts rain",
+"Warm fronts push the warm air downward over the whole area"
+]
+},
+"setup-xm2047": {
+"o": [
+"Temperature falls, pressure rises, and dew point drops",
+"Temperature rises, pressure falls, dew point rises",
+"Temperature rises, pressure falls, and dew point drops",
+"Temperature rises, dew point rises, and pressure rises"
+]
+},
+"setup-xm2050": {
+"o": [
+"Air converges and rises there, and daytime heating helps",
+"Cold Canadian air always pushes in behind it each afternoon",
+"Dry air sinks along it, which forces storms to start",
+"Cooling of the ground at midday sets off storms along it"
+]
+},
+"setup-xm2051": {
+"o": [
+"East during the day and back west at night",
+"West in the daytime and back east at night",
+"North during the day and south at night",
+"It stays fixed in one place all year long"
+]
+},
+"setup-xm2052": {
+"o": [
+"Sinking air in a high-pressure center",
+"A cold front plowing under warm air",
+"Mountains forcing air to rise up the slope",
+"A sea breeze front moving inland"
+]
+},
+"setup-xm2054": {
+"o": [
+"It acts like a small cold front lifting the warm air",
+"It dries out the ground, letting heat build up quickly",
+"It removes all wind shear, so storms grow taller",
+"It makes the cap stronger so storms form faster"
+]
+},
+"setup-xm2055": {
+"o": [
+"A fast ribbon of wind about 300–1,000 m above ground",
+"The jet stream found near 300 mb at jet-liner height",
+"A band of fast wind found near the equator all year",
+"A tornado-like vortex under the base of a storm"
+]
+},
+"setup-xm2056": {
+"o": [
+"The ground cools, so the air above is cut off from friction and speeds up",
+"The Sun keeps heating the surface layer, which speeds up the wind above it",
+"Mountains stop blocking the wind once the Sun goes down for the night",
+"Gulf water warms the air at night, which speeds up the wind above"
+]
+},
+"setup-xm2057": {
+"o": [
+"It tilts a hurricane's core apart, but tilts a supercell's updraft away from its rain",
+"Hurricanes need cold air to grow, and shear brings cold air into them",
+"Supercells need calm, still air, while hurricanes need winds from all directions",
+"Shear has exactly the same effect on both, so the statement is false"
+]
+},
+"setup-xm2058": {
+"o": [
+"Gulf moisture, steep lapse rates, and strong turning shear",
+"Cold dry air, light winds, and a stable surface layer",
+"A strong stable cap, weak winds, and very dry air",
+"A warm front with no instability and little lift"
+]
+},
+"setup-xm2061": {
+"o": [
+"26.5 °C (80 °F) through a deep layer",
+"10 °C (50 °F) through a deep layer",
+"15 °C (59 °F) at the very surface only",
+"0 °C (32 °F) through a deep layer"
+]
+},
+"setup-xm2062": {
+"o": [
+"It may intensify rapidly",
+"It will weaken right away",
+"It will turn into a front",
+"It will stop spinning at once"
+]
+},
+"setup-xm2064": {
+"o": [
+"Lifting wrings out the heavy water vapor as intense rain",
+"The wind shuts off, so the rain piles up in place",
+"The air sinks and warms, which makes rain heavier",
+"It brings dry air that makes the soil soak up water faster"
+]
+},
+"setup-xm2065": {
+"o": [
+"It is a long, narrow band of strong water vapor transport",
+"It is a river at the surface that floods after rain",
+"It is a type of tornado that forms over the ocean",
+"It is a dry wind that blows down from the mountains"
+]
+},
+"setup-xm2066": {
+"o": [
+"Flooding from repeated storms over the same area",
+"Hurricanes forming right along the boundary overnight",
+"Dust storms spreading across the dry region",
+"A hard frost every morning after the front"
+]
+},
+"setup-xm2067": {
+"o": [
+"Between the cold and warm fronts, where warm moist air sits",
+"Behind the cold front, where cool dry air quickly arrives",
+"North of the warm front, where cold air stays in place",
+"Inside the clear, calm eye found at the center of a hurricane"
+]
+},
+"setup-xm2070": {
+"o": [
+"Lift, so storms might not get started",
+"Moisture, since the air is too dry",
+"Instability, since lapse rates are weak",
+"Wind shear, since the jet is weak"
+]
+},
+"setup-xm2071": {
+"o": [
+"The air is cooled from below to its dew point",
+"The air is heated from below until it rises",
+"The air is dried out as it moves over land",
+"Wind speeds up and mixes the whole layer"
+]
+},
+"setup-xm2072": {
+"o": [
+"Falls, then rises after the front passes",
+"Rises, then falls after the front passes",
+"Stays the same until the front passes",
+"Falls and keeps falling for a full day"
+]
+},
+"setup-xm2073": {
+"o": [
+"Along or ahead of a fast cold front",
+"Only behind a slow-moving warm front",
+"Over the polar ice caps in winter",
+"In clear air with no lifting at all"
+]
+},
+"setup-xm2074": {
+"o": [
+"It tilts the updraft away from the cool downdraft",
+"It cools the air inside the updraft so it lasts",
+"It dries the air around the storm so rain stops",
+"It slows the storm so rain falls on its updraft"
+]
+},
+"clouds-xm2075": {
+"o": [
+"In the rain-free base, next to the heavy rain",
+"In the middle of the heaviest rain core area",
+"Far from the storm, out in the clear sky ahead",
+"Above the anvil, near the very top of the storm"
+]
+},
+"clouds-xm2077": {
+"o": [
+"A shelf cloud rides the cool outflow and does not rotate; a wall cloud sits under the updraft and can",
+"They are the same feature, just seen from two different sides of the storm",
+"A wall cloud forms on the gust front, while a shelf cloud forms under the updraft and rotates",
+"A shelf cloud is a tornado with a rope shape, while a wall cloud is a curtain of rain"
+]
+},
+"clouds-xm2078": {
+"o": [
+"Strong inflow is feeding the updraft",
+"The storm is dying and sinking apart",
+"Hail is melting in the base of the cloud",
+"A cold front just passed the observer"
+]
+},
+"clouds-xm2079": {
+"o": [
+"A low cloud band running from the wall cloud toward the rain",
+"The flat top of the anvil that blows downwind of the storm",
+"A narrow tornado funnel that is touching the ground below",
+"A high cirrus streak far out ahead of the storm system"
+]
+},
+"clouds-xm2080": {
+"o": [
+"Rising air hits the stable tropopause layer and spreads sideways",
+"The cloud runs out of water vapor, so it flattens and spreads out",
+"The cloud hits the ground and spreads out in all directions",
+"Falling hail melts at the top of the cloud and makes it thin"
+]
+},
+"clouds-xm2082": {
+"o": [
+"A cumulonimbus top is icy and looks fuzzy or fibrous",
+"Its color, since cumulonimbus is always darker",
+"Its overall size, since towering cumulus is always short",
+"Rain falls only from cumulus, never from cumulonimbus"
+]
+},
+"clouds-xm2089": {
+"o": [
+"About 4 km (2.5 mi)",
+"About 40 km (25 mi)",
+"About 400 km (250 mi)",
+"About 100 m (330 ft)"
+]
+},
+"clouds-xm2090": {
+"o": [
+"A shelf cloud on the leading edge",
+"A halo ring around the Sun or Moon",
+"Mammatus clouds and nothing else",
+"High cirrus clouds far ahead of it"
+]
+},
+"clouds-xm2091": {
+"o": [
+"No: they are pouches of sinking air under an anvil, seen with many storms",
+"Yes: they always form a few minutes before any tornado touches down",
+"Yes: mammatus is the same cloud as a rotating wall cloud under the updraft",
+"No: they form only in winter storms, never in thunderstorms"
+]
+},
+"clouds-xm2094": {
+"o": [
+"A pileus, from a strong updraft pushing moist air up",
+"A shelf cloud forming on the cool outflow edge of the storm",
+"A funnel cloud starting to form near the top of the tower",
+"Mammatus pouches hanging down below the base of the tower"
+]
+},
+"clouds-xm2095": {
+"o": [
+"Low pressure in the vortex cools air until vapor condenses",
+"Dust and dirt fill the vortex and make its outline visible",
+"Hail forms inside the vortex and traces out its shape in the air",
+"The wind inside slows down, so droplets pile up and form a cloud"
+]
+},
+"clouds-xm2098": {
+"o": [
+"Shelf cloud with a gust front",
+"Wall cloud with a tornado nearby",
+"Funnel cloud with a waterspout",
+"Mammatus with calm winds below"
+]
+},
+"clouds-xm2099": {
+"o": [
+"A tornado-like vortex over water",
+"A thick bank of sea fog forming",
+"A heavy rain shaft falling over a bay",
+"A shelf cloud over a large lake"
+]
+},
+"clouds-xm2101": {
+"o": [
+"It has a low base but its top reaches the high levels",
+"It is only a low cloud, so its top stays low",
+"It is only a high cloud, so its base is high",
+"It fits no level at all, so it is left off the list"
+]
+},
+"clouds-xm2104": {
+"o": [
+"It is hidden by rain, so people can't see it coming",
+"It is weaker than a clear tornado, so it is ignored",
+"It is really just a gust front with no tornado in it",
+"It is not touching the ground, so it can't harm anyone"
+]
+},
+"dh-xm3001": {
+"o": [
+"Call 911 and start cooling the person right away",
+"Give salty snacks and let them nap in the shade",
+"Wait an hour to see if sweating starts again",
+"Give a hot drink to settle their stomach first"
+]
+},
+"dh-xm3003": {
+"o": [
+"Air sinks, warms and dries, so clouds fade away",
+"Air rises quickly and builds tall storm clouds",
+"Cold air is pulled in from the north all day",
+"Wind speeds are always very strong in ridges"
+]
+},
+"dh-xm3007": {
+"o": [
+"Heavy sweating, cool clammy skin and weakness, but clear thinking",
+"Hot, dry, red skin with no sweating and a very fast pulse",
+"Confusion or fainting with no sweating and a very high fever",
+"A seizure, or passing out, with a body temperature of 105 °F"
+]
+},
+"dh-xm3009": {
+"o": [
+"Pavement and buildings absorb heat by day, release it at night",
+"Cities get many more hours of direct sunshine each day than the countryside",
+"Rural areas have clear skies that trap heat near the ground at night",
+"City air is always far more humid than country air, which holds heat"
+]
+},
+"dh-xm3010": {
+"o": [
+"Sunlight heats the air rather than evaporating ground water",
+"Dry soil makes extra clouds that trap heat near the ground",
+"Dry soil absorbs no sunlight, so the air warms instead",
+"Dry soil gives off cool air that mixes into the heat wave"
+]
+},
+"dh-xm3014": {
+"o": [
+"It warms, because the air is squeezed as pressure rises",
+"It cools, because it is moving farther from the Sun's heat",
+"It stays the same, because no heat was added or removed",
+"It cools, because sinking air always starts out cold"
+]
+},
+"dh-xm3015": {
+"o": [
+"B, because humid air slows sweat evaporation and cooling",
+"A, because very dry air burns and cracks exposed skin",
+"They are equal because the air temperature is the same",
+"A, because a lower dew point means a higher heat index"
+]
+},
+"dh-xm3017": {
+"o": [
+"It includes the limit on cooling set by humidity",
+"It leaves out humidity and counts only air temperature",
+"It is always lower than the dew point temperature",
+"It measures only the amount of sunlight hitting you"
+]
+},
+"dh-xm3019": {
+"o": [
+"No: a heat wave means unusual heat lasting several days",
+"Yes, because 105 °F is above the common 100 °F mark",
+"Yes, any single day over 100 °F counts as a heat wave",
+"No, heat waves can happen only in humid, tropical places"
+]
+},
+"dh-xm3020": {
+"o": [
+"A trough or front arrives and the ridge weakens or moves",
+"The Sun gets much weaker in the middle of summer",
+"All of the humidity suddenly disappears from the air",
+"The ridge always lasts for exactly five days, then breaks"
+]
+},
+"dh-xm3021": {
+"o": [
+"Move to shade and cool with cold water or ice packs on neck, armpits and groin",
+"Give them a large cup of hot tea or coffee to drink right away, then let them rest",
+"Wrap them tightly in thick blankets so they can sweat the heat out of the body",
+"Make them walk briskly in the open sun so they cool off faster than at rest"
+]
+},
+"dh-xm3023": {
+"o": [
+"The first county is in severe drought, the second unusually wet",
+"The first county is unusually wet and the second is in severe drought",
+"Both counties have normal moisture, since the values cancel out",
+"Both counties are in drought, but in different seasons"
+]
+},
+"dh-xm3025": {
+"o": [
+"Baked, hard soil absorbs slowly, so most rain runs off",
+"Drought leaves extra water stored in the creek beds",
+"Dry soil is soft and absorbs everything that falls",
+"Rain in a drought is colder, so it freezes the ground"
+]
+},
+"dh-xm3027": {
+"o": [
+"Skin is near 35 °C, so heat can't flow out and sweat can't dry",
+"Very wet air becomes poisonous to breathe at that point and harms the lungs",
+"The sweat glands run out of water once it reaches 35 °C wet-bulb",
+"The body stops making heat, so it cannot warm itself at all any more"
+]
+},
+"dh-xm3028": {
+"o": [
+"A strong ridge where sinking air warms, acting like a lid over the region",
+"A dome of cold Arctic air that sits over a region for many weeks",
+"A calm, clear area at the center of a hurricane that spins slowly",
+"A pocket of hot air that forms only over oceans, never over land"
+]
+},
+"precip-xm3033": {
+"o": [
+"Conditions could lead to flash flooding; be ready",
+"Flash flooding is happening now, so move to high ground",
+"The river has crested and is now slowly falling",
+"The rain has ended and the flood risk is over"
+]
+},
+"precip-xm3036": {
+"o": [
+"Ice crystals grow while droplets shrink",
+"Droplets grow while ice crystals shrink away",
+"Both stay the same size at that temperature",
+"Both freeze solid at exactly the same moment"
+]
+},
+"precip-xm3037": {
+"o": [
+"Droplets collide and merge (collision-coalescence)",
+"Ice crystals grow first in the Bergeron process, then fall as rain",
+"Snow falls from the cloud and melts into rain on the way down",
+"Riming builds graupel high in the cloud, and the graupel melts into rain below"
+]
+},
+"precip-xm3040": {
+"o": [
+"Arrive sooner and higher",
+"Arrive later and lower",
+"Arrive sooner but stay lower",
+"Arrive at the same time"
+]
+},
+"precip-xm3042": {
+"o": [
+"A 1% chance each year; it can happen in back-to-back years",
+"It is guaranteed to happen exactly once in each century, never more",
+"It cannot happen two years in a row after it has just occurred",
+"It means the storm drops 100 inches of rain in a single day"
+]
+},
+"precip-xm3043": {
+"o": [
+"It cycled through zones with different supercooled water, often lofted repeatedly",
+"It froze all at once in one cold layer, then fell straight down to the ground",
+"It formed high in a cold cirrus cloud and fell without ever melting at all",
+"It formed from sleet pellets that stuck together on the way down to the ground"
+]
+},
+"precip-xm3044": {
+"o": [
+"Freezing rain reports",
+"Large hail reports",
+"Heavy snow reports",
+"Blowing dust reports"
+]
+},
+"precip-xm3046": {
+"o": [
+"A 40% chance that measurable rain (0.01 in or more) falls at a point",
+"Rain will fall at any one spot for 40% of the day, or about 10 hours",
+"40% of the forecast area will get rain for sure, and 60% will stay dry",
+"It will rain for 40% of the day everywhere across the forecast area"
+]
+},
+"precip-xm3047": {
+"o": [
+"The vapor pressure gap between water and ice is largest there, so ice grows fastest",
+"The air is warmer than 0 °C there, so crystals melt into larger flakes first",
+"There are no cloud droplets at that temperature, so crystals grow unchecked",
+"The wind is calm at that level, so crystals can grow into large flakes"
+]
+},
+"precip-xm3048": {
+"o": [
+"Storm B, because strong updrafts keep heavy stones aloft longer",
+"Storm A, because weak updrafts are gentler on the growing stones",
+"Equal, because hail size depends only on the air temperature",
+"Storm A, because stones fall faster and so they grow larger"
+]
+},
+"precip-xm3050": {
+"o": [
+"Rain fell upstream and the runoff arrived down the channel",
+"Heavy dew formed rapidly on the desert floor overnight and ran off",
+"Hail melted high overhead and rained down straight onto the wash",
+"Water rose up out of the ground as the desert warmed in the sun"
+]
+},
+"precip-xm3051": {
+"o": [
+"Cold, light powder at −15 °C",
+"Wet, heavy snow near 0 °C",
+"Both kinds give equal depth",
+"Sleet falling near −5 °C"
+]
+},
+"precip-xm3052": {
+"o": [
+"Rain adds water and speeds melting, releasing lots at once",
+"Snow soaks up all of the rain and holds it there forever",
+"The cold snow chills the rain so it runs off more slowly",
+"Rain freezes solid into the snow, making it deeper and stable"
+]
+},
+"precip-xm3056": {
+"o": [
+"Rarer storms are more intense for the same duration",
+"Longer return periods mean longer storm durations",
+"It is a plotting error made by the chart makers",
+"Rarer storms are weaker for the same storm duration"
+]
+},
+"light-xm3058": {
+"o": [
+"A hard-topped car with windows up",
+"A picnic shelter in an open park",
+"Standing under a tall lone tree",
+"An open convertible with the top down"
+]
+},
+"light-xm3059": {
+"o": [
+"Yes, they carry no charge; call 911 and give first aid",
+"No, their body stays electrically charged for an hour",
+"No, you must wait for a doctor or paramedic first",
+"Yes, but only if you are wearing rubber gloves"
+]
+},
+"light-xm3061": {
+"o": [
+"About five times hotter than the Sun's surface",
+"About as hot as water boiling in a pot at sea level",
+"About as hot as a stove burner turned up on its highest setting",
+"About the temperature of a warm summer day in the afternoon"
+]
+},
+"light-xm3062": {
+"o": [
+"Air heated suddenly by lightning expands faster than sound",
+"Large clouds bumping into one another high overhead",
+"Raindrops hitting the ground and the roofs at high speed",
+"Wind blowing strongly through the cloud's updraft"
+]
+},
+"light-xm3063": {
+"o": [
+"Inside the same cloud (intracloud)",
+"Reaching the ground (cloud-to-ground)",
+"Between two clouds (cloud-to-cloud)",
+"Within clear air (air discharge)"
+]
+},
+"light-xm3064": {
+"o": [
+"High up in the cloud",
+"Low down in the cloud",
+"Only in the falling rain",
+"Only in the ground below"
+]
+},
+"light-xm3069": {
+"o": [
+"Gives lightning an easy path to the ground",
+"Attracts and stores lightning so it can be used later",
+"Repels lightning away from the roof and the building",
+"Absorbs the sound of thunder overhead so people inside hear less"
+]
+},
+"light-xm3070": {
+"o": [
+"A bolt from the blue (from the anvil)",
+"Heat lightning from a distant storm",
+"A red sprite above the storm top",
+"Ball lightning drifting at ground level"
+]
+},
+"light-xm3075": {
+"o": [
+"Sound from parts of the long channel arrives at different times",
+"Thunder rumbles only when it echoes back from valleys and hills",
+"Clouds soak up part of the sound as it passes through them",
+"The bang travels faster than the flash of light does, so it spreads out"
+]
+},
+"light-xm3076": {
+"o": [
+"More of your body touches current spreading on the ground",
+"The ground is positively charged, so it attracts you",
+"Lightning only ever hits people who are standing up",
+"It keeps you from hearing thunder and judging the distance"
+]
+},
+"light-xm3077": {
+"o": [
+"The metal shell carries current around you",
+"The rubber tires insulate you from the ground",
+"The glass windows block the lightning from entering",
+"Cars cannot hold any electric charge at all"
+]
+},
+"light-xm3078": {
+"o": [
+"Air insulates until the electric field grows strong enough",
+"The cloud's charges are too weak to ever make a spark",
+"The ground is too far away, so no spark can ever begin",
+"Rain falling through the cloud blocks any spark until it ends"
+]
+},
+"light-xm3079": {
+"o": [
+"The negative base repels electrons, leaving the ground positive",
+"Rain carries positive charge down from the cloud top to the ground",
+"Sunlight warms the ground and strips electrons from it",
+"Wind blows positive charge down from the high anvil to the soil"
+]
+},
+"light-xm3081": {
+"o": [
+"GOES Geostationary Lightning Mapper",
+"A tipping-bucket rain gauge",
+"A radiosonde balloon launched twice daily",
+"A cup anemometer on a tall mast"
+]
+},
+"light-xm3082": {
+"o": [
+"Collisions transfer charge; heavier graupel falls while crystals rise",
+"Raindrops hand the graupel a negative charge as it falls past them",
+"Sunlight strips charge off the graupel but not off the ice crystals",
+"Friction with the fog in the air gives each particle its charge"
+]
+},
+"light-xm3083": {
+"o": [
+"Lightning can still strike from the storm's trailing area",
+"Thunder keeps echoing and can be heard for 30 minutes",
+"The rain always lasts 30 minutes after the last thunder",
+"The cloud keeps growing for the next half hour or so"
+]
+},
+"tstorm-xm3084": {
+"o": [
+"A severe storm is happening or about to, take cover",
+"A severe storm could form later today; stay alert",
+"Only lightning is likely, so no action is needed",
+"The storm has ended and it is safe to go out"
+]
+},
+"tstorm-xm3091": {
+"o": [
+"Its own rain-cooled downdraft cuts off the updraft",
+"The Sun sets within an hour and the heating stops",
+"The ocean cools the storm once it moves over water",
+"It runs out of dust particles for raindrops to form on"
+]
+},
+"tstorm-xm3092": {
+"o": [
+"Cool outflow lifts warm moist air to form new cells",
+"It stops the storm by cutting off all of its air, so no new cells form",
+"It adds large hail to every cell near the front, so cells grow bigger",
+"It makes the whole storm rotate like a supercell, so it stays in place"
+]
+},
+"tstorm-xm3093": {
+"o": [
+"The updraft hits the stable tropopause and spreads sideways",
+"Wind blows only at that height, so it smears the cloud",
+"The top is made only of ice crystals, which makes it flatten",
+"The heat of the Sun pulls the cloud top outward as it rises"
+]
+},
+"tstorm-xm3094": {
+"o": [
+"A widespread, long-lived windstorm with straight-line winds",
+"A very large, long-track tornado that stays on the ground",
+"A huge hailstorm that drops baseball-size hail for hours",
+"A weakened hurricane remnant moving inland from the coast"
+]
+},
+"tstorm-xm3095": {
+"o": [
+"Straight-line wind (downburst)",
+"A tornado with a narrow path",
+"A hailstorm that fell overnight",
+"A waterspout that moved ashore"
+]
+},
+"tstorm-xm3097": {
+"o": [
+"The 2 km one, since hail melts less before landing",
+"The 4.5 km one, since hail grows longer above ground",
+"Equal, since hail size depends only on updraft strength",
+"Neither, because the freezing level does not matter at all"
+]
+},
+"tstorm-xm3098": {
+"o": [
+"A strong updraft that holds rain aloft, leaving a hole",
+"A cloud of tornado debris lofted into the air above the ground",
+"The core of the largest hail falling out of the storm",
+"A cold front pushing through the main core of the storm"
+]
+},
+"tstorm-xm3099": {
+"o": [
+"Rotation in the storm; tornado possible",
+"Hail only, with no rotation in the storm",
+"Heavy fog covering the area under the storm",
+"Calm winds and a quickly dying storm cell"
+]
+},
+"tstorm-xm3100": {
+"o": [
+"East-southeast, to the right of the mean wind",
+"West-northwest, toward the left of the wind",
+"Due north, at a right angle to the mean wind",
+"Exactly with the mean wind, toward the east"
+]
+},
+"tstorm-xm3104": {
+"o": [
+"Evaporating rain cools the dry air, making it dense so it sinks",
+"Warm air rises fast, then the whole column flips downward at once",
+"Large hail falls and drags the air all the way down with it",
+"A cold front slides in under the storm and shoves the air downward"
+]
+},
+"tstorm-xm3105": {
+"o": [
+"A very strong updraft pushing into the stable layer",
+"A weak storm that is about to fall apart soon",
+"A tornado that is forming at the top of the cloud",
+"The storm dissipating as its updraft collapses"
+]
+},
+"tstorm-xm3106": {
+"o": [
+"Repeated heavy rain over one place adds up, like train cars",
+"The rain gets lighter each time another storm passes over",
+"The soil dries out quickly between each of the storms",
+"Wind speeds drop so the storms disappear completely"
+]
+},
+"tstorm-xm3107": {
+"o": [
+"Moist air and dry air",
+"Warm and cold air masses",
+"Two very moist air masses",
+"Two very dry air masses"
+]
+},
+"tstorm-xm3108": {
+"o": [
+"If the cap breaks, supercells with hail and tornadoes are likely",
+"Only a few light showers are expected, even if the cap breaks",
+"No storms can form at all today because of the strong cap",
+"Dense fog is the main concern once the sun goes down tonight"
+]
+},
+"tstorm-xm3110": {
+"o": [
+"It tilts the updraft so rain falls away from it",
+"It adds extra moisture to the updraft from below",
+"It cools the updraft so it can keep growing taller",
+"It stops the rotation so the storm can stay stable"
+]
+},
+"winds-xm4004": {
+"o": [
+"Evaporation cools it and falling rain drags it down, making it denser",
+"Warm air always sinks fast when a thunderstorm forms nearby, since heat is heavy",
+"The Sun heats the ground, which pulls the air down toward the warm surface",
+"Wind shear from far above pushes the air down toward the ground in a stream"
+]
+},
+"winds-xm4005": {
+"o": [
+"A high-based storm whose rain evaporates, yet its cooled air still rushes down",
+"A downburst that happens only in winter snow showers, with no thunderstorm",
+"A microburst that carries a lot of heavy rain all the way down to the ground",
+"A tornado with no visible funnel cloud that moves along the ground"
+]
+},
+"winds-xm4006": {
+"o": [
+"Storm A, because rain evaporates, chilling and weighing down the air",
+"Storm B, because humid air is heavier than the dry air under Storm A",
+"They are equal, since both storms are the same size and shape",
+"Storm B, because it keeps more of its rain on the way down"
+]
+},
+"winds-xm4008": {
+"o": [
+"Airspeed drops suddenly, so lift falls while the plane is already sinking",
+"Tailwinds drive heavy rain into the engines and make them stall",
+"The pilot cannot see the runway because of the storm's rotation",
+"Tailwinds raise the air pressure under the wings and push the plane up"
+]
+},
+"winds-xm4009": {
+"o": [
+"Divergence, such as a downburst spreading out",
+"Rotation, such as a tornado or a mesocyclone",
+"Convergence, such as air flowing into the storm",
+"A cold front sitting still over the storm area"
+]
+},
+"winds-xm4010": {
+"o": [
+"Straight-line winds from a downburst or derecho",
+"A strong tornado that crossed the farm fields",
+"A waterspout that moved ashore over the fields",
+"A large hailstorm with no wind at all"
+]
+},
+"winds-xm4011": {
+"o": [
+"A sudden gust and wind shift, a temperature drop, and a pressure jump",
+"A temperature rise and steadily falling pressure as warm air arrives",
+"The wind stops completely and the sky clears within minutes",
+"A slow, steady wind change spread out over many hours"
+]
+},
+"winds-xm4015": {
+"o": [
+"Warm, very dry downslope winds that blow from the land toward the ocean",
+"Moist winds from the ocean that bring days of heavy, steady rain",
+"Fast winds that spin around inside the funnel of a strong tornado",
+"Cold, wet winds that blow in from the Arctic Ocean to the coast"
+]
+},
+"winds-xm4017": {
+"o": [
+"A strong rear-inflow jet drives the middle of the line forward",
+"Rotation spins the whole line of storms into a circle that bends outward",
+"The Moon's pull tugs the middle of the line outward as it moves along",
+"Cold fronts always curve outward in the same arc shape, so the storms follow"
+]
+},
+"winds-xm4018": {
+"o": [
+"Weaker, short-lived, and harder to spot on radar",
+"Stronger, much longer lasting, and easy to track",
+"Always rated EF4 or EF5 with very wide damage paths",
+"Not possible, since a squall line has no rotation"
+]
+},
+"winds-xm4027": {
+"o": [
+"Cold, dense outflow spreads along the ground faster than the storm moves",
+"The rain falls slowly because cold air holds each drop back from the ground",
+"Wind is created only after the rain has stopped, so it always arrives late",
+"The gust front is warmer than the air around it, so it rises and speeds ahead"
+]
+},
+"winds-xm4028": {
+"o": [
+"Drier air entering the back of a line that sinks and rushes forward",
+"The spinning updraft found in the center of a strong tornado",
+"A jet stream wind at 40,000 ft that blows above a hurricane eye",
+"A warm front that slowly crosses the middle of the whole line"
+]
+},
+"winds-xm4029": {
+"o": [
+"A gust front is a small edge of outflow from one storm lasting minutes; a cold front is a big air-mass boundary lasting days",
+"They are the same feature, and meteorologists just use two different names for it",
+"A gust front is warmer than the air it moves into, while a cold front is colder than the air it moves into",
+"A cold front only forms over the ocean, while a gust front only forms over mountains"
+]
+},
+"winds-xm4030": {
+"o": [
+"Outward in all directions from the point it hits",
+"In a tight circle that spins around the point of impact",
+"Straight upward, away from the ground and back into the cloud",
+"Only in the direction of the nearest radar that sees it"
+]
+},
+"winds-xm4031": {
+"o": [
+"Gusty outflow winds from the gust front",
+"The calm center of the storm, with light winds",
+"The heaviest rain from the core of the storm",
+"The largest hail from the center of the storm"
+]
+},
+"winds-xm4032": {
+"o": [
+"A downburst may reach the ground and cause a burst of damaging wind",
+"A tornado will definitely form within minutes under that core",
+"The storm is dying and will soon be harmless to the area",
+"The gust front will vanish and the surface winds will fall calm"
+]
+},
+"winds-xm4035": {
+"o": [
+"A brief whirl along a gust front, not tied to the storm's rotating updraft",
+"The same thing as a supercell tornado, with a hook echo and a mesocyclone above it",
+"A tornado that forms over a warm lake and then moves ashore as a weak whirl",
+"A funnel-shaped cloud that stays high in the sky and never touches the ground"
+]
+},
+"winds-xm4036": {
+"o": [
+"A gust front or outflow boundary passed",
+"A warm front passed over the station",
+"A tornado hit the station directly",
+"The sun came out and heated the air"
+]
+},
+"winds-xm4038": {
+"o": [
+"Radar measures only motion along its beam, and this wind blows across the beam",
+"The wind stopped completely at that point, so the radar read zero",
+"Radar cannot sense any wind that is blowing from west to east",
+"The wind is too strong for the radar to measure, so it reads zero"
+]
+},
+"torn-xm4043": {
+"o": [
+"EF4, the highest damage found along the path",
+"EF1, the most common damage along the path",
+"EF2, the average of all damage along the path",
+"EF5, because a house was hit at all"
+]
+},
+"torn-xm4044": {
+"o": [
+"The EF scale rates damage to buildings and trees, so little damage means a low rating",
+"Tornadoes over open farmland are always weak, no matter how they look on radar",
+"Radar velocity alone sets the rating, and no radar was close enough to see it",
+"The EF scale ignores damage and rates only the width of the tornado's path"
+]
+},
+"torn-xm4045": {
+"o": [
+"Engineering studies showed the old scale overestimated the wind needed for the damage",
+"Tornadoes got weaker after 2007, so the wind ranges had to be lowered to match",
+"The EF scale measures the winds directly with new radars, which read lower",
+"The F scale used knots instead of miles per hour, so its numbers looked higher"
+]
+},
+"torn-xm4046": {
+"o": [
+"A rotating cone of cloud that does not reach the ground",
+"Any tornado, whether or not it touches the ground below it",
+"A shaft of rain falling below a cloud and bending in the wind",
+"A cloud shaped like a ring that forms only over the ocean"
+]
+},
+"torn-xm4047": {
+"o": [
+"You cannot count on seeing a funnel, so warnings and radar matter",
+"A rain-wrapped tornado is always weak, so people can relax and stay put",
+"A rain-wrapped tornado cannot damage buildings because the rain slows it",
+"Rain-wrapped tornadoes only occur at night, so daytime storms are safe"
+]
+},
+"torn-xm4049": {
+"o": [
+"Away from the radar",
+"Toward the radar",
+"Straight up into the cloud",
+"Clockwise around the storm"
+]
+},
+"torn-xm4050": {
+"o": [
+"The east (right) side",
+"The west (left) side",
+"The north side, farthest from radar",
+"Both sides, shown in red"
+]
+},
+"torn-xm4055": {
+"o": [
+"The beam rises with distance and the Earth curves away, so it overshoots low rotation",
+"Radar cannot see anything past 100 miles, so there is no data at all there",
+"Tornadoes never show up on radar at any distance, so only spotters see them",
+"The beam bends down toward the ground at long range and misses the rotation"
+]
+},
+"torn-xm4056": {
+"o": [
+"Debris is being lofted, so a tornado is likely on the ground (a debris signature)",
+"Only large raindrops are falling in the hook echo, so nothing special is going on",
+"A gust front is passing through the hook echo and has mixed the air",
+"The radar is broken, and the low reading is an error in the data"
+]
+},
+"torn-xm4057": {
+"o": [
+"Debris has many shapes and sizes, unlike nearly identical raindrops",
+"Debris is colder than rain, which lowers the signal the radar gets back",
+"Debris is bigger than raindrops, so it reflects much less of the radar beam",
+"Wind speed is lower inside the debris ball, and that lowers the reading"
+]
+},
+"torn-xm4059": {
+"o": [
+"The local National Weather Service forecast office",
+"Only the Storm Prediction Center in Norman, Oklahoma",
+"The National Hurricane Center in Miami, Florida",
+"The school district or the county sheriff's office"
+]
+},
+"torn-xm4060": {
+"o": [
+"Not safe, because wind can speed up under it and debris flies",
+"The safest shelter you can find while driving on a highway",
+"As safe as a basement, as long as you crouch down low",
+"Safe if you climb up to the steel girders under the road deck"
+]
+},
+"torn-xm4061": {
+"o": [
+"No, it wastes time and does not protect the house",
+"Yes, this stops the roof from exploding when pressure drops",
+"Yes, but only open the windows on the side facing the storm",
+"Yes, but only the windows that are on the second floor"
+]
+},
+"torn-xm4062": {
+"o": [
+"Leave and go to a sturdy building",
+"Stay inside and shelter in the bathroom",
+"Hide under the bed with a mattress over you",
+"Park next to the home and wait it out"
+]
+},
+"torn-xm4065": {
+"o": [
+"A weak tornado that spins up from the ground under a growing cloud, with no supercell",
+"A tornado that forms over water and then moves ashore as a stronger one",
+"Another name for a gustnado, which forms along the edge of a gust front",
+"A strong supercell tornado that forms below a hook echo and a mesocyclone"
+]
+},
+"torn-xm4066": {
+"o": [
+"People may be asleep or cannot see the storm, so warnings are missed",
+"Night tornadoes always have stronger winds than daytime tornadoes",
+"Radar does not work well at night, so forecasters cannot track storms",
+"Tornadoes only occur after dark, so the danger is high every night"
+]
+},
+"torn-xm4067": {
+"o": [
+"Strong rotation is present; a tornado may be forming or hidden, but no debris is seen yet",
+"There is no threat at all, since no debris signature has shown up on the radar",
+"A confirmed large tornado is on the ground now and is lofting debris into the air",
+"The couplet is just a radar error, so it can be safely ignored by the forecaster"
+]
+},
+"torn-xm4068": {
+"o": [
+"A tornado is far narrower than the beam, so radar sees only the broader parent rotation",
+"Tornadoes are not rotating at long range, so radar sees only straight winds",
+"Mesocyclones do not rotate at long range, so radar sees no spin at all",
+"Tornadoes are too cold at long range to give any signal back to radar"
+]
+},
+"torn-xm4069": {
+"o": [
+"No, rating depends on damage, not width",
+"Yes, any wide tornado is a strong one",
+"Yes, but only if it lasts more than an hour",
+"No, a wide tornado cannot be rated at all"
+]
+},
+"torn-xm4070": {
+"o": [
+"A rotating updraft a few miles wide inside a supercell",
+"A small tornado that forms only over open water",
+"The calm center, or eye, of a strong hurricane",
+"A fast jet of air found high above the storm top"
+]
+},
+"hurr-xm4082": {
+"o": [
+"The category rates wind only; storm surge and flooding rain can be huge",
+"Category 1 storms are really Category 3 storms with a different name",
+"The category already includes both storm surge and rainfall flooding",
+"Weak storms produce no wind damage, so only the rain is a problem"
+]
+},
+"hurr-xm4083": {
+"o": [
+"Heat released when water vapor from the warm ocean condenses",
+"Heat rising up from the hot core of the Earth below the sea",
+"Cold fronts pushing in from the north that lift the warm air",
+"The pull of the Moon on the ocean, which drives the winds"
+]
+},
+"hurr-xm4084": {
+"o": [
+"Its winds stir up cold water from below, cooling the surface",
+"The ocean surface gets warmer because the storm heats the water below it",
+"The Moon shifts the tide under the storm and drains the warm water",
+"Salt content rises in the water and cuts off the storm's fuel supply"
+]
+},
+"hurr-xm4085": {
+"o": [
+"The Coriolis effect is too weak to start the spin",
+"The air near the equator is too cold to hold enough moisture",
+"The ocean there is always too cool to feed any tropical storm",
+"Mountain ranges there cause too much wind shear for storms to form"
+]
+},
+"hurr-xm4088": {
+"o": [
+"A town 30 miles east of the center (right side)",
+"A town 30 miles west of the center, on the left side of the storm",
+"A town far inland, away from the coast and the ocean",
+"Only the spot right under the center of the eye, nowhere else"
+]
+},
+"hurr-xm4090": {
+"o": [
+"Storm tide is the surge plus the normal tide",
+"They are the same thing under two names",
+"Surge is the rain, and tide is the wind",
+"Surge only occurs in the winter months"
+]
+},
+"hurr-xm4091": {
+"o": [
+"The probable path of the storm's center, not its size or impacts",
+"The area that will be covered by the hurricane's strong winds",
+"The places where flooding rain and surge will happen on land",
+"The area covered by the hurricane's eye as it moves along"
+]
+},
+"hurr-xm4092": {
+"o": [
+"Small changes inside the storm, such as eyewall changes and shear, are hard to predict",
+"Tracks are measured by hand, but intensity is measured by computer only",
+"Intensity is not important to forecasters, so they spend less time on it",
+"Models cannot see the ocean below the storm, so they miss its heat"
+]
+},
+"hurr-xm4093": {
+"o": [
+"Builds an outer eyewall; the inner one weakens and winds dip, then the larger eye strengthens",
+"Loses its eye for good and turns into a calm area of clouds with no strong wind",
+"Turns into a large tornado that then moves ashore faster than the rest of the storm",
+"Speeds up and moves much faster across the open ocean toward land, with a new track"
+]
+},
+"hurr-xm4095": {
+"o": [
+"African easterly waves moving off the coast of Africa",
+"Cold fronts that drift south from Canada over the warm Atlantic",
+"Dust devils that form over the hot Sahara and drift out to sea",
+"Waterspouts that form near the Florida Keys and merge into one"
+]
+},
+"hurr-xm4096": {
+"o": [
+"A dry, dusty air mass from Africa that can weaken Atlantic tropical storms",
+"A warm, humid air mass from Africa that helps Atlantic storms to grow",
+"A fast jet stream of wind over Africa that steers storms to the north",
+"A tornado outbreak that starts over the Sahara and moves out to sea"
+]
+},
+"hurr-xm4100": {
+"o": [
+"Extratropical (post-tropical)",
+"Still a pure tropical cyclone",
+"Now a large tornado outbreak",
+"A weak mid-level wave only"
+]
+},
+"hurr-xm4101": {
+"o": [
+"When it reaches tropical storm strength",
+"When it first forms as a disturbance",
+"When it first makes landfall",
+"When it becomes a Category 3 hurricane"
+]
+},
+"hurr-xm4104": {
+"o": [
+"It sits over one place longer and drops more rain there",
+"It has stronger winds that pull in more rain from the ocean",
+"It makes less rain because it is moving slowly over the same area",
+"Slow storms are always weaker, so they bring less rain overall"
+]
+},
+"hurr-xm4105": {
+"o": [
+"Outer rain bands in the right-front quadrant",
+"The calm center, inside the eye of the hurricane",
+"The left-rear quadrant, far from the storm's path",
+"The open ocean, far away from any land at all"
+]
+},
+"hurr-xm4106": {
+"o": [
+"Pressure, temperature, humidity, and wind as it falls",
+"Only the depth of the ocean below the storm",
+"Only the amount of rain that falls in the eyewall",
+"The color and size of the eye as it drops through"
+]
+},
+"hurr-xm4107": {
+"o": [
+"A bigger pressure difference over a short distance drives faster winds",
+"Low pressure heats the air, and the warm air moves faster",
+"Low pressure makes the ocean colder, which speeds up the wind",
+"Low pressure removes friction at the surface, so air speeds up"
+]
+},
+"hurr-xm4109": {
+"o": [
+"Air sinks in the eye, warming and drying it so clouds evaporate",
+"Air rises quickly in the eye, which pushes the clouds away",
+"The eye is above the cloud layer, so no clouds can form there",
+"The Sun burns off the clouds in the eye during the day"
+]
+},
+"hurr-xm4110": {
+"o": [
+"Steering winds around the subtropical high, then the westerlies",
+"The pull of the Moon on the storm as it crosses the ocean",
+"Ocean tides that push the storm along the coast",
+"The size of the eye, which turns the storm northward"
+]
+},
+"winter-xm5004": {
+"o": [
+"The downwind shore, where the wind leaves the lake",
+"The upwind shore, where the wind first arrives at the lake",
+"Only the shore that has mountains close to the water",
+"Both shores equally, because the snow falls evenly everywhere"
+]
+},
+"winter-xm5007": {
+"o": [
+"Cold air touches them from above and below, with no ground to store warmth",
+"Bridges are made of steel, which makes the ice form there first",
+"Bridges get more freezing rain than roads, because rain falls there first",
+"Salt cannot be used on bridges, so they ice up earlier than roads"
+]
+},
+"winter-xm5008": {
+"o": [
+"A brief, intense burst of snow with gusty wind and sudden whiteouts",
+"A two-day snowstorm that slowly drops two feet of snow on the town",
+"Ice that builds up on power lines and trees overnight and breaks them",
+"Snowmelt that floods the river a few days after a spell of warm rain"
+]
+},
+"winter-xm5009": {
+"o": [
+"A fast-moving low from Canada with light snow, gusty wind and colder air behind it",
+"A slow Gulf storm that drops two feet of heavy snow and stalls over the coast",
+"A lake-effect snow band that forms downwind of the Great Lakes for days",
+"The remains of an old hurricane that has moved far inland and turned cold"
+]
+},
+"winter-xm5012": {
+"o": [
+"Ice cuts off the heat and moisture that the open water supplies",
+"Ice makes the air above the lake warmer and wetter",
+"Frozen lakes create stronger winds that blow the snow away",
+"Snow cannot fall on ice, so it falls somewhere else"
+]
+},
+"winter-xm5016": {
+"o": [
+"Northeast winds push ocean water onto the coast for many hours",
+"The storm melts coastal glaciers and the water runs into the sea",
+"Rain from the storm is always saltwater, which raises the tide",
+"Nor'easters rotate clockwise and suck water upward into a bulge"
+]
+},
+"winter-xm5018": {
+"o": [
+"The air is at or below 50°F and the wind is above 3 mph",
+"The air is below 0°F, in any amount of wind",
+"Snow is falling at the time the wind chill is measured",
+"The wind is blowing at more than 35 mph at the surface"
+]
+},
+"winter-xm5024": {
+"o": [
+"Yes, 20 mb is above the 18 mb needed at 40°N",
+"No, it must drop at least 24 mb at every latitude",
+"No, a bomb needs winds of at least 74 mph",
+"Only if the storm is also a hurricane"
+]
+},
+"winter-xm5031": {
+"o": [
+"It freezes on contact and builds a heavy ice coat",
+"It is heavier, because raindrops are bigger than sleet",
+"Sleet melts on contact and adds weight",
+"Freezing rain is always colder than sleet"
+]
+},
+"safety-xm5044": {
+"o": [
+"4:40 pm, 30 minutes after the last thunder",
+"4:15 pm, after 5 quiet minutes with no thunder",
+"4:25 pm, after 15 quiet minutes with no thunder",
+"Right away, as soon as the rain has stopped"
+]
+},
+"safety-xm5046": {
+"o": [
+"False: wind speeds up under it and debris flies through",
+"True: thick concrete protects you from the wind and debris",
+"True, if you climb up high onto the girders under the bridge",
+"True, but only for a weak EF0 tornado on the ground"
+]
+},
+"safety-xm5047": {
+"o": [
+"No, it wastes time and does nothing for the house",
+"Yes, it keeps the house from exploding when pressure drops",
+"Yes, but only open the windows on the side facing the storm",
+"Yes, but only the windows on the upper floor of the house"
+]
+},
+"safety-xm5048": {
+"o": [
+"An interior hallway on the lowest floor, away from the gym or large rooms",
+"The gym, since it is the biggest and strongest room in the school",
+"Next to a window on the top floor, so they can watch the storm",
+"The parking lot outside, in the open and away from the building"
+]
+},
+"safety-xm5049": {
+"o": [
+"Wireless Emergency Alerts (WEA)",
+"A text from a friend who lives nearby",
+"A notification from a weather app",
+"The local TV station only"
+]
+},
+"safety-xm5052": {
+"o": [
+"1 inch (quarter size); 58 mph",
+"½ inch (pea size); 40 mph",
+"1 inch (quarter size); 40 mph",
+"2 inches (hen egg size); 75 mph"
+]
+},
+"safety-xm5055": {
+"o": [
+"Swim parallel to shore until free, then angle back",
+"Swim straight back toward the beach, against the current",
+"Tread water in place and wait for the current to stop",
+"Swim farther out to sea to get away from the current"
+]
+},
+"safety-xm5057": {
+"o": [
+"A tornado is occurring or imminent nearby, so act now",
+"Conditions are only favorable for tornadoes, so be ready",
+"The tornado watch was canceled, so the danger is over",
+"The tornado has already passed, so it is safe to come out"
+]
+},
+"safety-xm5058": {
+"o": [
+"The inside heats far above outdoor temperature within minutes",
+"Cars cool down faster than the air outdoors does",
+"The windows keep the heat out, so the car stays cool",
+"It is only dangerous on days when it is 100°F or hotter"
+]
+},
+"safety-xm5059": {
+"o": [
+"Pull off the road, turn lights off, foot off the brake",
+"Keep driving fast with your lights on and horn honking",
+"Stop in the traffic lane with your brake lights on",
+"Park under an overpass and wait for the dust to clear"
+]
+},
+"safety-xm5060": {
+"o": [
+"Its metal body carries the current around you",
+"Its rubber tires insulate the car from the ground",
+"Cars are never struck by lightning at all",
+"Its special windows block the current from getting in"
+]
+},
+"safety-xm5061": {
+"o": [
+"The eyewall returns with strong winds from the opposite direction",
+"The storm is over, and the winds will not come back",
+"The winds stay calm for the rest of the day and night",
+"The winds return from the same direction, but much weaker"
+]
+},
+"safety-xm5062": {
+"o": [
+"It floods first from storm surge, so follow the order to leave",
+"Category 1 winds are weak, so staying home is safe",
+"Zones are only about wind damage, not about water",
+"Zone A is the safest area, so it is the last to be told to leave"
+]
+},
+"safety-xm5065": {
+"o": [
+"Park, buckle up, head below the windows and cover yourself",
+"Shelter under a highway overpass or bridge",
+"Try to outrun the tornado by driving in a straight line",
+"Stay in traffic with the windows open to even out pressure"
+]
+},
+"safety-xm5066": {
+"o": [
+"Heat stroke: confusion and hot dry skin; call 911",
+"Mild sweating and a flushed face after a jog in the warm sun",
+"A little thirst and a dry mouth after a long walk outside",
+"Slight tiredness and a mild headache at the end of a hot day"
+]
+},
+"safety-xm5067": {
+"o": [
+"Stay with the car, keep the tailpipe clear of snow and crack a window",
+"Walk away from the car right away to find help in the white-out",
+"Run the engine with the tailpipe buried in the snow to stay warm",
+"Leave the engine on all the time with the windows shut tight"
+]
+},
+"safety-xm5068": {
+"o": [
+"A confirmed, damaging tornado is threatening a populated area",
+"It is only a watch, which means conditions are favorable",
+"A tornado is far from any town and is not a danger",
+"It is an alert for a hurricane that is about to make landfall"
+]
+},
+"safety-xm5070": {
+"o": [
+"Heavy rain fell miles upstream and rushed down the wash",
+"Flash floods only occur under a sky that is raining",
+"The clear sky was a forecast error, and no flood really occurred",
+"Morning dew melted in the heat and filled the dry wash"
+]
+},
+"cases-xm5079": {
+"o": [
+"A Pacific storm that brought rare tropical-storm rain to Southern California",
+"A major hurricane that made landfall on Florida's Gulf coast near Tampa",
+"A storm that formed over land in the Rocky Mountains and then grew strong",
+"A tornado outbreak that crossed the Great Plains for several days in a row"
+]
+},
+"cases-xm5082": {
+"o": [
+"Plowed soil lost the grass roots that held it in place",
+"Plowing made it rain less across the whole region",
+"Plowing made the wind blow stronger over the plains",
+"Soil is always too heavy to be lifted by wind"
+]
+},
+"cases-xm5083": {
+"o": [
+"A big surge covered a low island with little warning",
+"It was a tornado that crossed the whole island",
+"It was a deep blizzard that buried the town",
+"It was a long drought that dried up the water supply"
+]
+},
+"cases-xm5084": {
+"o": [
+"A small but extremely intense storm that crossed a populated area",
+"A huge, slow storm with little wind that dropped some rain",
+"A tornado outbreak that spread across the South",
+"A weak storm that stayed far out in the Pacific Ocean"
+]
+},
+"cases-xm5086": {
+"o": [
+"1974 with the F scale, 2011 with the EF scale",
+"Both outbreaks with the EF scale",
+"Both outbreaks with the F scale",
+"Neither was rated; the storms were only counted"
+]
+},
+"cases-xm5091": {
+"o": [
+"Weak winds do not mean weak rain; remnants can flood",
+"Remnants are harmless once the winds drop below hurricane force",
+"Wind speed is the only thing that matters for danger",
+"Floods only happen right at the coast, not inland"
+]
+},
+"cases-xm5092": {
+"o": [
+"Winds blew onshore there, and the storm's forward motion added to them",
+"Winds blew offshore there, away from the land, which pushed the water out",
+"The eye pushes the water down there, so surge is lowest south of the eye",
+"Surge only happens north of the eye, never south of it, in any storm"
+]
+},
+"cases-xm5093": {
+"o": [
+"Heavy tropical rain lifted by mountains onto already wet ground",
+"Storm surge that was pushed far up into the mountain valleys",
+"Large hail that melted and ran off into the creeks and rivers",
+"Tornadoes only, which dropped very little rain on the area"
+]
+},
+"cases-xm5094": {
+"o": [
+"Yes to both: +40 mph, and 115 mph is Category 3",
+"Yes, but 115 mph is only a Category 2 storm",
+"No, it needs a rise of 60 mph in 24 hours",
+"No, and Category 3 does not start until 130 mph"
+]
+},
+"cases-xm5095": {
+"o": [
+"Repeated heavy storms over soaked ground kept rivers high",
+"One giant storm dropped all of the rain over the basin in one day",
+"A hurricane that sat over the Midwest for several weeks that summer",
+"Snowmelt alone kept the rivers high, with no heavy rain at all"
+]
+},
+"cases-xm5102": {
+"o": [
+"Galveston 1900",
+"Andrew 1992",
+"Hilary 2023",
+"The Dust Bowl"
+]
+},
+"hurr-xm4099": {
+"pairs": [
+[
+"Atlantic Ocean",
+"Hurricane"
+],
+[
+"Northwest Pacific",
+"Typhoon"
+],
+[
+"Indian Ocean",
+"Cyclone"
+]
+]
+}
+},
+"del": [
+"clouds-xm2099",
+"winds-xm4037",
+"safety-xm5053"
+]
+}

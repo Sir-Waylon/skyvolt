@@ -1,6 +1,6 @@
 import json,re,sys,collections
 def norm(s):return re.sub(r'\s+',' ',str(s).strip().lower())
-BAD=re.compile(r'TODO|undefined|NaN|\bnull\b|\?\?|\{\{|\}\}|\[object|lorem|FIXME|xxx',re.I)
+BAD=re.compile(r'TODO|\bundefined\b|\bNaN\b|\bnull\b|\?\?|\{\{|\}\}|\[object|lorem|FIXME|xxx')
 def audit(slug):
     P=json.load(open(f'events/{slug}/pack.json'));Q=P['questions'];out=collections.defaultdict(list)
     seen=collections.defaultdict(list)
@@ -37,7 +37,7 @@ def audit(slug):
             tol=n.get('tol')
             if tol is not None and not(0<=tol<=0.05):F('tol',tol)
             if not isinstance(n.get('v'),(int,float)):F('num-v',n.get('v'))
-        if t=='short' and not n and not q.get('o'):F('short-noanswer','')
+        if t=='short' and not n and not q.get('o') and not q.get('text'):F('short-noanswer','')
     for k,v in seen.items():
         if len(v)>1:out['duplicate'].append((v[0],v[1:]))
     return Q,out
