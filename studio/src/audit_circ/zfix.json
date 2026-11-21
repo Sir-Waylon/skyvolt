@@ -1,0 +1,509 @@
+{
+"fix": {
+"ctrl-015": {
+"q": "A 12 V, 150 W load needs a fuse. Which is the smallest standard value (5, 10, 15, 20, 25 A) at or above its current? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 15,
+"tol": 0
+}
+},
+"ctrl-018": {
+"q": "A 150 W load runs on 24 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 7.5,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-019": {
+"q": "A 200 W load runs on 24 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 10.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-020": {
+"q": "A 100 W load runs on 12 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 10.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-021": {
+"q": "A 300 W load runs on 12 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 30.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-022": {
+"q": "A 200 W load runs on 12 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 20.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-023": {
+"q": "A 300 W load runs on 24 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 15.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-024": {
+"q": "A 150 W load runs on 12 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 15.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-025": {
+"q": "A 60 W load runs on 12 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 5.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-026": {
+"q": "A 100 W load runs on 24 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 5.0,
+"tol": 0,
+"u": "A"
+}
+},
+"ctrl-027": {
+"q": "A 60 W load runs on 24 V DC. Which fuse is the smallest that will not blow in normal use? Standard fuse ratings (A): 1, 2, 3, 5, 7.5, 10, 15, 20, 25, 30, 40, 50.",
+"num": {
+"v": 3.0,
+"tol": 0,
+"u": "A"
+}
+},
+"logic-030": {
+"num": {
+"v": 10110.0,
+"free": true,
+"tol": 5e-05,
+"show": "10110"
+}
+},
+"logic-031": {
+"num": {
+"v": 100100.0,
+"free": true,
+"tol": 5e-05,
+"show": "100100"
+}
+},
+"logic-032": {
+"num": {
+"v": 1000000.0,
+"free": true,
+"tol": 5e-05,
+"show": "1000000"
+}
+},
+"logic-033": {
+"num": {
+"v": 111111.0,
+"free": true,
+"tol": 5e-05,
+"show": "111111"
+}
+},
+"logic-034": {
+"num": {
+"v": 100101.0,
+"free": true,
+"tol": 5e-05,
+"show": "100101"
+}
+},
+"logic-035": {
+"num": {
+"v": 1100100.0,
+"free": true,
+"tol": 5e-05,
+"show": "1100100"
+}
+},
+"logic-108": {
+"num": {
+"v": 1010.0,
+"tol": 5e-05
+}
+},
+"logic-109": {
+"num": {
+"v": 1111.0,
+"tol": 5e-05
+}
+},
+"logic-110": {
+"num": {
+"v": 10011.0,
+"tol": 5e-05
+}
+},
+"logic-111": {
+"num": {
+"v": 10100.0,
+"tol": 5e-05
+}
+},
+"logic-112": {
+"num": {
+"v": 11010.0,
+"tol": 5e-05
+}
+},
+"logic-113": {
+"num": {
+"v": 10110.0,
+"tol": 5e-05
+}
+},
+"logic-114": {
+"num": {
+"v": 10000.0,
+"tol": 5e-05
+}
+},
+"logic-115": {
+"num": {
+"v": 1011.0,
+"tol": 5e-05
+}
+},
+"logic-116": {
+"num": {
+"v": 10101.0,
+"tol": 5e-05
+}
+},
+"logic-117": {
+"num": {
+"v": 1001.0,
+"tol": 5e-05
+}
+},
+"logic-118": {
+"num": {
+"v": 10010.0,
+"tol": 5e-05
+}
+},
+"logic-119": {
+"num": {
+"v": 11000.0,
+"tol": 5e-05
+}
+},
+"logic-120": {
+"num": {
+"v": 10000.0,
+"tol": 5e-05
+}
+},
+"logic-121": {
+"num": {
+"v": 1100.0,
+"tol": 5e-05
+}
+},
+"logic-122": {
+"num": {
+"v": 10110.0,
+"tol": 5e-05
+}
+},
+"logic-123": {
+"num": {
+"v": 1101.0,
+"tol": 5e-05
+}
+},
+"logic-124": {
+"num": {
+"v": 111.0,
+"tol": 5e-05
+}
+},
+"logic-125": {
+"num": {
+"v": 10.0,
+"tol": 5e-05
+}
+},
+"logic-126": {
+"num": {
+"v": 11100.0,
+"tol": 5e-05
+}
+},
+"logic-127": {
+"num": {
+"v": 1001.0,
+"tol": 5e-05
+}
+},
+"logic-128": {
+"num": {
+"v": 10010.0,
+"tol": 5e-05
+}
+},
+"logic-129": {
+"num": {
+"v": 1010.0,
+"tol": 5e-05
+}
+},
+"logic-130": {
+"num": {
+"v": 110.0,
+"tol": 5e-05
+}
+},
+"logic-131": {
+"num": {
+"v": 10101.0,
+"tol": 5e-05
+}
+},
+"logic-132": {
+"num": {
+"v": 10111.0,
+"tol": 5e-05
+}
+},
+"logic-133": {
+"num": {
+"v": 11011.0,
+"tol": 5e-05
+}
+},
+"logic-134": {
+"num": {
+"v": 10000.0,
+"tol": 5e-05
+}
+},
+"logic-135": {
+"num": {
+"v": 11000.0,
+"tol": 5e-05
+}
+},
+"logic-136": {
+"num": {
+"v": 1000.0,
+"tol": 5e-05
+}
+},
+"logic-137": {
+"num": {
+"v": 10100.0,
+"tol": 5e-05
+}
+},
+"logic-154": {
+"num": {
+"v": 100100.0,
+"tol": 5e-05
+}
+},
+"logic-155": {
+"num": {
+"v": 101111.0,
+"tol": 5e-05
+}
+},
+"logic-156": {
+"num": {
+"v": 100100.0,
+"tol": 5e-05
+}
+},
+"logic-157": {
+"num": {
+"v": 11100.0,
+"tol": 5e-05
+}
+},
+"logic-158": {
+"num": {
+"v": 10000.0,
+"tol": 5e-05
+}
+},
+"logic-159": {
+"num": {
+"v": 110011.0,
+"tol": 5e-05
+}
+},
+"logic-160": {
+"num": {
+"v": 110100.0,
+"tol": 5e-05
+}
+},
+"logic-161": {
+"num": {
+"v": 101100.0,
+"tol": 5e-05
+}
+},
+"logic-162": {
+"num": {
+"v": 101100.0,
+"tol": 5e-05
+}
+},
+"logic-163": {
+"num": {
+"v": 110111.0,
+"tol": 5e-05
+}
+},
+"logic-164": {
+"num": {
+"v": 100111.0,
+"tol": 5e-05
+}
+},
+"logic-165": {
+"num": {
+"v": 1100.0,
+"tol": 5e-05
+}
+},
+"logic-166": {
+"num": {
+"v": 100100.0,
+"tol": 5e-05
+}
+},
+"logic-167": {
+"num": {
+"v": 100110.0,
+"tol": 5e-05
+}
+},
+"logic-168": {
+"num": {
+"v": 101101.0,
+"tol": 5e-05
+}
+},
+"logic-169": {
+"num": {
+"v": 100011.0,
+"tol": 5e-05
+}
+},
+"logic-170": {
+"num": {
+"v": 10101.0,
+"tol": 5e-05
+}
+},
+"logic-171": {
+"num": {
+"v": 100100.0,
+"tol": 5e-05
+}
+},
+"logic-172": {
+"num": {
+"v": 101101.0,
+"tol": 5e-05
+}
+},
+"logic-173": {
+"num": {
+"v": 1111.0,
+"tol": 5e-05
+}
+},
+"logic-174": {
+"num": {
+"v": 10011.0,
+"tol": 5e-05
+}
+},
+"logic-175": {
+"num": {
+"v": 1110.0,
+"tol": 5e-05
+}
+},
+"logic-176": {
+"num": {
+"v": 110101.0,
+"tol": 5e-05
+}
+},
+"logic-177": {
+"num": {
+"v": 101011.0,
+"tol": 5e-05
+}
+},
+"logic-178": {
+"num": {
+"v": 110011.0,
+"tol": 5e-05
+}
+},
+"logic-179": {
+"num": {
+"v": 10100.0,
+"tol": 5e-05
+}
+},
+"logic-180": {
+"num": {
+"v": 100111.0,
+"tol": 5e-05
+}
+},
+"logic-181": {
+"num": {
+"v": 100010.0,
+"tol": 5e-05
+}
+},
+"logic-182": {
+"num": {
+"v": 100110.0,
+"tol": 5e-05
+}
+},
+"logic-183": {
+"num": {
+"v": 11001.0,
+"tol": 5e-05
+}
+},
+"diode-xc5019": {
+"q": "Two silicon diodes (0.7 V drop each) are wired in opposite directions in parallel, and this pair is in series with a 1 kΩ resistor across a 5.0 V DC source. Find the current in milliamps."
+},
+"static-116": {
+"num": {
+"v": 2000.0,
+"tol": 0.02,
+"u": "N/C"
+}
+}
+}
+}

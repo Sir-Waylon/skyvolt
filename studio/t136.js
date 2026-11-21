@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});const p=await(await b.newContext()).newPage();
+await p.goto('file://'+process.cwd()+'/out/_app_skyvolt/circuit/index.html');await p.waitForTimeout(500);
+console.log(await p.evaluate(()=>{const q=P.questions.find(x=>x.id==='diode-057');const f=['gradeNum','checkNum','gradeShort','isRight','correctAns'].filter(n=>typeof window[n]==='function');const q2=P.questions.find(x=>x.id==='diode-057');return JSON.stringify(['diode-057','diode-068','diode-006','hands-001','static-064','circ-308','diode-018'].map(function(i){var q=P.questions.find(function(x){return x.id===i});return i+' '+ansText(q)}))}));await b.close()})()

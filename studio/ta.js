@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});const p=await(await b.newContext({viewport:{width:360,height:800}})).newPage();
+await p.goto('file://'+process.argv[2]+'/out/skyvolt/account/index.html');await p.waitForTimeout(400);
+console.log(await p.evaluate(()=>[...document.querySelectorAll('a,button,input,select,summary')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&r.height&&(r.height<24||r.width<24)&&!e.closest('p,li,.doc')}).map(e=>e.outerHTML.slice(0,120)+' '+JSON.stringify(e.getBoundingClientRect().toJSON()))));await b.close()})()

@@ -1,1 +1,54 @@
-{"fix": {"tg-xh1068": {"pairs": [["y = sin 2x", "π"], ["y = cos(x/2)", "4π"], ["y = tan(x/2)", "2π"], ["y = sin(πx)", "2"]], "sol": ["Sine and cosine: period 2π ÷ B. Tangent: period π ÷ B.", "sin 2x: 2π/2 = π. cos(x/2): 2π ÷ ½ = 4π. tan(x/2): π ÷ ½ = 2π.", "sin(πx): 2π/π = 2."], "w": "Divide the base period by B."}}}
+{
+"fix": {
+"tg-xh1068": {
+"pairs": [
+[
+"y = sin 2x",
+"π"
+],
+[
+"y = cos(x/2)",
+"4π"
+],
+[
+"y = tan(x/2)",
+"2π"
+],
+[
+"y = sin(πx)",
+"2"
+]
+],
+"sol": [
+"Sine and cosine: period 2π ÷ B. Tangent: period π ÷ B.",
+"sin 2x: 2π/2 = π. cos(x/2): 2π ÷ ½ = 4π. tan(x/2): π ÷ ½ = 2π.",
+"sin(πx): 2π/π = 2."
+],
+"w": "Divide the base period by B."
+},
+"lm-010": {
+"q": "Find the limit as x → 5 of x − 1.",
+"sol": [
+"For a polynomial just substitute.",
+"5 − 1 = 4."
+],
+"w": "5 − 1 = 4."
+},
+"sr-009": {
+"sol": [
+"Ratio r = 1/2, and |r| < 1.",
+"S = a/(1 − r) = 7/(1/2) = 14."
+],
+"w": "S = a/(1 − r) = 7/(1/2) = 14."
+},
+"ra-123": {
+"sol": [
+"Rates add: 1/48 + 1/16 = 1/48 + 3/48 = 4/48 = 1/12 per hour.",
+"So together they take 12 hours."
+]
+},
+"tc-098": {
+"q": "A clock’s minute hand is 7 cm long. Its tip sweeps through 120°. How long is the arc the tip traces (cm, 2 decimals)?"
+}
+}
+}
