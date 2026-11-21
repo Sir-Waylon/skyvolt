@@ -20,6 +20,7 @@ const c=new U();[s,j]=await c.call('POST','/login',{id:'alice_1',password:'wrong
 [s,j]=await new U().call('GET','/me');t('unauth 401',s===401);
 [s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:100}},{nocsrf:1});t('csrf required',s===403);
 [s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:100,x:1},shared:{days:{}},pub:{av:'a2',lv:3,st:2}});t('sync',s===200);
+[s,j]=await a.call('POST','/sync',{pack:'p-2',state:{xp:50}});[s,j]=await a.call('GET','/xp');t('xp summary totals packs',s===200&&j.total===150&&j.packs['p-2']===50);
 [s,j]=await a.call('POST','/sync',{pack:'p-1',state:{xp:999999}});t('implausible xp rejected',s===422);
 [s,j]=await a.call('GET','/save?pack=p-1');t('save roundtrip',s===200&&j.state.xp===100);
 [s,j]=await b.call('POST','/sync',{pack:'p-1',state:{xp:60},pub:{av:'a1',lv:2,st:1}});
