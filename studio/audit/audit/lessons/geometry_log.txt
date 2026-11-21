@@ -1,0 +1,8 @@
+## LESSON log-L1: If–then statements · Converse, inverse, contrapositive
+KEY log-L1#0 | If–then statements | 'If p, then q.' p is the hypothesis and q is the conclusion. A statement is true only if it can never fail. | CHECK Q: What is the converse of 'If a figure is a square, then it has four sides'?
+KEY log-L1#1 | Converse, inverse, contrapositive | Converse: swap p and q. Inverse: negate both. Contrapositive: swap AND negate. Only the contrapositive always matches the original. | CHECK Q: What is the contrapositive of 'If p, then q'?
+KEY log-L1#2 | Counterexamples | One example that makes the hypothesis true and the conclusion false proves a statement false.
+## LESSON log-L2: Inductive vs deductive · Two-column proofs
+KEY log-L2#0 | Inductive vs deductive | Inductive finds a pattern from examples and may be wrong. Deductive uses facts to reach a sure conclusion, like in a proof. | CHECK Q: You see 2, 4, 6, 8 and conclude the next even number is 10. This is…
+KEY log-L2#1 | Two-column proofs | Each statement needs a reason: given, definition, postulate or theorem. Start with the givens; finish with what you prove. | CHECK Q: Proof: Two distinct lines intersect in at most one point (indirect proof). What is the reason for “P and Q are on both lines”?
+KEY log-L2#2 | Indirect proof | Assume the opposite of what you want. Show it leads to a contradiction. Then the original must be true. | CHECK Q: “If a figure is a rhombus, then it is a square.” Is the CONTRAPOSITIVE true or false? (Assume the original is as stated.)

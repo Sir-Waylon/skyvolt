@@ -1,0 +1,41 @@
+# meteorology-b / precip: Precipitation and floods  (39 questions, 32 families)
+## STUDY NOTE (what students are taught)
+How it forms: Process Result Collision-coalescence Drops merge into bigger drops (warm clouds) Bergeron process Ice crystals grow while supercooled drops shrink (cold clouds) Riming Supercooled drops freeze onto ice (builds graupel and hail) Aggregation Ice crystals stick together (snowflakes) Type Layers it fell through Snow Cold all the way down Sleet Snow melts, then refreezes as ice pellets in a cold layer near the ground Freezing rain Rain falls on a surface below 0 °C and freezes on contact Hail Strong updraft keeps stones aloft, they grow by riming Rain Warm all the way down Flood types: flash (minutes to hours), stream/river (rises over days), urban (drains overwhelmed). Burn scars and steep land produce debris flows and mudslides. Hail: pea ¼ in, penny ¾ in, quarter 1 in (severe), golf ball 1¾ in, baseball 2¾ in. States/Nationals: an IDF curve shows rainfall intensity versus duration for a return period. Longer duration = lower intensity. Rarer storms (100-yr) plot higher. Chance in any year = 1 ÷ return period.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+precip-001 | 1 | short | Which process lets cloud droplets merge into raindrops in warm clouds? || Collision-coalescence | Collision-coalescences || Bergeron process ; Riming ; Aggregation || Droplets collide and merge.
+precip-002 | 2 | mcq | In the Bergeron process, ice crystals grow because… || Supercooled droplets evaporate and the vapor deposits on ice || Ice crystals melt and refreeze ; Droplets collide with each other ; Wind blows snow upward || Vapor pressure over ice is lower, so ice grows at droplets' expense.
+precip-003 | 2 | mcq | Riming happens when… || Supercooled drops freeze onto an ice particle || Ice crystals stick to one another ; Raindrops merge ; Snow melts and refreezes || Riming builds graupel and hail.
+precip-004 | 2 | short | Snowflakes mostly form by… || Aggregation | Aggregations || Collision-coalescence ; Condensation only ; Riming only || Ice crystals collide and stick.
+precip-005 | 2 | mcq | Sleet forms when… || Snow melts in a warm layer, then refreezes in a cold layer near the ground || Rain freezes on contact with a cold road ; Hail melts ; Supercooled drops freeze in the cloud || The drops refreeze before reaching the surface.
+precip-006 | 2 | mcq | Freezing rain differs from sleet because freezing rain… || Falls as liquid and freezes on contact || Is made of ice pellets ; Forms in warm clouds only ; Falls only in summer || Freezing rain coats surfaces.
+precip-007 | 1 | mcq | Hail forms in… || Strong updrafts of thunderstorms || Stratus clouds ; Fog ; Cirrus layers || Updrafts hold stones aloft so they grow.
+precip-008 | 2 | mcq | Hail is usually called severe if it is at least… || 1 inch across || 0.25 inch across ; 0.5 inch across ; 3 inches across || NWS uses 1 inch (quarter size).
+precip-009 | 2 | short | Which type of flood develops within minutes to hours of heavy rain? || Flash flood | Flash floods || River flood ; Coastal flood ; Drought flood || Flash floods are rapid.
+precip-010 | 2 | mcq | Heavy rain on a recent burn scar often triggers… || Debris flows and mudslides || Blizzards ; Hail ; Derechos || Burned ground repels water and loosens soil.
+precip-011 | 3 | short | A bridge crossing a river has water rising for days after upstream storms. What type of flood is this? || River flood | River floods || Flash flood ; Urban flood ; Storm surge || Slow-rising large-river flooding follows widespread upstream rain.
+precip-012 | 3 | short | An intensity-duration-frequency (IDF) curve for a 100-year storm shows that as duration gets longer, intensity… || Decreases | Decrease || Increases ; Stays the same ; Doubles every hour || Short bursts have higher rain rates.
+precip-013 | 3 | mcq | Which has a higher chance of occurring in any given year? || A 10-year storm || A 100-year storm ; A 500-year storm ; They are equal || Probability = 1 ÷ return period.
+precip-014 | 2 | short | Heavy snow on a flat roof is a hazard because of… || Snow load | Snow loads || Wind shear ; Hail ; Low pressure || The weight of snow can collapse structures.
+### FAMILY rp1: 6 generated variants of one template (3 shown; numbers vary)
+precip-015 | 2 | short | A 2-year flood has what percent chance of happening in any single year? || 50.0 (tol 0.02) ||  || 1 ÷ 2 = 50%.
+precip-016 | 2 | short | A 25-year flood has what percent chance of happening in any single year? || 4.0 (tol 0.02) ||  || 1 ÷ 25 = 4%.
+precip-017 | 2 | short | A 100-year flood has what percent chance of happening in any single year? || 1.0 (tol 0.02) ||  || 1 ÷ 100 = 1%.
+precip-021 | 3 | short | A 100-year flood has a 1% chance each year. What is the chance (nearest %) of at least one in 30 years? || 26.0 (tol 1.01) ||  || 1 − 0.740 = 0.26 → 26%.
+precip-022 | 3 | short | A 100-year flood has a 1% chance each year. What is the chance (nearest %) of at least one in 10 years? || 10.0 (tol 1.01) ||  || 1 − 0.904 = 0.10 → 10%.
+precip-023 | 3 | short | A 100-year flood has a 1% chance each year. What is the chance (nearest %) of at least one in 50 years? || 39.0 (tol 1.01) ||  || 1 − 0.605 = 0.39 → 39%.
+precip-024 | 1 | mcq | Hail forms in… || Strong updrafts of thunderstorms || Warm fog ; High cirrus ; Calm clouds || Ice grows as it is lifted again and again.
+precip-025 | 1 | mcq | Sleet is… || Rain that freezes into ice pellets || Snow that melts ; Hail ; Fog || It freezes before hitting the ground.
+precip-026 | 2 | mcq | Freezing rain is dangerous because it… || Coats surfaces with ice || Is very heavy ; Is silent ; Has no warning || Supercooled rain freezes on contact.
+precip-027 | 2 | mcq | A flash flood warning means… || Flooding is happening or about to || Flooding may occur this week ; The river is low ; Rain ended || Move to higher ground.
+precip-028 | 1 | mcq | Turn around, don't drown means… || Never drive through flooded roads || Swim away from floods ; Wait in your car in flood water ; Drive faster || Just 6 inches of moving water can knock you down; 12 can carry a car.
+precip-029 | 2 | short | Rain falls at 5 mm per hour. Using light < 2.5, moderate 2.5 to 7.6, heavy > 7.6 mm/hr, how would you describe it? || moderate | moderate rain ||  || That is moderate rain.
+precip-030 | 2 | short | A snowfall has a 10:1 snow-to-liquid ratio. How many cm of snow fall when the liquid equivalent is 5 cm? || 50.0 (tol 0.02) ||  || 5 × 10 = 50 cm.
+precip-031 | 1 | short | Water falling from clouds as rain, snow, sleet or hail is called… || precipitation ||  || All of these are precipitation.
+precip-032 | 1 | short | A sudden, quick rise of water in a stream or on land after heavy rain is a… || flash flood | flood ||  || This is a flash flood.
+precip-033 | 1 | short | If you see water covering a road, what should you do? || turn around | turn around don't drown | go another way | turn around, don't drown | do not drive through | don't drive through ||  || Turn around, don't drown.
+precip-034 | 1 | short | Which freezes into balls of ice during strong thunderstorms: rain or hail? || hail ||  || Raindrops are lifted high and freeze in layers.
+precip-035 | 2 | short | A storm drops 12 mm of rain per hour for 4 hours. How many millimeters of rain is that in total? || 48.0 (tol 0.02) ||  || 48 mm.
+precip-036 | 2 | short | Convert 2.54 cm of rain to inches. (1 in = 2.54 cm) || 1.0 (tol 0.02) ||  || 2.54 ÷ 2.54 = 1 inch.
+precip-037 | 2 | short | A rain gauge records 3 inches of rain in 6 hours. What is the average rate in inches per hour? || 0.5 (tol 0.02) ||  || 0.5 in/hr.
+precip-038 | 2 | short | A watch vs. a warning: which one means flooding is already happening or imminent? || warning | flash flood warning | a warning ||  || A warning means it is happening or about to happen.
+precip-039 | 2 | short | Why do flash floods happen faster in cities? || pavement does not absorb water | pavement doesn't absorb water | runoff | water runs off pavement | impervious surfaces | concrete doesn't absorb ||  || Water runs off quickly into streets and streams.

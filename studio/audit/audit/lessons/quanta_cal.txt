@@ -1,0 +1,8 @@
+## LESSON cal-L1: Motion with calculus · Work from a variable force
+KEY cal-L1#0 | Motion with calculus | Velocity is the derivative of position, and acceleration the derivative of velocity. Going backwards: v = ∫a dt and x = ∫v dt, with initial conditions as constants. | FORMULA: v = ∫a dt
+KEY cal-L1#1 | Work from a variable force | When force changes with position, work is the area under the F–x curve: W = ∫F dx. | FORMULA: W = ∫F dx | CHECK Q: A force F(x) = 2x² newtons acts as an object moves from x = 0 to x = 5 m. How much work does it do?
+KEY cal-L1#2 | Impulse from a variable force | Impulse is the area under the F–t curve: J = ∫F dt = Δp. | FORMULA: J = ∫F dt
+## LESSON cal-L2: Force from potential energy · Centre of mass
+KEY cal-L2#0 | Force from potential energy | Force is minus the slope of the potential energy curve: F = −dU/dx. Equilibrium is where the slope is zero; stable where U has a minimum. | FORMULA: F = −dU/dx
+KEY cal-L2#1 | Centre of mass | For continuous mass: x_cm = ∫x dm / ∫dm. For a rod with density λ(x), dm = λ dx. | FORMULA: x_cm = ∫x dm / M
+KEY cal-L2#2 | Moment of inertia by integration | I = ∫r² dm. Uniform rod about its end: ML²/3. About its centre: ML²/12. | FORMULA: I = ∫r² dm

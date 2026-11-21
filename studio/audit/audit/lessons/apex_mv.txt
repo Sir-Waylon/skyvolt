@@ -1,0 +1,5 @@
+## LESSON mv-L1: Vectors in space · Partial derivatives
+KEY mv-L1#0 | Vectors in space | A vector has direction and size. The dot product a·b = a₁b₁ + a₂b₂ + a₃b₃ is zero exactly when the vectors are perpendicular. The magnitude is |a| = √(a·a). | FORMULA: a·b = a₁b₁ + a₂b₂ + a₃b₃ | CHECK Q: Are ⟨1, 2, 0⟩ and ⟨2, −1, 5⟩ perpendicular? Type 1 for yes, 0 for no.
+KEY mv-L1#1 | Partial derivatives | For f(x, y), the partial ∂f/∂x treats y as a constant and differentiates in x. It is the slope of the surface when you walk in the x direction. | FORMULA: ∂f/∂x: hold y fixed
+KEY mv-L1#2 | The gradient | ∇f = (∂f/∂x, ∂f/∂y) points in the direction of steepest increase, and its length is that steepest slope. It is perpendicular to level curves. | FORMULA: ∇f = (fₓ, f_y)
+KEY mv-L1#3 | Double integrals | ∬ f dA adds up f over a region. For a rectangle, integrate in one variable, then the other. With f = 1, it gives the area; in general, the volume under the surface. | FORMULA: ∬ f dA | CHECK Q: Find the area of the rectangle 0 ≤ x ≤ 5, 0 ≤ y ≤ 3 using ∬ 1 dA.

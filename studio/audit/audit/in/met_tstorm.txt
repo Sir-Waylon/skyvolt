@@ -1,0 +1,31 @@
+# meteorology-b / tstorm: Severe thunderstorms  (53 questions, 24 families)
+## STUDY NOTE (what students are taught)
+NWS "severe": hail ≥ 1 inch, wind ≥ 58 mph, or a tornado. Type Key trait Single-cell One short-lived cell Multicell Cluster or line at different stages Supercell One long-lived storm with a rotating updraft (mesocyclone). Makes the strongest tornadoes MCC Large round long-lived cluster Life cycle: cumulus (updraft only) → mature (updraft + downdraft, worst weather) → dissipating (downdraft only).
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+tstorm-001 | 1 | short | A thunderstorm with a persistent rotating updraft is a… || Supercell | Supercells || Single-cell ; Multicell ; MCC || Mesocyclones define supercells.
+tstorm-002 | 2 | short | A large, long-lived, organized cluster of thunderstorms covering a big area is a… || Mesoscale convective complex | Mesoscale convective complexs || Supercell ; Single-cell storm ; Squall || MCCs are large and round on satellite.
+tstorm-003 | 2 | short | Which stage has both an updraft and a downdraft? || Mature | Matures || Cumulus ; Dissipating ; Formation || Mature is the most violent stage.
+tstorm-004 | 2 | short | During the cumulus stage, the main motion is… || Updraft | Updrafts || Downdraft ; Rotation only ; Outflow only || Warm air rises to build the cloud.
+tstorm-005 | 2 | short | In the dissipating stage, which motion dominates? || Downdraft | Downdrafts || Updraft ; Rotation ; Inflow || The updraft is cut off.
+tstorm-006 | 2 | short | A cluster of cells at different stages that keep forming new storms is a… || Multicell storm | Multicell storms || Supercell ; Single-cell ; Waterspout || Outflow triggers new cells.
+tstorm-007 | 2 | mcq | NWS criteria for a severe thunderstorm include hail at least… || 1 inch || 0.5 inch ; 2 inches ; 4 inches || 1 inch, or wind of 58 mph, or a tornado.
+tstorm-008 | 3 | mcq | Why can a supercell last much longer than an ordinary cell? || Its updraft and downdraft are separated so they do not cancel || It has no downdraft ; It moves very slowly ; It forms only at night || Separate inflow and outflow regions sustain the storm.
+tstorm-009 | 3 | mcq | A very strong, long-lived thunderstorm forms with a rotating updraft. Which storm is the most likely to produce a strong tornado? || Supercell || Single-cell ; Squall line ; Air-mass pulse || Rotation tightens into tornado.
+### FAMILY mo1: 30 generated variants of one template (3 shown; numbers vary)
+tstorm-010 | 2 | short | A storm is 128 miles away and moves toward you at 20 mph. How long until it arrives (hours, nearest tenth)? || 6.4 (tol 0.06) ||  || 128 ÷ 20 = 6.40 h.
+tstorm-011 | 2 | short | A storm is 97 miles away and moves toward you at 30 mph. How long until it arrives (hours, nearest tenth)? || 3.2 (tol 0.06) ||  || 97 ÷ 30 = 3.23 h.
+tstorm-012 | 2 | short | A storm is 35 miles away and moves toward you at 25 mph. How long until it arrives (hours, nearest tenth)? || 1.4 (tol 0.06) ||  || 35 ÷ 25 = 1.40 h.
+tstorm-040 | 1 | mcq | A thunderstorm is severe if it produces… || Hail 1 inch or larger, winds 58 mph or more, or a tornado || Any rain ; Only lightning ; Wind 20 mph || NWS criteria.
+tstorm-041 | 2 | mcq | A supercell is… || A thunderstorm with a rotating updraft || A small shower ; A snowstorm ; A fog bank || The mesocyclone makes it special.
+tstorm-042 | 2 | mcq | What is a downburst? || A strong downdraft that spreads out at the ground || A tornado ; A type of hail ; A rising bubble || It can cause straight-line wind damage.
+tstorm-043 | 3 | mcq | A mesoscale convective system (MCS) is… || A large organized cluster of thunderstorms || A single thunderstorm ; A hurricane ; A front || They can last for hours and cover wide areas.
+tstorm-044 | 1 | short | A thunderstorm is severe if it makes hail at least how many inches across? || 1.0 (tol 0.02) ||  || 1 inch.
+tstorm-045 | 1 | short | What three ingredients make a thunderstorm: moisture, lift and what else? || instability | unstable air ||  || The three are moisture, lift and instability.
+tstorm-046 | 1 | short | Which thunderstorm stage has both updrafts and downdrafts: developing, mature or dissipating? || mature ||  || Rain falls and drags air down while updrafts continue.
+tstorm-047 | 1 | short | A thunderstorm that makes strong rotating updrafts and lasts for hours is called a… || supercell ||  || Supercells make most big tornadoes and large hail.
+tstorm-048 | 2 | short | A thunderstorm is classified severe if wind gusts reach at least 58 mph. A gust of 50 mph is how many mph below that threshold? || 8.0 (tol 0.02) ||  || 8 mph below.
+tstorm-049 | 2 | short | The rotating updraft in a supercell is called a… || mesocyclone ||  || A mesocyclone is the rotating updraft.
+tstorm-050 | 2 | short | A strong storm outflow of sinking air that spreads at the ground is called a… || downburst | outflow | gust front ||  || This sudden wind is a downburst.
+tstorm-051 | 2 | short | Thunderstorms that form in a line are called a… || squall line ||  || A squall line often has damaging winds.
+tstorm-052 | 2 | short | A multicell storm keeps renewing itself by forming new cells where? || along the gust front | at the gust front | on the gust front | near the gust front | along the outflow | outflow boundary ||  || New updrafts form along the gust front.
+tstorm-053 | 2 | short | To grow large hail you need a strong… || updraft ||  || Stronger updrafts hold bigger stones aloft.

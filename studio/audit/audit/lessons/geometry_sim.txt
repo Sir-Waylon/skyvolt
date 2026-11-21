@@ -1,0 +1,8 @@
+## LESSON sim-L1: Ratio and proportion · Similar figures
+KEY sim-L1#0 | Ratio and proportion | A ratio compares two numbers. A proportion says two ratios are equal. Cross-multiply to solve. | FORMULA: a/b = c/d → ad = bc | CHECK Q: A poster and its small copy have matching lengths in the ratio 7 : 6. The poster length is 21 cm. Find the copy’s matching length (cm).
+KEY sim-L1#1 | Similar figures | Same shape, different size. Corresponding angles are equal and corresponding sides are in the same ratio (the scale factor). | FORMULA: △ABC ∼ △DEF | CHECK Q: Which is enough to prove two triangles similar?
+KEY sim-L1#2 | Prove triangles similar | AA is enough. Also SAS∼ (two sides in proportion, included angle equal) and SSS∼ (all three sides in proportion).
+## LESSON sim-L2: Side-splitter · Angle bisector theorem
+KEY sim-L2#0 | Side-splitter | A line parallel to one side of a triangle cuts the other two sides in proportion. | FORMULA: AD/DB = AE/EC | CHECK Q: Proof: A line parallel to one side of a triangle divides the other two sides proportionally. What is the reason for “∠A ≅ ∠A”?
+KEY sim-L2#1 | Angle bisector theorem | An angle bisector in a triangle divides the opposite side in the same ratio as the two sides next to it. | CHECK Q: Proof: A line parallel to one side of a triangle divides the other two sides proportionally. What is the reason for “∠ADE ≅ ∠ABC”?
+KEY sim-L2#2 | Perimeter and area | If the scale factor is k, perimeters scale by k and areas scale by k². Volumes scale by k³. | FORMULA: k : k² : k³ | CHECK Q: A model of a pond and the real pond are similar shapes with scale factor 1 : 2. The model’s perimeter is 20 m. Find the real pond’s perimete

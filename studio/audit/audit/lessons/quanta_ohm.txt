@@ -1,0 +1,8 @@
+## LESSON ohm-L1: Charge, current and voltage · Resistance
+KEY ohm-L1#0 | Charge, current and voltage | Current is how much charge flows past a point each second. Voltage is the push that makes charge flow, like water pressure in a pipe. | FORMULA: I = Q ÷ t | CHECK Q: A wire carries 2 coulombs of charge past a point every second. In 3 seconds, how many coulombs pass?
+KEY ohm-L1#1 | Resistance | Resistance is how much a part holds back current, like a narrow pipe. It is measured in ohms (Ω).
+KEY ohm-L1#2 | Ohm's law | Voltage, current and resistance are linked: V = I × R. Double the voltage and the current doubles. | FORMULA: V = IR
+## LESSON ohm-L2: Series circuits · Parallel circuits
+KEY ohm-L2#0 | Series circuits | In series there is one path. The same current goes through every part, resistances add, and voltages share the supply. | FORMULA: R = R₁ + R₂ + … | CHECK Q: A 24 V supply is connected across a 8 Ω resistor. What current flows? (I = V/R)
+KEY ohm-L2#1 | Parallel circuits | In parallel there are branches. Every branch gets the full supply voltage, and the currents add. | FORMULA: 1/R = 1/R₁ + 1/R₂ + …
+KEY ohm-L2#2 | Electric power | Power is how fast energy is used. A 60 W bulb uses 60 joules every second. | FORMULA: P = IV = I²R = V²/R | CHECK Q: A wire carries 6 coulombs of charge past a point every second. In 3 seconds, how many coulombs pass?

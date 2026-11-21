@@ -1,0 +1,13 @@
+## LESSON static-L1: Two kinds of charge · Who moves?
+KEY static-L1#0 | Two kinds of charge | Positive and negative. Opposites attract. Likes repel. Think of magnets: the same idea. | CHECK Q: Electric field lines near an isolated negative point charge point:
+KEY static-L1#1 | Who moves? | In solids, only electrons move. Gain electrons and you are negative. Lose electrons and you are positive. | CHECK Q: A glass rod rubbed with silk becomes positively charged. This happens because:
+KEY static-L1#2 | Static electricity | Charge that stays put. It has voltage but no steady current. Rubbing two insulators (balloon and hair) moves electrons from one to the other. | CHECK Q: Two electrons near each other will:
+## LESSON static-L2: Dry air, more shocks · Coulomb's Law
+KEY static-L2#0 | Dry air, more shocks | Dry air lets charge pile up. Humid air lets it leak away. That is why winter shocks are common. | CHECK Q: Static charge builds up more easily when the air is:
+KEY static-L2#1 | Coulomb's Law | Force between two charges. Bigger charges mean a bigger force. More distance means a much smaller force. | FORMULA: F = k·q₁·q₂ / r² | CHECK Q: One point charge is multiplied by 4 and the distance between the two charges is multiplied by 3. The electrostatic force (original force F) 
+KEY static-L2#2 | Distance is squared | Double the distance and the force drops to 1/4. Triple it and the force drops to 1/9. Use meters and coulombs in the formula. | FORMULA: k = 8.99×10⁹ N·m²/C² | CHECK Q: One point charge is multiplied by 3 and the distance between the two charges is multiplied by 2. The electrostatic force (original force F) 
+## LESSON static-L3: Unit helpers · Electric field
+KEY static-L3#0 | Unit helpers | 1 µC = 0.000001 C. 1 nC = 0.000000001 C. 1 cm = 0.01 m. Convert BEFORE you plug in numbers.
+KEY static-L3#1 | Electric field | The push each charge would feel. It points away from + and toward −. Strength is force per charge. | FORMULA: E = F / q | CHECK Q: A 3.0 µC test charge feels a force of 0.12 N. Find the electric field strength.
+KEY static-L3#2 | Why a balloon sticks | The balloon pushes like charges away inside the wall and pulls opposite charges close. Closer opposite charges win, so it sticks. | CHECK Q: A charged object comes near a neutral insulator, shifting its charges slightly without a net charge change. What is this called?
+KEY static-L3#3 | Charging by induction | Bring a charged rod near (not touching) a metal ball, ground the ball, remove the ground, then remove the rod. The ball keeps the OPPOSITE charge. | CHECK Q: A charged rod near a grounded neutral metal sphere leaves the sphere charged after the ground is removed. What is this charging method calle

@@ -1,0 +1,9 @@
+## LESSON sym-L1: What is symbolic logic? · Modus ponens
+KEY sym-L1#0 | What is symbolic logic? | Short code for if-then thinking. ∧ means AND. ∨ means OR. → means if-then. ~ means NOT.
+KEY sym-L1#1 | Modus ponens | If P then Q. P is true. So Q is true. | FORMULA: P→Q, P ∴ Q | CHECK Q: If the circuit is open (O), then no current flows (N). The circuit is open. Which conclusion follows?
+KEY sym-L1#2 | Modus tollens | If P then Q. Q is false. So P is false. | FORMULA: P→Q, ~Q ∴ ~P | CHECK Q: Given Q → S and ~S, what follows?
+## LESSON sym-L2: Hypothetical syllogism · Disjunctive syllogism
+KEY sym-L2#0 | Hypothetical syllogism | Chain the ifs. | FORMULA: P→Q, Q→R ∴ P→R | CHECK Q: If the switch is closed (S) the relay clicks (R). If the relay clicks, the motor runs (M). Which conclusion follows by hypothetical syllogis
+KEY sym-L2#1 | Disjunctive syllogism | P or Q. Not P. So Q. | FORMULA: P∨Q, ~P ∴ Q | CHECK Q: Given Q ∨ S and ~Q, what follows?
+KEY sym-L2#2 | Other rules | Simplification: P∧Q gives P. Addition: P gives P∨Q. Double negation: ~~P = P. | CHECK Q: Which rule justifies this step?   ~(~D)  ∴  D
+KEY sym-L2#3 | Bad arguments | "If P then Q. Q. So P." is WRONG (affirming the consequent). "If P then Q. ~P. So ~Q." is WRONG (denying the antecedent). | CHECK Q: Given A → R and A, what follows?

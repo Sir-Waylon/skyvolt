@@ -1,0 +1,7 @@
+## LESSON flt-L1: Frequency response · RC cutoff
+KEY flt-L1#0 | Frequency response | A filter treats frequencies differently. A low-pass filter keeps low frequencies, a high-pass keeps high ones, and a band-pass keeps a range. | CHECK Q: A high-pass filter passes low or high frequencies? Type 1 for high, 0 for low.
+KEY flt-L1#1 | RC cutoff | An RC filter drops to 70.7% (−3 dB) of the input at the cutoff frequency f_c = 1/(2πRC). | FORMULA: f_c = 1/(2πRC) | CHECK Q: At its cutoff frequency, how many dB has an RC filter's output fallen by? (positive number)
+KEY flt-L1#2 | Decibels | Decibels compare sizes on a log scale: dB = 20 log₁₀(V_out/V_in) for voltage. Every factor of 10 is 20 dB; halving is about −6 dB. | FORMULA: dB = 20 log₁₀(Vout/Vin)
+## LESSON flt-L2: Resonance · Quality factor
+KEY flt-L2#0 | Resonance | A series LC circuit has the lowest impedance at f₀ = 1/(2π√(LC)), where X_L = X_C. Radios tune by changing this frequency. | FORMULA: f₀ = 1/(2π√LC) | CHECK Q: An RC low-pass filter has R = 8000 Ω and C = 220 nF. Find the cutoff frequency in Hz (nearest Hz).
+KEY flt-L2#1 | Quality factor | Q = f₀/bandwidth tells how sharp the resonance is. A series RLC has Q = X_L/R at resonance.

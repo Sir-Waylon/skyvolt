@@ -1,0 +1,16 @@
+## LESSON hands-L1: Breadboard basics · Using the multimeter
+KEY hands-L1#0 | Breadboard basics | Short columns of five holes are connected. The long side rails run the full length. The center gap separates the two halves. | CHECK Q: On a typical breadboard, the five holes in one short column on one side of the center gap are:
+KEY hands-L1#1 | Using the multimeter | Red lead in the V/Ω jack. Black lead in COM. Pick DC volts (straight line). Start on the highest range. | CHECK Q: Which multimeter dial symbol selects DC voltage?
+KEY hands-L1#2 | Measuring voltage | Touch the probes across the part, power ON. This is parallel. | CHECK Q: To measure the voltage across a resistor, the meter is connected:
+## LESSON hands-L2: Measuring resistance · Mystery resistor
+KEY hands-L2#0 | Measuring resistance | Power OFF. Take the part out, or lift one leg, so other paths do not fool you. | CHECK Q: To measure the value of a resistor that is part of a circuit most accurately, you should:
+KEY hands-L2#1 | Mystery resistor | Put a known resistor in series. Measure both voltages. Same current means voltage ratio equals resistance ratio. | FORMULA: Rx = R_known × V_x / V_known | CHECK Q: Mystery resistor: a known 470 Ω resistor is in series with Rx. You measure 2.0 V across the known resistor and 4.5 V across Rx. Rx is closes
+KEY hands-L2#2 | Equal-brightness LEDs | Use identical LEDs. Give each its own resistor of the same value. Put the two branches in parallel on the same battery. | CHECK Q: Which wiring most reliably gives two identical LEDs equal brightness from one battery?
+## LESSON hands-L3: USB charger puzzle · Target resistance
+KEY hands-L3#0 | USB charger puzzle | Read volts and amps on the label. Power = V × A. Charge time = battery Wh ÷ charger W (divide again by efficiency if given). | CHECK Q: A USB charger label reads: 5 V / 3 A, 9 V / 2 A, 12 V / 2 A. Which setting gives the most power?
+KEY hands-L3#1 | Target resistance | Mix series (add) and parallel (shrink) until you hit the target. Check with the meter BEFORE adding power. | CHECK Q: Resistors of 220 Ω, 330 Ω and 470 Ω are connected in series. What is the total resistance?
+KEY hands-L3#2 | Troubleshoot step 1 | Check the obvious first: power on? battery good? switch on? wire loose? Plugged in is the #1 problem of all time. | CHECK Q: The long strips along the edges of a breadboard (power rails) are:
+## LESSON hands-L4: Troubleshoot step 2 · Reading faults
+KEY hands-L4#0 | Troubleshoot step 2 | Draw the circuit and write the voltage you expect at each part. Measure with power on. Compare. | CHECK Q: You measure 6.0 V across and 0.40 A through a circuit. The power supplied to it is:
+KEY hands-L4#1 | Reading faults | In a series loop, the part with the FULL battery voltage across it is open. Other parts read 0 V. A part reading 0 V when it should have voltage may be shorted. | CHECK Q: Troubleshooting: a battery reads 9 V, the lamp reads 0 V, and the switch (set to ON) reads 9 V across its terminals. The fault is:
+KEY hands-L4#2 | Safety | Eye protection. Low voltage only. Never short a battery. Never use current mode across a source. Every LED gets a resistor. | CHECK Q: A multimeter set to read current (A) is connected across a 9 V battery. The most likely result is:

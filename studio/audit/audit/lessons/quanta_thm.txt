@@ -1,0 +1,7 @@
+## LESSON thm-L1: Heat and temperature · Specific heat
+KEY thm-L1#0 | Heat and temperature | Temperature measures how fast the particles jiggle on average. Heat is energy that flows from hot to cold. Both are not the same thing. | CHECK Q: A heat engine takes 1100 J from a hot source and has efficiency 0.2. How much work does it do (J)?
+KEY thm-L1#1 | Specific heat | Q = mcΔT gives the heat needed to change a temperature. Water has c = 4186 J/(kg·°C), which is why it warms slowly. | FORMULA: Q = mcΔT | CHECK Q: How much heat raises 4 kg of water by 59 °C? (c = 4186 J/(kg·°C), answer in kJ, 1 decimal)
+KEY thm-L1#2 | Phase changes | Melting or boiling takes energy with no temperature change. Q = mL, with L the latent heat. For water, L_fusion ≈ 334 kJ/kg and L_vaporization ≈ 2260 kJ/kg. | FORMULA: Q = mL | CHECK Q: How much heat raises 2 kg of water by 60 °C? (c = 4186 J/(kg·°C), answer in kJ, 1 decimal)
+## LESSON thm-L2: Gas laws · Heat engines
+KEY thm-L2#0 | Gas laws | For a fixed amount of gas, PV/T stays constant, with T in kelvin. K = °C + 273. The ideal gas law is PV = nRT. | FORMULA: PV = nRT | CHECK Q: Convert 86 °C to kelvin.
+KEY thm-L2#1 | Heat engines | An engine takes heat Qh from a hot source, does work W and dumps Qc. Efficiency is e = W/Qh = 1 − Qc/Qh. The best possible efficiency is 1 − Tc/Th (kelvin). | FORMULA: e = W/Qh | CHECK Q: A heat engine takes 1400 J from a hot source and has efficiency 0.4. How much work does it do (J)?

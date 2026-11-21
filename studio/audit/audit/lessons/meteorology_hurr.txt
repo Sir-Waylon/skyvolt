@@ -1,0 +1,9 @@
+## LESSON hurr-L1: Same storm · Life cycle
+KEY hurr-L1#0 | Same storm | Hurricane, typhoon, and cyclone are one storm type named by ocean. | CHECK Q: A hurricane, a typhoon, and a cyclone are…
+KEY hurr-L1#1 | Life cycle | Invest, depression, tropical storm (39–73 mph), hurricane (74+), major hurricane (Cat 3+). | CHECK Q: A tropical storm has winds of 65 mph. How many mph more are needed to be a hurricane (74 mph)?
+KEY hurr-L1#2 | Saffir-Simpson | Cat 1: 74–95. Cat 2: 96–110. Cat 3: 111–129. Cat 4: 130–156. Cat 5: 157+ mph. | CHECK Q: A hurricane has sustained winds of 105 mph. Which Saffir–Simpson category? (1: 74–95, 2: 96–110, 3: 111–129, 4: 130–156, 5: 157+)
+## LESSON hurr-L2: Needs · Structure
+KEY hurr-L2#0 | Needs | Warm water (26.5 °C+), moisture, low shear, away from the equator. | CHECK Q: A hurricane needs warm ocean water. About what temperature, in °C, is the minimum?
+KEY hurr-L2#1 | Structure | Eye: calm. Eyewall: worst wind and rain. Spiral bands: showers, tornadoes. | CHECK Q: Spiral bands in a hurricane can sometimes produce…
+KEY hurr-L2#2 | Storm surge | Water pushed onshore. Bigger with strong, large, slow storms and shallow coasts. Often the deadliest hazard. | CHECK Q: Storm surge is…
+KEY hurr-L2#3 | Weakening | Land, wind shear, dry air, and cooler water all weaken a storm. | CHECK Q: How does a hurricane weaken when it moves over land: it loses its supply of…?

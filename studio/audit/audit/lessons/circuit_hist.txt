@@ -1,0 +1,12 @@
+## LESSON hist-L1: Who is who · Coulomb (1785)
+KEY hist-L1#0 | Who is who | Seven names to know: Coulomb, Volta, Ampère, Ohm, Kirchhoff, Boole, Hertz. Each one gave us a law, a unit, or a tool. Learn one clue per person. | CHECK Q: Which of these events happened first?
+KEY hist-L1#1 | Coulomb (1785) | Measured the push and pull between charges. Force gets weaker fast as distance grows. His name is the unit of charge: the coulomb (C). | CHECK Q: Coulomb measured the force between small charged spheres using a:
+KEY hist-L1#2 | Volta (1800) | Stacked zinc and copper discs with wet cloth. This "voltaic pile" was the first battery. His name is the unit of voltage: the volt (V). | CHECK Q: Who built the voltaic pile, the first chemical battery?
+## LESSON hist-L2: Ampère (1820s) · Ohm (1827)
+KEY hist-L2#0 | Ampère (1820s) | Showed that wires carrying current push or pull on each other. He linked electricity and magnetism. His name is the unit of current: the ampere (A). | CHECK Q: Ampère showed that two parallel wires carrying current exert a force on each other. This links electricity with which other phenomenon?
+KEY hist-L2#1 | Ohm (1827) | Found that current depends on voltage and resistance. | FORMULA: V = I × R | CHECK Q: Who formulated V = I·R, the law linking voltage, current and resistance?
+KEY hist-L2#2 | Kirchhoff (1845) | Two rules for circuits. Current in = current out at a junction. Voltages around a loop add up to zero. | CHECK Q: Whose two laws cover currents at a junction and voltages around a loop?
+## LESSON hist-L3: Boole (1854) · Hertz (1887)
+KEY hist-L3#0 | Boole (1854) | Built an algebra with only TRUE and FALSE (1 and 0). Every logic gate and computer uses his math. | CHECK Q: Whose algebra of true and false is the basis of digital logic gates?
+KEY hist-L3#1 | Hertz (1887) | Proved radio waves are real. His name is the unit of frequency: 1 hertz = 1 cycle per second. | CHECK Q: Who demonstrated that electromagnetic waves exist (and gave his name to frequency)?
+KEY hist-L3#2 | Memory trick | Charge = Coulomb. Voltage = Volta. Current = Ampère. Resistance = Ohm. Frequency = Hertz. Logic = Boole. Loops and junctions = Kirchhoff. | CHECK Q: Which scientist is correctly matched with the quantity whose SI unit carries his name?

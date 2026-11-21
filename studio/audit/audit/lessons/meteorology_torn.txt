@@ -1,0 +1,9 @@
+## LESSON torn-L1: Tornado · When and where
+KEY torn-L1#0 | Tornado | A violently rotating column touching the ground and a cloud. A waterspout is the same thing over water. | CHECK Q: A tornado is a violently rotating column of air that touches…
+KEY torn-L1#1 | When and where | Late afternoon, spring, Plains and Southeast. But it can happen any time.
+KEY torn-L1#2 | EF scale | EF0 65–85. EF1 86–110. EF2 111–135. EF3 136–165. EF4 166–200. EF5 over 200 mph. | CHECK Q: A tornado's estimated peak wind is 160 mph. What is its EF rating? (EF0 65–85, EF1 86–110, EF2 111–135, EF3 136–165, EF4 166–200, EF5 over 2
+## LESSON torn-L2: Which scale? · Hook echo
+KEY torn-L2#0 | Which scale? | Before 1 Feb 2007: Fujita (F). On or after: Enhanced Fujita (EF). Both rate damage. | CHECK Q: Which scale is used for tornadoes occurring after February 1, 2007?
+KEY torn-L2#1 | Hook echo | A reflectivity hook wrapping around the mesocyclone.
+KEY torn-L2#2 | TVS | Strong inbound and outbound velocity side by side. Intense rotation. | CHECK Q: On Doppler velocity radar, a tight pair of inbound and outbound winds next to each other shows…
+KEY torn-L2#3 | Debris ball | Low correlation coefficient inside the hook. Debris is in the air. | CHECK Q: Why does correlation coefficient (CC) drop inside a debris ball?

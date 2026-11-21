@@ -1,0 +1,8 @@
+## LESSON par-L1: Parallel lines and a transversal · Same-side interior
+KEY par-L1#0 | Parallel lines and a transversal | A transversal crosses two lines and makes 8 angles. With parallel lines, corresponding, alternate interior and alternate exterior angles are EQUAL. | CHECK Q: Which condition PROVES two lines are parallel?
+KEY par-L1#1 | Same-side interior | Same-side interior angles between parallel lines add to 180°. Z shape means equal, C shape means supplementary. | CHECK Q: Angles in the 'Z' shape between parallel lines are…
+KEY par-L1#2 | Prove lines parallel | The converses work: if corresponding or alternate interior angles are equal, the lines are parallel. | CHECK Q: Proof: Alternate interior angles equal means the lines are parallel. What is the reason for “∠1 ≅ ∠2”?
+## LESSON par-L2: Angle sum in a triangle · Polygon angles
+KEY par-L2#0 | Angle sum in a triangle | The three angles of a triangle always add to 180°. An exterior angle equals the sum of the two remote interior angles. | FORMULA: A + B + C = 180° | CHECK Q: In a triangle, the two remote interior angles measure 72° and 46°. Find the exterior angle at the third vertex (degrees).
+KEY par-L2#1 | Polygon angles | Interior angle sum = (n − 2) × 180°. Exterior angles of any convex polygon add to 360°. | FORMULA: (n − 2) · 180° | CHECK Q: Proof: The interior angles of an n-gon add to (n − 2)·180° (Honors). What is the reason for “The triangles’ angles together make up the poly
+KEY par-L2#2 | Regular polygons | A regular polygon has equal sides and equal angles. Each exterior angle = 360° ÷ n. | FORMULA: 360°/n | CHECK Q: A walkway around a regular-polygon plaza turns 12° at every corner. How many sides does the plaza have?

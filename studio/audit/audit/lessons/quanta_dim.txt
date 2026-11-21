@@ -1,0 +1,8 @@
+## LESSON dim-L1: Dimensions and units · Estimation
+KEY dim-L1#0 | Dimensions and units | Every term in a valid equation has the same dimensions. Checking units catches most algebra mistakes. Example: x = ½at² has dimensions L = (L/T²)T².
+KEY dim-L1#1 | Estimation | Physicists estimate to the nearest power of ten (Fermi problems). Break the problem into numbers you know, multiply, and check the order of magnitude. | CHECK Q: Which is the best estimate for the number of seconds in one year?
+KEY dim-L1#2 | Vectors | A vector has magnitude and direction. Components: A_x = A cos θ, A_y = A sin θ. Add components, not magnitudes. Dot product A·B = AB cos θ; cross product magnitude AB sin θ. | FORMULA: A·B = AB cos θ | CHECK Q: A vector of magnitude 17 has a direction 45° above the x-axis. What is its y-component? (3 significant figures)
+## LESSON dim-L2: Uncertainty · Significant figures
+KEY dim-L2#0 | Uncertainty | Every measurement has an uncertainty. For products and quotients relative uncertainties add (roughly). For sums, absolute uncertainties add. | FORMULA: δ(ab)/ab ≈ δa/a + δb/b
+KEY dim-L2#1 | Significant figures | Report no more digits than the least precise input supports. Keep extra digits in the middle of a calculation and round at the end.
+KEY dim-L2#2 | Limiting cases | Test a formula at extremes: if m → 0 or r → ∞ should the answer vanish, blow up or approach a known result? This is the fastest way to check an unfamiliar formula.

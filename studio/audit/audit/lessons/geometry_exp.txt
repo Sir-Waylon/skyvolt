@@ -1,0 +1,7 @@
+## LESSON exp-L1: Multiply, same base · Power of a power
+KEY exp-L1#0 | Multiply, same base | When multiplying powers with the same base, ADD the exponents. | FORMULA: x³ · x⁴ = x⁷ | CHECK Q: Simplify x³ · x⁴.
+KEY exp-L1#1 | Power of a power | For (xᵃ)ᵇ, MULTIPLY the exponents. Also raise every factor inside the parentheses. | FORMULA: (2x³)² = 4x⁶ | CHECK Q: Simplify (x³)⁴.
+KEY exp-L1#2 | Divide, same base | When dividing, SUBTRACT the exponents (top minus bottom). | FORMULA: x⁷/x² = x⁵ | CHECK Q: (x^4)^4 ÷ x^2 = x^n. What is n?
+## LESSON exp-L2: Zero and negative · Scientific notation
+KEY exp-L2#0 | Zero and negative | Anything (not 0) to the 0 is 1. A negative exponent means flip to the other side of the fraction. | FORMULA: x⁻² = 1/x² | CHECK Q: What is 2⁻³?
+KEY exp-L2#1 | Scientific notation | Write a number as a × 10ⁿ with 1 ≤ a < 10. Moving the decimal left makes n bigger. | FORMULA: 4,500 = 4.5 × 10³

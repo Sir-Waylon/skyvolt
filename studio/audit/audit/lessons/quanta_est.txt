@@ -1,0 +1,7 @@
+## LESSON est-L1: Charge · Coulomb's law
+KEY est-L1#0 | Charge | Matter has positive and negative charge. Like charges repel, opposite charges attract. Charge is measured in coulombs (C). One electron has charge 1.6 × 10⁻¹⁹ C.
+KEY est-L1#1 | Coulomb's law | The force between two point charges is F = kq₁q₂/r², with k = 9 × 10⁹ N·m²/C². Doubling the distance cuts the force to a quarter. | FORMULA: F = kq₁q₂/r² | CHECK Q: The distance between two charges is multiplied by 3. By what factor is the force divided?
+KEY est-L1#2 | Electric field | The field E at a point is the force per unit charge, E = F/q. A point charge makes E = kQ/r². Field lines point away from positive charge. | FORMULA: E = F/q | CHECK Q: A charge of 2 C feels a force of 20 N. What is the electric field (N/C)?
+## LESSON est-L2: Electric potential · Capacitors
+KEY est-L2#0 | Electric potential | Potential V is energy per unit charge, in volts. A charge q moved through a potential difference V gains energy qV. A uniform field has V = Ed. | FORMULA: ΔU = qV | CHECK Q: A uniform field has a potential difference of 48 V over 50 cm. What is E in V/m?
+KEY est-L2#1 | Capacitors | Two plates storing charge: Q = CV. The energy stored is ½CV². Parallel-plate: C = ε₀A/d. | FORMULA: Q = CV | CHECK Q: A test charge of 9 µC moves through 209 V. How much energy does it gain in µJ?

@@ -1,0 +1,9 @@
+## LESSON quad-L1: Parallelogram properties · Prove a parallelogram
+KEY quad-L1#0 | Parallelogram properties | Opposite sides are parallel and equal, opposite angles are equal, consecutive angles add to 180°, diagonals bisect each other. | CHECK Q: Proof: Diagonals of a parallelogram bisect each other. What is the reason for “∠BAE ≅ ∠DCE and ∠ABE ≅ ∠CDE”?
+KEY quad-L1#1 | Prove a parallelogram | Show ONE of: both pairs of opposite sides equal, one pair both parallel and equal, or diagonals bisect each other. | CHECK Q: Proof: If both pairs of opposite sides are equal, the quadrilateral is a parallelogram. What is the reason for “Draw diagonal AC”?
+KEY quad-L1#2 | Rectangle | A parallelogram with four right angles. Its diagonals are equal. | CHECK Q: A parallelogram with four right angles is a…
+## LESSON quad-L2: Rhombus · Square
+KEY quad-L2#0 | Rhombus | A parallelogram with four equal sides. Its diagonals are perpendicular and bisect the angles. | CHECK Q: Which shape has diagonals that are equal in length but are NOT perpendicular in general?
+KEY quad-L2#1 | Square | A square is both a rectangle and a rhombus, so it has every one of those properties. | CHECK Q: Which shape ALWAYS has perpendicular diagonals?
+KEY quad-L2#2 | Trapezoid | One pair of parallel sides (bases). The midsegment is parallel to the bases and equals their average. | FORMULA: m = (b₁ + b₂)/2 | CHECK Q: A quadrilateral with exactly one pair of parallel sides is a…
+KEY quad-L2#3 | Kite | Two pairs of equal adjacent sides. One diagonal is the perpendicular bisector of the other. | CHECK Q: Which quadrilateral has diagonals that bisect each other but are not necessarily equal or perpendicular?

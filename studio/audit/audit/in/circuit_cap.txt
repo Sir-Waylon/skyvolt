@@ -1,0 +1,22 @@
+# circuit-lab-b / cap: Capacitance  (34 questions, 12 families)
+## STUDY NOTE (what students are taught)
+Two conductors separated by an insulator. C = Q/V (farad; usually µF). Energy E = ½CV² (doubling V gives 4× the energy). Parallel plates: C grows with plate area and with a dielectric, shrinks as the gap grows. Parallel: C adds. Series: 1/C = 1/C₁ + 1/C₂ (opposite of resistors). Once charged in DC, it acts like an open circuit. Electrolytic capacitors are polarized: wrong polarity can fail. Example. 100 µF at 12 V: Q = 1.2 mC; E = 7.2 mJ.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+cap-001 | 2 | short | A 100 µF capacitor is charged to 12 V. Find the charge stored. || 0.0012000000000000001 (tol 0.02 mC) ||  || Q = CV = 100×10⁻⁶ × 12 = 1.2×10⁻³ C = 1.2 mC.
+cap-002 | 3 | short | A 47 µF capacitor is charged to 9.0 V. Find the stored energy. || 0.0019034999999999998 (tol 0.02 mJ) ||  || E = ½CV² = 0.5 × 47×10⁻⁶ × 81 = 1.9 mJ.
+cap-003 | 2 | short | Capacitors of 10 µF and 22 µF are connected in parallel. Find the equivalent capacitance. || 3.2e-05 (tol 0.02 µF) ||  || Capacitances add in parallel: 32 µF.
+cap-004 | 3 | short | Capacitors of 6.0 µF and 3.0 µF are connected in series. Find the equivalent capacitance. || 2e-06 (tol 0.02 µF) ||  || 1/C = 1/6 + 1/3 = 1/2, so C = 2.0 µF.
+cap-005 | 1 | mcq | A charged capacitor stores energy in: || the electric field between the plates || the chemical makeup of the plates ; the magnetic field around the leads ; the heat inside the dielectric || Charge on the plates sets up an electric field.
+cap-006 | 1 | mcq | Capacitance is the ratio of stored charge to: || voltage across the plates || plate area alone ; current in the leads ; resistance of the circuit || C = Q/V, measured in farads.
+cap-007 | 2 | short | Which change increases the capacitance of a parallel-plate capacitor? || larger plate area | larger plate areas || wider gap between the plates ; smaller plate area ; an air gap in place of a dielectric || C = εA/d.
+cap-008 | 2 | mcq | Two capacitors are connected in parallel. The equivalent capacitance is: || the sum of the two || the product of the two ; smaller than either one ; the average of the two || Parallel capacitances add (the reverse of resistors).
+cap-009 | 2 | short | A fully charged capacitor in a steady DC circuit acts like: || an open circuit | an open circuits || a short circuit ; a battery with a steady output ; a resistor equal to its capacitance || No steady current flows once it is charged.
+cap-010 | 3 | mcq | The voltage across a capacitor is doubled. The stored energy becomes: || four times as large || twice as large ; half as large ; the same as before || E = ½CV².
+### FAMILY cap-e: 14 generated variants of one template (3 shown; numbers vary)
+cap-011 | 3 | short | A 470 µF capacitor is charged to 5 V. Find the energy stored in millijoules. || 0.005875 (tol 0.02 mJ) ||  || E = ½CV² = 0.5 × 470×10⁻⁶ × 5² = 5.88 mJ.
+cap-012 | 3 | short | A 22 µF capacitor is charged to 9 V. Find the energy stored in millijoules. || 0.000891 (tol 0.02 mJ) ||  || E = ½CV² = 0.5 × 22×10⁻⁶ × 9² = 0.891 mJ.
+cap-013 | 3 | short | A 10 µF capacitor is charged to 5 V. Find the energy stored in millijoules. || 0.000125 (tol 0.02 mJ) ||  || E = ½CV² = 0.5 × 10×10⁻⁶ × 5² = 0.125 mJ.
+### FAMILY cap-s: 10 generated variants of one template (3 shown; numbers vary)
+cap-025 | 2 | short | Capacitors of 12 µF and 2 µF are connected in series. Find the equivalent capacitance in microfarads. || 1.714285714285714e-06 (tol 0.02 µF) ||  || 1/C = 1/12 + 1/2, so C = 1.71 µF.
+cap-026 | 2 | short | Capacitors of 12 µF and 12 µF are connected in series. Find the equivalent capacitance in microfarads. || 6e-06 (tol 0.02 µF) ||  || 1/C = 1/12 + 1/12, so C = 6 µF.
+cap-027 | 2 | short | Capacitors of 12 µF and 3 µF are connected in series. Find the equivalent capacitance in microfarads. || 2.4e-06 (tol 0.02 µF) ||  || 1/C = 1/12 + 1/3, so C = 2.4 µF.

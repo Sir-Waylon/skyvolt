@@ -1,0 +1,7 @@
+## LESSON kvl-L1: Nodes and loops · Current law
+KEY kvl-L1#0 | Nodes and loops | A node is where wires meet. A loop is any closed path. Kirchhoff's two laws apply to every circuit, however tangled. | CHECK Q: Two wires carry 5 A and 1 A into a node. What current leaves through the third wire (A)?
+KEY kvl-L1#1 | Current law | The current into a node equals the current out. Charge does not pile up. | FORMULA: ΣI = 0 | CHECK Q: Two wires carry 4 A and 1 A into a node. What current leaves through the third wire (A)?
+KEY kvl-L1#2 | Voltage law | Going once around any loop, the voltage rises equal the voltage drops. The sum is zero. | FORMULA: ΣV = 0
+## LESSON kvl-L2: Voltage and current dividers · Thevenin and maximum power
+KEY kvl-L2#0 | Voltage and current dividers | Series resistors share voltage in proportion to resistance: V₁ = V·R₁/(R₁ + R₂). Parallel resistors share current: I₁ = I·R₂/(R₁ + R₂). | CHECK Q: A 9 A current splits between parallel resistors 5 Ω and 5 Ω. How much flows through the 5 Ω one? (A, 2 decimals)
+KEY kvl-L2#1 | Thevenin and maximum power | Any two-terminal linear network acts like a voltage source V_th in series with R_th. A load takes maximum power when R_L = R_th. | FORMULA: R_L = R_th | CHECK Q: A Thevenin source is 16 V with R_th = 80 Ω. What load resistance (Ω) gets the maximum power?

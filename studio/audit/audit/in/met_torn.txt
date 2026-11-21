@@ -1,0 +1,35 @@
+# meteorology-b / torn: Tornadoes and radar  (38 questions, 28 families)
+## STUDY NOTE (what students are taught)
+Tornado = violently rotating column touching the ground and a cloud base. Waterspout = same over water. Peak: late afternoon, spring, Plains and Southeast. EF scale 3-second gust EF0 65–85 mph EF1 86–110 mph EF2 111–135 mph EF3 136–165 mph EF4 166–200 mph EF5 over 200 mph F scale = before 1 Feb 2007. EF scale = on or after. Both rate DAMAGE, not measured wind. Signature Means Hook echo Rain/debris wrapping a mesocyclone (reflectivity) TVS Tight inbound-outbound velocity pair = intense rotation Debris ball Low CC inside the hook = debris in the air Bow echo Straight-line wind; may hide small tornadoes
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+torn-001 | 1 | mcq | A tornado is a violently rotating column of air that touches… || The ground and a cloud base || Only the ocean ; Only a mountain ; Only the cloud || It must reach both.
+torn-002 | 1 | mcq | A waterspout is… || A tornado-like vortex over water || A hurricane ; A rain gauge ; A wind barb || Waterspouts form over water.
+torn-003 | 2 | mcq | Tornadoes most often occur… || In late afternoon and early evening in spring || At night in winter ; Only in summer ; Only on the coast || Peak heating plus the spring pattern.
+torn-004 | 2 | mcq | Which scale is used for tornadoes occurring after February 1, 2007? || Enhanced Fujita (EF) || Fujita (F) ; Saffir-Simpson ; Beaufort || The EF scale replaced F.
+torn-005 | 2 | short | The EF and F scales rate tornadoes by… || Damage | Damages || Width alone ; Direct wind measurement ; Duration || They estimate wind from damage.
+torn-006 | 2 | short | A tornado causing damage that suggests 140 mph is rated… || EF3 || EF2 ; EF4 ; EF1 || 136–165 mph is EF3.
+torn-007 | 2 | mcq | On radar, a hook echo is… || A reflectivity extension wrapping around a mesocyclone || A thin line ahead of storms ; The eye of a hurricane ; A large round mass || The hook wraps rain and debris.
+torn-008 | 2 | short | A tornadic vortex signature (TVS) appears on… || Velocity | Velocitys || Reflectivity only ; Temperature ; Water vapor || TVS is a tight couplet of inbound and outbound velocities.
+torn-009 | 2 | mcq | A debris ball is seen as a… || Low correlation coefficient area in the hook || High reflectivity area only ; Region of cold clouds ; Large velocity area || Debris is not uniform like rain.
+torn-010 | 3 | short | A velocity image shows strong inbound and outbound winds side by side in a small area. This indicates… || Strong rotation | Strong rotations || Straight-line wind ; A cold front ; Calm air || A tight couplet marks rotation.
+torn-011 | 3 | mcq | A bow echo with a small embedded rotation couplet suggests… || A tornado can be embedded in a wind event || Only hail ; No hazards ; A hurricane eyewall || Bow echoes can contain brief tornadoes.
+torn-012 | 3 | short | A tornado damaged a town on March 3, 2003. Which scale applies? || Fujita (F) | Fujita | Fujitas || Enhanced Fujita (EF) ; Saffir-Simpson ; Either || Before Feb 1, 2007 the F scale applies.
+### FAMILY ef1: 11 generated variants of one template (3 shown; numbers vary)
+torn-013 | 2 | short | A tornado's estimated peak wind is 160 mph. What is its EF rating? (EF0 65–85, EF1 86–110, EF2 111–135, EF3 136–165, EF4 166–200, EF5 over 200) || EF3 || EF0 ; EF1 ; EF2 || It fits EF3.
+torn-014 | 2 | short | A tornado's estimated peak wind is 130 mph. What is its EF rating? (EF0 65–85, EF1 86–110, EF2 111–135, EF3 136–165, EF4 166–200, EF5 over 200) || EF2 || EF1 ; EF3 ; EF4 || It fits EF2.
+torn-015 | 2 | short | A tornado's estimated peak wind is 90 mph. What is its EF rating? (EF0 65–85, EF1 86–110, EF2 111–135, EF3 136–165, EF4 166–200, EF5 over 200) || EF1 || EF2 ; EF3 ; EF4 || It fits EF1.
+torn-024 | 3 | mcq | A velocity image shows strong outbound winds right next to strong inbound winds. What may this signal? || Rotation (a mesocyclone or tornado) || A cold front passing ; Only heavy rain ; Clear air || That is a velocity couplet.
+torn-025 | 2 | short | Which radar feature is shown? || A debris ball | A debris balls || A hook echo ; A bow echo ; A squall line || Match the shape.
+torn-026 | 1 | mcq | Which scale rates tornado damage? || Enhanced Fujita (EF) || Saffir–Simpson ; Richter ; Beaufort || EF0–EF5.
+torn-027 | 1 | short | Most tornadoes in the US occur in the… || Plains and Southeast | Plains and Southeasts || Pacific coast ; Arctic ; Desert Southwest || Tornado Alley and Dixie Alley.
+torn-028 | 2 | mcq | Where should you shelter if you have no basement? || Lowest interior room, away from windows || Near a window ; In a car ; Outside || Put walls between you and the outside.
+torn-029 | 2 | mcq | A tornado emergency is… || A rare alert for a confirmed tornado in a populated area || A normal watch ; A drill ; An all-clear || It signals catastrophic danger.
+torn-030 | 1 | short | What is a rotating column of air touching the ground called? || tornado ||  || This is a tornado.
+torn-031 | 1 | short | Where should you go in a house during a tornado warning? || basement | lowest floor | interior room | lowest floor interior room | a basement | a small interior room ||  || A basement or small interior room on the lowest floor.
+torn-032 | 1 | short | A tornado watch means tornadoes are possible. A tornado warning means a tornado is… || happening or imminent | occurring | happening | spotted | indicated by radar | imminent ||  || It has been seen or radar shows rotation.
+torn-033 | 1 | short | The scale used to rate tornadoes by damage is called the… || enhanced fujita scale | ef scale | fujita scale | ef ||  || Damage determines the rating.
+torn-034 | 2 | short | A tornado is rated EF2 with winds up to 135 mph. The EF1 maximum is 110 mph. How many mph higher is the EF2 maximum? || 25.0 (tol 0.02) ||  || 25 mph.
+torn-035 | 2 | short | A radar image with a hook shape on the south side of a supercell is called a… || hook echo ||  || This is a hook echo.
+torn-036 | 2 | short | On Doppler velocity radar, a tight pair of inbound and outbound winds next to each other shows… || rotation | a couplet | velocity couplet | a velocity couplet ||  || Side by side, they mean rotation.
+torn-037 | 2 | short | On radar, what is a debris ball (tornado debris signature) made of? || debris | debris lofted by tornado | lofted debris | objects | tornado debris ||  || Radar sees them as a signature.
+torn-038 | 2 | short | EF3 begins at 136 mph. A tornado has winds 12 mph below that. What is its wind speed? || 124.0 (tol 0.02) ||  || 124 mph, which is in the EF2 range (111–135).

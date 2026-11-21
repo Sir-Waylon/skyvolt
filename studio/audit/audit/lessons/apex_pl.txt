@@ -1,0 +1,11 @@
+## LESSON pl-L1: Powers and terms · Adding and multiplying polynomials
+KEY pl-L1#0 | Powers and terms | x³ means x · x · x. A term is a number times powers of x. A polynomial is a sum of terms. Its degree is the highest power. | FORMULA: 3x⁴ + x − 7 has degree 4 | CHECK Q: What is the degree of the polynomial 3x⁴ + 5x − 2?
+KEY pl-L1#1 | Adding and multiplying polynomials | Combine like terms to add. To multiply, give every term in the first factor a turn with every term in the second. | FORMULA: (x + 2)(x + 3) = x² + 5x + 6 | CHECK Q: Simplify 9x + 4x by combining like terms. What is the coefficient of x?
+KEY pl-L1#2 | Evaluating and the remainder theorem | When you divide f(x) by (x − a), the remainder is f(a). So plugging in a number is a shortcut for division. | FORMULA: f(x) ÷ (x − 2) leaves f(2)
+## LESSON pl-L2: The factor theorem · How many roots?
+KEY pl-L2#0 | The factor theorem | (x − a) is a factor of f(x) exactly when f(a) = 0. Roots and factors are the same information. | FORMULA: f(3) = 0 → (x − 3) divides f
+KEY pl-L2#1 | How many roots? | A polynomial of degree n has exactly n roots, counting repeats and complex roots. Odd degree always crosses the x-axis at least once. | CHECK Q: What is the degree of the polynomial 3x⁵ + 5x − 2?
+KEY pl-L2#2 | End behavior | Far out, only the highest-degree term matters. Even degree: both ends go the same way. Odd degree: the ends go opposite ways. A negative leading coefficient flips the picture. | CHECK Q: What is the degree of the polynomial 3x² + 5x − 2?
+## LESSON pl-L3: Rational root theorem · Vieta for cubics
+KEY pl-L3#0 | Rational root theorem | A rational root p/q (lowest terms) of an integer polynomial has p dividing the constant term and q dividing the leading coefficient. | CHECK Q: Simplify 9x + 8x by combining like terms. What is the coefficient of x?
+KEY pl-L3#1 | Vieta for cubics | For x³ + bx² + cx + d the roots add to −b, pair-products add to c and all three multiply to −d. | FORMULA: roots r, s, t: r + s + t = −b

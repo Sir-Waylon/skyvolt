@@ -1,0 +1,5 @@
+## LESSON id-L1: Sum and difference · Double angles
+KEY id-L1#0 | Sum and difference | sin(A ± B) = sin A cos B ± cos A sin B. cos(A ± B) = cos A cos B ∓ sin A sin B. Notice the sign flips for cosine. | FORMULA: sin(A+B) = sinA cosB + cosA sinB | CHECK Q: Use sin(A + B) = sin A cos B + cos A sin B with A = 60° and B = 30° to find sin 90° (4 decimals).
+KEY id-L1#1 | Double angles | Put B = A in the sum formulas: sin 2A = 2 sin A cos A and cos 2A = cos²A − sin²A = 1 − 2 sin²A = 2 cos²A − 1. | FORMULA: sin 2A = 2 sinA cosA | CHECK Q: Use sin(A + B) = sin A cos B + cos A sin B with A = 45° and B = 45° to find sin 90° (4 decimals).
+KEY id-L1#2 | Half angles | Solve the cosine double-angle formula for the half angle: sin²(A/2) = (1 − cos A)/2 and cos²(A/2) = (1 + cos A)/2. Pick the sign from the quadrant. | CHECK Q: sin A = 8/17 with A in quadrant I. Find cos 2A as a decimal.
+KEY id-L1#3 | Product to sum | Adding the sum and difference formulas gives 2 sin A cos B = sin(A+B) + sin(A−B). The same idea turns products into sums and sums into products.

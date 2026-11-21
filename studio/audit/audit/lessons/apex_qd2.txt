@@ -1,0 +1,11 @@
+## LESSON qd2-L1: Squares and square roots · Solving by factoring
+KEY qd2-L1#0 | Squares and square roots | A square with side s has area s². Going backwards, √(s²) = s. Every positive number has two square roots, one positive and one negative. | FORMULA: x² = 49 → x = 7 or x = −7 | CHECK Q: A square has side 12 cm. What is its area in square centimeters?
+KEY qd2-L1#1 | Solving by factoring | If two numbers multiply to zero, one of them must be zero. So (x − p)(x − q) = 0 means x = p or x = q. | FORMULA: (x − 2)(x + 5) = 0 → 2, −5
+KEY qd2-L1#2 | Vertex form | y = a(x − h)² + k has its turning point at (h, k). It opens up if a > 0 and down if a < 0. | FORMULA: y = (x − 3)² + 1: lowest point (3, 1)
+## LESSON qd2-L2: The quadratic formula · The discriminant
+KEY qd2-L2#0 | The quadratic formula | For ax² + bx + c = 0, x = (−b ± √(b² − 4ac)) / 2a. It always works. | FORMULA: x² − 5x + 6 = 0 → 2, 3 | CHECK Q: Use the quadratic formula to solve x² + 2x − 8 = 0. What is the larger root?
+KEY qd2-L2#1 | The discriminant | D = b² − 4ac tells how many real roots: D > 0 two, D = 0 one, D < 0 none (two complex roots). | FORMULA: D = b² − 4ac | CHECK Q: How many real roots does 3x² + 7x = 0 have? Answer 0, 1 or 2.
+KEY qd2-L2#2 | Imaginary and complex numbers | Define i so that i² = −1. A complex number is a + bi. Add and multiply like algebra, then replace i² with −1. | FORMULA: (2 + 3i)(1 − i) = 5 + i | CHECK Q: The roots of 3x² − 18x + 21 = 0 (real or complex) add up to what?
+## LESSON qd2-L3: Powers of i · Roots and coefficients (Vieta)
+KEY qd2-L3#0 | Powers of i | The powers of i repeat every 4: i, −1, −i, 1. To find iⁿ, divide n by 4 and use the remainder. | FORMULA: i⁹ = i
+KEY qd2-L3#1 | Roots and coefficients (Vieta) | For ax² + bx + c = 0 the roots add to −b/a and multiply to c/a, even when they are complex. | FORMULA: sum = −b/a, product = c/a | CHECK Q: The roots of 2x² − 10x + 12 = 0 (real or complex) add up to what?

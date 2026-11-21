@@ -1,0 +1,9 @@
+## LESSON maps-L1: Station model · Wind barb
+KEY maps-L1#0 | Station model | Temperature upper left. Dew point lower left. Pressure upper right. Pressure change lower right. Sky cover is the circle. Wind barb is the staff. | CHECK Q: On a station model, where is the dew point plotted?
+KEY maps-L1#1 | Wind barb | The staff points to where wind comes FROM. Half flag 5 kt. Full flag 10. Triangle 50. Add them up. | CHECK Q: A wind barb staff points toward the…
+KEY maps-L1#2 | Pressure code | Take the three digits. 500 or more? Put 9 in front. Less than 500? Put 10. Add a decimal before the last digit. | FORMULA: 132 → 1013.2 mb | CHECK Q: A station model shows pressure code 998. What is the pressure?
+## LESSON maps-L2: METAR wind · METAR sky
+KEY maps-L2#0 | METAR wind | 18018G28KT means from 180°, 18 knots, gusting 28. | CHECK Q: METAR '18015G25KT' means wind from 180° at 15 knots with…
+KEY maps-L2#1 | METAR sky | FEW, SCT, BKN, OVC get cloudier. The three digits are height in hundreds of feet. BKN040 = 4,000 ft. | CHECK Q: In a METAR, what does BKN040 mean?
+KEY maps-L2#2 | METAR temps | 27/22 means 27 °C and dew point 22 °C. An M means minus. | CHECK Q: A METAR temperature group reads 02/M01. What are the temperature and dew point?
+KEY maps-L2#3 | Altimeter | A2985 = 29.85 inches of mercury.

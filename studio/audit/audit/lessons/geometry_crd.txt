@@ -1,0 +1,8 @@
+## LESSON crd-L1: Distance formula · Midpoint
+KEY crd-L1#0 | Distance formula | The distance between two points comes from the Pythagorean theorem. | FORMULA: d = √[(x₂−x₁)² + (y₂−y₁)²] | CHECK Q: On a city map grid (one unit = one block), a library is at (−3, −3) and a café is at (2, 9). How far apart are they in a straight line?
+KEY crd-L1#1 | Midpoint | Average the x's and average the y's. | FORMULA: ((x₁+x₂)/2, (y₁+y₂)/2)
+KEY crd-L1#2 | Slope | Rise over run. Parallel lines have equal slopes. Perpendicular lines have slopes that multiply to −1. | FORMULA: m = Δy/Δx | CHECK Q: Parallel lines have slopes that are…
+## LESSON crd-L2: Circle equation · Coordinate proofs
+KEY crd-L2#0 | Circle equation | Center (h, k), radius r. Note the signs: the center's coordinates are subtracted. | FORMULA: (x−h)² + (y−k)² = r² | CHECK Q: Which is the equation of a circle with center (−2, −4) and radius 3?
+KEY crd-L2#1 | Coordinate proofs | Place a figure on axes with smart coordinates (a vertex at the origin). Use distance, slope or midpoint to prove properties. | CHECK Q: Proof: Coordinate proof: diagonals of a parallelogram bisect each other. What is the reason for “Place the parallelogram with O at the origi
+KEY crd-L2#2 | Classify shapes | Check side lengths and slopes. Equal and parallel opposite sides → parallelogram. Add right angles → rectangle. | CHECK Q: Proof: Coordinate proof: the midsegment is parallel to the third side and half as long. What is the reason for “MN ∥ AB”?

@@ -1,0 +1,11 @@
+## LESSON tl-L1: Triangles that are not right · Law of Sines
+KEY tl-L1#0 | Triangles that are not right | Many real triangles have no right angle. The Law of Sines and Law of Cosines work for every triangle.
+KEY tl-L1#1 | Law of Sines | a/sin A = b/sin B = c/sin C. Use it when you know an angle and its opposite side. | FORMULA: a/sin A = b/sin B | CHECK Q: In a triangle, angle A = 32°, angle B = 69° and side a = 18. Find side b. (2 decimals)
+KEY tl-L1#2 | Law of Cosines | c² = a² + b² − 2ab cos C. It is the Pythagorean theorem with a correction term. If C = 90° the correction vanishes. | FORMULA: c² = a² + b² − 2ab cos C
+## LESSON tl-L2: The ambiguous case (SSA) · Area with sine
+KEY tl-L2#0 | The ambiguous case (SSA) | Given two sides and an angle not between them, there may be 0, 1 or 2 triangles. Check whether the side opposite the angle can reach the base. | CHECK Q: Two sides of a triangle are 13 and 13, with an included angle of 60°. Find the third side. (2 decimals)
+KEY tl-L2#1 | Area with sine | Area = ½ab sin C. It works for any two sides and the angle between them. | FORMULA: Area = ½ab sin C | CHECK Q: Two sides of a triangle are 6 and 5, with an included angle of 60°. Find the third side. (2 decimals)
+KEY tl-L2#2 | Vectors | A vector has a size (magnitude) and a direction. Write it as components (x, y). Its magnitude is √(x² + y²). | FORMULA: |v| = √(x² + y²) | CHECK Q: Find the magnitude of the vector (8, 5). (2 decimals)
+## LESSON tl-L3: Adding vectors · Dot product and angles
+KEY tl-L3#0 | Adding vectors | Add components: (a, b) + (c, d) = (a + c, b + d). A plane's ground velocity is its air velocity plus the wind's.
+KEY tl-L3#1 | Dot product and angles | a·b = a₁b₁ + a₂b₂ = |a||b| cos θ. If the dot product is 0 the vectors are perpendicular. | FORMULA: a·b = |a||b| cos θ | CHECK Q: Find the dot product of (−4, −6) and (4, −5).

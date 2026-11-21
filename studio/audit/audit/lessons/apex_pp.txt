@@ -1,0 +1,11 @@
+## LESSON pp-L1: Two ways to name a point · Converting polar to rectangular
+KEY pp-L1#0 | Two ways to name a point | Rectangular coordinates give (x, y). Polar coordinates give (r, θ): how far from the origin and at what angle. | CHECK Q: A radar screen shows a plane at distance 4 km from the tower, at an angle of 270° counterclockwise from due east (polar point (4, 270°)). Wh
+KEY pp-L1#1 | Converting polar to rectangular | x = r cos θ and y = r sin θ. | FORMULA: (2, 60°) → (1, √3) | CHECK Q: A radar screen shows a plane at distance 10 km from the tower, at an angle of 60° counterclockwise from due east. What is its north–south co
+KEY pp-L1#2 | Converting rectangular to polar | r = √(x² + y²) and tan θ = y/x (check the quadrant).
+## LESSON pp-L2: Polar curves · Parametric equations
+KEY pp-L2#0 | Polar curves | r = 2 is a circle. r = θ spirals outward. Roses, cardioids and limaçons come from r = a cos(nθ) and similar rules.
+KEY pp-L2#1 | Parametric equations | Write x and y as functions of a third variable t, like time. They describe motion along a path. | FORMULA: x = t + 1, y = 2t
+KEY pp-L2#2 | Eliminating the parameter | Solve one equation for t and substitute into the other to get a relation between x and y.
+## LESSON pp-L3: The complex plane · De Moivre's theorem
+KEY pp-L3#0 | The complex plane | Plot a + bi at (a, b). Its modulus is √(a² + b²) and its argument is the angle from the real axis.
+KEY pp-L3#1 | De Moivre's theorem | In polar form, multiplying complex numbers multiplies the moduli and adds the angles. So (r cis θ)ⁿ = rⁿ cis(nθ). | FORMULA: (cis 30°)³ = cis 90° = i | CHECK Q: A radar screen shows a plane at distance 2 km from the tower, at an angle of 30° counterclockwise from due east. What is its north–south coo

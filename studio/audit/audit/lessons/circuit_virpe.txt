@@ -1,0 +1,16 @@
+## LESSON virpe-L1: The big four · Ohm's Law
+KEY virpe-L1#0 | The big four | Voltage (V) is the push. Current (I) is the flow. Resistance (R) is the squeeze. Power (P) is how fast energy is used. | CHECK Q: The SI unit of charge is the…
+KEY virpe-L1#1 | Ohm's Law | Know two, find the third. Cover the one you want in the triangle. | FORMULA: V = I × R   I = V / R   R = V / I
+KEY virpe-L1#2 | Power formulas | Three versions. Pick the one that uses numbers you already have. | FORMULA: P = V·I = I²·R = V²/R | CHECK Q: A 5.0 V charger outputs 2.0 A and is 85% efficient. Input power from the wall, in watts? One decimal.
+## LESSON virpe-L2: Energy · Charge
+KEY virpe-L2#0 | Energy | Power times time. Use seconds for joules. Use hours with kilowatts for kWh. | FORMULA: E = P × t   (1 kWh = 3.6×10⁶ J) | CHECK Q: A 1 kW heater runs for 3 hours at $0.20 per kWh. The cost is:
+KEY virpe-L2#1 | Charge | Current times time. | FORMULA: Q = I × t | CHECK Q: What unit is mAh a measure of?
+KEY virpe-L2#2 | Battery energy | Volts times amp-hours gives watt-hours. Divide by watts to get hours of run time. | FORMULA: Wh = V × Ah   hours = Wh ÷ W | CHECK Q: A 1.5 kW heater runs for 4 hours at $0.20 per kWh. The cost is:
+## LESSON virpe-L3: Prefixes · Wire resistance
+KEY virpe-L3#0 | Prefixes | m = ÷1000. k = ×1000. µ = ÷1,000,000. Always convert to volts, amps, ohms before calculating. | CHECK Q: Convert 250 mA to amperes.
+KEY virpe-L3#1 | Wire resistance | Longer wire, more resistance. Thicker wire, less. Double the diameter and resistance drops to 1/4. | FORMULA: R = ρ × L / A | CHECK Q: What happens to the resistance of a conductor when you use a longer wire?
+KEY virpe-L3#2 | Resistor colors | Black 0, Brown 1, Red 2, Orange 3, Yellow 4, Green 5, Blue 6, Violet 7, Gray 8, White 9. Bands: digit, digit, zeros, tolerance. | CHECK Q: Resistor bands: orange, brown, black, gold. Value and tolerance?
+## LESSON virpe-L4: Color code practice · Power rating
+KEY virpe-L4#0 | Color code practice | Yellow-violet-red-gold means 4, 7, two zeros: 4700 Ω = 4.7 kΩ, ±5%. Gold = 5%. Silver = 10%. | CHECK Q: Which color bands give 4.7 kΩ ±5%?
+KEY virpe-L4#1 | Power rating | A resistor can overheat. A 1/4 W, 100 Ω resistor can take at most 50 mA. | FORMULA: I = √(P / R) | CHECK Q: A current of 0.25 A flows through a 160 Ω resistor. The power dissipated is:
+KEY virpe-L4#2 | Sig figs | Keep as many digits as your least precise number. 12.0 V ÷ 4.0 Ω = 3.0 A.

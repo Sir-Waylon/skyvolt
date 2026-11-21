@@ -1,0 +1,13 @@
+## LESSON dcac-L1: DC vs AC · Where each comes from
+KEY dcac-L1#0 | DC vs AC | DC flows one way (batteries, solar, USB). AC flips direction again and again (wall outlets). | CHECK Q: Which type of current periodically reverses direction?
+KEY dcac-L1#1 | Where each comes from | DC: batteries, solar cells, rectified chargers. AC: generators and power plants.
+KEY dcac-L1#2 | Why power lines use AC | Transformers can raise AC voltage cheaply. High voltage means low current, so less heat is lost in the wires. | FORMULA: Loss = I² × R | CHECK Q: Long-distance power lines use very high voltage mainly because:
+## LESSON dcac-L2: Cells in series · Cells in parallel
+KEY dcac-L2#0 | Cells in series | Connect plus to minus and voltages add. Four 1.5 V cells make 6 V. | CHECK Q: 2 identical 9 V cells are connected in series, plus to minus. Find the total voltage.
+KEY dcac-L2#1 | Cells in parallel | Connect plus to plus. Voltage stays the same but the battery lasts longer. | CHECK Q: Two 1.5 V AA cells, each rated 2000 mAh, are connected in parallel. What is the total capacity in mAh?
+KEY dcac-L2#2 | Kitchen batteries | Two different metals in a juicy or salty liquid make a cell. Lemon with copper and steel is about 0.7 V. Potato with copper and zinc is about 1.2 V. More cells in series make more voltage. | CHECK Q: Why does a lemon with a copper strip and a steel strip make a voltage?
+## LESSON dcac-L3: Frequency and period · RMS voltage
+KEY dcac-L3#0 | Frequency and period | Frequency is cycles per second. Period is the time of one cycle. | FORMULA: T = 1 / f | CHECK Q: A signal repeats 10 times every second (10 Hz). How long does one cycle take, in milliseconds?
+KEY dcac-L3#1 | RMS voltage | Wall "120 V" is the RMS value. The peak is higher, about 170 V. | FORMULA: V_rms = V_peak / √2 | CHECK Q: Wall power is 120 V RMS. What is its peak voltage? Give your answer to the nearest volt.
+KEY dcac-L3#2 | Shock safety | Current through the body does the harm. About 10–20 mA can lock muscles. Wet skin lets more current through. Respect every outlet. | CHECK Q: Which statement about electric shock is most accurate?
+KEY dcac-L3#3 | Outlet wires | Hot carries the voltage. Neutral carries the return current. Ground is only a safety path if something goes wrong. | CHECK Q: In a US household outlet, the white wire carries current back to the panel under normal operation. What is this conductor called?

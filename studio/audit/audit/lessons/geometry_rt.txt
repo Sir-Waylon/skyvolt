@@ -1,0 +1,9 @@
+## LESSON rt-L1: Pythagorean theorem · Pythagorean triples
+KEY rt-L1#0 | Pythagorean theorem | In a right triangle, the legs squared add to the hypotenuse squared. The hypotenuse is opposite the right angle. | FORMULA: a² + b² = c² | CHECK Q: In a right triangle with legs 5 and 12 and hypotenuse 13, find tan of the angle opposite the leg 5.
+KEY rt-L1#1 | Pythagorean triples | Whole-number triples show up often: 3-4-5, 5-12-13, 8-15-17, 7-24-25. Multiples work too.
+KEY rt-L1#2 | 45-45-90 | The legs are equal and the hypotenuse is leg × √2. | FORMULA: x, x, x√2 | CHECK Q: In a right triangle with legs 16 and 30 and hypotenuse 34, find sin of the angle opposite the leg 16.
+## LESSON rt-L2: 30-60-90 · Geometric mean
+KEY rt-L2#0 | 30-60-90 | Short leg x, long leg x√3, hypotenuse 2x. | FORMULA: x, x√3, 2x | CHECK Q: In a 30°−60°−90° triangle the short leg is 4. Find the hypotenuse.
+KEY rt-L2#1 | Geometric mean | In a right triangle, the altitude to the hypotenuse is the geometric mean of the two pieces. Each leg is the geometric mean of the hypotenuse and its adjacent piece. | FORMULA: h² = pq | CHECK Q: A 5 m ladder leans on a wall with its foot 3 m from the wall. How high up the wall does it reach (m)?
+KEY rt-L2#2 | Sine, cosine, tangent | SOH-CAH-TOA: sin = opp/hyp, cos = adj/hyp, tan = opp/adj. Label sides from the angle you are using.
+KEY rt-L2#3 | Elevation and depression | Both angles are measured from the horizontal. They make alternate interior angles, so they are equal.

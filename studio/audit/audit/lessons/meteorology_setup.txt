@@ -1,0 +1,9 @@
+## LESSON setup-L1: The recipe · Jet stream
+KEY setup-L1#0 | The recipe | Moisture, instability, lift, and shear. Miss one and storms struggle.
+KEY setup-L1#1 | Jet stream | Fast river of air aloft. It steers storms and adds energy. | CHECK Q: Why do storms often start along a dryline in the afternoon?
+KEY setup-L1#2 | Fronts | Cold front: fast and sharp storms. Warm front: wide steady rain. Occluded: cold catches warm. Stationary: stalled. | CHECK Q: Why do cold fronts usually bring a narrow band of intense storms but warm fronts bring wide, steady rain?
+## LESSON setup-L2: Dryline · Wind shear
+KEY setup-L2#0 | Dryline | Boundary between moist and dry air. It is about moisture, not temperature. Common on the Plains. | CHECK Q: On the Great Plains in spring, the dryline usually has moist air to its…
+KEY setup-L2#1 | Wind shear | Wind changing with height. It lets updraft and downdraft work apart. Direction change starts rotation. | CHECK Q: Does strong wind shear tend to organize thunderstorms (such as supercells) or tear them apart?
+KEY setup-L2#2 | Atmospheric river | A narrow stream of heavy water vapor. Can drop extreme rain at landfall. | CHECK Q: What is an atmospheric river?
+KEY setup-L2#3 | Water and land | Long fetch and warm water give storms energy. Storms leave a cooler wake. Mountains can trigger, weaken, or redirect storms. | CHECK Q: What is fetch?

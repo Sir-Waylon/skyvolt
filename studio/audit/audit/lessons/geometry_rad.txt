@@ -1,0 +1,7 @@
+## LESSON rad-L1: Square roots · Simplify a radical
+KEY rad-L1#0 | Square roots | √a asks: what number times itself gives a? Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.
+KEY rad-L1#1 | Simplify a radical | Pull out the biggest perfect square factor. √72 = √36 · √2 = 6√2. | FORMULA: √72 = 6√2
+KEY rad-L1#2 | Multiply and divide | √a · √b = √(ab). You can also split a root of a fraction into top and bottom. | FORMULA: √2 · √8 = 4
+## LESSON rad-L2: Add and subtract · Rationalize
+KEY rad-L2#0 | Add and subtract | Only LIKE radicals combine, just like like terms. Simplify first. | FORMULA: 3√2 + 5√2 = 8√2
+KEY rad-L2#1 | Rationalize | If a root is left in the denominator, multiply top and bottom by that root. | FORMULA: 1/√2 = √2/2

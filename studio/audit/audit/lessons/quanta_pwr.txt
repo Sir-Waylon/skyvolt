@@ -1,0 +1,5 @@
+## LESSON pwr-L1: Electric power · Why power lines use high voltage
+KEY pwr-L1#0 | Electric power | Power is P = VI = I²R = V²/R, in watts. A kilowatt-hour (kWh) is the energy of 1 kW used for 1 hour, or 3.6 million joules. | FORMULA: P = VI
+KEY pwr-L1#1 | Why power lines use high voltage | Wire loss is I²R. Raising the voltage by 10× cuts the current for the same power by 10× and the loss by 100×.
+KEY pwr-L1#2 | Efficiency | Efficiency = useful output power ÷ input power. The difference leaves as heat.
+KEY pwr-L1#3 | Three-phase power | Power plants use three sine waves 120° apart. Total power is √3·V_line·I_line·cos φ.

@@ -1,0 +1,7 @@
+## LESSON winter-L1: Blizzard · No new snow needed
+KEY winter-L1#0 | Blizzard | Wind or gusts of 35 mph or more, snow in the air, and visibility under ¼ mile. All for at least 3 hours. | CHECK Q: A blizzard needs sustained winds or frequent gusts of at least how many mph?
+KEY winter-L1#1 | No new snow needed | Wind blowing old snow can meet the blizzard test. | CHECK Q: Which condition is NOT required for a blizzard?
+KEY winter-L1#2 | Nor'easter | Big East Coast storm. Northeast winds. Snow, wind, and coastal flooding. | CHECK Q: Why can a nor'easter cause coastal flooding that lasts through several high tides?
+## LESSON winter-L2: Lake effect · Ice storm
+KEY winter-L2#0 | Lake effect | Cold air over warm open lake water makes narrow heavy snow bands downwind. | CHECK Q: A lake-effect snow forms when cold air moves across what?
+KEY winter-L2#1 | Ice storm | Freezing rain coats everything. ¼ inch can break lines and branches. | CHECK Q: Which wintry precipitation builds up the heaviest ice on power lines: sleet or freezing rain?

@@ -1,0 +1,34 @@
+# meteorology-b / clouds: Severe-weather clouds  (56 questions, 27 families)
+## STUDY NOTE (what students are taught)
+Cloud Signal Cumulonimbus The thunderstorm cloud Wall cloud Lowered, often rotating base under the updraft. Tornado warning sign Shelf cloud Wedge at the leading edge. Marks the gust front Funnel cloud Rotating cone not touching ground Mammatus Pouches under an anvil. Often a storm weakening Funnel cloud = not on the ground. Once it touches down it is a tornado.
+## QUESTIONS  format: id | level(1 easy,2 core,3 hard) | type | question || correct answer || wrong options || why
+clouds-001 | 1 | short | Which cloud is the thunderstorm cloud? || Cumulonimbus | Cumulonimbu || Stratus ; Cirrus ; Altostratus || Cumulonimbus is tall, dense and produces storms.
+clouds-002 | 2 | short | A lowered, often rotating cloud base under the main updraft is a… || Wall cloud | Wall clouds || Shelf cloud ; Mammatus ; Anvil || Wall clouds are a key tornado warning sign.
+clouds-003 | 2 | short | A wedge-shaped low cloud on the leading edge of a storm usually marks the… || Gust front | Gust fronts || Tornado ; Dryline ; Updraft core || Shelf clouds form along outflow.
+clouds-004 | 2 | short | A rotating cone-shaped cloud hanging from a storm but not touching the ground is a… || Funnel cloud | Funnel clouds || Tornado ; Waterspout ; Shelf cloud || It becomes a tornado only if it reaches the ground.
+clouds-005 | 2 | short | Pouch-like cloud shapes under an anvil are called… || Mammatus | Mammatu || Funnel ; Wall ; Shelf || Mammatus often appear as storms weaken.
+clouds-006 | 3 | mcq | You see a ragged lowered cloud base rotating beneath the heaviest rain area of a storm. What best describes your concern? || A tornado may form soon || The storm is dying ; Only fair weather is ahead ; A hurricane is forming || Rotating wall clouds often precede tornadoes.
+clouds-007 | 3 | short | Which cloud feature is most associated with a weakening storm? || Mammatus | Mammatu || Wall cloud ; Shelf cloud ; Funnel cloud || Mammatus are often seen in dissipating anvils.
+### FAMILY cb1: 30 generated variants of one template (3 shown; numbers vary)
+clouds-008 | 2 | short | Surface temperature is 88°F and dew point is 85°F. Estimate the cloud base height above ground (ft). (About 400 ft per °F of spread.) || 1200.0 (tol 1) ||  || 3 × 400 = 1200 ft.
+clouds-009 | 2 | short | Surface temperature is 65°F and dew point is 40°F. Estimate the cloud base height above ground (ft). (About 400 ft per °F of spread.) || 10000.0 (tol 1) ||  || 25 × 400 = 10000 ft.
+clouds-010 | 2 | short | Surface temperature is 94°F and dew point is 88°F. Estimate the cloud base height above ground (ft). (About 400 ft per °F of spread.) || 2400.0 (tol 1) ||  || 6 × 400 = 2400 ft.
+clouds-038 | 1 | mcq | A cumulonimbus cloud is… || A tall thunderstorm cloud || A thin high veil ; A low layered sheet ; A halo cloud || Cb = storms.
+clouds-039 | 2 | mcq | An anvil is… || The spread-out top of a thunderstorm || A low funnel ; A rain shaft ; A ground fog || Winds near the tropopause spread the top.
+clouds-040 | 2 | mcq | A wall cloud is… || A lowered rotating cloud base under a storm || A high cirrus band ; A frozen cloud ; A cloud of dust || Often where tornadoes form.
+clouds-041 | 2 | mcq | Mammatus clouds look like… || Hanging pouches under an anvil || Thin streaks ; Flat layers ; A rope || They indicate strong sinking and turbulence.
+clouds-042 | 2 | mcq | A shelf cloud is… || A long low cloud on a gust front || A single funnel ; A mountain wave ; A high halo || It marks the leading edge of outflow.
+clouds-043 | 3 | short | A funnel cloud becomes a tornado when it… || Touches the ground | Touches the grounds || Gets darker ; Is tall ; Rotates slowly || A tornado is a rotating column in contact with the ground.
+clouds-044 | 1 | short | What is the name for puffy, cotton-like clouds with flat bottoms? || cumulus ||  || These are puffy clouds.
+clouds-045 | 1 | short | What is the name for thin, wispy clouds high in the sky made of ice crystals? || cirrus ||  || These are the highest wispy clouds.
+clouds-046 | 1 | short | What is the name for a flat, gray layer of cloud that covers the sky like a blanket? || stratus ||  || Stratus often brings drizzle.
+clouds-047 | 1 | short | Which cloud makes thunderstorms? || cumulonimbus | cb ||  || Cumulo means heap, nimbus means rain: a rain heap.
+clouds-048 | 1 | short | The word nimbus on a cloud name means the cloud brings… || rain | precipitation ||  || Nimbostratus and cumulonimbus bring precipitation.
+clouds-049 | 1 | short | What do we call a cloud that touches the ground? || fog ||  || It forms the same way as other clouds.
+clouds-050 | 2 | short | The flat, spreading top of a thunderstorm is called an… || anvil ||  || It spreads sideways in the shape of an anvil.
+clouds-051 | 2 | short | Which thunderstorm cloud has pouch-like bulges hanging from the underside of the anvil? || mammatus | mammatus clouds ||  || They are mammatus clouds.
+clouds-052 | 2 | short | A long, low roll of cloud along the leading edge of a thunderstorm's cool outflow is called a(n)… || shelf cloud | arcus cloud | arcus | roll cloud ||  || A shelf cloud forms on the gust front.
+clouds-053 | 2 | short | A lowered, rotating cloud base beneath a supercell's updraft is called a… || wall cloud ||  || Tornadoes often form from it.
+clouds-054 | 2 | short | A strong thunderstorm top reaches the tropopause at about 11 km. How many meters is that? || 11000.0 (tol 0.02) ||  || 11 × 1000 = 11,000 m.
+clouds-055 | 2 | order | Put the cloud types in order from the lowest to the highest base height. || Stratus (low) > Cumulus (low to middle) > Altocumulus (middle) > Cirrus (high) ||  || Cumulus come next, altocumulus are mid-level, cirrus are highest.
+clouds-056 | 2 | match | Match each cloud feature to what it tells you. || Anvil=Top of a thunderstorm spreading out; Wall cloud=Rotating lowered base under a supercell; Shelf cloud=Gust front pushing warm air up; Mammatus=Pouches under an anvil ||  || Learn them as a set when you read storm photos.

@@ -1,0 +1,11 @@
+## LESSON mag-L1: Magnet basics · Field lines
+KEY mag-L1#0 | Magnet basics | Every magnet has a north and a south pole. Opposites attract. Likes repel. Cut a magnet in half and you get two smaller magnets. | CHECK Q: Two bar magnets are placed with their north poles facing each other. They will:
+KEY mag-L1#1 | Field lines | They leave north, enter south, and never cross. Closer lines mean a stronger field. | CHECK Q: A magnet's field lines never:
+KEY mag-L1#2 | Magnetic materials | Iron, nickel, and cobalt are strongly attracted (ferromagnetic). Copper, aluminum, and gold are not. | CHECK Q: Which of these is strongly attracted to a magnet?
+## LESSON mag-L2: Oersted · Right-hand rule
+KEY mag-L2#0 | Oersted | A current makes a magnetic field. This was the first link between electricity and magnetism. | CHECK Q: Who first reported that a current-carrying wire deflects a compass needle?
+KEY mag-L2#1 | Right-hand rule | Straight wire: thumb along the current, fingers curl with the field. Coil: fingers curl with the current, thumb points to north. | CHECK Q: Conventional current in a straight wire flows toward you, out of the page. Using the right-hand rule, the magnetic field circles the wire:
+KEY mag-L2#2 | Electromagnet | More turns, more current, and an iron core all make it stronger. It turns off when the current stops. | CHECK Q: Which change would make an electromagnet stronger?
+## LESSON mag-L3: Motors and generators · Transformer
+KEY mag-L3#0 | Motors and generators | A motor turns electricity into motion. A generator turns motion into electricity. Moving a magnet through a coil makes voltage. | CHECK Q: Which change increases the voltage induced in a coil by a moving magnet?
+KEY mag-L3#1 | Transformer | Needs AC. More turns on the secondary means higher voltage. | FORMULA: Vs / Vp = Ns / Np | CHECK Q: An ideal transformer has 200 primary turns and 50 secondary turns. The primary is on 120 V AC. Find the secondary voltage.

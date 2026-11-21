@@ -1,0 +1,8 @@
+## LESSON mod-L1: Photons · Photoelectric effect
+KEY mod-L1#0 | Photons | Light comes in packets. A photon has energy E = hf = hc/λ. A handy form: E (eV) = 1240 / λ (nm). | FORMULA: E = hf | CHECK Q: What is the energy, in eV, of a photon of wavelength 500 nm? (E = 1240/λ)
+KEY mod-L1#1 | Photoelectric effect | A photon frees an electron only if its energy exceeds the metal's work function φ. The fastest electrons leave with KE_max = hf − φ. Brighter light means more electrons, not faster ones. | FORMULA: KE_max = hf − φ | CHECK Q: In the photoelectric effect, making the light brighter (same colour, above threshold) mainly changes…
+KEY mod-L1#2 | Matter waves | Particles have a wavelength λ = h/p. Electrons diffract, which is why electron microscopes see fine detail. | FORMULA: λ = h/p | CHECK Q: Light of wavelength 250 nm falls on a metal with work function 3.0 eV. What is the maximum kinetic energy of the ejected electrons, in eV?
+## LESSON mod-L2: Bohr hydrogen · Radioactive decay
+KEY mod-L2#0 | Bohr hydrogen | Hydrogen energy levels are E_n = −13.6 eV / n². A photon is emitted or absorbed when the electron jumps between levels. | FORMULA: E_n = −13.6/n² eV | CHECK Q: What is the energy, in eV, of a photon of wavelength 700 nm? (E = 1240/λ)
+KEY mod-L2#1 | Radioactive decay | Unstable nuclei decay at random, but a large sample halves every half-life: N = N₀ (½)^(t/T½). | FORMULA: N = N₀ 2^(−t/T) | CHECK Q: A sample has half-life 10 days. How many of its 320 nuclei remain after 40 days (assume exact halvings)?
+KEY mod-L2#2 | Mass and energy | Mass is a form of energy: E = mc². In nuclear reactions the lost mass shows up as energy: 1 u of mass equals 931.5 MeV. | FORMULA: E = mc²

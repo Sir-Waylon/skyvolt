@@ -1,0 +1,7 @@
+## LESSON dig-L1: Binary · Hexadecimal
+KEY dig-L1#0 | Binary | Computers use only 0 and 1. Each place is a power of 2: 1, 2, 4, 8, 16... so 1011₂ = 8 + 2 + 1 = 11.
+KEY dig-L1#1 | Hexadecimal | Hex uses 16 digits (0–9, A–F). One hex digit equals four bits: A = 1010, F = 1111.
+KEY dig-L1#2 | Logic gates | AND is 1 only if both inputs are 1. OR is 1 if either is 1. NOT flips the bit. NAND and NOR are the opposites of AND and OR. | CHECK Q: What is 0 NOR 0? (type 0 or 1)
+## LESSON dig-L2: Truth tables · Converting analog to digital
+KEY dig-L2#0 | Truth tables | A truth table lists the output for every input combination. n inputs give 2ⁿ rows. | CHECK Q: How many rows does a truth table have for a circuit with 2 inputs?
+KEY dig-L2#1 | Converting analog to digital | An n-bit converter splits its range into 2ⁿ levels. Step size = full-scale voltage ÷ 2ⁿ. | FORMULA: step = V_fs/2ⁿ | CHECK Q: A 8-bit ADC measures 0 to 5 V. What is the step size in mV? (3 sig figs)

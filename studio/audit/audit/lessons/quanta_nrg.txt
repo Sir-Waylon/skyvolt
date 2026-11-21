@@ -1,0 +1,11 @@
+## LESSON nrg-L1: Energy and work · Kinetic energy
+KEY nrg-L1#0 | Energy and work | Energy is the ability to make things change. Work is energy transferred by a force: lifting a box takes work. | FORMULA: W = F × d | CHECK Q: You push a box with 16 N for 6 m. How much work do you do?
+KEY nrg-L1#1 | Kinetic energy | Moving things have kinetic energy. It grows with mass and with the square of speed: doubling the speed makes the energy four times bigger. | FORMULA: KE = ½mv² | CHECK Q: What is the kinetic energy of a 12 kg object moving at 10 m/s?
+KEY nrg-L1#2 | Potential energy | Raised things can fall, so they store gravitational potential energy. | FORMULA: PE = mgh | CHECK Q: What is the gravitational potential energy of a 3 kg mass lifted 12 m? Use g = 10 m/s².
+## LESSON nrg-L2: Conservation of energy · Power
+KEY nrg-L2#0 | Conservation of energy | Energy is never created or destroyed. It changes form. Without friction, KE + PE stays the same along a path.
+KEY nrg-L2#1 | Power | Power is how fast energy is used or work is done. One watt is one joule per second. | FORMULA: P = W/t | CHECK Q: You push a box with 19 N for 12 m. How much work do you do?
+KEY nrg-L2#2 | Springs | A stretched spring pulls back with F = kx and stores energy ½kx². | FORMULA: PE = ½kx² | CHECK Q: A spring with k = 500 N/m is stretched 0.2 m. How much energy does it store?
+## LESSON nrg-L3: Work-energy theorem · Efficiency
+KEY nrg-L3#0 | Work-energy theorem | The net work done on an object equals its change in kinetic energy. | FORMULA: W_net = ΔKE | CHECK Q: What is the kinetic energy of a 12 kg object moving at 6 m/s?
+KEY nrg-L3#1 | Efficiency | Efficiency = useful energy out ÷ energy in. No machine is 100% efficient because some energy always turns into heat. | CHECK Q: A machine takes in 900 J and does 180 J of useful work. What is its efficiency in percent?

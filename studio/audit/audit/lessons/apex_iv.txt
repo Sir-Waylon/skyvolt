@@ -1,0 +1,5 @@
+## LESSON iv-L1: Undoing a function · Trig takes an angle, inverse takes a ratio
+KEY iv-L1#0 | Undoing a function | An inverse function undoes another: if f turns x into y, then f⁻¹ turns y back into x. Check: f⁻¹(f(x)) = x. Note f⁻¹(x) is NOT 1/f(x). | FORMULA: f⁻¹(f(x)) = x
+KEY iv-L1#1 | Trig takes an angle, inverse takes a ratio | sin, cos and tan turn an angle into a ratio. sin⁻¹ (also written arcsin), cos⁻¹ and tan⁻¹ turn a ratio back into an angle. That is how you find a missing angle in a right triangle. | FORMULA: θ = sin⁻¹(opp/hyp) | CHECK Q: A right triangle has legs 10 and 6 (angle θ is opposite the leg 10). Find θ in degrees (1 decimal).
+KEY iv-L1#2 | Why we restrict the range | Sine repeats forever, so many angles share one ratio. To make an inverse, we keep one piece: arcsin gives −90° to 90°, arccos gives 0° to 180°, arctan gives −90° to 90° (open). | CHECK Q: cos⁻¹(0.0) = ? (degrees, between 0° and 180°)
+KEY iv-L1#3 | Using a calculator | Check degree or radian mode first. Use the sin⁻¹, cos⁻¹, tan⁻¹ keys. arcsin and arccos only accept inputs from −1 to 1; arctan accepts any number.

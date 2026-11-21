@@ -1,0 +1,11 @@
+## LESSON ex-L1: Repeated multiplication · Doubling and tripling
+KEY ex-L1#0 | Repeated multiplication | 2⁵ means 2 × 2 × 2 × 2 × 2 = 32. The small raised number counts how many times the base is used. | FORMULA: 2⁵ = 32 | CHECK Q: A plant starts at 1 cm and doubles in height every day. How many centimeters tall is it after 5 days?
+KEY ex-L1#1 | Doubling and tripling | If a plant doubles every day, after n days it is 2ⁿ times bigger. This kind of growth starts slowly and then explodes. | CHECK Q: A plant starts at 1 cm and doubles in height every day. How many centimeters tall is it after 3 days?
+KEY ex-L1#2 | Exponential functions | y = a·bˣ. a is the starting amount and b is the growth factor. If b > 1 it grows. If 0 < b < 1 it decays. | FORMULA: y = 100·1.05ˣ | CHECK Q: 100 dollars grows by 10% in one year, then by 10% again. How many dollars after two years?
+## LESSON ex-L2: Negative and zero exponents · Percent growth and decay
+KEY ex-L2#0 | Negative and zero exponents | b⁰ = 1 and b⁻ⁿ = 1/bⁿ. A negative exponent means flip, not negative. | FORMULA: 2⁻³ = 1/8
+KEY ex-L2#1 | Percent growth and decay | Growing 8% a year multiplies by 1.08. Losing 20% multiplies by 0.80. | FORMULA: A = P(1 + r)ᵗ
+KEY ex-L2#2 | Compound interest | With n compounds a year: A = P(1 + r/n)ⁿᵗ. More compounds give slightly more money. | FORMULA: A = P(1 + r/n)^(nt)
+## LESSON ex-L3: Half-life · Solving exponential equations
+KEY ex-L3#0 | Half-life | After one half-life, half remains. After two, a quarter. Amount = start × (½)^(time ÷ half-life). | CHECK Q: 400 dollars grows by 5% in one year, then by 5% again. How many dollars after two years?
+KEY ex-L3#1 | Solving exponential equations | If the bases match, set the exponents equal. Otherwise take a logarithm of both sides. | FORMULA: 2ˣ = 64 → x = 6

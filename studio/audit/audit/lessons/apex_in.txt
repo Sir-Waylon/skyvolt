@@ -1,0 +1,11 @@
+## LESSON in-L1: Area by counting · Riemann sums
+KEY in-L1#0 | Area by counting | Area is how much space is inside a shape. We can estimate the area under a curve by adding up thin rectangles.
+KEY in-L1#1 | Riemann sums | Split the interval into slices, make a rectangle for each, and add the areas. More slices give a better estimate.
+KEY in-L1#2 | The definite integral | ∫ from a to b of f(x) dx is the exact signed area between the graph and the x-axis. Area below the axis counts as negative.
+## LESSON in-L2: Antiderivatives · Fundamental Theorem of Calculus
+KEY in-L2#0 | Antiderivatives | An antiderivative of f is a function whose derivative is f. For powers: ∫xⁿ dx = xⁿ⁺¹/(n + 1) + C. | FORMULA: ∫x² dx = x³/3 + C
+KEY in-L2#1 | Fundamental Theorem of Calculus | ∫ from a to b of f(x) dx = F(b) − F(a) where F is any antiderivative of f. Derivatives and integrals undo each other. | FORMULA: ∫₀² x² dx = 8/3
+KEY in-L2#2 | Average value and total change | Average value = (1/(b − a)) ∫ f. Integrating a rate gives total change, like integrating speed to get distance.
+## LESSON in-L3: Substitution · Area between curves
+KEY in-L3#0 | Substitution | For ∫f(g(x))g′(x) dx, let u = g(x). The messy part becomes a simple integral in u.
+KEY in-L3#1 | Area between curves | Subtract the lower curve from the upper curve and integrate across the interval.

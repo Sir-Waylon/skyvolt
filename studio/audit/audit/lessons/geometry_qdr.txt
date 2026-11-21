@@ -1,0 +1,11 @@
+## LESSON qdr-L1: Function notation · Quadratic shape
+KEY qdr-L1#0 | Function notation | f(x) is the output for input x. To find f(3), replace every x with 3 and calculate. | FORMULA: f(x) = 2x + 1 → f(3) = 7
+KEY qdr-L1#1 | Quadratic shape | The graph of y = ax² + bx + c is a parabola. If a > 0 it opens up; if a < 0, down.
+KEY qdr-L1#2 | Vertex | The vertex is the turning point. Its x-coordinate is −b/(2a). Plug in to get y. | FORMULA: x = −b/(2a) | CHECK Q: A bridge arch has height y = 2x² + 4x + 11 at horizontal position x. At which x is the arch at its lowest point (the vertex)?
+## LESSON qdr-L2: Solve by factoring · Quadratic formula
+KEY qdr-L2#0 | Solve by factoring | Move everything to one side, factor, set each factor to 0. | FORMULA: x² − 5x + 6 = 0 → x = 2, 3
+KEY qdr-L2#1 | Quadratic formula | When factoring fails, use the formula. The discriminant b² − 4ac tells how many real solutions. | FORMULA: x = [−b ± √(b² − 4ac)] / 2a
+KEY qdr-L2#2 | Exponential growth | Repeated percent change uses A = P(1 + r)ⁿ. Decay uses (1 − r). | FORMULA: A = P(1 + r)ⁿ
+## LESSON qdr-L3: Sequences · Absolute value
+KEY qdr-L3#0 | Sequences | Arithmetic adds the same number each time; geometric multiplies by the same number. | FORMULA: aₙ = a₁ + (n − 1)d | CHECK Q: An arithmetic sequence starts at 4 and adds 2 each step. Find term 10.
+KEY qdr-L3#1 | Absolute value | |x| is the distance from 0. |x − 3| = 5 means x is 5 away from 3, so two answers.

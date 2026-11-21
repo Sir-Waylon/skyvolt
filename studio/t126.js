@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+for(const [w,h,n] of [[390,780,'m'],[1280,800,'d']]){const p=await (await b.newContext({viewport:{width:w,height:h}})).newPage();await p.goto('http://localhost:8791/');await p.waitForSelector('#gate #acg');await p.screenshot({path:'gate_'+n+'.png'});
+console.log(n,await p.evaluate(()=>{const r=document.querySelector('#gate .gcard').getBoundingClientRect(),g=document.querySelector('#gate').scrollHeight>innerHeight;return {l:r.left,r:innerWidth-r.right,t:r.top,b:innerHeight-r.bottom,scroll:g}}))}await b.close()})()
