@@ -1,0 +1,5 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+for(const s of ['_app_skyvolt/meteorology','_app_skyvolt/circuit','_app_axiom/apex','_app_axiom/quanta']){for(const w of [280,300]){
+const p=await(await b.newContext({viewport:{width:w,height:653}})).newPage();await p.goto('file://'+process.cwd()+'/out/'+s+'/index.html');await p.waitForTimeout(400);
+await p.evaluate(()=>{document.getElementById('gate')&&document.getElementById('gate').remove();S.dgr={};ALL.forEach((t,i)=>S.dgr[t]=i%2);S.dg=today();S.cu=null;route();document.querySelector('#nav button[data-t="library"]').click()});await p.waitForTimeout(300);
+console.log(s,w,await p.evaluate(()=>{const o=[];document.querySelectorAll('#main *').forEach(e=>{const r=e.getBoundingClientRect();if(r.width&&r.right>281)o.push(e.tagName+'.'+(e.className||'')+' '+Math.round(r.right)+' '+(e.textContent||'').slice(0,20))});return document.documentElement.scrollWidth+'>'+innerWidth+' '+JSON.stringify(o.slice(0,8))}))}}await b.close()})()
