@@ -1,3 +1,4 @@
+globalThis.fetch=async()=>{throw new Error('offline')};
 import {DatabaseSync} from 'node:sqlite';import fs from 'node:fs';import {onRequest} from './route.mjs';
 const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync('../schema.sql','utf8'));
 const stmt=(sql)=>{let a=[];const o={bind(...x){a=x;return o},async first(){return db.prepare(sql).get(...a)||null},async all(){return {results:db.prepare(sql).all(...a)}},async run(){const r=db.prepare(sql).run(...a);return {meta:{last_row_id:Number(r.lastInsertRowid)}}}};return o};
@@ -5,7 +6,7 @@ const env={DB:{prepare:stmt},PEPPER:'testpepper'};const O='https://x.test';
 class U{constructor(){this.c={}}
  async call(m,p,b,opt={}){const h={'content-type':'application/json',origin:O,'cf-connecting-ip':opt.ip||'1.1.1.1'};const ck=Object.entries(this.c).map(([k,v])=>k+'='+v).join('; ');if(ck)h.cookie=ck;if(this.c['__Host-csrf']&&!opt.nocsrf)h['x-csrf']=this.c['__Host-csrf'];
   const r=await onRequest({request:new Request(O+'/api'+p,{method:m,headers:h,body:m==='POST'?JSON.stringify(b||{}):undefined}),env});
-  for(const c of r.headers.getSetCookie()){const [kv,...rest]=c.split(';'),[k,v]=kv.split('=');if(/Max-Age=0/.test(c))delete this.c[k];else this.c[k]=v;if(k==='__Host-sid'&&!(/HttpOnly/.test(c)&&/Secure/.test(c)&&/SameSite=Lax/.test(c)))throw new Error('cookie flags')}
+  for(const c of r.headers.getSetCookie()){const [kv,...rest]=c.split(';'),[k,v]=kv.split('=');if(/Max-Age=0/.test(c))delete this.c[k];else this.c[k]=v;if(k==='__Host-sid'&&!(/HttpOnly/.test(c)&&/Secure/.test(c)&&/SameSite=Strict/.test(c)))throw new Error('cookie flags')}
   return [r.status,await r.json()]}}
 let fail=0;const t=(n,c)=>{console.log(c?'ok  ':'FAIL',n);if(!c)fail++};
 const a=new U(),b=new U();

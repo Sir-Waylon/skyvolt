@@ -1,5 +1,5 @@
-const V='tr-a9f52c51-b2eb79';
-const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "fonts/inter-400.woff", "fonts/inter-600.woff", "fonts/inter-700.woff", "fonts/interd-700.woff", "circuit/", "circuit/app.fe2bd196.js", "circuit/app.a9f52c51.css", "meteorology/", "meteorology/app.d5c57e3f.js", "meteorology/app.a9f52c51.css"];
+const V='tr-40879881-82386f';
+const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "fonts/inter-400.woff", "fonts/inter-600.woff", "fonts/inter-700.woff", "fonts/interd-700.woff", "circuit/", "circuit/app.4b0587dd.js", "circuit/app.40879881.css", "meteorology/", "meteorology/app.53800af8.js", "meteorology/app.40879881.css"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET'||new URL(r.url).origin!==location.origin||new URL(r.url).pathname.startsWith('/api/'))return;
