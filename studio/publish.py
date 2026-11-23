@@ -16,7 +16,7 @@ for k,R,sub in [('skyvolt','/home/claude/skyvolt','Skyvolt_repo'),('axiom','/hom
     if os.path.isdir(old):subprocess.check_call(['git','mv',sub,'site'],cwd=R)
     shutil.rmtree(w,ignore_errors=True);shutil.copytree(os.path.join(K,'out',k),w)
     wr=os.path.join(R,'wrangler.jsonc');t=open(wr).read().replace('./'+sub,'./site');open(wr,'w').write(t)
-    rd=os.path.join(R,'README.md');t=open(rd).read().replace(sub+'/','site/').replace(sub,'site');open(rd,'w').write(t)
+    rd=os.path.join(R,'README.md');t=open(rd).read().replace(sub+'/','site/').replace(sub,'site').replace('**Vertex** (Algebra 1 to Honors Geometry), **Apex** (Algebra 2, Trigonometry, Precalculus, Intro Calculus)','**Apex** (Algebra 1 through Geometry, Algebra 2, Trigonometry, Precalculus and Calculus)');open(rd,'w').write(t)
     S=os.path.join(K,'out','repo-'+k)
     for f in('tests','.github/workflows'):
         dst=os.path.join(R,f);shutil.rmtree(dst,ignore_errors=True);shutil.copytree(os.path.join(S,f),dst)
