@@ -1,0 +1,28 @@
+const {chromium}=require('playwright');const {spawn}=require('child_process');
+(async()=>{const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium',args:['--no-sandbox']});
+const sv=spawn('node',['server.mjs','../../out/skyvolt',8841],{cwd:'backend/test',env:{...process.env,TEST_MAIL:'1'}});await new Promise(r=>setTimeout(r,900));
+const base='http://skyvolt.localhost:8841';const res=[];const ok=(n,c)=>{res.push((c?'ok   ':'FAIL ')+n)};
+const ctx=await b.newContext({viewport:{width:390,height:844}});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto(base+'/app/circuit/');await p.waitForTimeout(1200);
+ok('gate shown',await p.evaluate(()=>!!document.getElementById('gate')));
+await p.click('[data-am="up"]');await p.waitForTimeout(200);
+ok('password checklist visible',await p.evaluate(()=>document.querySelectorAll('#pwr li').length===3));
+await p.fill('#email','kid@x.com');await p.fill('#username','kid_one');await p.fill('#password','abc');
+ok('checklist reacts (0 done)',await p.evaluate(()=>document.querySelectorAll('#pwr li.ok').length===0));
+await p.fill('#password','correct horse 42 battery');
+ok('checklist all done',await p.evaluate(()=>document.querySelectorAll('#pwr li.ok').length===3));
+await p.click('#acg');await p.waitForTimeout(900);
+ok('verify screen',await p.evaluate(()=>/Check your email/.test(document.getElementById('gate').textContent)));
+ok('email masked',await p.evaluate(()=>/ki\*\*\*@x\.com/.test(document.getElementById('gate').textContent)));
+await p.fill('#code','000000');await p.click('#acv');await p.waitForTimeout(500);
+ok('wrong code keeps gate',await p.evaluate(()=>/Check your email/.test(document.getElementById('gate').textContent)));
+const code=await p.evaluate(async()=>(await fetch('/__lastcode')).text());
+await p.fill('#code',code);await p.click('#acv');await p.waitForTimeout(900);
+ok('signed in',await p.evaluate(()=>!document.getElementById('gate')));
+await p.evaluate(()=>{document.querySelector('#nav button[data-t="me"]').click()});await p.waitForTimeout(400);await p.evaluate(()=>{[...document.querySelectorAll('#main [data-nav],#main button,#main a')].find(e=>/Educator access/.test(e.textContent)).click()});await p.waitForTimeout(500);
+ok('dev form shown',await p.evaluate(()=>!!document.getElementById('devk')));
+await p.fill('#devk','wrong-code');await p.click('[data-dev="unlock"]');await p.waitForTimeout(200);
+ok('wrong rejected',await p.evaluate(()=>/not recognised/.test(document.getElementById('devmsg').textContent)));
+await p.fill('#devk','7p7p-993a-2wz9-9zgf');await p.click('[data-dev="unlock"]');await p.waitForTimeout(500);
+ok('educator code accepted',await p.evaluate(()=>!!document.querySelector('[data-dev="cos"]')||!!document.getElementById('devchip')));
+console.log(res.join('\n'));sv.kill();await b.close()})()
