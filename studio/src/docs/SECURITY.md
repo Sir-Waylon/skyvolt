@@ -67,3 +67,23 @@ Voltaxis processes **no payment-card data**: the shop is cosmetic, uses earned c
 - Owner to do: name the controller and contact address in the policy (`site.config.json`), keep a processor list (Cloudflare, Mailtrap, Google if used), sign each provider's DPA (accept Cloudflare's and Mailtrap's online DPA), keep a simple record of processing, and answer rights requests within one month.
 - Account deletion in the app erases the account, progress, friend links and codes.
 - Have a lawyer review before wider public launch.
+
+## 7. TLS and HTTPS (EU and PCI DSS 4.0 focus)
+
+**In code**
+- Every page and API response carries HSTS (`max-age=63072000; includeSubDomains`, two years). Preload is not requested; submit to hstspreload.org only when every subdomain is HTTPS and you accept that it is hard to undo.
+- The CSP has `upgrade-insecure-requests`, so any stray http:// sub-resource is fetched over HTTPS.
+- The API Worker answers any plain-HTTP request on a real hostname with a 308 redirect to HTTPS. A small script on every page and trainer (`cs.js`) does the same for page loads, so the sign-in and password screens are never usable over HTTP. localhost is exempt for development.
+- Cookies are `__Host-` prefixed (Secure, HttpOnly for the session, SameSite=Strict, no Domain) so they cannot be set from HTTP or a sibling subdomain.
+- `style-src` no longer allows `'unsafe-inline'`. Page markup uses classes (`/s.css`); HTML built at run time has its style attributes applied through the CSSOM (`cs.js`); the trainers' theme colours are in a stylesheet file.
+
+**In the Cloudflare dashboard (owner steps)**
+1. SSL/TLS → Overview: mode **Full (strict)** (workers.dev and Workers custom domains terminate TLS at Cloudflare; strict matters if you ever add an origin).
+2. SSL/TLS → Edge Certificates: **Always Use HTTPS** on; **Minimum TLS Version 1.2** (PCI DSS 4.0 req. 4.2.1 requires strong cryptography; TLS 1.0/1.1 must stay off); **TLS 1.3** on; **Automatic HTTPS Rewrites** on; **Opportunistic Encryption** on; HSTS on with the same values as above; **Certificate Transparency Monitoring** on (emails you about new certificates for your domain).
+3. Optional cipher tightening: Edge Certificates → Cipher suites → allow only ECDHE with AES-GCM/ChaCha20 (the "Modern" set). This removes CBC and static-RSA suites.
+4. Keep the CAA records from section 4 so only your chosen certificate authorities can issue.
+5. Check: ssllabs.com/ssltest (target A or A+), `curl -I http://yourdomain` should show a 301/308 to https, `openssl s_client -connect yourdomain:443 -tls1_1` should fail.
+
+**EU (GDPR and ePrivacy)**: GDPR Art. 32 asks for encryption in transit as an "appropriate" measure; TLS 1.2+ with HSTS satisfies that. ePrivacy needs consent for non-essential cookies: the only optional cookie (`vx_pg`) and diagnostics are off until the person turns them on, and turning them off deletes the data. This is a description of design, not legal advice.
+
+**PCI DSS 4.0 Req. 4**: no cardholder data is processed. Req. 4.2.1 (strong cryptography on open networks) is met by TLS 1.2+/1.3 only; 4.2.1.1 (inventory of trusted keys and certificates) is the Cloudflare certificate list plus Certificate Transparency monitoring; 4.2.2 (no PAN over end-user messaging) does not apply. If payments are added later, use a hosted checkout so cards never reach these Workers.
