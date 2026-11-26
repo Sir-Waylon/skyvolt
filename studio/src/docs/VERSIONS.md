@@ -86,5 +86,9 @@ Totals up to 26.3: 26 major updates and 54 minor updates.
 | 26.1 | 2026-11-24 | minor | Recentre level ring; rewrite 141 thin Apex solutions as worked steps |
 | 26.2 | 2026-11-25 | minor | Enable Workers Logs/observability in wrangler config; document where to read logs |
 | 26.3 | 2026-11-25 | minor | v21.1: Google sign-in button clipped to pill (no white box) |
+| 27.0 | 2026-11-25 | major | Contact email + security.txt, Hovercraft B guide, skippable new-topic explanations, version history |
+| 28.0 | 2026-11-25 | major | Quanta basic physics topics; Apex calculus/AP stats replaced by more algebra, geometry and precalculus |
+| 29.0 | 2026-11-26 | major | Interactive homepage questions (sliders, predict-observe-explain) and the question-writing rules |
+| 30.0 | 2026-11-26 | major | 101 new proofs (132 total), about 930 proof questions with tiers, traps and diagnostic distractors |
 
-Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 27.0.
+Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 31.0 (major) or 30.1 (minor).
