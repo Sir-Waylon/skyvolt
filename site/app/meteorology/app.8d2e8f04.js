@@ -2089,6 +2089,12 @@ T['quanta-physics']=[
   steps:['Time constant τ = R × C (kΩ × µF = ms).','R = '+tau+' ÷ '+C+' = '+Rr+' kΩ.'],ans:Rr+' kΩ'}}}];
 /* ---------- add to the question bank ---------- */
 T['apex-math']=(T['geometry-readiness']||[]).concat(T['apex-math']||[]);
+T['quanta-physics']=(T['quanta-physics']||[]).filter(function(x){return x.t!=='rc'}).concat([
+ {id:'lvr',t:'mac',l:2,ic:'⚖️',gen:function(r){var L,dl,F,d,k=0;do{L=pk(r,[20,30,40,50,60,80]);dl=pk(r,[0.5,1,1.5,2]);F=pk(r,[10,20,25,30,40,50]);d=L*dl/F;k++}while((d<0.2||d>5||Math.abs(d*100-Math.round(d*100))>1e-6)&&k<200);d=rd(d,2);
+  return{story:'A lever balances when force × distance is the same on both sides. A '+L+' N load sits '+dl+' m from the pivot. You push down with '+F+' N on the other side. How far from the pivot must you push to balance it?',
+  params:[{n:'d',l:'Distance from pivot',min:.1,max:5,step:.05,u:' m',s:1}],env:{F:F},out:{e:'F*d',l:'Your turning effect',u:' N·m',d:2},goal:{t:L*dl,rel:.02},
+  steps:['Balance: effort × distance = load × distance.',F+' × d = '+L+' × '+dl+' = '+(L*dl)+'.','d = '+(L*dl)+' ÷ '+F+' = '+d+' m.'],ans:d+' m'}}}]);
+T['apex-math']=T['apex-math'].filter(function(x){return {lm:1,dv:1,da:1,'in':1,st:1,mv:1,sr:1,pp:1,cn:1,ti:1,iv:1,id:1,tl:1}[x.t]!==1});
 var TL=T[PK]||[],NPER=10;
 TL.forEach(function(tp){var seen={};for(var i=0;i<NPER;i++){var id='sim-'+tp.id+'-'+(i<9?'0':'')+(i+1);if(QI[id]!==undefined)continue;var g=tp.gen(mul(hs(PK+tp.id+i)));if(seen[g.story]){continue}seen[g.story]=1;
  var q={id:id,t:tp.t,l:tp.l,type:'sim',ic:tp.ic,q:g.story,sim:g,sol:g.steps,w:g.steps[g.steps.length-1],fp:'sim-'+tp.id};QS.push(q);QI[id]=QS.length-1}});
@@ -2357,7 +2363,7 @@ function RC(x,y,w,h,f,s,r){return '<rect x="'+x+'" y="'+y+'" width="'+w+'" heigh
 function CI(x,y,r,f,s){return '<circle cx="'+x+'" cy="'+y+'" r="'+r+'" fill="'+(f||'none')+'" stroke="'+(s||'currentColor')+'" stroke-width="1.8"/>'}
 function PA(d,s,w,f,dash){return '<path d="'+d+'" fill="'+(f||'none')+'" stroke="'+(s||'#5b4bff')+'" stroke-width="'+(w||2.5)+'"'+(dash?' stroke-dasharray="'+dash+'"':'')+'/>'}
 var PU='#5b4bff',OR='#e08a00',GR='#0b8f6a',RD='#d6336c',BL='#2a7de1';
-var LAB={};function add(pack,tp){(LAB[pack]=LAB[pack]||[]).push(tp)}
+var LAB={};var GONE={'quanta-physics':{rc:1,flt:1,dev:1,rot:1,sho:1,gas:1,gau:1,lor:1,mxw:1,cal:1,kvl:1,ac:1},'apex-math':{lm:1,dv:1,da:1,'in':1,st:1,mv:1,sr:1,pp:1,cn:1,ti:1,iv:1,id:1,tl:1}};function add(pack,tp){if(GONE[pack]&&GONE[pack][tp.t])return;(LAB[pack]=LAB[pack]||[]).push(tp)}
 window.__labAdd=add;window.__labKit={mul:mul,hs:hs,pk:pk,rd:rd,sg:sg,fm:fm,SV:SV,TX:TX,LN:LN,RC:RC,CI:CI,PA:PA,PU:PU,OR:OR,GR:GR,RD:RD,BL:BL,G:G};
 
 /* ---------- Quanta: its own set of labs (physics and electronics), not shared with the circuit-event trainer ---------- */
@@ -4296,7 +4302,7 @@ function stationLab(root){var s={T:18,Td:12,dir:225,kt:25,p:1013.2,oct:4};
 /* ---------- registry and view ---------- */
 var LABS=[{id:'proj',t:'Projectile launcher',d:'Aim, pick a world, add air',make:projectile,p:['quanta-physics']},{id:'swing',t:'Pendulum and spring',d:'Drag, release, measure the period',make:swing,p:['quanta-physics']},{id:'coll',t:'Collision lab',d:'Masses, speeds and bounciness',make:collide,p:['quanta-physics']},
  {id:'ohm',t:'Ohm\'s law and fuses',d:'Volts, ohms, amps and a fuse that blows',make:ohm,p:['circuit-lab-b','quanta-physics']},
- {id:'rc',t:'Charging a capacitor',d:'Watch the voltage curve and the time constant',make:rcLab,p:['circuit-lab-b','quanta-physics']},
+ {id:'rc',t:'Charging a capacitor',d:'Watch the voltage curve and the time constant',make:rcLab,p:['circuit-lab-b']},
  {id:'net',t:'Resistor networks',d:'Switch resistors in and out, find the total',make:netLab,p:['circuit-lab-b','quanta-physics']},
  {id:'mag',t:'Electromagnet',d:'Turns, current and a core',make:magLab,p:['circuit-lab-b','quanta-physics']},
  {id:'wind',t:'Pressure and wind',d:'Highs, lows, Coriolis and friction',make:windLab,p:['meteorology-b']},
@@ -4916,6 +4922,11 @@ new MutationObserver(sched).observe(document.body||document.documentElement,{chi
    WHY[topic] = [mental model, everyday analogy, common trap];  WVIS[topic] = animation kind.
    Written per subject so the explanation matches how that subject is actually reasoned about. */
 var WHY={
+/* ---- Quanta basics ---- */
+mac:['A machine does not give you free work. It lets you swap force for distance: push gently over a long way instead of hard over a short way. Work is force times distance, so the total stays the same (or gets worse because of friction).','Climbing a hill by a gentle winding road instead of a steep staircase. The road is longer, but each step is easier.','Thinking a machine reduces the work. It only reduces the force; the distance you move grows by the same factor.'],
+mat:['Matter is stuff that takes up space and has mass. Density says how much mass is packed into each bit of space, and pressure says how hard a force is squeezing on each bit of area. Together they explain floating, sinking, sharp knives, snowshoes and deep-sea diving.','A bag of feathers and a bag of marbles of the same size: same volume, very different mass. That difference is density.','Mixing up mass, volume and density, and forgetting to turn cm² into m² before working out pressure.'],
+hea:['Heat is energy moving from hot to cold, and temperature measures how fast the particles are jiggling. Heat moves by conduction (touch), convection (moving fluid) and radiation (light). How much a material warms up depends on its specific heat.','A crowd in a hall: hot particles are like people running, and when they bump into a slower crowd they pass on some of their speed until everyone moves at the same average pace.','Treating temperature and heat as the same thing, and forgetting that a melting or boiling substance stays at one temperature.'],
+ene:['Energy is the ability to make things happen, and it comes in forms: motion, height, heat, light, sound, chemical and electrical. It is never lost, only changed from one form to another, and some always ends up as spread-out heat. Efficiency says how much stays useful.','A bank account with several pockets. Money moves between pockets (forms), the total is always the same, and some is lost to fees (waste heat) every time you move it.','Saying energy is used up. It is not destroyed, it spreads out into forms we cannot use easily. Also forgetting that speed is squared in kinetic energy.'],
 /* ---- Apex: algebra ---- */
 eq:['An equation is a balance. Whatever you do to one side you must do to the other, and you work backwards through the order things were done to x.','A see-saw with two kids of equal weight: add a snack to one side and the other side needs one too.','Doing the operation to only one side, or undoing in the wrong order (undo adding/subtracting before multiplying/dividing).'],
 lin:['A line is a constant rate of change. The slope says how much y changes for each 1 step in x; the intercept says where you start.','A taxi: a flat fee when you get in (intercept) plus a fixed price per mile (slope).','Mixing up rise/run (it is change in y over change in x, never the reverse) and dropping a negative sign on the slope.'],
@@ -5017,7 +5028,7 @@ winter:["Winter storms need cold air and moisture. The temperature profile from 
 safety:["A watch means conditions could develop, and a warning means it is happening or about to. Safety means acting early and using reliable sources.", "A watch is a 'might rain' forecast; a warning is rain already on the window.", "Waiting for a siren. Take action at a warning, and never drive through flood water."],
 cases:["Historic events teach patterns. Comparing the cause, track, damage and warning time of past storms shows what made each one deadly or notable.", "A case study in a medical class: each patient teaches one lesson that applies to many others.", "Memorizing dates alone. Learn the type of event, the place and what made it important."]
 };
-var WVIS={eq:'bal',lin:'slope',crd:'slope',sys:'slope',exp:'grow',ex:'grow',sq:'grow',sr:'grow',rad:'area',area:'area',fac:'area',qdr:'par',fn:'par',qd2:'par',rt:'tri',sim:'tri',tl:'tri',tc:'unit',ti:'unit',iv:'unit',id:'unit',pp:'unit',tg:'wave',ac:'wave',lm:'lim',dv:'deriv',da:'deriv','in':'integ',st:'bars',kin:'proj',cir:'unit',sho:'pend',nrg:'pend',wav:'wavep',frc:'vec',ohm:'flow',kvl:'flow',rc:'flow',circ:'flow',virpe:'flow',kirch:'flow',cap:'flow',winds:'press',maps:'press'};
+var WVIS={mac:'slope',mat:'area',hea:'flow',ene:'pend',eq:'bal',lin:'slope',crd:'slope',sys:'slope',exp:'grow',ex:'grow',sq:'grow',sr:'grow',rad:'area',area:'area',fac:'area',qdr:'par',fn:'par',qd2:'par',rt:'tri',sim:'tri',tl:'tri',tc:'unit',ti:'unit',iv:'unit',id:'unit',pp:'unit',tg:'wave',ac:'wave',lm:'lim',dv:'deriv',da:'deriv','in':'integ',st:'bars',kin:'proj',cir:'unit',sho:'pend',nrg:'pend',wav:'wavep',frc:'vec',ohm:'flow',kvl:'flow',rc:'flow',circ:'flow',virpe:'flow',kirch:'flow',cap:'flow',winds:'press',maps:'press'};
 
 /* ===== why.js: automatic "why you missed it" explanation =====
    After a wrong answer the review opens by itself. It adds, above the step-by-step solution:
@@ -5515,7 +5526,7 @@ var _am=afterMe;afterMe=function(){_am.apply(this,arguments);if(sub.me!=='settin
  $('cs-dg').onchange=function(){C.dg=this.checked?1:0;sc();if(!C.dg){try{localStorage.removeItem(DK)}catch(e){}res=null}route()};
  if($('cs-run'))$('cs-run').onclick=function(){res=scan();route()};
  if($('cs-clr'))$('cs-clr').onclick=function(){try{localStorage.removeItem(DK)}catch(e){}res=null;route()};
- if($('cs-send'))$('cs-send').onclick=function(){var o={device:res||scan(),errors:log(),v:'0d78ab08'};fetch('/api/diag',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify(o)}).then(function(r){toast(r.ok?'Thanks, sent':'Could not send right now')}).catch(function(){toast('Could not send right now')})}};
+ if($('cs-send'))$('cs-send').onclick=function(){var o={device:res||scan(),errors:log(),v:'b2bf665e'};fetch('/api/diag',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify(o)}).then(function(r){toast(r.ok?'Thanks, sent':'Could not send right now')}).catch(function(){toast('Could not send right now')})}};
 if(C.pg)setCookie(1);
 })();
 

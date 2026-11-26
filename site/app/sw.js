@@ -1,5 +1,5 @@
-const V='tr-0d78ab08-9b4a74';
-const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "fonts/inter-400.woff", "fonts/inter-600.woff", "fonts/inter-700.woff", "fonts/interd-700.woff", "circuit/", "circuit/app.ab2bb001.js", "circuit/app.0d78ab08.css", "circuit/app.0d78ab08.theme.css", "meteorology/", "meteorology/app.1cb64fba.js", "meteorology/app.0d78ab08.css", "meteorology/app.0d78ab08.theme.css"];
+const V='tr-b2bf665e-a776f5';
+const PRE=["./", "icon.svg", "manifest.webmanifest", "hub.css", "reg.js", "fonts/inter-400.woff", "fonts/inter-600.woff", "fonts/inter-700.woff", "fonts/interd-700.woff", "circuit/", "circuit/app.8de7b45c.js", "circuit/app.b2bf665e.css", "circuit/app.b2bf665e.theme.css", "meteorology/", "meteorology/app.8d2e8f04.js", "meteorology/app.b2bf665e.css", "meteorology/app.b2bf665e.theme.css"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(PRE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET'||new URL(r.url).origin!==location.origin||new URL(r.url).pathname.startsWith('/api/'))return;
