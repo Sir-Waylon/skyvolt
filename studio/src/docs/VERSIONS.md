@@ -2,7 +2,9 @@
 
 Counted from the first commit in the repository (80 commits, Nov 5 to Nov 25 2026). **Major** (first digit) = a new feature, new system or large content batch. **Minor** (second digit) = a fix, polish, small addition, docs or CI change. The version resets its second digit to 0 on every major.
 
-Totals up to 26.3: 26 major updates and 54 minor updates.
+Totals up to 26.3: 26 major updates and 54 minor updates. Totals up to 31.1: 31 major and 56 minor (27.0, 28.0, 29.0, 30.0 and 31.0 are major; 30.1 and 31.1 are minor).
+
+How major and minor were decided, using the earlier table as precedent: the FIRST batch of a new kind of content or a new feature is major (8.0 added 144 questions; 30.0 added the first big proof set; 31.0 first expanded Voltaic and Stratus). Follow-up batches in the same area, metadata that students never see, fixes, docs and CI are minor (8.1 to 8.3, 18.1, 30.1, 31.1).
 
 | Version | Date | Type | Change |
 |---|---|---|---|
@@ -91,5 +93,6 @@ Totals up to 26.3: 26 major updates and 54 minor updates.
 | 29.0 | 2026-11-26 | major | Interactive homepage questions (sliders, predict-observe-explain) and the question-writing rules |
 | 30.0 | 2026-11-26 | major | 101 new proofs (132 total), about 930 proof questions with tiers, traps and diagnostic distractors |
 | 31.0 | 2026-11-27 | major | Voltaic and Stratus expansion: 155 new tiered questions (RC and relay timing, hovercraft power, thermodynamics, radar, storm rules) |
+| 31.1 | 2026-11-27 | minor | Hidden tier (1–20) on every question in all five packs; visible tier tags removed from question text |
 
-Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 32.0 (major) or 31.1 (minor).
+Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 32.0 (major) or 31.2 (minor).
