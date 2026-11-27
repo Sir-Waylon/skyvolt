@@ -90,5 +90,6 @@ Totals up to 26.3: 26 major updates and 54 minor updates.
 | 28.0 | 2026-11-25 | major | Quanta basic physics topics; Apex calculus/AP stats replaced by more algebra, geometry and precalculus |
 | 29.0 | 2026-11-26 | major | Interactive homepage questions (sliders, predict-observe-explain) and the question-writing rules |
 | 30.0 | 2026-11-26 | major | 101 new proofs (132 total), about 930 proof questions with tiers, traps and diagnostic distractors |
+| 31.0 | 2026-11-27 | major | Voltaic and Stratus expansion: 155 new tiered questions (RC and relay timing, hovercraft power, thermodynamics, radar, storm rules) |
 
-Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 31.0 (major) or 30.1 (minor).
+Commits made before this numbering was agreed carry other labels (a few say "v21.1"); the table above is the official numbering. The next update is 32.0 (major) or 31.1 (minor).
